@@ -1,0 +1,65 @@
+"""Bundle data/*.json into data.js so the page works on GitHub Pages and when opened from disk."""
+
+import json
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+
+# These exports report gross pay including the bonus; the others report base pay before it.
+GROSS_INCLUDES_BONUS = {"dk-nl.json", "south-cee.json"}
+
+LEVELS = ("junior", "mid", "senior")
+
+# The research notes were written against the raw field names; readers of the site see these words instead.
+PUBLIC_WORDING = [
+    (re.compile(r"\s*\(from search summaries, not an opened (official )?page\)"), ""),
+    (re.compile(r"gross_yearly"), "the researched gross figure"),
+    (re.compile(r"'health'"), "the health insurance row"),
+]
+
+
+def public_text(value):
+    if isinstance(value, str):
+        for pattern, replacement in PUBLIC_WORDING:
+            value = pattern.sub(replacement, value)
+        return value
+
+    if isinstance(value, list):
+        return [public_text(item) for item in value]
+
+    return value
+
+
+def base_salary(city: dict, includes_bonus: bool) -> dict:
+    if not includes_bonus:
+        return {level: city["gross_yearly"][level] for level in LEVELS}
+
+    return {
+        level: round(city["gross_yearly"][level] / (1 + city["bonus_rate"][level]))
+        for level in LEVELS
+    }
+
+
+def main() -> None:
+    cities = []
+
+    for path in sorted((ROOT / "data").glob("*.json")):
+        includes_bonus = path.name in GROSS_INCLUDES_BONUS
+
+        for city in json.loads(path.read_text(encoding="utf-8")):
+            city["base_yearly"] = base_salary(city, includes_bonus)
+
+            for field in ("tax_regime_note", "language", "commute_note", "notes"):
+                city[field] = public_text(city.get(field))
+
+            cities.append(city)
+
+    payload = json.dumps(cities, ensure_ascii=False, indent=1)
+    (ROOT / "data.js").write_text("window.CITIES = " + payload + ";\n", encoding="utf-8")
+
+    print(f"wrote data.js with {len(cities)} cities")
+
+
+if __name__ == "__main__":
+    main()

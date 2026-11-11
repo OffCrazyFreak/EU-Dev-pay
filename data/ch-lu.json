@@ -1,0 +1,966 @@
+[
+  {
+    "city": "Zurich",
+    "country": "CH",
+    "rent_outside": 1873,
+    "rent_centre": 2583,
+    "room_shared": null,
+    "everyday": 1146,
+    "everyday_parts": {
+      "groceries": 487,
+      "utilities": 253,
+      "internet_phone": 81,
+      "going_out": 325,
+      "other": 0
+    },
+    "commute": 95,
+    "commute_note": "ZVV NetzPass, personal, 2nd class, zones 1-2 (city of Zurich), CHF 88 a month. From Winterthur it would be 4 zones at CHF 171.",
+    "health": 517,
+    "gross_yearly": {
+      "junior": 99636,
+      "mid": 124545,
+      "senior": 140790
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 6611,
+      "mid": 8326,
+      "senior": 9495
+    },
+    "surplus": {
+      "junior": 2980,
+      "mid": 4695,
+      "senior": 5864
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in 'health'. gross_yearly is base pay before bonus; net and surplus include the bonus.",
+    "language": "Many Zurich tech teams work in English, but German helps for local employers (from search summaries, not an opened page).",
+    "notes": [
+      "A cheaper commuter town: Winterthur has 1.5-2 room asking rents around CHF 1,350-1,360 but needs a 4 zone ZVV pass (CHF 171), so it saves about CHF 300 a month. Zone count not confirmed on the zone map.",
+      "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
+      "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days (from search summaries, not an opened official page).",
+      "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
+      "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
+      "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+    ],
+    "sources": [
+      {
+        "label": "SwissDevJobs Zurich salaries (all levels)",
+        "url": "https://swissdevjobs.ch/salaries/all/Zurich/all"
+      },
+      {
+        "label": "SwissDevJobs Zurich job ads with pay",
+        "url": "https://swissdevjobs.ch/jobs/all/Zurich"
+      },
+      {
+        "label": "itboard.ch salaries (mid and senior medians)",
+        "url": "https://www.itboard.ch/salaries/informatiker"
+      },
+      {
+        "label": "Numbeo Zurich (rent, utilities, internet, mobile, pass; updated 2026-11-10/11)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Zurich"
+      },
+      {
+        "label": "expatriation.io Swiss net salary 2026 (CHF 100k anchors)",
+        "url": "https://app.expatriation.io/net-salary/switzerland"
+      },
+      {
+        "label": "BAG 2027 adult premiums by canton (via gutgedeckt.ch)",
+        "url": "https://gutgedeckt.ch/praemien-2027/"
+      },
+      {
+        "label": "IT Reseller 2026 survey (13th month share, bonus size)",
+        "url": "https://www.itreseller.ch/Artikel/105354/Die_Loehne_im_Schweizer_Channel_sind_gestiegen.html"
+      },
+      {
+        "label": "ZVV price list valid from 2025-12-14",
+        "url": "https://www.zvv.ch/content/dam/zvv/publikationen/info/tickets/tickets-und-preise-de.pdf"
+      },
+      {
+        "label": "Upreer Zurich software salaries (excl. 13th month and bonus)",
+        "url": "https://www.upreer.ch/de/gehalt/gehalt-softwareentwickler-zuerich/"
+      },
+      {
+        "label": "Levels.fyi Zurich senior software engineer (total comp, big tech heavy)",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/zurich-che"
+      }
+    ]
+  },
+  {
+    "city": "Zug",
+    "country": "CH",
+    "rent_outside": 2572,
+    "rent_centre": 3213,
+    "room_shared": null,
+    "everyday": 1206,
+    "everyday_parts": {
+      "groceries": 487,
+      "utilities": 250,
+      "internet_phone": 90,
+      "going_out": 379,
+      "other": 0
+    },
+    "commute": 70,
+    "commute_note": "Tarifverbund Zug monthly pass, 1 zone, CHF 65 (2025 price list). Numbeo lists CHF 106, which looks like a longer route.",
+    "health": 352,
+    "gross_yearly": {
+      "junior": 92055,
+      "mid": 113715,
+      "senior": 135375
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 6628,
+      "mid": 8258,
+      "senior": 9883
+    },
+    "surplus": {
+      "junior": 2428,
+      "mid": 4058,
+      "senior": 5683
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in 'health'. gross_yearly is base pay before bonus; net and surplus include the bonus.",
+    "language": "Search summaries say infrastructure and international teams around Zurich and Zug often work in English; German helps elsewhere (not an opened page).",
+    "notes": [
+      "Zug has the lowest Swiss health premium in 2027 (average adult CHF 324.90) and lower income tax, which is why net pay is the highest. Rent is also the highest.",
+      "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
+      "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days (from search summaries, not an opened official page).",
+      "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
+      "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
+      "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+    ],
+    "sources": [
+      {
+        "label": "SwissDevJobs Zug salaries (all levels)",
+        "url": "https://swissdevjobs.ch/salaries/all/Zug/all"
+      },
+      {
+        "label": "SwissDevJobs Zug job ads with pay",
+        "url": "https://swissdevjobs.ch/jobs/all/Zug"
+      },
+      {
+        "label": "itboard.ch salaries (mid and senior medians)",
+        "url": "https://www.itboard.ch/salaries/informatiker"
+      },
+      {
+        "label": "Numbeo Zug (rent, utilities, internet, mobile, pass; updated 2026-11-10/11)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Zug"
+      },
+      {
+        "label": "expatriation.io Swiss net salary 2026 (CHF 100k anchors)",
+        "url": "https://app.expatriation.io/net-salary/switzerland"
+      },
+      {
+        "label": "BAG 2027 adult premiums by canton (via gutgedeckt.ch)",
+        "url": "https://gutgedeckt.ch/praemien-2027/"
+      },
+      {
+        "label": "IT Reseller 2026 survey (13th month share, bonus size)",
+        "url": "https://www.itreseller.ch/Artikel/105354/Die_Loehne_im_Schweizer_Channel_sind_gestiegen.html"
+      },
+      {
+        "label": "Tarifverbund Zug prices 2025",
+        "url": "https://www.tarifverbund-zug.ch/fileadmin/Files/TVZG/Dokumente/TVZG_PreiseundSortiment2025.pdf"
+      },
+      {
+        "label": "ECB daily reference rates (CHF 0.9234 per EUR, 2026-11-11)",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    ]
+  },
+  {
+    "city": "Basel",
+    "country": "CH",
+    "rent_outside": 1469,
+    "rent_centre": 1879,
+    "room_shared": 893,
+    "everyday": 1173,
+    "everyday_parts": {
+      "groceries": 487,
+      "utilities": 262,
+      "internet_phone": 99,
+      "going_out": 325,
+      "other": 0
+    },
+    "commute": 93,
+    "commute_note": "TNW U-Abo monthly, personal, 2nd class, CHF 86 (valid across the whole TNW network). Rises about 3.4% in December 2026.",
+    "health": 618,
+    "gross_yearly": {
+      "junior": 88806,
+      "mid": 111008,
+      "senior": 124545
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 5738,
+      "mid": 7194,
+      "senior": 8121
+    },
+    "surplus": {
+      "junior": 2385,
+      "mid": 3841,
+      "senior": 4768
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in 'health'. gross_yearly is base pay before bonus; net and surplus include the bonus.",
+    "language": "Basel pharma and life science often hire in English; local firms and banks may want German (from search summaries, not an opened page).",
+    "notes": [
+      "Shared room price is the middle of the typical CHF 700-950 range on wgzimmer.ch.",
+      "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
+      "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days (from search summaries, not an opened official page).",
+      "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
+      "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
+      "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+    ],
+    "sources": [
+      {
+        "label": "SwissDevJobs Basel salaries (all levels)",
+        "url": "https://swissdevjobs.ch/salaries/all/Basel/all"
+      },
+      {
+        "label": "SwissDevJobs Basel job ads with pay",
+        "url": "https://swissdevjobs.ch/jobs/all/Basel"
+      },
+      {
+        "label": "itboard.ch salaries (mid and senior medians)",
+        "url": "https://www.itboard.ch/salaries/informatiker"
+      },
+      {
+        "label": "Numbeo Basel (rent, utilities, internet, mobile, pass; updated 2026-11-10/11)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Basel"
+      },
+      {
+        "label": "expatriation.io Swiss net salary 2026 (CHF 100k anchors)",
+        "url": "https://app.expatriation.io/net-salary/switzerland"
+      },
+      {
+        "label": "BAG 2027 adult premiums by canton (via gutgedeckt.ch)",
+        "url": "https://gutgedeckt.ch/praemien-2027/"
+      },
+      {
+        "label": "IT Reseller 2026 survey (13th month share, bonus size)",
+        "url": "https://www.itreseller.ch/Artikel/105354/Die_Loehne_im_Schweizer_Channel_sind_gestiegen.html"
+      },
+      {
+        "label": "BLS page for TNW U-Abo prices",
+        "url": "https://www.bls.ch/en/fahren/fahrausweise/abonnemente/tarifverbund-nordwestschweiz-tnw"
+      },
+      {
+        "label": "wgzimmer.ch Basel-Stadt shared rooms (CHF 700-950 typical)",
+        "url": "https://www.wgzimmer.ch/wg-zimmer/kanton-basel-stadt.html"
+      },
+      {
+        "label": "ECB daily reference rates (CHF 0.9234 per EUR, 2026-11-11)",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    ]
+  },
+  {
+    "city": "Bern",
+    "country": "CH",
+    "rent_outside": 1435,
+    "rent_centre": 1905,
+    "room_shared": null,
+    "everyday": 1131,
+    "everyday_parts": {
+      "groceries": 487,
+      "utilities": 245,
+      "internet_phone": 74,
+      "going_out": 325,
+      "other": 0
+    },
+    "commute": 89,
+    "commute_note": "Libero monthly pass, zones 100/101 (Bern), adult 2nd class, CHF 82.",
+    "health": 535,
+    "gross_yearly": {
+      "junior": 88806,
+      "mid": 113715,
+      "senior": 124545
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 5541,
+      "mid": 7156,
+      "senior": 7924
+    },
+    "surplus": {
+      "junior": 2351,
+      "mid": 3966,
+      "senior": 4734
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in 'health'. gross_yearly is base pay before bonus; net and surplus include the bonus.",
+    "language": "Public sector and many local firms work in German; English is enough only at some international employers (from search summaries, not an opened page).",
+    "notes": [
+      "Bern has the lowest rents of the big Swiss cities in the Numbeo data.",
+      "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
+      "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days (from search summaries, not an opened official page).",
+      "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
+      "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
+      "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+    ],
+    "sources": [
+      {
+        "label": "SwissDevJobs Bern salaries (all levels)",
+        "url": "https://swissdevjobs.ch/salaries/all/Bern/all"
+      },
+      {
+        "label": "SwissDevJobs Bern job ads with pay",
+        "url": "https://swissdevjobs.ch/jobs/all/Bern"
+      },
+      {
+        "label": "itboard.ch salaries (mid and senior medians)",
+        "url": "https://www.itboard.ch/salaries/informatiker"
+      },
+      {
+        "label": "Numbeo Bern (rent, utilities, internet, mobile, pass; updated 2026-11-10/11)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Bern"
+      },
+      {
+        "label": "expatriation.io Swiss net salary 2026 (CHF 100k anchors)",
+        "url": "https://app.expatriation.io/net-salary/switzerland"
+      },
+      {
+        "label": "BAG 2027 adult premiums by canton (via gutgedeckt.ch)",
+        "url": "https://gutgedeckt.ch/praemien-2027/"
+      },
+      {
+        "label": "IT Reseller 2026 survey (13th month share, bonus size)",
+        "url": "https://www.itreseller.ch/Artikel/105354/Die_Loehne_im_Schweizer_Channel_sind_gestiegen.html"
+      },
+      {
+        "label": "Libero monthly pass prices",
+        "url": "https://www.mylibero.ch/de/libero-abo/monatsabo"
+      },
+      {
+        "label": "ECB daily reference rates (CHF 0.9234 per EUR, 2026-11-11)",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    ]
+  },
+  {
+    "city": "Lausanne",
+    "country": "CH",
+    "rent_outside": 1638,
+    "rent_centre": 2134,
+    "room_shared": null,
+    "everyday": 1155,
+    "everyday_parts": {
+      "groceries": 487,
+      "utilities": 263,
+      "internet_phone": 80,
+      "going_out": 325,
+      "other": 0
+    },
+    "commute": 84,
+    "commute_note": "Mobilis monthly pass, zones 11+12 (Grand Lausanne), adult, CHF 78 (tl shop).",
+    "health": 589,
+    "gross_yearly": {
+      "junior": 86640,
+      "mid": 105592,
+      "senior": 119130
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 5442,
+      "mid": 6708,
+      "senior": 7629
+    },
+    "surplus": {
+      "junior": 1976,
+      "mid": 3242,
+      "senior": 4163
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in 'health'. gross_yearly is base pay before bonus; net and surplus include the bonus.",
+    "language": "French is the working language for most employers; English works at some international and EPFL-related teams (from search summaries, not an opened page).",
+    "notes": [
+      "No SwissDevJobs ad for Lausanne was labelled senior, so the senior figure is scaled from national data.",
+      "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
+      "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days (from search summaries, not an opened official page).",
+      "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
+      "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
+      "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+    ],
+    "sources": [
+      {
+        "label": "SwissDevJobs Lausanne salaries (all levels)",
+        "url": "https://swissdevjobs.ch/salaries/all/Lausanne/all"
+      },
+      {
+        "label": "SwissDevJobs Lausanne job ads with pay",
+        "url": "https://swissdevjobs.ch/jobs/all/Lausanne"
+      },
+      {
+        "label": "itboard.ch salaries (mid and senior medians)",
+        "url": "https://www.itboard.ch/salaries/informatiker"
+      },
+      {
+        "label": "Numbeo Lausanne (rent, utilities, internet, mobile, pass; updated 2026-11-10/11)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Lausanne"
+      },
+      {
+        "label": "expatriation.io Swiss net salary 2026 (CHF 100k anchors)",
+        "url": "https://app.expatriation.io/net-salary/switzerland"
+      },
+      {
+        "label": "BAG 2027 adult premiums by canton (via gutgedeckt.ch)",
+        "url": "https://gutgedeckt.ch/praemien-2027/"
+      },
+      {
+        "label": "IT Reseller 2026 survey (13th month share, bonus size)",
+        "url": "https://www.itreseller.ch/Artikel/105354/Die_Loehne_im_Schweizer_Channel_sind_gestiegen.html"
+      },
+      {
+        "label": "tl shop Mobilis pass prices",
+        "url": "https://shop.t-l.ch/"
+      },
+      {
+        "label": "ECB daily reference rates (CHF 0.9234 per EUR, 2026-11-11)",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    ]
+  },
+  {
+    "city": "Geneva",
+    "country": "CH",
+    "rent_outside": 1958,
+    "rent_centre": 2581,
+    "room_shared": null,
+    "everyday": 1150,
+    "everyday_parts": {
+      "groceries": 487,
+      "utilities": 255,
+      "internet_phone": 83,
+      "going_out": 325,
+      "other": 0
+    },
+    "commute": 76,
+    "commute_note": "unireso Tout Genève monthly pass, zone 10, adult 2nd class, CHF 70.",
+    "health": 661,
+    "gross_yearly": {
+      "junior": 84474,
+      "mid": 105592,
+      "senior": 127794
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 5545,
+      "mid": 6916,
+      "senior": 8350
+    },
+    "surplus": {
+      "junior": 1700,
+      "mid": 3071,
+      "senior": 4505
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in 'health'. gross_yearly is base pay before bonus; net and surplus include the bonus.",
+    "language": "French is the working language for most employers; English is common in banking, international organisations and some tech teams (from search summaries, not an opened page).",
+    "notes": [
+      "Geneva has the second highest Swiss health premium in 2027 (average adult CHF 610.60).",
+      "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
+      "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days (from search summaries, not an opened official page).",
+      "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
+      "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
+      "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+    ],
+    "sources": [
+      {
+        "label": "SwissDevJobs Geneva salaries (all levels)",
+        "url": "https://swissdevjobs.ch/salaries/all/Geneva/all"
+      },
+      {
+        "label": "SwissDevJobs Geneva job ads with pay",
+        "url": "https://swissdevjobs.ch/jobs/all/Geneva"
+      },
+      {
+        "label": "itboard.ch salaries (mid and senior medians)",
+        "url": "https://www.itboard.ch/salaries/informatiker"
+      },
+      {
+        "label": "Numbeo Geneva (rent, utilities, internet, mobile, pass; updated 2026-11-10/11)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Geneva"
+      },
+      {
+        "label": "expatriation.io Swiss net salary 2026 (CHF 100k anchors)",
+        "url": "https://app.expatriation.io/net-salary/switzerland"
+      },
+      {
+        "label": "BAG 2027 adult premiums by canton (via gutgedeckt.ch)",
+        "url": "https://gutgedeckt.ch/praemien-2027/"
+      },
+      {
+        "label": "IT Reseller 2026 survey (13th month share, bonus size)",
+        "url": "https://www.itreseller.ch/Artikel/105354/Die_Loehne_im_Schweizer_Channel_sind_gestiegen.html"
+      },
+      {
+        "label": "unireso ticket prices",
+        "url": "https://www.unireso.com/titres-de-transport/"
+      },
+      {
+        "label": "ECB daily reference rates (CHF 0.9234 per EUR, 2026-11-11)",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    ]
+  },
+  {
+    "city": "Lugano",
+    "country": "CH",
+    "rent_outside": 1274,
+    "rent_centre": 1708,
+    "room_shared": null,
+    "everyday": 1177,
+    "everyday_parts": {
+      "groceries": 487,
+      "utilities": 300,
+      "internet_phone": 65,
+      "going_out": 325,
+      "other": 0
+    },
+    "commute": 55,
+    "commute_note": "Arcobaleno monthly pass, 1 zone, adult 2nd class, CHF 51.",
+    "health": 654,
+    "gross_yearly": {
+      "junior": 71478,
+      "mid": 86640,
+      "senior": 102885
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 4476,
+      "mid": 5537,
+      "senior": 6663
+    },
+    "surplus": {
+      "junior": 1316,
+      "mid": 2377,
+      "senior": 3503
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in 'health'. gross_yearly is base pay before bonus; net and surplus include the bonus.",
+    "language": "Italian is the working language; English helps in a few tech firms, but the job market is small (one ad found).",
+    "notes": [
+      "Lugano net pay is an estimate with no tax anchor: Ticino is not covered by the expatriation.io tool, so I assumed 70% take-home on pay above CHF 100k.",
+      "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
+      "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days (from search summaries, not an opened official page).",
+      "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
+      "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
+      "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+    ],
+    "sources": [
+      {
+        "label": "SwissDevJobs Lugano salaries (all levels)",
+        "url": "https://swissdevjobs.ch/salaries/all/Lugano/all"
+      },
+      {
+        "label": "SwissDevJobs Lugano job ads with pay",
+        "url": "https://swissdevjobs.ch/jobs/all/Lugano"
+      },
+      {
+        "label": "itboard.ch salaries (mid and senior medians)",
+        "url": "https://www.itboard.ch/salaries/informatiker"
+      },
+      {
+        "label": "Numbeo Lugano (rent, utilities, internet, mobile, pass; updated 2026-11-10/11)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Lugano"
+      },
+      {
+        "label": "expatriation.io Swiss net salary 2026 (CHF 100k anchors)",
+        "url": "https://app.expatriation.io/net-salary/switzerland"
+      },
+      {
+        "label": "BAG 2027 adult premiums by canton (via gutgedeckt.ch)",
+        "url": "https://gutgedeckt.ch/praemien-2027/"
+      },
+      {
+        "label": "IT Reseller 2026 survey (13th month share, bonus size)",
+        "url": "https://www.itreseller.ch/Artikel/105354/Die_Loehne_im_Schweizer_Channel_sind_gestiegen.html"
+      },
+      {
+        "label": "Arcobaleno monthly pass prices",
+        "url": "https://arcobaleno.ch/it/home/abbonamenti/abbonamento-mensile"
+      },
+      {
+        "label": "ECB daily reference rates (CHF 0.9234 per EUR, 2026-11-11)",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    ]
+  },
+  {
+    "city": "Luxembourg City",
+    "country": "LU",
+    "rent_outside": 1700,
+    "rent_centre": 2000,
+    "room_shared": 750,
+    "everyday": 1000,
+    "everyday_parts": {
+      "groceries": 425,
+      "utilities": 200,
+      "internet_phone": 55,
+      "going_out": 300,
+      "other": 20
+    },
+    "commute": 0,
+    "commute_note": "Free: trains, trams and buses are free in 2nd class in Luxembourg.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 55000,
+      "mid": 76000,
+      "senior": 96000
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.08,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3503,
+      "mid": 4530,
+      "senior": 5513
+    },
+    "surplus": {
+      "junior": 803,
+      "mid": 1830,
+      "senior": 2813
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. gross_yearly is base pay before bonus; net and surplus include the bonus. Other calculators differ by about 2%.",
+    "language": "English and French are widely used in Luxembourg tech; Luxembourgish is not needed (from search summaries, not an opened page).",
+    "notes": [
+      "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
+      "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
+      "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. I found no statement on a 13th or 14th payment.",
+      "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. I found no 50 km residence rule on any official EIB page.",
+      "Croatians are EU citizens and need no work permit in Luxembourg; the commune registration steps were not checked.",
+      "Erasmus+: Luxembourg is covered by the University of Zagreb programme-country traineeship call (round 2 deadline 2027-01-15, mobility from 2027-02-22). I did not confirm that call's rules for recent graduates."
+    ],
+    "sources": [
+      {
+        "label": "Official asking rents by commune, Jul 2025 to Jun 2026 (Excel)",
+        "url": "https://logement.public.lu/dam-assets/documents/observatoire-habitat/offre-et-prix-annonces-location-appartements-2026t2.xls"
+      },
+      {
+        "label": "athome.lu 1-bedroom listings",
+        "url": "https://www.athome.lu/en/rent/apartment/luxembourg"
+      },
+      {
+        "label": "trigger.lu rents incl. flatshare rooms",
+        "url": "https://trigger.lu/en/housing-property/finding-housing-luxembourg"
+      },
+      {
+        "label": "Connexion-Emploi cost of living Luxembourg (2026-10)",
+        "url": "https://www.connexion-emploi.com/en/a/cost-of-living-salaries-in-luxembourg"
+      },
+      {
+        "label": "EIB hybrid working leaflet",
+        "url": "https://www.eib.org/files/documents/eib-hr-hybrid-working.pdf"
+      },
+      {
+        "label": "Salaireclair developer salaries Luxembourg 2026",
+        "url": "https://salaireclair.fr/blog/salaire-developpeur-luxembourg-2026"
+      },
+      {
+        "label": "All Eyes On Me Luxembourg salary guide 2026",
+        "url": "https://luxembourg.alleyesonme.jobs/en/articles/salary-guide-for-luxembourg-in-2026-how-much-do-people-really-earn-in-finance-it-and-human-resources"
+      },
+      {
+        "label": "Levels.fyi software engineer Luxembourg (total comp, no level split)",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/luxembourg"
+      },
+      {
+        "label": "EIB 2026 salary bands and benefits",
+        "url": "https://www.eib.org/en/about/careers/benefits/index"
+      },
+      {
+        "label": "expatriation.io Luxembourg net salary 2026 (class 1)",
+        "url": "https://app.expatriation.io/net-salary/luxembourg"
+      }
+    ]
+  },
+  {
+    "city": "Thionville (to LU)*",
+    "country": "LU",
+    "rent_outside": 700,
+    "rent_centre": 750,
+    "room_shared": null,
+    "everyday": 850,
+    "everyday_parts": {
+      "groceries": 360,
+      "utilities": 150,
+      "internet_phone": 50,
+      "going_out": 250,
+      "other": 40
+    },
+    "commute": 50,
+    "commute_note": "TER Grand Est Presto monthly to the border at Bettembourg, then free in Luxembourg. About 30 km and 30 minutes (estimate). EUR 41.40 in Dec 2021 plus 4% a year gives about EUR 50 (estimate). Employer may refund up to 50%.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 55000,
+      "mid": 76000,
+      "senior": 96000
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.08,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3503,
+      "mid": 4530,
+      "senior": 5513
+    },
+    "surplus": {
+      "junior": 1903,
+      "mid": 2930,
+      "senior": 3913
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. gross_yearly is base pay before bonus; net and surplus include the bonus. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
+    "language": "Work language in Luxembourg is mostly English or French; French is the local language in Thionville.",
+    "notes": [
+      "Rent is a studio-to-T2 asking range including charges, from a property investment blog; local asking data was blocked.",
+      "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
+      "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
+      "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. I found no statement on a 13th or 14th payment.",
+      "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. I found no 50 km residence rule on any official EIB page.",
+      "Croatians are EU citizens and need no work permit in Luxembourg; the commune registration steps were not checked.",
+      "Erasmus+: Luxembourg is covered by the University of Zagreb programme-country traineeship call (round 2 deadline 2027-01-15, mobility from 2027-02-22). I did not confirm that call's rules for recent graduates.",
+      "Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels."
+    ],
+    "sources": [
+      {
+        "label": "Montclair Thionville T2 rents (EUR 600-750 with charges)",
+        "url": "https://www.montclair.fr/conseils/guide-investisseur/analyses-villes/investissement-locatif-a-thionville/"
+      },
+      {
+        "label": "Paperjam Thionville monthly train price (Dec 2021)",
+        "url": "https://paperjam.lu/article/prix-train-augmente-frontalier"
+      },
+      {
+        "label": "SNCF Connect Presto monthly (50% employer refund)",
+        "url": "https://www.sncf-connect.com/fr-lu/catalogue/description/grand-est-abonnement-presto-mensuel"
+      },
+      {
+        "label": "frontaliers-grandest train and free transport rules",
+        "url": "https://frontaliers-grandest.eu/accueil/transports/luxembourg/trains/"
+      },
+      {
+        "label": "Salaireclair developer salaries Luxembourg 2026",
+        "url": "https://salaireclair.fr/blog/salaire-developpeur-luxembourg-2026"
+      },
+      {
+        "label": "All Eyes On Me Luxembourg salary guide 2026",
+        "url": "https://luxembourg.alleyesonme.jobs/en/articles/salary-guide-for-luxembourg-in-2026-how-much-do-people-really-earn-in-finance-it-and-human-resources"
+      },
+      {
+        "label": "Levels.fyi software engineer Luxembourg (total comp, no level split)",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/luxembourg"
+      },
+      {
+        "label": "EIB 2026 salary bands and benefits",
+        "url": "https://www.eib.org/en/about/careers/benefits/index"
+      },
+      {
+        "label": "expatriation.io Luxembourg net salary 2026 (class 1)",
+        "url": "https://app.expatriation.io/net-salary/luxembourg"
+      }
+    ]
+  },
+  {
+    "city": "Arlon (to LU)*",
+    "country": "LU",
+    "rent_outside": 850,
+    "rent_centre": 900,
+    "room_shared": null,
+    "everyday": 850,
+    "everyday_parts": {
+      "groceries": 360,
+      "utilities": 150,
+      "internet_phone": 50,
+      "going_out": 250,
+      "other": 40
+    },
+    "commute": 65,
+    "commute_note": "SNCB cross-border Standard Abonnement to Luxembourg, 2nd class. About 30 km and 35 minutes with a direct hourly train (estimate). Only price found was EUR 53 in 2020, so EUR 65 is an estimate.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 55000,
+      "mid": 76000,
+      "senior": 96000
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.08,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3503,
+      "mid": 4530,
+      "senior": 5513
+    },
+    "surplus": {
+      "junior": 1738,
+      "mid": 2765,
+      "senior": 3748
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. gross_yearly is base pay before bonus; net and surplus include the bonus. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
+    "language": "Work language in Luxembourg is mostly English or French; French is the local language in Arlon.",
+    "notes": [
+      "The rent is one agency's estimate with no date; the centre rent of EUR 900 is my own adjustment.",
+      "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
+      "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
+      "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. I found no statement on a 13th or 14th payment.",
+      "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. I found no 50 km residence rule on any official EIB page.",
+      "Croatians are EU citizens and need no work permit in Luxembourg; the commune registration steps were not checked.",
+      "Erasmus+: Luxembourg is covered by the University of Zagreb programme-country traineeship call (round 2 deadline 2027-01-15, mobility from 2027-02-22). I did not confirm that call's rules for recent graduates.",
+      "Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels."
+    ],
+    "sources": [
+      {
+        "label": "ERA B-LUX Arlon 1-bedroom rent (about EUR 850)",
+        "url": "https://www.era.be/fr/era-b-lux/arlon"
+      },
+      {
+        "label": "Paperjam Arlon monthly train price (2020)",
+        "url": "https://paperjam.lu/article/arlon-luxembourg-en-train-53-e"
+      },
+      {
+        "label": "B-Europe Luxembourg trains (direct service since 2025-12-14)",
+        "url": "https://www.b-europe.com/EN/Destinations/Luxembourg"
+      },
+      {
+        "label": "frontaliers-grandest train and free transport rules",
+        "url": "https://frontaliers-grandest.eu/accueil/transports/luxembourg/trains/"
+      },
+      {
+        "label": "Salaireclair developer salaries Luxembourg 2026",
+        "url": "https://salaireclair.fr/blog/salaire-developpeur-luxembourg-2026"
+      },
+      {
+        "label": "All Eyes On Me Luxembourg salary guide 2026",
+        "url": "https://luxembourg.alleyesonme.jobs/en/articles/salary-guide-for-luxembourg-in-2026-how-much-do-people-really-earn-in-finance-it-and-human-resources"
+      },
+      {
+        "label": "Levels.fyi software engineer Luxembourg (total comp, no level split)",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/luxembourg"
+      },
+      {
+        "label": "EIB 2026 salary bands and benefits",
+        "url": "https://www.eib.org/en/about/careers/benefits/index"
+      },
+      {
+        "label": "expatriation.io Luxembourg net salary 2026 (class 1)",
+        "url": "https://app.expatriation.io/net-salary/luxembourg"
+      }
+    ]
+  },
+  {
+    "city": "Trier (to LU)*",
+    "country": "LU",
+    "rent_outside": 620,
+    "rent_centre": 700,
+    "room_shared": null,
+    "everyday": 850,
+    "everyday_parts": {
+      "groceries": 360,
+      "utilities": 150,
+      "internet_phone": 50,
+      "going_out": 250,
+      "other": 40
+    },
+    "commute": 67,
+    "commute_note": "Deutschland-Ticket EUR 66.80 a month from 2027-01-01 (EUR 63 until 2026-12-31), valid to the border at Igel; Luxembourg leg is free (coverage is my assumption). About 50 km and 50 minutes (estimate). The OekoCard was EUR 49 in 2020.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 55000,
+      "mid": 76000,
+      "senior": 96000
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.08,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3503,
+      "mid": 4530,
+      "senior": 5513
+    },
+    "surplus": {
+      "junior": 1966,
+      "mid": 2993,
+      "senior": 3976
+    },
+    "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. gross_yearly is base pay before bonus; net and surplus include the bonus. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
+    "language": "Work language in Luxembourg is mostly English or French; German is the local language in Trier.",
+    "notes": [
+      "Rent is the cold rent for a 45 m2 flat at the 2026 asking price per m2 (my calculation); the centre rent of EUR 700 is my own adjustment.",
+      "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
+      "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
+      "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. I found no statement on a 13th or 14th payment.",
+      "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. I found no 50 km residence rule on any official EIB page.",
+      "Croatians are EU citizens and need no work permit in Luxembourg; the commune registration steps were not checked.",
+      "Erasmus+: Luxembourg is covered by the University of Zagreb programme-country traineeship call (round 2 deadline 2027-01-15, mobility from 2027-02-22). I did not confirm that call's rules for recent graduates.",
+      "Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels."
+    ],
+    "sources": [
+      {
+        "label": "miet-check Trier rents (EUR 13.70 per m2 for 30-49 m2)",
+        "url": "https://www.miet-check.de/mietspiegel/trier/"
+      },
+      {
+        "label": "bahn.de commuter offers (Deutschland-Ticket price)",
+        "url": "https://www.bahn.de/angebot/pendler"
+      },
+      {
+        "label": "LOK Report on OekoCard Trier-Luxembourg (2020)",
+        "url": "https://www.lok-report.de/news/deutschland/aus-den-laendern/16370-rheinland-pfalz-mit-bus-und-bahn-billiger-nach-luxemburg.html"
+      },
+      {
+        "label": "frontaliers-grandest train and free transport rules",
+        "url": "https://frontaliers-grandest.eu/accueil/transports/luxembourg/trains/"
+      },
+      {
+        "label": "Salaireclair developer salaries Luxembourg 2026",
+        "url": "https://salaireclair.fr/blog/salaire-developpeur-luxembourg-2026"
+      },
+      {
+        "label": "All Eyes On Me Luxembourg salary guide 2026",
+        "url": "https://luxembourg.alleyesonme.jobs/en/articles/salary-guide-for-luxembourg-in-2026-how-much-do-people-really-earn-in-finance-it-and-human-resources"
+      },
+      {
+        "label": "Levels.fyi software engineer Luxembourg (total comp, no level split)",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/luxembourg"
+      },
+      {
+        "label": "EIB 2026 salary bands and benefits",
+        "url": "https://www.eib.org/en/about/careers/benefits/index"
+      },
+      {
+        "label": "expatriation.io Luxembourg net salary 2026 (class 1)",
+        "url": "https://app.expatriation.io/net-salary/luxembourg"
+      }
+    ]
+  }
+]

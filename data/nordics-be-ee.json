@@ -1,0 +1,992 @@
+[
+  {
+    "city": "Stockholm",
+    "country": "SE",
+    "rent_outside": 947,
+    "rent_centre": 1440,
+    "room_shared": null,
+    "everyday": 1043,
+    "everyday_parts": {
+      "groceries": 153,
+      "utilities": 226,
+      "internet_phone": 55,
+      "going_out": 174,
+      "other": 435
+    },
+    "commute": 96,
+    "commute_note": "SL 30-day ticket, all SL zones, 1,060 SEK ordinary price (about 96 EUR); halved to 530 SEK until 2026-12-31. Price from a secondary article, not sl.se.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 47111,
+      "mid": 61902,
+      "senior": 72310
+    },
+    "bonus_rate": {
+      "junior": 0,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 3116,
+      "mid": 4005,
+      "senior": 4512
+    },
+    "surplus": {
+      "junior": 1030,
+      "mid": 1919,
+      "senior": 2427
+    },
+    "tax_regime_note": "Sweden's expert tax relief (25% of pay tax free for up to 7 years) needs fixed pay of at least 88,801 SEK a month in 2026 (about 8,000 EUR), no Swedish residence in the 5 prior years and non-Swedish citizenship, so none of the modelled pay levels qualifies; lower-paid experts need a case-by-case ruling. Not modelled.",
+    "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
+    "notes": [
+      "Local rent check: Bostadscentralen median across all ads is 13,734 SEK (about 1,243 EUR) in Sept 2026, below Numbeo's centre rent.",
+      "gross_yearly is cash before bonus and includes Swedish semestertillägg of 0.43% of monthly pay per holiday day times 25 days, about 1.1% (ESTIMATE). Monthly-paid staff get paid holiday; the 12% semesterersättning is for hourly staff and on termination, so it is not added.",
+      "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
+      "Net uses Skatteverket tax tables at annual cash divided by 12, with table 33 for Gothenburg and Malmo and a table 31 value extrapolated from tables 32 and 33 for Stockholm. State tax of 20% starts above 643,000 SEK taxable income.",
+      "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "CVPromaker Sweden salaries 2026",
+        "url": "https://www.cvpromaker.com/salaries/sweden/full-stack-developer"
+      },
+      {
+        "label": "Unionen market pay for systemutvecklare 2025",
+        "url": "https://www.unionen.se/rad-och-stod/om-lon/marknadsloner/systemutvecklare"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Sweden",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/sweden"
+      },
+      {
+        "label": "Skatteverket amounts and percentages 2026",
+        "url": "https://www.skatteverket.se/privat/skatter/beloppochprocent/2026.4.1522bf3f19aea8075ba21.html"
+      },
+      {
+        "label": "Numbeo Stockholm (2026-11-10)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Stockholm?displayCurrency=EUR"
+      },
+      {
+        "label": "Bostadscentralen rents Sept 2026",
+        "url": "https://www.bostadscentralen.se/blogg/hyresmarknaden-sverige-2026"
+      },
+      {
+        "label": "Nifamc on SL prices 2026",
+        "url": "https://nifamc.se/2026/06/10/sl-kort-2026-i-stockholm-priser-zoner-och-nya-regler-for-resenarer/"
+      },
+      {
+        "label": "lonestatistik.se tax table 32 2026",
+        "url": "https://lonestatistik.se/skattetabell-32/"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Gothenburg",
+    "country": "SE",
+    "rent_outside": 802,
+    "rent_centre": 1007,
+    "room_shared": null,
+    "everyday": 836,
+    "everyday_parts": {
+      "groceries": 131,
+      "utilities": 94,
+      "internet_phone": 48,
+      "going_out": 145,
+      "other": 418
+    },
+    "commute": 121,
+    "commute_note": "Vasttrafik 30-day ticket, 2 zones, 1,335 SEK ordinary price from 2026-06-09 (about 121 EUR); 1 zone is 890 SEK. Which suburb falls in zone B is not checked.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 44920,
+      "mid": 56971,
+      "senior": 65736
+    },
+    "bonus_rate": {
+      "junior": 0,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 2942,
+      "mid": 3713,
+      "senior": 4130
+    },
+    "surplus": {
+      "junior": 1182,
+      "mid": 1953,
+      "senior": 2370
+    },
+    "tax_regime_note": "Sweden's expert tax relief (25% of pay tax free for up to 7 years) needs fixed pay of at least 88,801 SEK a month in 2026 (about 8,000 EUR), no Swedish residence in the 5 prior years and non-Swedish citizenship, so none of the modelled pay levels qualifies; lower-paid experts need a case-by-case ruling. Not modelled.",
+    "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
+    "notes": [
+      "Local rent check: Bostadscentralen median across all ads is 10,700 SEK (about 968 EUR) in Sept 2026. Levels.fyi shows lower Gothenburg pay than the other Swedish cities, based on small samples.",
+      "gross_yearly is cash before bonus and includes Swedish semestertillägg of 0.43% of monthly pay per holiday day times 25 days, about 1.1% (ESTIMATE). Monthly-paid staff get paid holiday; the 12% semesterersättning is for hourly staff and on termination, so it is not added.",
+      "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
+      "Net uses Skatteverket tax tables at annual cash divided by 12, with table 33 for Gothenburg and Malmo and a table 31 value extrapolated from tables 32 and 33 for Stockholm. State tax of 20% starts above 643,000 SEK taxable income.",
+      "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "CVPromaker Sweden salaries 2026",
+        "url": "https://www.cvpromaker.com/salaries/sweden/full-stack-developer"
+      },
+      {
+        "label": "Unionen market pay for systemutvecklare 2025",
+        "url": "https://www.unionen.se/rad-och-stod/om-lon/marknadsloner/systemutvecklare"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Sweden",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/sweden"
+      },
+      {
+        "label": "Skatteverket amounts and percentages 2026",
+        "url": "https://www.skatteverket.se/privat/skatter/beloppochprocent/2026.4.1522bf3f19aea8075ba21.html"
+      },
+      {
+        "label": "Numbeo Gothenburg (2026-11-10)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Gothenburg?displayCurrency=EUR"
+      },
+      {
+        "label": "Vasttrafik ordinary prices from 9 June 2026",
+        "url": "https://www.vasttrafik.se/om-vasttrafik/nyhetsarkiv/nyapriser/"
+      },
+      {
+        "label": "lonestatistik.se tax table 33 2026",
+        "url": "https://lonestatistik.se/skattetabell-33/"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Malmo",
+    "country": "SE",
+    "rent_outside": 782,
+    "rent_centre": 987,
+    "room_shared": null,
+    "everyday": 884,
+    "everyday_parts": {
+      "groceries": 134,
+      "utilities": 127,
+      "internet_phone": 56,
+      "going_out": 161,
+      "other": 406
+    },
+    "commute": 59,
+    "commute_note": "Skanetrafiken 30-day ticket, small zone (Malmo), 655 SEK ordinary price (about 59 EUR). Price from a search result, the Skanetrafiken page returned 404; the half-price offer ended 2026-11-02.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 44920,
+      "mid": 56971,
+      "senior": 65736
+    },
+    "bonus_rate": {
+      "junior": 0,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 2942,
+      "mid": 3713,
+      "senior": 4130
+    },
+    "surplus": {
+      "junior": 1217,
+      "mid": 1988,
+      "senior": 2404
+    },
+    "tax_regime_note": "Sweden's expert tax relief (25% of pay tax free for up to 7 years) needs fixed pay of at least 88,801 SEK a month in 2026 (about 8,000 EUR), no Swedish residence in the 5 prior years and non-Swedish citizenship, so none of the modelled pay levels qualifies; lower-paid experts need a case-by-case ruling. Not modelled.",
+    "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
+    "notes": [
+      "Local rent check: Bostadscentralen median across all ads is 10,400 SEK (about 941 EUR) in Sept 2026. Malmo and Lund are one job market via the Oresund and Skane trains, but a Lund commute was not priced.",
+      "gross_yearly is cash before bonus and includes Swedish semestertillägg of 0.43% of monthly pay per holiday day times 25 days, about 1.1% (ESTIMATE). Monthly-paid staff get paid holiday; the 12% semesterersättning is for hourly staff and on termination, so it is not added.",
+      "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
+      "Net uses Skatteverket tax tables at annual cash divided by 12, with table 33 for Gothenburg and Malmo and a table 31 value extrapolated from tables 32 and 33 for Stockholm. State tax of 20% starts above 643,000 SEK taxable income.",
+      "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "CVPromaker Sweden salaries 2026",
+        "url": "https://www.cvpromaker.com/salaries/sweden/full-stack-developer"
+      },
+      {
+        "label": "Unionen market pay for systemutvecklare 2025",
+        "url": "https://www.unionen.se/rad-och-stod/om-lon/marknadsloner/systemutvecklare"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Sweden",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/sweden"
+      },
+      {
+        "label": "Skatteverket amounts and percentages 2026",
+        "url": "https://www.skatteverket.se/privat/skatter/beloppochprocent/2026.4.1522bf3f19aea8075ba21.html"
+      },
+      {
+        "label": "Numbeo Malmo (2026-11-10)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Malmo?displayCurrency=EUR"
+      },
+      {
+        "label": "Bostadscentralen rents Sept 2026",
+        "url": "https://www.bostadscentralen.se/blogg/hyresmarknaden-sverige-2026"
+      },
+      {
+        "label": "lonestatistik.se tax table 33 2026",
+        "url": "https://lonestatistik.se/skattetabell-33/"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Helsinki",
+    "country": "FI",
+    "rent_outside": 825,
+    "rent_centre": 1152,
+    "room_shared": null,
+    "everyday": 942,
+    "everyday_parts": {
+      "groceries": 127,
+      "utilities": 122,
+      "internet_phone": 44,
+      "going_out": 185,
+      "other": 464
+    },
+    "commute": 74,
+    "commute_note": "HSL AB zones 30-day ticket, 73.90 EUR in 2026. Price from a search result quoting HSL; hsl.fi returned 403. Suburbs like Espoo and Vantaa are mostly inside AB.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 44928,
+      "mid": 62400,
+      "senior": 74880
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2878,
+      "mid": 3737,
+      "senior": 4349
+    },
+    "surplus": {
+      "junior": 1035,
+      "mid": 1895,
+      "senior": 2506
+    },
+    "tax_regime_note": "Finland's key employee scheme taxes pay at a flat 25% at source from 2026. It needs at least 5,800 EUR a month, special expertise, a Finnish employer and no Finnish tax residence in the 5 prior calendar years; Croatian citizens can use it for up to 84 months. Only the senior Helsinki level (6,000 EUR a month) clears the pay line; Tampere senior (5,400) and all junior and mid levels do not. Not modelled.",
+    "language": "Often yes in Helsinki tech companies; some Finnish employers, more often outside Helsinki, ask for Finnish. Not checked against live postings.",
+    "notes": [
+      "Local rent check: Statistics Finland Q2 2026 non-subsidised rent is 26.71 EUR/m2 for studios in Helsinki, about 801 EUR for 30 m2 (my arithmetic).",
+      "gross_yearly is cash before bonus and includes lomaraha, the holiday bonus: 50% of holiday pay, which for 24 holiday days is about 0.48 of a month's pay (ESTIMATE). It is not statutory; it comes from the ICT collective agreement or the contract, so check the employer.",
+      "Bonus rates are ESTIMATE. Jobbutler says 5 to 15% of annual pay is typical in Finnish IT.",
+      "Net uses the vero.fi 2026 tax-on-pay table for Helsinki (interpolated, extended above 70,000 EUR at about 41.7% marginal) plus 8.19% pension and unemployment contributions. Church tax is excluded. Tampere adds 2.3 percentage points of municipal tax (7.60% vs 5.30%).",
+      "Registering the right of residence with Migri costs 53 EUR; the Digital and Population Data Services Agency then gives the identity code.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "CVPromaker Finland salaries 2026",
+        "url": "https://www.cvpromaker.com/salaries/finland"
+      },
+      {
+        "label": "Koodaripula advertised developer pay",
+        "url": "https://koodaripula.fi/palkat/ohjelmistokehittaja"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Finland",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/finland"
+      },
+      {
+        "label": "vero.fi tax on pay 2026",
+        "url": "https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/income/earned-income/tax-rates-on-pay-pensions-and-benefits/"
+      },
+      {
+        "label": "nettopalkka.fi municipal tax rates 2026",
+        "url": "https://nettopalkka.fi/en/municipal-tax-rates/"
+      },
+      {
+        "label": "Numbeo Helsinki (2026-11-11)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Helsinki?displayCurrency=EUR"
+      },
+      {
+        "label": "Statistics Finland Q2 2026 rents via vuokratutka.fi",
+        "url": "https://vuokratutka.fi/en"
+      },
+      {
+        "label": "Kultakiertue senior developer posting, Helsinki",
+        "url": "https://vierityspalkki.fi/tyopaikat/senior-developer-ohjelmistokehittaja-kultakiertue-2026/"
+      },
+      {
+        "label": "vero.fi key employee taxation",
+        "url": "https://www.vero.fi/en/detailed-guidance/guidance/106825/taxation-of-key-employees4/"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Tampere",
+    "country": "FI",
+    "rent_outside": 696,
+    "rent_centre": 899,
+    "room_shared": null,
+    "everyday": 874,
+    "everyday_parts": {
+      "groceries": 125,
+      "utilities": 118,
+      "internet_phone": 44,
+      "going_out": 161,
+      "other": 426
+    },
+    "commute": 65,
+    "commute_note": "Nysse AB zones 30-day ticket, 65.00 EUR. The fares page lists 32.50, 46.00 and 65.00 without customer-group labels; 65.00 is taken as the adult price.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 41184,
+      "mid": 56160,
+      "senior": 67392
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2633,
+      "mid": 3357,
+      "senior": 3886
+    },
+    "surplus": {
+      "junior": 999,
+      "mid": 1723,
+      "senior": 2252
+    },
+    "tax_regime_note": "Finland's key employee scheme taxes pay at a flat 25% at source from 2026. It needs at least 5,800 EUR a month, special expertise, a Finnish employer and no Finnish tax residence in the 5 prior calendar years; Croatian citizens can use it for up to 84 months. Only the senior Helsinki level (6,000 EUR a month) clears the pay line; Tampere senior (5,400) and all junior and mid levels do not. Not modelled.",
+    "language": "Often yes in Helsinki tech companies; some Finnish employers, more often outside Helsinki, ask for Finnish. Not checked against live postings.",
+    "notes": [
+      "Tampere pay is ESTIMATE: no official or Levels.fyi figure exists for it, and Koodaripula's Tampere median rests on 13 ads. Pay is set at about 10% below Helsinki.",
+      "Local rent check: Statistics Finland Q2 2026 non-subsidised rent is 21.06 EUR/m2 for studios in Tampere, about 632 EUR for 30 m2 (my arithmetic).",
+      "gross_yearly is cash before bonus and includes lomaraha, the holiday bonus: 50% of holiday pay, which for 24 holiday days is about 0.48 of a month's pay (ESTIMATE). It is not statutory; it comes from the ICT collective agreement or the contract, so check the employer.",
+      "Bonus rates are ESTIMATE. Jobbutler says 5 to 15% of annual pay is typical in Finnish IT.",
+      "Net uses the vero.fi 2026 tax-on-pay table for Helsinki (interpolated, extended above 70,000 EUR at about 41.7% marginal) plus 8.19% pension and unemployment contributions. Church tax is excluded. Tampere adds 2.3 percentage points of municipal tax (7.60% vs 5.30%).",
+      "Registering the right of residence with Migri costs 53 EUR; the Digital and Population Data Services Agency then gives the identity code.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "CVPromaker Finland salaries 2026",
+        "url": "https://www.cvpromaker.com/salaries/finland"
+      },
+      {
+        "label": "Koodaripula advertised developer pay",
+        "url": "https://koodaripula.fi/palkat/ohjelmistokehittaja"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Finland",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/finland"
+      },
+      {
+        "label": "vero.fi tax on pay 2026",
+        "url": "https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/income/earned-income/tax-rates-on-pay-pensions-and-benefits/"
+      },
+      {
+        "label": "nettopalkka.fi municipal tax rates 2026",
+        "url": "https://nettopalkka.fi/en/municipal-tax-rates/"
+      },
+      {
+        "label": "Numbeo Tampere (2026-11-10)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Tampere?displayCurrency=EUR"
+      },
+      {
+        "label": "Statistics Finland Q2 2026 rents via vuokratutka.fi",
+        "url": "https://vuokratutka.fi/en"
+      },
+      {
+        "label": "Nysse fares",
+        "url": "https://www.nysse.fi/en/tickets-and-fares/fares.html"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Oslo",
+    "country": "NO",
+    "rent_outside": 1445,
+    "rent_centre": 1877,
+    "room_shared": 766,
+    "everyday": 1308,
+    "everyday_parts": {
+      "groceries": 184,
+      "utilities": 376,
+      "internet_phone": 79,
+      "going_out": 213,
+      "other": 456
+    },
+    "commute": 47,
+    "commute_note": "Ruter 30-day ticket, zone 1 (Oslo), 495 NOK from 2026-11-01 (about 47 EUR). The subsidy runs initially to April 2027; at the earlier 655 NOK price the cost is about 62 EUR.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 62179,
+      "mid": 79137,
+      "senior": 92703
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.05,
+      "senior": 0.07
+    },
+    "net": {
+      "junior": 3995,
+      "mid": 4929,
+      "senior": 5672
+    },
+    "surplus": {
+      "junior": 1195,
+      "mid": 2130,
+      "senior": 2873
+    },
+    "tax_regime_note": "No Norwegian expat or special tax regime was researched or modelled; Norwegian tax is the standard 2026 scale.",
+    "language": "Norwegian is often expected below senior level at Norwegian employers; international tech employers work in English. Not checked against live postings.",
+    "notes": [
+      "gross_yearly is 12 monthly salaries before bonus. Feriepenger (holiday pay) is 10.2% of the previous year's pay, paid in place of salary for the holiday weeks, so it adds no extra cash in a steady year.",
+      "First-year trap: you earn no feriepenger before starting, so summer holiday in 2027 is usually unpaid. About four weeks unpaid is roughly 8% of annual cash (my ESTIMATE), about 415 EUR a month for a junior averaged over 2027. Ask for paid holiday in the contract.",
+      "Tax is withheld over 10.5 months (none in June, half in December), but the annual tax is the same. Net here is annual net divided by 12.",
+      "Bonus rates are ESTIMATE. kode24 2024: 26% of in-house developers and 46% of consultants get a bonus; an older kode24 survey found an average 132k NOK on a 772k base for those who do.",
+      "room_shared is the Hybel.no November 2026 average for a room in a shared flat, 8,131 NOK.",
+      "Cross-check: SIFO 2026 reference budget for a single adult is 12,909 NOK (about 1,216 EUR) excluding housing and electricity; Numbeo's Oslo estimate is higher at 1,373 EUR.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "Norway is an Erasmus+ programme country, but the Erasmus+ traineeship must be selected by your university before graduation and completed within a year after.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "CVPromaker Norway salaries 2025",
+        "url": "https://www.cvpromaker.com/salaries/norway"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Norway",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/norway"
+      },
+      {
+        "label": "Skatteetaten advance tax rates 2026",
+        "url": "https://www.skatteetaten.no/en/rettskilder/type/uttalelser/uttalelser/forskuddsutskrivingen-2026/"
+      },
+      {
+        "label": "Numbeo Oslo (2026-11-10)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Oslo?displayCurrency=EUR"
+      },
+      {
+        "label": "Hybel.no Oslo rents 2026",
+        "url": "https://hybel.no/leieprisstatistikk/Oslo/2026/"
+      },
+      {
+        "label": "Ruter monthly pass from 1 Nov 2026",
+        "url": "https://ruter.no/en/aktuelt/produkter/cheaper-monthly-pass-november"
+      },
+      {
+        "label": "Skatteetaten on holiday pay and tax withholding",
+        "url": "https://www.skatteetaten.no/en/press/nyhetsrommet/derfor-trekkes-det-ikke-skatt-av-feriepengene/"
+      },
+      {
+        "label": "kode24 developer pay and bonus 2024",
+        "url": "https://www.kode24.no/artikkel/s%C3%A5-mye-tjener-konsulenter-inhouse-utviklere-og-de-offentlige-i-2024/202837"
+      },
+      {
+        "label": "SIFO reference budget 2026",
+        "url": "https://www.livsopphold.com/referansebudsjett/sifo-historikk"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Brussels",
+    "country": "BE",
+    "rent_outside": 1025,
+    "rent_centre": 1236,
+    "room_shared": null,
+    "everyday": 1005,
+    "everyday_parts": {
+      "groceries": 140,
+      "utilities": 252,
+      "internet_phone": 65,
+      "going_out": 186,
+      "other": 362
+    },
+    "commute": 56,
+    "commute_note": "STIB monthly adult pass (25 to 64), 56 EUR since 2026-02-01, Brussels region. Price from a press report in a search result; the SNCB page confirming it returned 403.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 40000,
+      "mid": 56000,
+      "senior": 72000
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.045,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 2300,
+      "mid": 2959,
+      "senior": 3578
+    },
+    "surplus": {
+      "junior": 214,
+      "mid": 873,
+      "senior": 1492
+    },
+    "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A Croatian citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
+    "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
+    "notes": [
+      "Local rent check: CIB-Korfine barometer shows an average Brussels apartment rent of 1,330 EUR and a studio of 905 EUR in 2025.",
+      "gross_yearly is the annual total including the 13th month (year-end premium) and double holiday pay (92% of one monthly salary), which together make 13.92 months. It is before bonus; Belgian sources like Levels.fyi and Talent.com quote it this way.",
+      "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
+      "Ecocheques of up to 250 EUR a year are common and add about 21 EUR a month; not included.",
+      "Bonus rates are ESTIMATE, based on bonus amounts in SalaryExpert and PayScale search results (about 4 to 5% of base).",
+      "Net is the weakest figure: it uses 13.07% social contributions, brackets from GrossToNet, an unverified tax-free allowance of 10,910 EUR, an assumed municipal surcharge and an assumed special social contribution. The official finance.belgium.be page was blocked.",
+      "Employer reimbursement of commuting (De Lijn 72 to 100%, train about 70% on average) is not netted off the commute cost.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "Levels.fyi software engineer Belgium",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/belgium"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Belgium",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/belgium"
+      },
+      {
+        "label": "Hays Belgium salary guide 2026 via Ruicodex",
+        "url": "https://ruicodex.com/Blog/Detail/2026-belgian-tech-salary-report-what-software-developers-really-earn"
+      },
+      {
+        "label": "Talent.com Belgium software developer",
+        "url": "https://be.talent.com/salary?job=software+developer"
+      },
+      {
+        "label": "GrossToNet Belgium tax guide 2026",
+        "url": "https://grosstonet.eu/guides/belgium/"
+      },
+      {
+        "label": "Grant Thornton on the expat regime",
+        "url": "https://www.grantthornton.be/en/the-field/articles-and-publications/Direct-tax/important-changes-to-the-belgian-expat-regime-as-of-income-year-2025/"
+      },
+      {
+        "label": "Numbeo Brussels (2026-11-10)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Brussels?displayCurrency=EUR"
+      },
+      {
+        "label": "CIB-Korfine Brussels rents",
+        "url": "https://community.cib.be/actua/news/f66a5b4b-9ad8-4b7a-b9a3-539ff8aaaf8b"
+      },
+      {
+        "label": "Belgian FPS Employment on meal vouchers",
+        "url": "https://werk.belgie.be/nl/themas/verloning/maaltijdcheques"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Antwerp",
+    "country": "BE",
+    "rent_outside": 764,
+    "rent_centre": 941,
+    "room_shared": null,
+    "everyday": 957,
+    "everyday_parts": {
+      "groceries": 129,
+      "utilities": 188,
+      "internet_phone": 62,
+      "going_out": 191,
+      "other": 387
+    },
+    "commute": 62,
+    "commute_note": "De Lijn Omnipas for ages 25 to 64, 62 EUR for one month plus a one-time 10 EUR card, valid on all De Lijn buses and trams in Flanders.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 38000,
+      "mid": 55000,
+      "senior": 68000
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.045,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 2212,
+      "mid": 2897,
+      "senior": 3401
+    },
+    "surplus": {
+      "junior": 429,
+      "mid": 1113,
+      "senior": 1617
+    },
+    "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A Croatian citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
+    "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
+    "notes": [
+      "Local rent check: the CIB-Korfine H1 2026 barometer shows Antwerp city at 1,009 EUR for all dwelling types, and a Flemish one-bedroom average of 833 EUR.",
+      "gross_yearly is the annual total including the 13th month (year-end premium) and double holiday pay (92% of one monthly salary), which together make 13.92 months. It is before bonus; Belgian sources like Levels.fyi and Talent.com quote it this way.",
+      "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
+      "Ecocheques of up to 250 EUR a year are common and add about 21 EUR a month; not included.",
+      "Bonus rates are ESTIMATE, based on bonus amounts in SalaryExpert and PayScale search results (about 4 to 5% of base).",
+      "Net is the weakest figure: it uses 13.07% social contributions, brackets from GrossToNet, an unverified tax-free allowance of 10,910 EUR, an assumed municipal surcharge and an assumed special social contribution. The official finance.belgium.be page was blocked.",
+      "Employer reimbursement of commuting (De Lijn 72 to 100%, train about 70% on average) is not netted off the commute cost.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "Levels.fyi software engineer Belgium",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/belgium"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Belgium",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/belgium"
+      },
+      {
+        "label": "Hays Belgium salary guide 2026 via Ruicodex",
+        "url": "https://ruicodex.com/Blog/Detail/2026-belgian-tech-salary-report-what-software-developers-really-earn"
+      },
+      {
+        "label": "Talent.com Belgium software developer",
+        "url": "https://be.talent.com/salary?job=software+developer"
+      },
+      {
+        "label": "GrossToNet Belgium tax guide 2026",
+        "url": "https://grosstonet.eu/guides/belgium/"
+      },
+      {
+        "label": "Grant Thornton on the expat regime",
+        "url": "https://www.grantthornton.be/en/the-field/articles-and-publications/Direct-tax/important-changes-to-the-belgian-expat-regime-as-of-income-year-2025/"
+      },
+      {
+        "label": "Numbeo Antwerp (2026-11-10)",
+        "url": "https://www.numbeo.com/cost-of-living/in/Antwerp?displayCurrency=EUR"
+      },
+      {
+        "label": "Huisprijzen.be on Flemish rents H1 2026",
+        "url": "https://huisprijzen.be/blog/huurprijzen-vlaanderen-2026-boven-1000-euro/"
+      },
+      {
+        "label": "De Lijn Omnipas",
+        "url": "https://www.delijn.be/nl/content/abonnementen/omnipas/"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Ghent",
+    "country": "BE",
+    "rent_outside": 780,
+    "rent_centre": 950,
+    "room_shared": null,
+    "everyday": 957,
+    "everyday_parts": {
+      "groceries": 129,
+      "utilities": 188,
+      "internet_phone": 62,
+      "going_out": 191,
+      "other": 387
+    },
+    "commute": 62,
+    "commute_note": "De Lijn Omnipas for ages 25 to 64, 62 EUR for one month plus a one-time 10 EUR card, valid on all De Lijn buses and trams in Flanders.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 38000,
+      "mid": 54000,
+      "senior": 64000
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.045,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 2217,
+      "mid": 2869,
+      "senior": 3275
+    },
+    "surplus": {
+      "junior": 418,
+      "mid": 1069,
+      "senior": 1475
+    },
+    "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A Croatian citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
+    "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
+    "notes": [
+      "Ghent rent and everyday costs are ESTIMATE: Numbeo's Ghent page returned HTTP 429. Rent is set near the CIB-Korfine Ghent average of 998 EUR for all dwellings in H1 2026, and everyday costs are copied from Antwerp.",
+      "gross_yearly is the annual total including the 13th month (year-end premium) and double holiday pay (92% of one monthly salary), which together make 13.92 months. It is before bonus; Belgian sources like Levels.fyi and Talent.com quote it this way.",
+      "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
+      "Ecocheques of up to 250 EUR a year are common and add about 21 EUR a month; not included.",
+      "Bonus rates are ESTIMATE, based on bonus amounts in SalaryExpert and PayScale search results (about 4 to 5% of base).",
+      "Net is the weakest figure: it uses 13.07% social contributions, brackets from GrossToNet, an unverified tax-free allowance of 10,910 EUR, an assumed municipal surcharge and an assumed special social contribution. The official finance.belgium.be page was blocked.",
+      "Employer reimbursement of commuting (De Lijn 72 to 100%, train about 70% on average) is not netted off the commute cost.",
+      "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
+      "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "Levels.fyi software engineer Belgium",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/belgium"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Belgium",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/belgium"
+      },
+      {
+        "label": "Hays Belgium salary guide 2026 via Ruicodex",
+        "url": "https://ruicodex.com/Blog/Detail/2026-belgian-tech-salary-report-what-software-developers-really-earn"
+      },
+      {
+        "label": "Talent.com Belgium software developer",
+        "url": "https://be.talent.com/salary?job=software+developer"
+      },
+      {
+        "label": "GrossToNet Belgium tax guide 2026",
+        "url": "https://grosstonet.eu/guides/belgium/"
+      },
+      {
+        "label": "Grant Thornton on the expat regime",
+        "url": "https://www.grantthornton.be/en/the-field/articles-and-publications/Direct-tax/important-changes-to-the-belgian-expat-regime-as-of-income-year-2025/"
+      },
+      {
+        "label": "Huisprijzen.be on Flemish rents H1 2026",
+        "url": "https://huisprijzen.be/blog/huurprijzen-vlaanderen-2026-boven-1000-euro/"
+      },
+      {
+        "label": "De Lijn Omnipas",
+        "url": "https://www.delijn.be/nl/content/abonnementen/omnipas/"
+      },
+      {
+        "label": "Belgian FPS Employment on meal vouchers",
+        "url": "https://werk.belgie.be/nl/themas/verloning/maaltijdcheques"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Tallinn*",
+    "country": "EE",
+    "rent_outside": 520,
+    "rent_centre": 900,
+    "room_shared": null,
+    "everyday": 780,
+    "everyday_parts": {
+      "groceries": 250,
+      "utilities": 150,
+      "internet_phone": 27,
+      "going_out": 100,
+      "other": 253
+    },
+    "commute": 0,
+    "commute_note": "Public transport is free for people whose registered residence is Tallinn, so 0 EUR. A suburb commute into Tallinn from Harju County would need a joint ticket of roughly 28 to 90 EUR a month (search result, not modelled).",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 31200,
+      "mid": 45600,
+      "senior": 62400
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.045,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 2168,
+      "mid": 3140,
+      "senior": 4299
+    },
+    "surplus": {
+      "junior": 868,
+      "mid": 1840,
+      "senior": 2999
+    },
+    "tax_regime_note": "Estonia has no expat or key-employee tax regime used here. Income tax is a flat 22% with a 700 EUR monthly basic exemption; the planned 2% security tax was not introduced.",
+    "language": "Often yes for tech employers in Tallinn and Tartu; the job ads seen were in English. Not checked beyond a few ads.",
+    "notes": [
+      "Tallinn transport is free for registered residents of the city.",
+      "Everything about Estonia except the net salary formula is ESTIMATE: Numbeo returned HTTP 429 for Tallinn and Tartu, so rent and everyday costs come from asking-rent guides and my own guess.",
+      "gross_yearly is 12 monthly salaries before bonus. There is no 13th-month norm and holiday pay is the average wage, so there is no extra payment. Bonus rates of 3% to 6% are ESTIMATE from aggregator data in a search result (about half of developers report a bonus).",
+      "Net uses EMTA 2026 rules: 22% income tax, 700 EUR monthly basic exemption, 1.6% unemployment insurance and 2% funded pension.",
+      "Salary evidence is thin and disagrees: WageIndicator shows 2,576 to 4,400 EUR a month at 5 years, while Wise ads in Tallinn and Levels.fyi sit above 5,500. The senior level leans toward the higher figures; Tartu has no data and is set about 10% below Tallinn.",
+      "everyday_parts are my estimates (groceries, utilities, internet and phone, going out, other), not Numbeo figures.",
+      "EU citizens must register their residence in the population register within 3 months, then apply for an ID card.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "WageIndicator Estonia software developers 2026",
+        "url": "https://wageindicator.org/et-ee/tootamine-eestis/ametid-ja-palgad/eesti-tarkvara-arendajad"
+      },
+      {
+        "label": "Statistics Estonia Q1 2026 wages",
+        "url": "https://stat.ee/en/news/average-wages-and-salaries-were-2135-euros-in-the-first-quarter"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Estonia",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/estonia"
+      },
+      {
+        "label": "CVKeskus Tallinn Python engineer ad, 2026-10-05",
+        "url": "https://www.cvkeskus.ee/software-engineer-python-tallinnas-teleplan-estonia-ou-1058203"
+      },
+      {
+        "label": "CVKeskus listing page with Wise ads",
+        "url": "https://www.cvkeskus.ee/1020223?view=3"
+      },
+      {
+        "label": "EMTA tax changes 2026",
+        "url": "https://www.emta.ee/uudised/maksumuudatused-2026"
+      },
+      {
+        "label": "Rada guide to Tallinn public transport",
+        "url": "https://radaapp.ee/tallinn-public-transport-guide/"
+      },
+      {
+        "label": "ExpatLife Estonia rents 2026",
+        "url": "https://expatlife.ai/estonia/housing"
+      },
+      {
+        "label": "Investropa Tallinn rents 2026",
+        "url": "https://investropa.com/blogs/news/tallinn-rents"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "city": "Tartu*",
+    "country": "EE",
+    "rent_outside": 475,
+    "rent_centre": 600,
+    "room_shared": null,
+    "everyday": 720,
+    "everyday_parts": {
+      "groceries": 240,
+      "utilities": 140,
+      "internet_phone": 27,
+      "going_out": 90,
+      "other": 223
+    },
+    "commute": 44,
+    "commute_note": "No monthly pass was found. 44 EUR assumes 44 rides at 1.00 EUR with the Tartu city card (search result, ESTIMATE).",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 28200,
+      "mid": 40800,
+      "senior": 54000
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.045,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 1974,
+      "mid": 2826,
+      "senior": 3741
+    },
+    "surplus": {
+      "junior": 735,
+      "mid": 1587,
+      "senior": 2502
+    },
+    "tax_regime_note": "Estonia has no expat or key-employee tax regime used here. Income tax is a flat 22% with a 700 EUR monthly basic exemption; the planned 2% security tax was not introduced.",
+    "language": "Often yes for tech employers in Tallinn and Tartu; the job ads seen were in English. Not checked beyond a few ads.",
+    "notes": [
+      "Everything about Estonia except the net salary formula is ESTIMATE: Numbeo returned HTTP 429 for Tallinn and Tartu, so rent and everyday costs come from asking-rent guides and my own guess.",
+      "gross_yearly is 12 monthly salaries before bonus. There is no 13th-month norm and holiday pay is the average wage, so there is no extra payment. Bonus rates of 3% to 6% are ESTIMATE from aggregator data in a search result (about half of developers report a bonus).",
+      "Net uses EMTA 2026 rules: 22% income tax, 700 EUR monthly basic exemption, 1.6% unemployment insurance and 2% funded pension.",
+      "Salary evidence is thin and disagrees: WageIndicator shows 2,576 to 4,400 EUR a month at 5 years, while Wise ads in Tallinn and Levels.fyi sit above 5,500. The senior level leans toward the higher figures; Tartu has no data and is set about 10% below Tallinn.",
+      "everyday_parts are my estimates (groceries, utilities, internet and phone, going out, other), not Numbeo figures.",
+      "EU citizens must register their residence in the population register within 3 months, then apply for an ID card.",
+      "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+    ],
+    "sources": [
+      {
+        "label": "WageIndicator Estonia software developers 2026",
+        "url": "https://wageindicator.org/et-ee/tootamine-eestis/ametid-ja-palgad/eesti-tarkvara-arendajad"
+      },
+      {
+        "label": "Statistics Estonia Q1 2026 wages",
+        "url": "https://stat.ee/en/news/average-wages-and-salaries-were-2135-euros-in-the-first-quarter"
+      },
+      {
+        "label": "Levels.fyi senior software engineer Estonia",
+        "url": "https://www.levels.fyi/t/software-engineer/levels/senior/locations/estonia"
+      },
+      {
+        "label": "CVKeskus Tallinn Python engineer ad, 2026-10-05",
+        "url": "https://www.cvkeskus.ee/software-engineer-python-tallinnas-teleplan-estonia-ou-1058203"
+      },
+      {
+        "label": "CVKeskus listing page with Wise ads",
+        "url": "https://www.cvkeskus.ee/1020223?view=3"
+      },
+      {
+        "label": "EMTA tax changes 2026",
+        "url": "https://www.emta.ee/uudised/maksumuudatused-2026"
+      },
+      {
+        "label": "ExpatLife Estonia rents 2026",
+        "url": "https://expatlife.ai/estonia/housing"
+      },
+      {
+        "label": "Investropa Tallinn rents 2026",
+        "url": "https://investropa.com/blogs/news/tallinn-rents"
+      },
+      {
+        "label": "Work in Estonia relocation steps",
+        "url": "https://workinestonia.com/relocation-eu-3-months/"
+      },
+      {
+        "label": "ECB reference rates 2026-11-11",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    ]
+  }
+]

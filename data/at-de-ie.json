@@ -1,0 +1,1431 @@
+[
+  {
+    "city": "Vienna",
+    "country": "AT",
+    "rent_outside": 845,
+    "rent_centre": 1183,
+    "room_shared": 500,
+    "everyday": 536,
+    "everyday_parts": {
+      "groceries": 196,
+      "utilities": 165,
+      "internet_phone": 42,
+      "going_out": 133,
+      "other": 0
+    },
+    "commute": 40,
+    "commute_note": "Wiener Linien Jahreskarte, 483.10 EUR a year from 2027 (40.26 a month), valid in Vienna city only",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 46000,
+      "mid": 60000,
+      "senior": 68040
+    },
+    "bonus_rate": {
+      "junior": 0.0,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 2768,
+      "mid": 3500,
+      "senior": 3923
+    },
+    "surplus": {
+      "junior": 1347,
+      "mid": 2079,
+      "senior": 2502
+    },
+    "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+    "notes": [
+      "Shared room: about 500 EUR a month (willhaben asking-rent median of 50 room ads, an estimate).",
+      "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
+      "IT collective agreement 2026, software development group ST1, per month times 14: 3,104 entry (first 12 months, can be 5% lower), 3,267 starter, 3,954 after up to 3 years, 4,476 after up to 7 more years.",
+      "Register your address (Meldezettel) within 3 days of moving in; if you stay over 3 months, ask for an Anmeldebescheinigung within 4 months. No visa or permit for EU citizens.",
+      "Compulsory interns under the IT agreement get the first-year apprentice pay, 960 EUR a month, for contracts from 2026-04-01.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "IT collective agreement 2026 (WKO PDF)",
+        "url": "https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2026.pdf"
+      },
+      {
+        "label": "karriere.at developer ads, Vienna",
+        "url": "https://www.karriere.at/jobs/softwareentwickler/wien"
+      },
+      {
+        "label": "karriere.at senior ads, Vienna",
+        "url": "https://www.karriere.at/jobs/senior-software-entwickler/wien"
+      },
+      {
+        "label": "Payscale Austria",
+        "url": "https://www.payscale.com/research/AT/Job=Software_Engineer/Salary"
+      },
+      {
+        "label": "Levels.fyi Austria",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/austria"
+      },
+      {
+        "label": "Numbeo cost of living, Vienna",
+        "url": "https://www.numbeo.com/cost-of-living/in/Vienna"
+      },
+      {
+        "label": "willhaben rentals, Vienna",
+        "url": "https://www.willhaben.at/iad/immobilien/mietwohnungen/wien"
+      },
+      {
+        "label": "Austrian net pay formula (finanzinfo.at)",
+        "url": "https://finanzinfo.at/gehalt/gehaltsrechner/"
+      },
+      {
+        "label": "Austrian tax tariff 2026 (BMF)",
+        "url": "https://www.bmf.gv.at/themen/steuern/arbeitnehmerveranlagung/steuertarif-steuerabsetzbetraege/steuertarif-steuerabsetzbetraege.html"
+      },
+      {
+        "label": "Vienna Jahreskarte 2027 price (ORF)",
+        "url": "https://wien.orf.at/stories/3376621/"
+      }
+    ]
+  },
+  {
+    "city": "Graz",
+    "country": "AT",
+    "rent_outside": 604,
+    "rent_centre": 738,
+    "room_shared": null,
+    "everyday": 596,
+    "everyday_parts": {
+      "groceries": 227,
+      "utilities": 205,
+      "internet_phone": 45,
+      "going_out": 119,
+      "other": 0
+    },
+    "commute": 44,
+    "commute_note": "KlimaTicket Steiermark Classic, 532 EUR a year from July 2026 (44.33 a month), all of Styria including suburbs",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 46000,
+      "mid": 56000,
+      "senior": 62020
+    },
+    "bonus_rate": {
+      "junior": 0.0,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 2768,
+      "mid": 3317,
+      "senior": 3643
+    },
+    "surplus": {
+      "junior": 1524,
+      "mid": 2073,
+      "senior": 2399
+    },
+    "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+    "notes": [
+      "Shared room price not found (only 5 room ads on willhaben).",
+      "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
+      "IT collective agreement 2026, software development group ST1, per month times 14: 3,104 entry (first 12 months, can be 5% lower), 3,267 starter, 3,954 after up to 3 years, 4,476 after up to 7 more years.",
+      "Register your address (Meldezettel) within 3 days of moving in; if you stay over 3 months, ask for an Anmeldebescheinigung within 4 months. No visa or permit for EU citizens.",
+      "Compulsory interns under the IT agreement get the first-year apprentice pay, 960 EUR a month, for contracts from 2026-04-01.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "IT collective agreement 2026 (WKO PDF)",
+        "url": "https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2026.pdf"
+      },
+      {
+        "label": "karriere.at developer ads, Graz",
+        "url": "https://www.karriere.at/jobs/softwareentwickler/graz"
+      },
+      {
+        "label": "karriere.at senior ads, Graz",
+        "url": "https://www.karriere.at/jobs/senior-software-entwickler/graz"
+      },
+      {
+        "label": "Payscale Austria",
+        "url": "https://www.payscale.com/research/AT/Job=Software_Engineer/Salary"
+      },
+      {
+        "label": "Levels.fyi Austria",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/austria"
+      },
+      {
+        "label": "Numbeo cost of living, Graz",
+        "url": "https://www.numbeo.com/cost-of-living/in/Graz"
+      },
+      {
+        "label": "willhaben rentals, Graz",
+        "url": "https://www.willhaben.at/iad/immobilien/mietwohnungen/steiermark/graz"
+      },
+      {
+        "label": "Austrian net pay formula (finanzinfo.at)",
+        "url": "https://finanzinfo.at/gehalt/gehaltsrechner/"
+      },
+      {
+        "label": "Austrian tax tariff 2026 (BMF)",
+        "url": "https://www.bmf.gv.at/themen/steuern/arbeitnehmerveranlagung/steuertarif-steuerabsetzbetraege/steuertarif-steuerabsetzbetraege.html"
+      },
+      {
+        "label": "Styria transport prices July 2026 (Graz Journal)",
+        "url": "https://grazjournal.at/news/oeffi-tickets-graz-preise-steigen-ab-1-juli-2026/"
+      }
+    ]
+  },
+  {
+    "city": "Linz",
+    "country": "AT",
+    "rent_outside": 642,
+    "rent_centre": 729,
+    "room_shared": null,
+    "everyday": 537,
+    "everyday_parts": {
+      "groceries": 209,
+      "utilities": 157,
+      "internet_phone": 49,
+      "going_out": 122,
+      "other": 0
+    },
+    "commute": 24,
+    "commute_note": "Linz AG MEGA-Ticket annual card, from 285 EUR a year (23.75 a month), Linz core zone, price listed as 'ab'; 467 EUR a year KlimaTicket Kernzone Linz otherwise",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 46000,
+      "mid": 57000,
+      "senior": 63980
+    },
+    "bonus_rate": {
+      "junior": 0.0,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 2768,
+      "mid": 3363,
+      "senior": 3734
+    },
+    "surplus": {
+      "junior": 1565,
+      "mid": 2160,
+      "senior": 2531
+    },
+    "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+    "notes": [
+      "Linz annual card from 285 EUR needs a Linz main residence; without it the annual card is 630 EUR.",
+      "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
+      "IT collective agreement 2026, software development group ST1, per month times 14: 3,104 entry (first 12 months, can be 5% lower), 3,267 starter, 3,954 after up to 3 years, 4,476 after up to 7 more years.",
+      "Register your address (Meldezettel) within 3 days of moving in; if you stay over 3 months, ask for an Anmeldebescheinigung within 4 months. No visa or permit for EU citizens.",
+      "Compulsory interns under the IT agreement get the first-year apprentice pay, 960 EUR a month, for contracts from 2026-04-01.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "IT collective agreement 2026 (WKO PDF)",
+        "url": "https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2026.pdf"
+      },
+      {
+        "label": "karriere.at developer ads, Linz",
+        "url": "https://www.karriere.at/jobs/softwareentwickler/linz"
+      },
+      {
+        "label": "karriere.at senior ads, Linz",
+        "url": "https://www.karriere.at/jobs/senior-software-entwickler/linz"
+      },
+      {
+        "label": "Payscale Austria",
+        "url": "https://www.payscale.com/research/AT/Job=Software_Engineer/Salary"
+      },
+      {
+        "label": "Levels.fyi Austria",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/austria"
+      },
+      {
+        "label": "Numbeo cost of living, Linz",
+        "url": "https://www.numbeo.com/cost-of-living/in/Linz"
+      },
+      {
+        "label": "willhaben rentals, Linz",
+        "url": "https://www.willhaben.at/iad/immobilien/mietwohnungen/oberoesterreich/linz"
+      },
+      {
+        "label": "Austrian net pay formula (finanzinfo.at)",
+        "url": "https://finanzinfo.at/gehalt/gehaltsrechner/"
+      },
+      {
+        "label": "Austrian tax tariff 2026 (BMF)",
+        "url": "https://www.bmf.gv.at/themen/steuern/arbeitnehmerveranlagung/steuertarif-steuerabsetzbetraege/steuertarif-steuerabsetzbetraege.html"
+      },
+      {
+        "label": "Linz AG annual tickets",
+        "url": "https://www.linzag.at/portal/de/privatkunden/unterwegs/tickets___tarife/semester__und_jahrestickets"
+      }
+    ]
+  },
+  {
+    "city": "Salzburg",
+    "country": "AT",
+    "rent_outside": 1035,
+    "rent_centre": 1324,
+    "room_shared": null,
+    "everyday": 614,
+    "everyday_parts": {
+      "groceries": 231,
+      "utilities": 210,
+      "internet_phone": 43,
+      "going_out": 130,
+      "other": 0
+    },
+    "commute": 33,
+    "commute_note": "KlimaTicket Salzburg Classic, 399 EUR a year (33.25 a month), whole province of Salzburg",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 46000,
+      "mid": 56000,
+      "senior": 62020
+    },
+    "bonus_rate": {
+      "junior": 0.0,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 2768,
+      "mid": 3317,
+      "senior": 3643
+    },
+    "surplus": {
+      "junior": 1086,
+      "mid": 1635,
+      "senior": 1961
+    },
+    "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+    "notes": [
+      "Shared room price not found (only 1 room ad on willhaben).",
+      "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
+      "IT collective agreement 2026, software development group ST1, per month times 14: 3,104 entry (first 12 months, can be 5% lower), 3,267 starter, 3,954 after up to 3 years, 4,476 after up to 7 more years.",
+      "Register your address (Meldezettel) within 3 days of moving in; if you stay over 3 months, ask for an Anmeldebescheinigung within 4 months. No visa or permit for EU citizens.",
+      "Compulsory interns under the IT agreement get the first-year apprentice pay, 960 EUR a month, for contracts from 2026-04-01.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "IT collective agreement 2026 (WKO PDF)",
+        "url": "https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2026.pdf"
+      },
+      {
+        "label": "karriere.at developer ads, Salzburg",
+        "url": "https://www.karriere.at/jobs/softwareentwickler/salzburg"
+      },
+      {
+        "label": "karriere.at senior ads, Salzburg",
+        "url": "https://www.karriere.at/jobs/senior-software-entwickler/salzburg"
+      },
+      {
+        "label": "Payscale Austria",
+        "url": "https://www.payscale.com/research/AT/Job=Software_Engineer/Salary"
+      },
+      {
+        "label": "Levels.fyi Austria",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/austria"
+      },
+      {
+        "label": "Numbeo cost of living, Salzburg",
+        "url": "https://www.numbeo.com/cost-of-living/in/Salzburg"
+      },
+      {
+        "label": "willhaben rentals, Salzburg",
+        "url": "https://www.willhaben.at/iad/immobilien/mietwohnungen/salzburg/salzburg-stadt"
+      },
+      {
+        "label": "Austrian net pay formula (finanzinfo.at)",
+        "url": "https://finanzinfo.at/gehalt/gehaltsrechner/"
+      },
+      {
+        "label": "Austrian tax tariff 2026 (BMF)",
+        "url": "https://www.bmf.gv.at/themen/steuern/arbeitnehmerveranlagung/steuertarif-steuerabsetzbetraege/steuertarif-steuerabsetzbetraege.html"
+      },
+      {
+        "label": "KlimaTicket Salzburg",
+        "url": "https://salzburg-verkehr.at/tickets-preise/zeitkarten/klimaticketsalzburg/"
+      }
+    ]
+  },
+  {
+    "city": "Innsbruck",
+    "country": "AT",
+    "rent_outside": 921,
+    "rent_centre": 1155,
+    "room_shared": null,
+    "everyday": 603,
+    "everyday_parts": {
+      "groceries": 199,
+      "utilities": 226,
+      "internet_phone": 48,
+      "going_out": 130,
+      "other": 0
+    },
+    "commute": 40,
+    "commute_note": "KlimaTicket Innsbruck, 475.20 EUR a year (39.60 a month), core zone Innsbruck only (monthly ticket 71.80)",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 46000,
+      "mid": 56000,
+      "senior": 60060
+    },
+    "bonus_rate": {
+      "junior": 0.0,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 2768,
+      "mid": 3317,
+      "senior": 3552
+    },
+    "surplus": {
+      "junior": 1204,
+      "mid": 1753,
+      "senior": 1988
+    },
+    "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+    "notes": [
+      "Shared room price not found (only 1 room ad on willhaben). Only 10 two-room rental ads found, so local rent is thin.",
+      "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
+      "IT collective agreement 2026, software development group ST1, per month times 14: 3,104 entry (first 12 months, can be 5% lower), 3,267 starter, 3,954 after up to 3 years, 4,476 after up to 7 more years.",
+      "Register your address (Meldezettel) within 3 days of moving in; if you stay over 3 months, ask for an Anmeldebescheinigung within 4 months. No visa or permit for EU citizens.",
+      "Compulsory interns under the IT agreement get the first-year apprentice pay, 960 EUR a month, for contracts from 2026-04-01.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "IT collective agreement 2026 (WKO PDF)",
+        "url": "https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2026.pdf"
+      },
+      {
+        "label": "karriere.at developer ads, Innsbruck",
+        "url": "https://www.karriere.at/jobs/softwareentwickler/innsbruck"
+      },
+      {
+        "label": "karriere.at senior ads, Innsbruck",
+        "url": "https://www.karriere.at/jobs/senior-software-entwickler/innsbruck"
+      },
+      {
+        "label": "Payscale Austria",
+        "url": "https://www.payscale.com/research/AT/Job=Software_Engineer/Salary"
+      },
+      {
+        "label": "Levels.fyi Austria",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/austria"
+      },
+      {
+        "label": "Numbeo cost of living, Innsbruck",
+        "url": "https://www.numbeo.com/cost-of-living/in/Innsbruck"
+      },
+      {
+        "label": "willhaben rentals, Innsbruck",
+        "url": "https://www.willhaben.at/iad/immobilien/mietwohnungen/tirol/innsbruck"
+      },
+      {
+        "label": "Austrian net pay formula (finanzinfo.at)",
+        "url": "https://finanzinfo.at/gehalt/gehaltsrechner/"
+      },
+      {
+        "label": "Austrian tax tariff 2026 (BMF)",
+        "url": "https://www.bmf.gv.at/themen/steuern/arbeitnehmerveranlagung/steuertarif-steuerabsetzbetraege/steuertarif-steuerabsetzbetraege.html"
+      },
+      {
+        "label": "VVT KlimaTickets",
+        "url": "https://www.vvt.at/tickets/klimatickets"
+      }
+    ]
+  },
+  {
+    "city": "Berlin",
+    "country": "DE",
+    "rent_outside": 975,
+    "rent_centre": 1281,
+    "room_shared": 650,
+    "everyday": 570,
+    "everyday_parts": {
+      "groceries": 181,
+      "utilities": 206,
+      "internet_phone": 60,
+      "going_out": 123,
+      "other": 0
+    },
+    "commute": 67,
+    "commute_note": "Deutschlandticket, 66.80 EUR a month from 2027-01-01 (63 in 2026), all local transport in Germany",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 43000,
+      "mid": 62000,
+      "senior": 72000
+    },
+    "bonus_rate": {
+      "junior": 0.04,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2458,
+      "mid": 3371,
+      "senior": 3904
+    },
+    "surplus": {
+      "junior": 846,
+      "mid": 1759,
+      "senior": 2292
+    },
+    "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Often yes: 44 of 65 developer ads on a sampled German job board were written in English (that board favours visa-friendly roles).",
+    "notes": [
+      "Shared room: 650 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
+      "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
+      "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+      "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
+      "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "StepStone software developer pay",
+        "url": "https://www.stepstone.de/gehalt/Software-Entwickler-in.html"
+      },
+      {
+        "label": "StepStone junior pay",
+        "url": "https://www.stepstone.de/gehalt/Junior-Softwareentwickler-in.html"
+      },
+      {
+        "label": "StepStone senior pay",
+        "url": "https://www.stepstone.de/gehalt/Senior-Software-Entwickler-in.html"
+      },
+      {
+        "label": "Indeed senior software engineer pay, Berlin",
+        "url": "https://de.indeed.com/career/senior-software-engineer/salaries/Berlin"
+      },
+      {
+        "label": "gehalt.de by state",
+        "url": "https://www.gehalt.de/beruf/softwareentwickler-softwareentwicklerin"
+      },
+      {
+        "label": "Payscale Berlin",
+        "url": "https://www.payscale.com/research/DE/Job=Software_Engineer/Salary/91c125ee/Berlin"
+      },
+      {
+        "label": "Numbeo cost of living, Berlin",
+        "url": "https://www.numbeo.com/cost-of-living/in/Berlin"
+      },
+      {
+        "label": "immowelt asking rents 2026-10-01",
+        "url": "https://www.immowelt.de/ratgeber/news/mietpreise-aktuell-berlin-bremst-beim-mietanstieg-hamburg-und-frankfurt-ziehen-deutlich-an"
+      },
+      {
+        "label": "Wage tax algorithm PAP 2026 (code port)",
+        "url": "https://github.com/canida-software/lohnsteuer"
+      },
+      {
+        "label": "Social insurance limits 2026 (TK)",
+        "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/sozialversicherungs-rechengroessen-2026-2203234"
+      }
+    ]
+  },
+  {
+    "city": "Munich",
+    "country": "DE",
+    "rent_outside": 1105,
+    "rent_centre": 1503,
+    "room_shared": 850,
+    "everyday": 557,
+    "everyday_parts": {
+      "groceries": 189,
+      "utilities": 190,
+      "internet_phone": 50,
+      "going_out": 128,
+      "other": 0
+    },
+    "commute": 67,
+    "commute_note": "Deutschlandticket, 66.80 EUR a month from 2027-01-01 (63 in 2026), all local transport in Germany",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 46000,
+      "mid": 68000,
+      "senior": 78000
+    },
+    "bonus_rate": {
+      "junior": 0.04,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2598,
+      "mid": 3645,
+      "senior": 4190
+    },
+    "surplus": {
+      "junior": 869,
+      "mid": 1916,
+      "senior": 2461
+    },
+    "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Often yes: 53 of 65 developer ads on a sampled German job board were written in English (that board favours visa-friendly roles).",
+    "notes": [
+      "Shared room: 850 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
+      "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
+      "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+      "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
+      "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "StepStone software developer pay",
+        "url": "https://www.stepstone.de/gehalt/Software-Entwickler-in.html"
+      },
+      {
+        "label": "StepStone junior pay",
+        "url": "https://www.stepstone.de/gehalt/Junior-Softwareentwickler-in.html"
+      },
+      {
+        "label": "StepStone senior pay",
+        "url": "https://www.stepstone.de/gehalt/Senior-Software-Entwickler-in.html"
+      },
+      {
+        "label": "Indeed senior software engineer pay, Munich",
+        "url": "https://de.indeed.com/career/senior-software-engineer/salaries/M%C3%BCnchen"
+      },
+      {
+        "label": "gehalt.de by state",
+        "url": "https://www.gehalt.de/beruf/softwareentwickler-softwareentwicklerin"
+      },
+      {
+        "label": "Payscale Munich",
+        "url": "https://www.payscale.com/research/DE/Job=Software_Engineer/Salary/39d253fa/Munich"
+      },
+      {
+        "label": "Numbeo cost of living, Munich",
+        "url": "https://www.numbeo.com/cost-of-living/in/Munich"
+      },
+      {
+        "label": "immowelt asking rents 2026-10-01",
+        "url": "https://www.immowelt.de/ratgeber/news/mietpreise-aktuell-berlin-bremst-beim-mietanstieg-hamburg-und-frankfurt-ziehen-deutlich-an"
+      },
+      {
+        "label": "Wage tax algorithm PAP 2026 (code port)",
+        "url": "https://github.com/canida-software/lohnsteuer"
+      },
+      {
+        "label": "Social insurance limits 2026 (TK)",
+        "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/sozialversicherungs-rechengroessen-2026-2203234"
+      }
+    ]
+  },
+  {
+    "city": "Hamburg",
+    "country": "DE",
+    "rent_outside": 831,
+    "rent_centre": 1106,
+    "room_shared": 650,
+    "everyday": 578,
+    "everyday_parts": {
+      "groceries": 183,
+      "utilities": 212,
+      "internet_phone": 53,
+      "going_out": 130,
+      "other": 0
+    },
+    "commute": 67,
+    "commute_note": "Deutschlandticket, 66.80 EUR a month from 2027-01-01 (63 in 2026), all local transport in Germany",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 44000,
+      "mid": 62000,
+      "senior": 72000
+    },
+    "bonus_rate": {
+      "junior": 0.04,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2505,
+      "mid": 3371,
+      "senior": 3904
+    },
+    "surplus": {
+      "junior": 1029,
+      "mid": 1895,
+      "senior": 2428
+    },
+    "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Usually German needed: only 4 of 13 sampled developer ads were in English.",
+    "notes": [
+      "Shared room: 650 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
+      "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
+      "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+      "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
+      "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "StepStone software developer pay",
+        "url": "https://www.stepstone.de/gehalt/Software-Entwickler-in.html"
+      },
+      {
+        "label": "StepStone junior pay",
+        "url": "https://www.stepstone.de/gehalt/Junior-Softwareentwickler-in.html"
+      },
+      {
+        "label": "StepStone senior pay",
+        "url": "https://www.stepstone.de/gehalt/Senior-Software-Entwickler-in.html"
+      },
+      {
+        "label": "Indeed senior software engineer pay, Hamburg",
+        "url": "https://de.indeed.com/career/senior-software-engineer/salaries/Hamburg"
+      },
+      {
+        "label": "gehalt.de by state",
+        "url": "https://www.gehalt.de/beruf/softwareentwickler-softwareentwicklerin"
+      },
+      {
+        "label": "Payscale Hamburg",
+        "url": "https://www.payscale.com/research/DE/Job=Software_Engineer/Salary/47c81f9b/Hamburg"
+      },
+      {
+        "label": "Numbeo cost of living, Hamburg",
+        "url": "https://www.numbeo.com/cost-of-living/in/Hamburg"
+      },
+      {
+        "label": "immowelt asking rents 2026-10-01",
+        "url": "https://www.immowelt.de/ratgeber/news/mietpreise-aktuell-berlin-bremst-beim-mietanstieg-hamburg-und-frankfurt-ziehen-deutlich-an"
+      },
+      {
+        "label": "Wage tax algorithm PAP 2026 (code port)",
+        "url": "https://github.com/canida-software/lohnsteuer"
+      },
+      {
+        "label": "Social insurance limits 2026 (TK)",
+        "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/sozialversicherungs-rechengroessen-2026-2203234"
+      }
+    ]
+  },
+  {
+    "city": "Frankfurt",
+    "country": "DE",
+    "rent_outside": 1002,
+    "rent_centre": 1265,
+    "room_shared": 630,
+    "everyday": 571,
+    "everyday_parts": {
+      "groceries": 176,
+      "utilities": 208,
+      "internet_phone": 61,
+      "going_out": 126,
+      "other": 0
+    },
+    "commute": 67,
+    "commute_note": "Deutschlandticket, 66.80 EUR a month from 2027-01-01 (63 in 2026), all local transport in Germany",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 45000,
+      "mid": 66000,
+      "senior": 74000
+    },
+    "bonus_rate": {
+      "junior": 0.04,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2552,
+      "mid": 3547,
+      "senior": 4001
+    },
+    "surplus": {
+      "junior": 912,
+      "mid": 1907,
+      "senior": 2361
+    },
+    "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "German usually needed: 0 of 8 sampled developer ads were in English (small sample).",
+    "notes": [
+      "Shared room: 630 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
+      "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
+      "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+      "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
+      "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "StepStone software developer pay",
+        "url": "https://www.stepstone.de/gehalt/Software-Entwickler-in.html"
+      },
+      {
+        "label": "StepStone junior pay",
+        "url": "https://www.stepstone.de/gehalt/Junior-Softwareentwickler-in.html"
+      },
+      {
+        "label": "StepStone senior pay",
+        "url": "https://www.stepstone.de/gehalt/Senior-Software-Entwickler-in.html"
+      },
+      {
+        "label": "Indeed senior software engineer pay, Frankfurt",
+        "url": "https://de.indeed.com/career/senior-software-engineer/salaries/Frankfurt-am-Main"
+      },
+      {
+        "label": "gehalt.de by state",
+        "url": "https://www.gehalt.de/beruf/softwareentwickler-softwareentwicklerin"
+      },
+      {
+        "label": "Payscale Frankfurt",
+        "url": "https://www.payscale.com/research/DE/Job=Software_Engineer/Salary/8b942031/Frankfurt-am-Main"
+      },
+      {
+        "label": "Numbeo cost of living, Frankfurt",
+        "url": "https://www.numbeo.com/cost-of-living/in/Frankfurt"
+      },
+      {
+        "label": "immowelt asking rents 2026-10-01",
+        "url": "https://www.immowelt.de/ratgeber/news/mietpreise-aktuell-berlin-bremst-beim-mietanstieg-hamburg-und-frankfurt-ziehen-deutlich-an"
+      },
+      {
+        "label": "Wage tax algorithm PAP 2026 (code port)",
+        "url": "https://github.com/canida-software/lohnsteuer"
+      },
+      {
+        "label": "Social insurance limits 2026 (TK)",
+        "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/sozialversicherungs-rechengroessen-2026-2203234"
+      }
+    ]
+  },
+  {
+    "city": "Stuttgart",
+    "country": "DE",
+    "rent_outside": 790,
+    "rent_centre": 1129,
+    "room_shared": null,
+    "everyday": 531,
+    "everyday_parts": {
+      "groceries": 178,
+      "utilities": 168,
+      "internet_phone": 54,
+      "going_out": 131,
+      "other": 0
+    },
+    "commute": 67,
+    "commute_note": "Deutschlandticket, 66.80 EUR a month from 2027-01-01 (63 in 2026), all local transport in Germany",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 47000,
+      "mid": 66000,
+      "senior": 76000
+    },
+    "bonus_rate": {
+      "junior": 0.04,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2645,
+      "mid": 3547,
+      "senior": 4096
+    },
+    "surplus": {
+      "junior": 1257,
+      "mid": 2159,
+      "senior": 2708
+    },
+    "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "German usually needed: 1 of 3 sampled developer ads was in English (tiny sample).",
+    "notes": [
+      "Shared room price not found.",
+      "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
+      "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+      "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
+      "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "StepStone software developer pay",
+        "url": "https://www.stepstone.de/gehalt/Software-Entwickler-in.html"
+      },
+      {
+        "label": "StepStone junior pay",
+        "url": "https://www.stepstone.de/gehalt/Junior-Softwareentwickler-in.html"
+      },
+      {
+        "label": "StepStone senior pay",
+        "url": "https://www.stepstone.de/gehalt/Senior-Software-Entwickler-in.html"
+      },
+      {
+        "label": "Indeed senior software engineer pay, Stuttgart",
+        "url": "https://de.indeed.com/career/senior-software-engineer/salaries/Stuttgart"
+      },
+      {
+        "label": "gehalt.de by state",
+        "url": "https://www.gehalt.de/beruf/softwareentwickler-softwareentwicklerin"
+      },
+      {
+        "label": "Payscale Stuttgart",
+        "url": "https://www.payscale.com/research/DE/Job=Software_Engineer/Salary/2e91b562/Stuttgart"
+      },
+      {
+        "label": "Numbeo cost of living, Stuttgart",
+        "url": "https://www.numbeo.com/cost-of-living/in/Stuttgart"
+      },
+      {
+        "label": "immowelt asking rents 2026-10-01",
+        "url": "https://www.immowelt.de/ratgeber/news/mietpreise-aktuell-berlin-bremst-beim-mietanstieg-hamburg-und-frankfurt-ziehen-deutlich-an"
+      },
+      {
+        "label": "Wage tax algorithm PAP 2026 (code port)",
+        "url": "https://github.com/canida-software/lohnsteuer"
+      },
+      {
+        "label": "Social insurance limits 2026 (TK)",
+        "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/sozialversicherungs-rechengroessen-2026-2203234"
+      }
+    ]
+  },
+  {
+    "city": "Cologne",
+    "country": "DE",
+    "rent_outside": 820,
+    "rent_centre": 1091,
+    "room_shared": 640,
+    "everyday": 510,
+    "everyday_parts": {
+      "groceries": 176,
+      "utilities": 168,
+      "internet_phone": 44,
+      "going_out": 122,
+      "other": 0
+    },
+    "commute": 67,
+    "commute_note": "Deutschlandticket, 66.80 EUR a month from 2027-01-01 (63 in 2026), all local transport in Germany",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 42000,
+      "mid": 58000,
+      "senior": 66000
+    },
+    "bonus_rate": {
+      "junior": 0.04,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2410,
+      "mid": 3193,
+      "senior": 3608
+    },
+    "surplus": {
+      "junior": 1013,
+      "mid": 1796,
+      "senior": 2211
+    },
+    "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "German usually needed: 2 of 9 sampled developer ads were in English (small sample).",
+    "notes": [
+      "Shared room: 640 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
+      "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
+      "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+      "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
+      "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "StepStone software developer pay",
+        "url": "https://www.stepstone.de/gehalt/Software-Entwickler-in.html"
+      },
+      {
+        "label": "StepStone junior pay",
+        "url": "https://www.stepstone.de/gehalt/Junior-Softwareentwickler-in.html"
+      },
+      {
+        "label": "StepStone senior pay",
+        "url": "https://www.stepstone.de/gehalt/Senior-Software-Entwickler-in.html"
+      },
+      {
+        "label": "Indeed senior software engineer pay, Cologne",
+        "url": "https://de.indeed.com/career/senior-software-engineer/salaries/K%C3%B6ln"
+      },
+      {
+        "label": "gehalt.de by state",
+        "url": "https://www.gehalt.de/beruf/softwareentwickler-softwareentwicklerin"
+      },
+      {
+        "label": "Payscale Cologne",
+        "url": "https://www.payscale.com/research/DE/Job=Software_Engineer/Salary/13ed85e9/Cologne"
+      },
+      {
+        "label": "Numbeo cost of living, Cologne",
+        "url": "https://www.numbeo.com/cost-of-living/in/Cologne"
+      },
+      {
+        "label": "immowelt asking rents 2026-10-01",
+        "url": "https://www.immowelt.de/ratgeber/news/mietpreise-aktuell-berlin-bremst-beim-mietanstieg-hamburg-und-frankfurt-ziehen-deutlich-an"
+      },
+      {
+        "label": "Wage tax algorithm PAP 2026 (code port)",
+        "url": "https://github.com/canida-software/lohnsteuer"
+      },
+      {
+        "label": "Social insurance limits 2026 (TK)",
+        "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/sozialversicherungs-rechengroessen-2026-2203234"
+      }
+    ]
+  },
+  {
+    "city": "Leipzig",
+    "country": "DE",
+    "rent_outside": 544,
+    "rent_centre": 760,
+    "room_shared": null,
+    "everyday": 518,
+    "everyday_parts": {
+      "groceries": 174,
+      "utilities": 172,
+      "internet_phone": 53,
+      "going_out": 119,
+      "other": 0
+    },
+    "commute": 67,
+    "commute_note": "Deutschlandticket, 66.80 EUR a month from 2027-01-01 (63 in 2026), all local transport in Germany",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 41000,
+      "mid": 54000,
+      "senior": 63000
+    },
+    "bonus_rate": {
+      "junior": 0.04,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2350,
+      "mid": 2996,
+      "senior": 3449
+    },
+    "surplus": {
+      "junior": 1221,
+      "mid": 1867,
+      "senior": 2320
+    },
+    "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "German usually needed: the one sampled developer ad was in German (tiny sample).",
+    "notes": [
+      "Shared room price not found. Saxony splits care insurance differently, which lowers net slightly.",
+      "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
+      "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+      "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
+      "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "StepStone software developer pay",
+        "url": "https://www.stepstone.de/gehalt/Software-Entwickler-in.html"
+      },
+      {
+        "label": "StepStone junior pay",
+        "url": "https://www.stepstone.de/gehalt/Junior-Softwareentwickler-in.html"
+      },
+      {
+        "label": "StepStone senior pay",
+        "url": "https://www.stepstone.de/gehalt/Senior-Software-Entwickler-in.html"
+      },
+      {
+        "label": "Indeed senior software engineer pay, Leipzig",
+        "url": "https://de.indeed.com/career/senior-software-engineer/salaries/Leipzig"
+      },
+      {
+        "label": "gehalt.de by state",
+        "url": "https://www.gehalt.de/beruf/softwareentwickler-softwareentwicklerin"
+      },
+      {
+        "label": "Numbeo cost of living, Leipzig",
+        "url": "https://www.numbeo.com/cost-of-living/in/Leipzig"
+      },
+      {
+        "label": "immowelt asking rents 2026-10-01",
+        "url": "https://www.immowelt.de/ratgeber/news/mietpreise-aktuell-berlin-bremst-beim-mietanstieg-hamburg-und-frankfurt-ziehen-deutlich-an"
+      },
+      {
+        "label": "Wage tax algorithm PAP 2026 (code port)",
+        "url": "https://github.com/canida-software/lohnsteuer"
+      },
+      {
+        "label": "Social insurance limits 2026 (TK)",
+        "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/sozialversicherungs-rechengroessen-2026-2203234"
+      },
+      {
+        "label": "Deutschlandticket price (Bundesregierung)",
+        "url": "https://www.bundesregierung.de/breg-de/aktuelles/deutschlandticket-2134074"
+      }
+    ]
+  },
+  {
+    "city": "Dresden",
+    "country": "DE",
+    "rent_outside": 465,
+    "rent_centre": 639,
+    "room_shared": null,
+    "everyday": 568,
+    "everyday_parts": {
+      "groceries": 177,
+      "utilities": 215,
+      "internet_phone": 55,
+      "going_out": 121,
+      "other": 0
+    },
+    "commute": 67,
+    "commute_note": "Deutschlandticket, 66.80 EUR a month from 2027-01-01 (63 in 2026), all local transport in Germany",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 41000,
+      "mid": 54000,
+      "senior": 63000
+    },
+    "bonus_rate": {
+      "junior": 0.04,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 2350,
+      "mid": 2996,
+      "senior": 3449
+    },
+    "surplus": {
+      "junior": 1250,
+      "mid": 1896,
+      "senior": 2349
+    },
+    "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Mixed: 2 of 4 sampled developer ads were in English (tiny sample).",
+    "notes": [
+      "Shared room price not found. Saxony splits care insurance differently, which lowers net slightly.",
+      "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
+      "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+      "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
+      "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "StepStone software developer pay",
+        "url": "https://www.stepstone.de/gehalt/Software-Entwickler-in.html"
+      },
+      {
+        "label": "StepStone junior pay",
+        "url": "https://www.stepstone.de/gehalt/Junior-Softwareentwickler-in.html"
+      },
+      {
+        "label": "StepStone senior pay",
+        "url": "https://www.stepstone.de/gehalt/Senior-Software-Entwickler-in.html"
+      },
+      {
+        "label": "Indeed senior software engineer pay, Dresden",
+        "url": "https://de.indeed.com/career/senior-software-engineer/salaries/Dresden"
+      },
+      {
+        "label": "gehalt.de by state",
+        "url": "https://www.gehalt.de/beruf/softwareentwickler-softwareentwicklerin"
+      },
+      {
+        "label": "Numbeo cost of living, Dresden",
+        "url": "https://www.numbeo.com/cost-of-living/in/Dresden"
+      },
+      {
+        "label": "immowelt asking rents 2026-10-01",
+        "url": "https://www.immowelt.de/ratgeber/news/mietpreise-aktuell-berlin-bremst-beim-mietanstieg-hamburg-und-frankfurt-ziehen-deutlich-an"
+      },
+      {
+        "label": "Wage tax algorithm PAP 2026 (code port)",
+        "url": "https://github.com/canida-software/lohnsteuer"
+      },
+      {
+        "label": "Social insurance limits 2026 (TK)",
+        "url": "https://www.tk.de/firmenkunden/versicherung/beitraege-faq-und-mehr/zahlen-und-grenzwerte/sozialversicherungs-rechengroessen-2026-2203234"
+      },
+      {
+        "label": "Deutschlandticket price (Bundesregierung)",
+        "url": "https://www.bundesregierung.de/breg-de/aktuelles/deutschlandticket-2134074"
+      }
+    ]
+  },
+  {
+    "city": "Dublin",
+    "country": "IE",
+    "rent_outside": 1941,
+    "rent_centre": 2185,
+    "room_shared": 1002,
+    "everyday": 582,
+    "everyday_parts": {
+      "groceries": 210,
+      "utilities": 152,
+      "internet_phone": 64,
+      "going_out": 156,
+      "other": 0
+    },
+    "commute": 130,
+    "commute_note": "Leap monthly bus ticket, Zones 1 to 2, 129.50 EUR (multimodal 140; Zone 1 only with 90-minute fare 2.00 x 44 trips = 88)",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 45000,
+      "mid": 64000,
+      "senior": 82000
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.1,
+      "senior": 0.12
+    },
+    "net": {
+      "junior": 3179,
+      "mid": 4193,
+      "senior": 5044
+    },
+    "surplus": {
+      "junior": 526,
+      "mid": 1540,
+      "senior": 2391
+    },
+    "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. No payroll health premium, so health is 0. Net is annual net divided by 12; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Yes, English is the working language.",
+    "notes": [
+      "Shared room: double room in a house, city centre, 1,002 EUR a month (Daft Q1 2026). Daft 1-bed apartment average is 2,012 EUR.",
+      "Salaries are quoted on 12 payments; there is no 13th month. Bonuses are common at multinationals (10 to 20% of base is a typical blog figure, an estimate).",
+      "You need a PPS number to register with Revenue when you start work; EU citizens need no visa or work permit.",
+      "Employee PRSI rose to 4.35% on 2026-10-01.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "Morgan McKinley pay guide, Dublin",
+        "url": "https://www.morganmckinley.com/ie/salary-guide/data/software-engineer/dublin"
+      },
+      {
+        "label": "Indeed senior pay, Dublin",
+        "url": "https://ie.indeed.com/career/senior-software-engineer/salaries/Dublin"
+      },
+      {
+        "label": "Payscale Dublin",
+        "url": "https://www.payscale.com/research/IE/Job=Software_Engineer/Salary/1f999540/Dublin"
+      },
+      {
+        "label": "Levels.fyi Ireland",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/ireland"
+      },
+      {
+        "label": "Numbeo cost of living, Dublin",
+        "url": "https://www.numbeo.com/cost-of-living/in/Dublin"
+      },
+      {
+        "label": "Daft.ie rental report Q1 2026 (PDF)",
+        "url": "https://www.rte.ie/documents/news/2026/05/daft.ie-rental-report-2026q1.pdf"
+      },
+      {
+        "label": "Daft Q2 2026 coverage (RTE)",
+        "url": "https://www.rte.ie/news/business/2026/0824/1588947-daft-report/"
+      },
+      {
+        "label": "Leap fares, Dublin",
+        "url": "https://about.leapcard.ie/dublin"
+      },
+      {
+        "label": "USC rates 2026 (Citizens Information)",
+        "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/universal-social-charge/"
+      },
+      {
+        "label": "PRSI 4.35% from October 2026 (Citizens Information)",
+        "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/paying-social-insurance/"
+      }
+    ]
+  },
+  {
+    "city": "Cork",
+    "country": "IE",
+    "rent_outside": 1500,
+    "rent_centre": 1780,
+    "room_shared": 757,
+    "everyday": 569,
+    "everyday_parts": {
+      "groceries": 205,
+      "utilities": 152,
+      "internet_phone": 64,
+      "going_out": 148,
+      "other": 0
+    },
+    "commute": 75,
+    "commute_note": "Leap city bus fare 1.70 EUR x 44 trips a month = 74.80 (weekly cap 20.40 not reached)",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 38000,
+      "mid": 55000,
+      "senior": 70000
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.1,
+      "senior": 0.12
+    },
+    "net": {
+      "junior": 2788,
+      "mid": 3760,
+      "senior": 4511
+    },
+    "surplus": {
+      "junior": 644,
+      "mid": 1616,
+      "senior": 2367
+    },
+    "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. No payroll health premium, so health is 0. Net is annual net divided by 12; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Yes, English is the working language.",
+    "notes": [
+      "Numbeo blocked for Cork: rent, everyday costs and the 55k mid salary are estimates. Shared room: double room in a house, Cork City, 757 EUR (Daft Q1 2026).",
+      "Salaries are quoted on 12 payments; there is no 13th month. Bonuses are common at multinationals (10 to 20% of base is a typical blog figure, an estimate).",
+      "You need a PPS number to register with Revenue when you start work; EU citizens need no visa or work permit.",
+      "Employee PRSI rose to 4.35% on 2026-10-01.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "Morgan McKinley pay guide, Cork",
+        "url": "https://www.morganmckinley.com/ie/salary-guide/data/software-engineer/cork"
+      },
+      {
+        "label": "Indeed senior pay, Cork",
+        "url": "https://ie.indeed.com/career/senior-software-engineer/salaries/Cork"
+      },
+      {
+        "label": "Payscale Cork",
+        "url": "https://www.payscale.com/research/IE/Job=Software_Engineer/Salary/105000cb/Cork"
+      },
+      {
+        "label": "Levels.fyi Ireland",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/ireland"
+      },
+      {
+        "label": "Daft.ie rental report Q1 2026 (PDF)",
+        "url": "https://www.rte.ie/documents/news/2026/05/daft.ie-rental-report-2026q1.pdf"
+      },
+      {
+        "label": "Daft Q2 2026 coverage (RTE)",
+        "url": "https://www.rte.ie/news/business/2026/0824/1588947-daft-report/"
+      },
+      {
+        "label": "Leap fares, Cork",
+        "url": "https://about.leapcard.ie/cork"
+      },
+      {
+        "label": "USC rates 2026 (Citizens Information)",
+        "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/universal-social-charge/"
+      },
+      {
+        "label": "PRSI 4.35% from October 2026 (Citizens Information)",
+        "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/paying-social-insurance/"
+      }
+    ]
+  },
+  {
+    "city": "Galway",
+    "country": "IE",
+    "rent_outside": 1450,
+    "rent_centre": 1730,
+    "room_shared": 773,
+    "everyday": 565,
+    "everyday_parts": {
+      "groceries": 203,
+      "utilities": 152,
+      "internet_phone": 64,
+      "going_out": 146,
+      "other": 0
+    },
+    "commute": 59,
+    "commute_note": "Leap city bus fare 1.35 EUR (0 to 11 stages) x 44 trips a month = 59.40",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 36000,
+      "mid": 50000,
+      "senior": 62000
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.1,
+      "senior": 0.12
+    },
+    "net": {
+      "junior": 2661,
+      "mid": 3519,
+      "senior": 4152
+    },
+    "surplus": {
+      "junior": 587,
+      "mid": 1445,
+      "senior": 2078
+    },
+    "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. No payroll health premium, so health is 0. Net is annual net divided by 12; gross_yearly is base pay before bonus, net includes the bonus.",
+    "language": "Yes, English is the working language.",
+    "notes": [
+      "Numbeo blocked for Galway: rent, everyday costs and the 50k mid salary are estimates. Shared room: double room in a house, Galway City, 773 EUR (Daft Q1 2026).",
+      "Salaries are quoted on 12 payments; there is no 13th month. Bonuses are common at multinationals (10 to 20% of base is a typical blog figure, an estimate).",
+      "You need a PPS number to register with Revenue when you start work; EU citizens need no visa or work permit.",
+      "Employee PRSI rose to 4.35% on 2026-10-01.",
+      "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
+    ],
+    "sources": [
+      {
+        "label": "Morgan McKinley pay guide, Galway",
+        "url": "https://www.morganmckinley.com/ie/salary-guide/data/software-engineer/galway"
+      },
+      {
+        "label": "Indeed senior pay, Galway",
+        "url": "https://ie.indeed.com/career/senior-software-engineer/salaries/Galway"
+      },
+      {
+        "label": "Payscale Galway",
+        "url": "https://www.payscale.com/research/IE/Job=Software_Engineer/Salary/cf7abb65/Galway"
+      },
+      {
+        "label": "Levels.fyi Ireland",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/ireland"
+      },
+      {
+        "label": "Daft.ie rental report Q1 2026 (PDF)",
+        "url": "https://www.rte.ie/documents/news/2026/05/daft.ie-rental-report-2026q1.pdf"
+      },
+      {
+        "label": "Daft Q2 2026 coverage (RTE)",
+        "url": "https://www.rte.ie/news/business/2026/0824/1588947-daft-report/"
+      },
+      {
+        "label": "Leap fares, Galway",
+        "url": "https://about.leapcard.ie/about/fares-discounts"
+      },
+      {
+        "label": "USC rates 2026 (Citizens Information)",
+        "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/universal-social-charge/"
+      },
+      {
+        "label": "PRSI 4.35% from October 2026 (Citizens Information)",
+        "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/paying-social-insurance/"
+      }
+    ]
+  }
+]

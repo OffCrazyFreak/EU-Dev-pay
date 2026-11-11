@@ -1,0 +1,1026 @@
+[
+  {
+    "city": "Madrid",
+    "country": "ES",
+    "rent_outside": 1066,
+    "rent_centre": 1338,
+    "room_shared": 690,
+    "everyday": 454,
+    "everyday_parts": {
+      "groceries": 190,
+      "utilities": 101,
+      "internet_phone": 47,
+      "going_out": 116,
+      "other": 0
+    },
+    "commute": 38.2,
+    "commute_note": "CRTM 30-day pass, zone B1 (Madrid plus adjacent municipalities) 38.20 EUR with the 40% rebate; rebate is guaranteed only to 2026-12-31, undiscounted B1 is about 63.70 EUR (search snippet only). Under 26 the Abono Joven is 10 EUR.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 26780,
+      "mid": 42800,
+      "senior": 52800
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.07,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 1751,
+      "mid": 2609,
+      "senior": 3100
+    },
+    "surplus": {
+      "junior": 193,
+      "mid": 1051,
+      "senior": 1542
+    },
+    "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a Croatian citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
+    "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 40000, mid 26000, senior 48000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Idealista first-page 1-bed median 1,500 EUR (n=9) is higher.",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "Salary sources quote total yearly gross. Pay is usually split in 14 payments (12 plus July and December) in the consulting and IT agreement, and many firms prorate it over 12; yearly net is the same."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Madrid"
+      },
+      {
+        "label": "Idealista Madrid listings, archive 2026-10-15",
+        "url": "https://web.archive.org/web/20261015124456/https://www.idealista.com/alquiler-viviendas/madrid-madrid/"
+      },
+      {
+        "label": "Idealista Madrid rooms, archive 2026-10-28",
+        "url": "https://web.archive.org/web/20261028120309/https://www.idealista.com/alquiler-habitacion/madrid-madrid/"
+      },
+      {
+        "label": "Tecnoempleo salary calculator",
+        "url": "https://www.tecnoempleo.com/tecnocalculadora.php"
+      },
+      {
+        "label": "Tecnoempleo senior Java ads",
+        "url": "https://www.tecnoempleo.com/ofertas-trabajo/?te=java&ex=7"
+      },
+      {
+        "label": "SeniorStack salaries by city",
+        "url": "https://seniorstack.es/cuanto-gana-un-programador-en-espana/"
+      },
+      {
+        "label": "Madrid transport pass prices 2026",
+        "url": "https://www.madridactiva.es/blog/precio-abono-transporte-madrid/"
+      },
+      {
+        "label": "Spain consulting and IT agreement, 14 payments",
+        "url": "https://calculadornomina.es/convenios/it-telecomunicaciones/"
+      }
+    ]
+  },
+  {
+    "city": "Barcelona",
+    "country": "ES",
+    "rent_outside": 1139,
+    "rent_centre": 1491,
+    "room_shared": 695,
+    "everyday": 454,
+    "everyday_parts": {
+      "groceries": 199,
+      "utilities": 97,
+      "internet_phone": 42,
+      "going_out": 116,
+      "other": 0
+    },
+    "commute": 30.6,
+    "commute_note": "T-usual 30-day pass, 2 zones, 30.55 EUR since 2026-01-15 (1 zone 22.80 EUR). The 50% subsidy is reported to continue through 2026 only if state funding is approved.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 26780,
+      "mid": 41730,
+      "senior": 51700
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.07,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 1751,
+      "mid": 2556,
+      "senior": 3046
+    },
+    "surplus": {
+      "junior": 127,
+      "mid": 932,
+      "senior": 1422
+    },
+    "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a Croatian citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
+    "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 39000, mid 26000, senior 47000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Idealista 1-bed median 1,350 EUR (n=9, copy from 2025-12-28, stale).",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "Salary sources quote total yearly gross. Pay is usually split in 14 payments (12 plus July and December) in the consulting and IT agreement, and many firms prorate it over 12; yearly net is the same."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Barcelona"
+      },
+      {
+        "label": "Idealista Barcelona listings, archive 2025-12-28",
+        "url": "https://web.archive.org/web/20251228162932/https://www.idealista.com/alquiler-viviendas/barcelona-barcelona/"
+      },
+      {
+        "label": "Idealista Barcelona rooms, archive 2026-01-09",
+        "url": "https://web.archive.org/web/20260109111457/https://www.idealista.com/alquiler-habitacion/barcelona-barcelona/"
+      },
+      {
+        "label": "Tecnoempleo fullstack ads",
+        "url": "https://www.tecnoempleo.com/ofertas-trabajo/?te=fullstack&ex=7"
+      },
+      {
+        "label": "Indeed Barcelona salaries",
+        "url": "https://es.indeed.com/career/desarrollador-full-stack/salaries/Barcelona"
+      },
+      {
+        "label": "SeniorStack salaries by city",
+        "url": "https://seniorstack.es/cuanto-gana-un-programador-en-espana/"
+      },
+      {
+        "label": "TMB fares 2026",
+        "url": "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares"
+      }
+    ]
+  },
+  {
+    "city": "Valencia",
+    "country": "ES",
+    "rent_outside": 946,
+    "rent_centre": 1271,
+    "room_shared": 590,
+    "everyday": 398,
+    "everyday_parts": {
+      "groceries": 155,
+      "utilities": 83,
+      "internet_phone": 45,
+      "going_out": 115,
+      "other": 0
+    },
+    "commute": 31.8,
+    "commute_note": "SUMA Mensual 2 zones (AB+) 31.80 EUR with a temporary 40% discount reported to run to 2026-12-31; base price 53.00 EUR (official fare table, archive of 2025-10-12). The discounted price is from a search snippet only.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 23690,
+      "mid": 37450,
+      "senior": 46200
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.07,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 1583,
+      "mid": 2333,
+      "senior": 2776
+    },
+    "surplus": {
+      "junior": 207,
+      "mid": 957,
+      "senior": 1400
+    },
+    "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a Croatian citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
+    "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 35000, mid 23000, senior 42000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Idealista 1-bed median 1,450 EUR (n=6, centre-skewed).",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "Salary sources quote total yearly gross. Pay is usually split in 14 payments (12 plus July and December) in the consulting and IT agreement, and many firms prorate it over 12; yearly net is the same."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Valencia"
+      },
+      {
+        "label": "Idealista Valencia listings, archive 2026-10-01",
+        "url": "https://web.archive.org/web/20261001155107/https://www.idealista.com/alquiler-viviendas/valencia-valencia/"
+      },
+      {
+        "label": "Idealista Valencia rooms, archive 2026-01-11",
+        "url": "https://web.archive.org/web/20260111001317/https://www.idealista.com/alquiler-habitacion/valencia-valencia/"
+      },
+      {
+        "label": "Tecnoempleo salary calculator",
+        "url": "https://www.tecnoempleo.com/tecnocalculadora.php"
+      },
+      {
+        "label": "Indeed Valencia salaries",
+        "url": "https://es.indeed.com/career/desarrollador-full-stack/salaries/Valencia"
+      },
+      {
+        "label": "SeniorStack salaries by city",
+        "url": "https://seniorstack.es/cuanto-gana-un-programador-en-espana/"
+      },
+      {
+        "label": "Metrovalencia fares, archive 2025-10-12",
+        "url": "https://web.archive.org/web/2026/https://www.metrovalencia.es/es/nuestras-tarifas/"
+      }
+    ]
+  },
+  {
+    "city": "Lisbon",
+    "country": "PT",
+    "rent_outside": 1072,
+    "rent_centre": 1446,
+    "room_shared": null,
+    "everyday": 406,
+    "everyday_parts": {
+      "groceries": 167,
+      "utilities": 86,
+      "internet_phone": 47,
+      "going_out": 106,
+      "other": 0
+    },
+    "commute": 40,
+    "commute_note": "Navegante Metropolitano 40 EUR for the whole Lisbon area (Municipal pass 30 EUR for one municipality); price frozen for 2026.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 21630,
+      "mid": 42400,
+      "senior": 56160
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 1381,
+      "mid": 2398,
+      "senior": 3011
+    },
+    "surplus": {
+      "junior": -137,
+      "mid": 880,
+      "senior": 1493
+    },
+    "tax_regime_note": "IRS Jovem (age 35 or under): 100% of income exempt in year 1, 75% in years 2 to 4, 50% in years 5 to 7, 25% in years 8 to 10, capped at 29,542 EUR; whether your Croatian freelance years count against the 10 years is not confirmed. IFICI (NHR successor, 20% flat) needs a qualifying employer such as a Portuguese software company with an employment contract; it only beats normal tax from about 40,000 EUR gross. Net shown uses normal tax with no personal deductions, so it is a floor.",
+    "language": "Yes for Lisbon and Porto tech firms and startups, English is the working language in most product teams; Portuguese helps for local consultancies.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 40000, mid 21000, senior 52000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Imovirtual T1 median 1,150 EUR (n=5).",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "Yearly gross is the total; Portugal pays 14 salary payments a year, so a 40,000 EUR gross is 14 payments of about 2,857 EUR."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Lisbon"
+      },
+      {
+        "label": "Imovirtual Lisbon T1 listings, archive 2026-10-21",
+        "url": "https://web.archive.org/web/20261021193343/https://www.imovirtual.com/pt/resultados/arrendar/apartamento/lisboa"
+      },
+      {
+        "label": "Next Level Jobs Portugal salaries",
+        "url": "https://nextleveljobs.eu/blog/software-engineer-salary/portugal"
+      },
+      {
+        "label": "Pebl with Michael Page 2026 salary study",
+        "url": "https://hellopebl.com/resources/blog/average-salary-portugal/"
+      },
+      {
+        "label": "ITjobs senior engineer ads",
+        "url": "https://www.itjobs.pt/emprego?q=senior+software+engineer&l=Lisboa"
+      },
+      {
+        "label": "Navegante pass prices, Metro de Lisboa",
+        "url": "https://www.metrolisboa.pt/comprar/"
+      },
+      {
+        "label": "Portugal IRS Jovem and IFICI, PwC",
+        "url": "https://taxsummaries.pwc.com/portugal/individual/other-tax-credits-and-incentives"
+      }
+    ]
+  },
+  {
+    "city": "Porto",
+    "country": "PT",
+    "rent_outside": 852,
+    "rent_centre": 1153,
+    "room_shared": null,
+    "everyday": 383,
+    "everyday_parts": {
+      "groceries": 159,
+      "utilities": 87,
+      "internet_phone": 46,
+      "going_out": 91,
+      "other": 0
+    },
+    "commute": 40,
+    "commute_note": "Andante Metropolitano about 40 EUR (Municipal about 30 EUR); inferred from Andante household bundles of 60 and 80 EUR and press reports, no price line on the official page.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 19570,
+      "mid": 37100,
+      "senior": 49680
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.06,
+      "senior": 0.08
+    },
+    "net": {
+      "junior": 1264,
+      "mid": 2153,
+      "senior": 2742
+    },
+    "surplus": {
+      "junior": -11,
+      "mid": 878,
+      "senior": 1467
+    },
+    "tax_regime_note": "IRS Jovem (age 35 or under): 100% of income exempt in year 1, 75% in years 2 to 4, 50% in years 5 to 7, 25% in years 8 to 10, capped at 29,542 EUR; whether your Croatian freelance years count against the 10 years is not confirmed. IFICI (NHR successor, 20% flat) needs a qualifying employer such as a Portuguese software company with an employment contract; it only beats normal tax from about 40,000 EUR gross. Net shown uses normal tax with no personal deductions, so it is a floor.",
+    "language": "Yes for Lisbon and Porto tech firms and startups, English is the working language in most product teams; Portuguese helps for local consultancies.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 35000, mid 19000, senior 46000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Imovirtual T1 median 960 EUR (n=9).",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "Yearly gross is the total; Portugal pays 14 salary payments a year, so a 40,000 EUR gross is 14 payments of about 2,857 EUR."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Porto"
+      },
+      {
+        "label": "Imovirtual Porto T1 listings, archive 2026-09-27",
+        "url": "https://web.archive.org/web/20260927234045/https://www.imovirtual.com/pt/resultados/arrendar/apartamento/porto"
+      },
+      {
+        "label": "Next Level Jobs Portugal salaries",
+        "url": "https://nextleveljobs.eu/blog/software-engineer-salary/portugal"
+      },
+      {
+        "label": "Pebl with Michael Page 2026 salary study",
+        "url": "https://hellopebl.com/resources/blog/average-salary-portugal/"
+      },
+      {
+        "label": "Payscale junior software engineer Portugal",
+        "url": "https://www.payscale.com/research/PT/Job=Junior_Software_Engineer/Salary/c2143b5b/Entry-Level-Lisbon"
+      },
+      {
+        "label": "Andante tickets and passes",
+        "url": "https://andante.pt/comprar-a/"
+      },
+      {
+        "label": "Portugal IRS Jovem and IFICI, PwC",
+        "url": "https://taxsummaries.pwc.com/portugal/individual/other-tax-credits-and-incentives"
+      }
+    ]
+  },
+  {
+    "city": "Milan",
+    "country": "IT",
+    "rent_outside": 1038,
+    "rent_centre": 1527,
+    "room_shared": null,
+    "everyday": 565,
+    "everyday_parts": {
+      "groceries": 252,
+      "utilities": 135,
+      "internet_phone": 35,
+      "going_out": 143,
+      "other": 0
+    },
+    "commute": 50,
+    "commute_note": "ATM monthly pass Mi1-Mi3 (Milan plus 21 neighbouring municipalities) 50 EUR; Milan-only urban pass is 39 EUR; under 27 it is 22 EUR.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 29580,
+      "mid": 44100,
+      "senior": 55640
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.05,
+      "senior": 0.07
+    },
+    "net": {
+      "junior": 1924,
+      "mid": 2457,
+      "senior": 2944
+    },
+    "surplus": {
+      "junior": 271,
+      "mid": 804,
+      "senior": 1291
+    },
+    "tax_regime_note": "Impatriate regime (Agenzia delle Entrate): only 50% of employment income is taxed for 5 years if you were not Italian tax resident in the previous 3 years, commit to 4 years of residence, work mainly in Italy and hold a qualification; an MSc should qualify but this is not confirmed. With it, monthly net would be much higher (Milan mid about 3,168 vs 2,388, before bonus). Net shown is without the regime. Regional and municipal surtax is an estimate.",
+    "language": "In Milan multinationals and product firms English is usually enough, but most Italian employers, especially outside Milan, expect Italian.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 42000, mid 29000, senior 52000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Immobiliare.it average 22.32 EUR per m2 (zones 15.76 to 31.11).",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "RAL (yearly gross) already includes the 13th month and any 14th month (Commercio contract 14, Metalmeccanico 13), so extra months are not added on top.",
+      "Net is shown as yearly net divided by 12.",
+      "Milan and Turin local rent figures are per square meter, so a one-bedroom of about 45 m2 would be roughly 1,400 EUR in central Milan and 750 EUR in central Turin."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Milan"
+      },
+      {
+        "label": "Immobiliare.it Milan rents, archive 2026-10-25",
+        "url": "https://web.archive.org/web/20261025124315/https://www.immobiliare.it/mercato-immobiliare/lombardia/milano/"
+      },
+      {
+        "label": "Jobra developer salaries Italy",
+        "url": "https://jobra.it/stipendi/sviluppatore"
+      },
+      {
+        "label": "Codegrind developer salaries by city",
+        "url": "https://codegrind.it/blog/stipendio-sviluppatore-italia-2026"
+      },
+      {
+        "label": "Indeed Milan salaries",
+        "url": "https://it.indeed.com/career/sviluppatore-software/salaries/Milano"
+      },
+      {
+        "label": "ATM Milan fares",
+        "url": "https://www.atm.it/it/ViaggiaConNoi/Documents/TARIFFE%20ATM.pdf"
+      },
+      {
+        "label": "Italian impatriate regime, Agenzia delle Entrate",
+        "url": "https://www.agenziaentrate.gov.it/portale/lavoratori-impatriati-209-2023/infogen-lavoratori-impatriati-209-2023-cittadini"
+      },
+      {
+        "label": "13th and 14th month in tech contracts",
+        "url": "https://techcompenso.com/blog/tredicesima-e-quattordicesima-nel-tech-limpatto-delle-mensilit-sul-netto-mensile"
+      }
+    ]
+  },
+  {
+    "city": "Turin",
+    "country": "IT",
+    "rent_outside": 510,
+    "rent_centre": 771,
+    "room_shared": null,
+    "everyday": 492,
+    "everyday_parts": {
+      "groceries": 207,
+      "utilities": 127,
+      "internet_phone": 35,
+      "going_out": 123,
+      "other": 0
+    },
+    "commute": 69.5,
+    "commute_note": "GTT Formula 3 monthly (urban plus suburban network) 69.50 EUR; Turin-only urban pass 38 EUR; under 26 it is 25 EUR.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 26520,
+      "mid": 38850,
+      "senior": 47080
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.05,
+      "senior": 0.07
+    },
+    "net": {
+      "junior": 1746,
+      "mid": 2254,
+      "senior": 2546
+    },
+    "surplus": {
+      "junior": 674,
+      "mid": 1182,
+      "senior": 1474
+    },
+    "tax_regime_note": "Impatriate regime (Agenzia delle Entrate): only 50% of employment income is taxed for 5 years if you were not Italian tax resident in the previous 3 years, commit to 4 years of residence, work mainly in Italy and hold a qualification; an MSc should qualify but this is not confirmed. With it, monthly net would be much higher (Milan mid about 3,168 vs 2,388, before bonus). Net shown is without the regime. Regional and municipal surtax is an estimate.",
+    "language": "In Milan multinationals and product firms English is usually enough, but most Italian employers, especially outside Milan, expect Italian.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 37000, mid 26000, senior 44000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Immobiliare.it average 12.99 EUR per m2 (zones 8.59 to 16.69).",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "RAL (yearly gross) already includes the 13th month and any 14th month (Commercio contract 14, Metalmeccanico 13), so extra months are not added on top.",
+      "Net is shown as yearly net divided by 12.",
+      "Milan and Turin local rent figures are per square meter, so a one-bedroom of about 45 m2 would be roughly 1,400 EUR in central Milan and 750 EUR in central Turin."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Turin"
+      },
+      {
+        "label": "Immobiliare.it Turin rents, archive 2026-10-11",
+        "url": "https://web.archive.org/web/20261011141116/https://www.immobiliare.it/mercato-immobiliare/piemonte/torino/"
+      },
+      {
+        "label": "Jobra developer salaries Italy",
+        "url": "https://jobra.it/stipendi/sviluppatore"
+      },
+      {
+        "label": "Codegrind developer salaries by city",
+        "url": "https://codegrind.it/blog/stipendio-sviluppatore-italia-2026"
+      },
+      {
+        "label": "Indeed Turin salaries",
+        "url": "https://it.indeed.com/career/sviluppatore-software/salaries/Torino"
+      },
+      {
+        "label": "GTT monthly passes",
+        "url": "https://www.gtt.to.it/cms/biglietti-abbonamenti/272-abbonamenti-intera-rete"
+      },
+      {
+        "label": "Italian impatriate regime, Agenzia delle Entrate",
+        "url": "https://www.agenziaentrate.gov.it/portale/lavoratori-impatriati-209-2023/infogen-lavoratori-impatriati-209-2023-cittadini"
+      }
+    ]
+  },
+  {
+    "city": "Prague",
+    "country": "CZ",
+    "rent_outside": 859,
+    "rent_centre": 998,
+    "room_shared": null,
+    "everyday": 450,
+    "everyday_parts": {
+      "groceries": 166,
+      "utilities": 152,
+      "internet_phone": 40,
+      "going_out": 92,
+      "other": 0
+    },
+    "commute": 22.6,
+    "commute_note": "PID 30-day pass for zones P, 0 and B (Prague plus adjacent zone) 550 CZK, tariff valid from 2026-01-01.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 25351,
+      "mid": 43933,
+      "senior": 67832
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.05,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 1656,
+      "mid": 2793,
+      "senior": 4254
+    },
+    "surplus": {
+      "junior": 324,
+      "mid": 1461,
+      "senior": 2922
+    },
+    "tax_regime_note": "No special expat regime applies. Normal tax is 15% (23% above 1,762,812 CZK a year) minus the basic taxpayer credit of 2,570 CZK a month; the model reproduces the Sit prace net calculator.",
+    "language": "Yes, English is the working language at many Prague and Brno software firms, and Czech is only needed for some local employers.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 41841, mid 24612, senior 63992 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Bezrealitky 1+kk median 19,875 CZK plus about 3,000 CZK fees (n=10), about 938 EUR.",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "No statutory 13th salary; performance bonuses are common but not guaranteed."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Prague"
+      },
+      {
+        "label": "Bezrealitky Prague 1+kk and 1+1 rents",
+        "url": "https://www.bezrealitky.cz/vyhledat?offerType=PRONAJEM&estateType=BYT&regionOsmIds=R435514&osm_value=Praha&disposition=DISP_1_KK&disposition=DISP_1_1&currency=CZK"
+      },
+      {
+        "label": "Sit prace programmer pay and net calculator",
+        "url": "https://sitprace.cz/pruvodce/prumerny-plat-programatora"
+      },
+      {
+        "label": "GigaPrace Prague programmer pay",
+        "url": "https://www.gigaprace.cz/platy/programator/praha"
+      },
+      {
+        "label": "Jobs.cz senior ad with pay",
+        "url": "https://www.jobs.cz/prace/praha/?q%5B%5D=senior%20java%20developer"
+      },
+      {
+        "label": "Indeed Prague salaries",
+        "url": "https://cz.indeed.com/career/program%C3%A1tor/salaries/Praha"
+      },
+      {
+        "label": "PID tariff 2026",
+        "url": "https://pid.cz/wp-content/uploads/system/tarif_spp_historie/Tarif_PID_2026-01-01_komplet.pdf"
+      },
+      {
+        "label": "Czech income tax rules, PwC",
+        "url": "https://taxsummaries.pwc.com/czech-republic/individual/taxes-on-personal-income"
+      }
+    ]
+  },
+  {
+    "city": "Brno",
+    "country": "CZ",
+    "rent_outside": 714,
+    "rent_centre": 875,
+    "room_shared": null,
+    "everyday": 445,
+    "everyday_parts": {
+      "groceries": 166,
+      "utilities": 159,
+      "internet_phone": 37,
+      "going_out": 83,
+      "other": 0
+    },
+    "commute": 36.1,
+    "commute_note": "Named monthly pass for zones 100+101+1 zone (Brno plus one outer zone) 880 CZK; Brno city only (100+101) is 550 CZK.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 23323,
+      "mid": 41349,
+      "senior": 62614
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.05,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 1532,
+      "mid": 2635,
+      "senior": 3935
+    },
+    "surplus": {
+      "junior": 337,
+      "mid": 1440,
+      "senior": 2740
+    },
+    "tax_regime_note": "No special expat regime applies. Normal tax is 15% (23% above 1,762,812 CZK a year) minus the basic taxpayer credit of 2,570 CZK a month; the model reproduces the Sit prace net calculator.",
+    "language": "Yes, English is the working language at many Prague and Brno software firms, and Czech is only needed for some local employers.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 39380, mid 22643, senior 59070 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; no local rental page opened for Brno.",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "No statutory 13th salary; performance bonuses are common but not guaranteed."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Brno"
+      },
+      {
+        "label": "Sit prace programmer pay and net calculator",
+        "url": "https://sitprace.cz/pruvodce/prumerny-plat-programatora"
+      },
+      {
+        "label": "GigaPrace Brno programmer pay",
+        "url": "https://www.gigaprace.cz/platy/programator/brno"
+      },
+      {
+        "label": "Indeed Brno salaries",
+        "url": "https://cz.indeed.com/career/program%C3%A1tor/salaries/Brno"
+      },
+      {
+        "label": "Brno DPMB travel card prices",
+        "url": "https://www.dpmb.cz/en/travel-card"
+      },
+      {
+        "label": "Czech income tax rules, PwC",
+        "url": "https://taxsummaries.pwc.com/czech-republic/individual/taxes-on-personal-income"
+      }
+    ]
+  },
+  {
+    "city": "Warsaw",
+    "country": "PL",
+    "rent_outside": 833,
+    "rent_centre": 1062,
+    "room_shared": null,
+    "everyday": 458,
+    "everyday_parts": {
+      "groceries": 153,
+      "utilities": 183,
+      "internet_phone": 23,
+      "going_out": 99,
+      "other": 0
+    },
+    "commute": 40.9,
+    "commute_note": "ZTM 30-day pass zones 1+2 about 180 PLN (search snippet only); zone 1 (the city) is 110 PLN (unofficial site).",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 21254,
+      "mid": 47209,
+      "senior": 68518
+    },
+    "bonus_rate": {
+      "junior": 0,
+      "mid": 0.05,
+      "senior": 0.07
+    },
+    "net": {
+      "junior": 1282,
+      "mid": 2543,
+      "senior": 3471
+    },
+    "surplus": {
+      "junior": -50,
+      "mid": 1211,
+      "senior": 2139
+    },
+    "tax_regime_note": "Polish PIT relief for people under 26 may apply to a Croatian employee on an employment contract (not confirmed on a page I opened, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
+    "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 44961, mid 21254, senior 64036 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Otodom 2-room median 3,600 PLN plus 825 PLN fees, about 1,005 EUR (small sample).",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "No statutory 13th pay in private firms (only 8.5% in the budget sector); a yearly bonus is optional.",
+      "B2B alternative (invoice excluding VAT, 19% flat tax, 4.9% health, full ZUS about 1,930 PLN plus 300 PLN accounting, all estimates): mid 21,000 PLN a month gives about 3501 EUR net per month with reduced start-up ZUS; senior 27,500 PLN gives about 4367 EUR with full ZUS. Juniors are mostly on UoP. B2B has no paid leave or sick pay.",
+      "Senior UoP net accounts for the 282,600 PLN yearly cap on pension and disability contributions."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Warsaw"
+      },
+      {
+        "label": "Otodom Warsaw rents, archive 2026-09-03",
+        "url": "https://web.archive.org/web/20260903201208/https://www.otodom.pl/pl/wyniki/wynajem/mieszkanie/mazowieckie/warszawa/warszawa/warszawa"
+      },
+      {
+        "label": "No Fluff Jobs IT career report H1 2026",
+        "url": "https://wp-insights.s3.eu-central-1.amazonaws.com/wp-content/uploads/2026/07/15105201/IT-Career-in-Poland-2026.pdf"
+      },
+      {
+        "label": "Just Join IT salary report 2026",
+        "url": "https://justjoin.it/raport-wynagrodzen/statystyki-kategorii"
+      },
+      {
+        "label": "Indeed Warsaw salaries",
+        "url": "https://pl.indeed.com/career/programista/salaries/Warszawa"
+      },
+      {
+        "label": "Warsaw Metro card and fares",
+        "url": "https://warsawmetro.org/en/travel-card/"
+      },
+      {
+        "label": "Polish income tax and social insurance, PwC",
+        "url": "https://taxsummaries.pwc.com/poland/individual/taxes-on-personal-income"
+      }
+    ]
+  },
+  {
+    "city": "Krakow",
+    "country": "PL",
+    "rent_outside": 628,
+    "rent_centre": 786,
+    "room_shared": null,
+    "everyday": 449,
+    "everyday_parts": {
+      "groceries": 147,
+      "utilities": 185,
+      "internet_phone": 24,
+      "going_out": 93,
+      "other": 0
+    },
+    "commute": 46.3,
+    "commute_note": "Metropolitan monthly named pass zones I+II 204 PLN from the tariff valid 2026-03-02; the city-only resident pass is 99 PLN.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 20437,
+      "mid": 45779,
+      "senior": 67060
+    },
+    "bonus_rate": {
+      "junior": 0,
+      "mid": 0.05,
+      "senior": 0.07
+    },
+    "net": {
+      "junior": 1236,
+      "mid": 2483,
+      "senior": 3402
+    },
+    "surplus": {
+      "junior": 113,
+      "mid": 1360,
+      "senior": 2279
+    },
+    "tax_regime_note": "Polish PIT relief for people under 26 may apply to a Croatian employee on an employment contract (not confirmed on a page I opened, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
+    "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 43599, mid 20437, senior 62673 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Numbeo has no usable Krakow page: rent_centre is the Otodom 2-room median (2,800 PLN plus 660 PLN fees); rent_outside and everyday are estimates from Wroclaw ratios and a Warsaw/Wroclaw average.",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "No statutory 13th pay in private firms (only 8.5% in the budget sector); a yearly bonus is optional.",
+      "B2B alternative (invoice excluding VAT, 19% flat tax, 4.9% health, full ZUS about 1,930 PLN plus 300 PLN accounting, all estimates): mid 20,500 PLN a month gives about 3415 EUR net per month with reduced start-up ZUS; senior 27,000 PLN gives about 4280 EUR with full ZUS. Juniors are mostly on UoP. B2B has no paid leave or sick pay.",
+      "Senior UoP net accounts for the 282,600 PLN yearly cap on pension and disability contributions.",
+      "Everyday costs for Krakow average Warsaw and Wroclaw because no Krakow cost page could be opened."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy (Warsaw and Wroclaw averaged for Krakow)",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Warsaw"
+      },
+      {
+        "label": "Otodom Krakow rents, archive 2026-10-11",
+        "url": "https://web.archive.org/web/20261011090630/https://www.otodom.pl/pl/wyniki/wynajem/mieszkanie/malopolskie/krakow/krakow/krakow"
+      },
+      {
+        "label": "No Fluff Jobs IT career report H1 2026",
+        "url": "https://wp-insights.s3.eu-central-1.amazonaws.com/wp-content/uploads/2026/07/15105201/IT-Career-in-Poland-2026.pdf"
+      },
+      {
+        "label": "Just Join IT salary report 2026",
+        "url": "https://justjoin.it/raport-wynagrodzen/statystyki-kategorii"
+      },
+      {
+        "label": "Indeed Krakow salaries",
+        "url": "https://pl.indeed.com/career/programista/salaries/Krak%C3%B3w"
+      },
+      {
+        "label": "Krakow MPK fare tariff from 2026-03-02",
+        "url": "https://mpk.krakow.pl/media/pdf/9045.pdf"
+      },
+      {
+        "label": "Polish income tax and social insurance, PwC",
+        "url": "https://taxsummaries.pwc.com/poland/individual/taxes-on-personal-income"
+      }
+    ]
+  },
+  {
+    "city": "Wroclaw",
+    "country": "PL",
+    "rent_outside": 594,
+    "rent_centre": 744,
+    "room_shared": null,
+    "everyday": 441,
+    "everyday_parts": {
+      "groceries": 141,
+      "utilities": 188,
+      "internet_phone": 25,
+      "going_out": 87,
+      "other": 0
+    },
+    "commute": 25.0,
+    "commute_note": "MPK 30-day named pass, all lines 110 PLN (agglomeration pass 96 PLN).",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 19892,
+      "mid": 44348,
+      "senior": 65602
+    },
+    "bonus_rate": {
+      "junior": 0,
+      "mid": 0.05,
+      "senior": 0.07
+    },
+    "net": {
+      "junior": 1205,
+      "mid": 2422,
+      "senior": 3332
+    },
+    "surplus": {
+      "junior": 145,
+      "mid": 1362,
+      "senior": 2272
+    },
+    "tax_regime_note": "Polish PIT relief for people under 26 may apply to a Croatian employee on an employment contract (not confirmed on a page I opened, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
+    "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 42236, mid 19892, senior 61311 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; Otodom 2-room median 2,800 PLN plus 715 PLN fees, about 798 EUR.",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "No statutory 13th pay in private firms (only 8.5% in the budget sector); a yearly bonus is optional.",
+      "B2B alternative (invoice excluding VAT, 19% flat tax, 4.9% health, full ZUS about 1,930 PLN plus 300 PLN accounting, all estimates): mid 20,000 PLN a month gives about 3328 EUR net per month with reduced start-up ZUS; senior 26,500 PLN gives about 4194 EUR with full ZUS. Juniors are mostly on UoP. B2B has no paid leave or sick pay.",
+      "Senior UoP net accounts for the 282,600 PLN yearly cap on pension and disability contributions."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Wroclaw"
+      },
+      {
+        "label": "Otodom Wroclaw rents, archive 2026-10-11",
+        "url": "https://web.archive.org/web/20261011155037/https://www.otodom.pl/pl/wyniki/wynajem/mieszkanie/dolnoslaskie/wroclaw/wroclaw/wroclaw"
+      },
+      {
+        "label": "No Fluff Jobs IT career report H1 2026",
+        "url": "https://wp-insights.s3.eu-central-1.amazonaws.com/wp-content/uploads/2026/07/15105201/IT-Career-in-Poland-2026.pdf"
+      },
+      {
+        "label": "Just Join IT salary report 2026",
+        "url": "https://justjoin.it/raport-wynagrodzen/statystyki-kategorii"
+      },
+      {
+        "label": "Indeed Wroclaw salaries",
+        "url": "https://pl.indeed.com/career/programista/salaries/Wroc%C5%82aw"
+      },
+      {
+        "label": "MPK Wroclaw ticket prices",
+        "url": "https://www.wroclaw.pl/komunikacja/mpk-wroclaw-ceny-biletow"
+      },
+      {
+        "label": "Polish income tax and social insurance, PwC",
+        "url": "https://taxsummaries.pwc.com/poland/individual/taxes-on-personal-income"
+      }
+    ]
+  },
+  {
+    "city": "Ljubljana",
+    "country": "SI",
+    "rent_outside": 796,
+    "rent_centre": 982,
+    "room_shared": null,
+    "everyday": 501,
+    "everyday_parts": {
+      "groceries": 190,
+      "utilities": 153,
+      "internet_phone": 52,
+      "going_out": 106,
+      "other": 0
+    },
+    "commute": 54.6,
+    "commute_note": "LPP monthly pass for 2 zones 54.60 EUR (1 zone 37.00 EUR, 3 zones 70.00 EUR), price list valid from 2026-09-01. Employers must reimburse commuting, tax-free up to 0.21 EUR per km and 140 EUR a month; not applied here.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 32383,
+      "mid": 45583,
+      "senior": 58783
+    },
+    "bonus_rate": {
+      "junior": 0.0,
+      "mid": 0.0,
+      "senior": 0.0
+    },
+    "net": {
+      "junior": 1826,
+      "mid": 2452,
+      "senior": 3030
+    },
+    "surplus": {
+      "junior": 474,
+      "mid": 1100,
+      "senior": 1678
+    },
+    "tax_regime_note": "No special expat regime for a Croatian citizen. A tax relief for employees up to age 29 (1,443.50 EUR a year allowance) exists but is not included. Net includes the untaxed holiday allowance (regres) and meal allowance.",
+    "language": "Yes, English is widely used in Ljubljana tech firms; Slovene helps for local employers and daily admin.",
+    "notes": [
+      "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 42000, mid 28800, senior 55200 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
+      "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
+      "Rent from Numbeo archive; no local rental page could be opened for Ljubljana.",
+      "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+      "Net includes the untaxed holiday allowance (regres, at least 1,481.88 EUR a year in 2026) and a tax-free meal allowance of 7.96 EUR per working day (22 days assumed, about 175 EUR a month). Bonus is 0 because these replace it."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo cost of living, archived copy",
+        "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Ljubljana"
+      },
+      {
+        "label": "SURS pay by sector via javnipodatki.si, Aug 2026",
+        "url": "https://javnipodatki.si/place-po-dejavnostih"
+      },
+      {
+        "label": "Jobflick Slovenia software developer pay",
+        "url": "https://jobflick.com/en/salary/software-developer-in-slovenia"
+      },
+      {
+        "label": "Bettercareer.si IT ads with pay",
+        "url": "https://www.bettercareer.si/jobs"
+      },
+      {
+        "label": "Minimum holiday allowance 2026, Poslovni",
+        "url": "https://poslovni.si/novice/minimalni-regres-2026-rekordna-visina-neobdavceni-zneski-in-zakonski-roki-za-izplacilo"
+      },
+      {
+        "label": "Tax-free meal and commute amounts, Zveza RFR",
+        "url": "https://www.zvezarfr.si/pripomocki/uporabni-podatki/m-najvecji-zneski-povracil-stroskov"
+      },
+      {
+        "label": "LPP price list from 2026-09-01",
+        "url": "https://www.lpp.si/wp-content/uploads/2026/08/CENIK-VOZOVNIC-V-MESTNEM-IN-INTEGRIRANEM-POTNISKEM-PROMETU-1.-9.-2026_SLO.pdf"
+      },
+      {
+        "label": "Slovenian income tax and contributions, PwC",
+        "url": "https://taxsummaries.pwc.com/slovenia/individual/taxes-on-personal-income"
+      }
+    ]
+  }
+]

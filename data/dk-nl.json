@@ -1,0 +1,798 @@
+[
+  {
+    "city": "Copenhagen",
+    "country": "DK",
+    "rent_outside": 1416,
+    "rent_centre": 1863,
+    "room_shared": 803,
+    "everyday": 1108,
+    "everyday_parts": {
+      "groceries": 234,
+      "utilities": 162,
+      "internet_phone": 44,
+      "going_out": 110,
+      "other": 558
+    },
+    "commute": 95,
+    "commute_note": "DOT 30-day adult commuter card, 3 zones (city plus inner suburbs), DKK 710, valid from 18 Jan 2026.",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 76352,
+      "mid": 102094,
+      "senior": 118435
+    },
+    "bonus_rate": {
+      "junior": 0.024,
+      "mid": 0.05,
+      "senior": 0.075
+    },
+    "net": {
+      "junior": 4199,
+      "mid": 5423,
+      "senior": 6108
+    },
+    "surplus": {
+      "junior": 1580,
+      "mid": 2804,
+      "senior": 3489
+    },
+    "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior (DKK 46000) and mid (DKK 60,000) salaries are below the limit, so no scheme. A senior at DKK 68,000 a month would qualify; estimated net would be about 6615 EUR a month against 6108 without it.",
+    "language": "Yes for tech: English is the working language at many Copenhagen employers, and a job board lists 231 English-only software roles (mostly Copenhagen); Danish still helps socially.",
+    "notes": [
+      "gross_yearly is cash including bonus and the 1 percent holiday supplement. Base salary only: junior 73841, mid 96315, senior 109157 EUR a year (DKK/EUR 7.4755 ECB, 2026-11-11).",
+      "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
+      "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
+      "Bonus rates are estimates: 2.4 percent of base is the national average for developers, 5 to 15 percent is quoted for larger companies.",
+      "No work permit is needed. Apply online for the EU residence document within 3 months of arriving (6 if job hunting) and attend a SIRI or citizen service office within 30 days.",
+      "A CPR number needs a rental contract, so housing comes first. Get a tax card before the first payday or 55 percent is withheld.",
+      "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is my calculation, within about 0.3 percent of an online calculator.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is DKK 1,750 (midpoint of a 1,500 to 2,000 guide), going out is 6 inexpensive restaurant meals, and other is the remainder of the Numbeo estimate (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo Copenhagen",
+        "url": "https://www.numbeo.com/cost-of-living/in/Copenhagen"
+      },
+      {
+        "label": "Levels.fyi Copenhagen",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/copenhagen-dnk"
+      },
+      {
+        "label": "LønRadar Copenhagen",
+        "url": "https://loenradar.dk/loen/softwareudvikler/koebenhavn"
+      },
+      {
+        "label": "PROSA starting pay 2026",
+        "url": "https://www.prosa.dk/raadgivning/loen-og-forhandling/startloen-2026/"
+      },
+      {
+        "label": "BoligPortal rents (TV 2 Echo)",
+        "url": "https://echo.tv2.dk/2026-08-05-skal-flytte-fra-aalborg-til-koebenhavn-saa-stor-er-forskellen"
+      },
+      {
+        "label": "Danish tax scheme limits",
+        "url": "https://svmn.dk/tal-og-metode/satser/satser-og-beloebsgraenser-i-lovgivningen/kildeskatteloven"
+      },
+      {
+        "label": "DOT fare sheet 2026",
+        "url": "https://dinoffentligetransport.dk/media/wlfdfnbo/dot-takstblad-2026-a.pdf"
+      },
+      {
+        "label": "Holiday supplement rules",
+        "url": "https://www.borger.dk/arbejde-dagpenge-ferie/Oversigt-ferie/loenmodtager-og-ferie"
+      }
+    ]
+  },
+  {
+    "city": "Aarhus",
+    "country": "DK",
+    "rent_outside": 914,
+    "rent_centre": 1194,
+    "room_shared": 562,
+    "everyday": 1039,
+    "everyday_parts": {
+      "groceries": 234,
+      "utilities": 193,
+      "internet_phone": 53,
+      "going_out": 120,
+      "other": 438
+    },
+    "commute": 78,
+    "commute_note": "Midttrafik 30-day adult commuter card, 3 zones, DKK 585 (zone mapping to Aarhus not checked).",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 71771,
+      "mid": 95968,
+      "senior": 111329
+    },
+    "bonus_rate": {
+      "junior": 0.024,
+      "mid": 0.05,
+      "senior": 0.075
+    },
+    "net": {
+      "junior": 3924,
+      "mid": 5087,
+      "senior": 5746
+    },
+    "surplus": {
+      "junior": 1893,
+      "mid": 3056,
+      "senior": 3715
+    },
+    "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
+    "language": "Mostly yes at large software firms, but I found no English-only listings for Aarhus, so check each employer; evidence is thin.",
+    "notes": [
+      "gross_yearly is cash including bonus and the 1 percent holiday supplement. Base salary only: junior 69411, mid 90536, senior 102607 EUR a year (DKK/EUR 7.4755 ECB, 2026-11-11).",
+      "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
+      "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
+      "Bonus rates are estimates: 2.4 percent of base is the national average for developers, 5 to 15 percent is quoted for larger companies.",
+      "No work permit is needed. Apply online for the EU residence document within 3 months of arriving (6 if job hunting) and attend a SIRI or citizen service office within 30 days.",
+      "A CPR number needs a rental contract, so housing comes first. Get a tax card before the first payday or 55 percent is withheld.",
+      "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is my calculation, within about 0.3 percent of an online calculator.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is DKK 1,750 (midpoint of a 1,500 to 2,000 guide), going out is 6 inexpensive restaurant meals, and other is the remainder of the Numbeo estimate (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo Aarhus",
+        "url": "https://www.numbeo.com/cost-of-living/in/Aarhus-Denmark"
+      },
+      {
+        "label": "Levels.fyi Aarhus",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/aarhus-dnk"
+      },
+      {
+        "label": "LønRadar Aarhus",
+        "url": "https://loenradar.dk/loen/softwareudvikler/aarhus"
+      },
+      {
+        "label": "PROSA starting pay 2026",
+        "url": "https://www.prosa.dk/raadgivning/loen-og-forhandling/startloen-2026/"
+      },
+      {
+        "label": "BoligPortal rents (TV 2 Echo)",
+        "url": "https://echo.tv2.dk/2026-08-05-skal-flytte-fra-aalborg-til-koebenhavn-saa-stor-er-forskellen"
+      },
+      {
+        "label": "Danish tax scheme limits",
+        "url": "https://svmn.dk/tal-og-metode/satser/satser-og-beloebsgraenser-i-lovgivningen/kildeskatteloven"
+      },
+      {
+        "label": "Midttrafik adult prices",
+        "url": "https://www.midttrafik.dk/billetter-og-priser/priser/voksen-16-66-aar/"
+      },
+      {
+        "label": "Holiday supplement rules",
+        "url": "https://www.borger.dk/arbejde-dagpenge-ferie/Oversigt-ferie/loenmodtager-og-ferie"
+      }
+    ]
+  },
+  {
+    "city": "Odense",
+    "country": "DK",
+    "rent_outside": 707,
+    "rent_centre": 929,
+    "room_shared": 468,
+    "everyday": 991,
+    "everyday_parts": {
+      "groceries": 234,
+      "utilities": 139,
+      "internet_phone": 46,
+      "going_out": 144,
+      "other": 428
+    },
+    "commute": 78,
+    "commute_note": "FynBus 30-day adult commuter card, 3 zones, DKK 585 (zone mapping to Odense not checked).",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 68717,
+      "mid": 91884,
+      "senior": 106591
+    },
+    "bonus_rate": {
+      "junior": 0.024,
+      "mid": 0.05,
+      "senior": 0.075
+    },
+    "net": {
+      "junior": 3736,
+      "mid": 4860,
+      "senior": 5490
+    },
+    "surplus": {
+      "junior": 1959,
+      "mid": 3083,
+      "senior": 3713
+    },
+    "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
+    "language": "Probably at robotics and international firms, but I found no English-only listings for Odense; evidence is thin.",
+    "notes": [
+      "gross_yearly is cash including bonus and the 1 percent holiday supplement. Base salary only: junior 66457, mid 86683, senior 98241 EUR a year (DKK/EUR 7.4755 ECB, 2026-11-11).",
+      "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
+      "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
+      "Bonus rates are estimates: 2.4 percent of base is the national average for developers, 5 to 15 percent is quoted for larger companies.",
+      "No work permit is needed. Apply online for the EU residence document within 3 months of arriving (6 if job hunting) and attend a SIRI or citizen service office within 30 days.",
+      "A CPR number needs a rental contract, so housing comes first. Get a tax card before the first payday or 55 percent is withheld.",
+      "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is my calculation, within about 0.3 percent of an online calculator.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is DKK 1,750 (midpoint of a 1,500 to 2,000 guide), going out is 6 inexpensive restaurant meals, and other is the remainder of the Numbeo estimate (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo Odense",
+        "url": "https://www.numbeo.com/cost-of-living/in/Odense"
+      },
+      {
+        "label": "Levels.fyi Odense",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/odense-dnk"
+      },
+      {
+        "label": "LønRadar Odense",
+        "url": "https://loenradar.dk/en/loen/softwareudvikler/odense"
+      },
+      {
+        "label": "PROSA starting pay 2026",
+        "url": "https://www.prosa.dk/raadgivning/loen-og-forhandling/startloen-2026/"
+      },
+      {
+        "label": "BoligPortal rents (TV 2 Echo)",
+        "url": "https://echo.tv2.dk/2026-08-05-skal-flytte-fra-aalborg-til-koebenhavn-saa-stor-er-forskellen"
+      },
+      {
+        "label": "Danish tax scheme limits",
+        "url": "https://svmn.dk/tal-og-metode/satser/satser-og-beloebsgraenser-i-lovgivningen/kildeskatteloven"
+      },
+      {
+        "label": "FynBus tariffs 2026",
+        "url": "https://fynbus.dk/p/Takster/takst26_folder.pdf"
+      },
+      {
+        "label": "Holiday supplement rules",
+        "url": "https://www.borger.dk/arbejde-dagpenge-ferie/Oversigt-ferie/loenmodtager-og-ferie"
+      }
+    ]
+  },
+  {
+    "city": "Aalborg",
+    "country": "DK",
+    "rent_outside": 710,
+    "rent_centre": 851,
+    "room_shared": 403,
+    "everyday": 1026,
+    "everyday_parts": {
+      "groceries": 234,
+      "utilities": 196,
+      "internet_phone": 52,
+      "going_out": 112,
+      "other": 430
+    },
+    "commute": 78,
+    "commute_note": "NT 30-day adult commuter card, 3 zones assumed at DKK 585 (the NT page opened shows only 2, 10 and 24 zones; the 3-zone price is not confirmed).",
+    "health": 0,
+    "gross_yearly": {
+      "junior": 68717,
+      "mid": 91884,
+      "senior": 106591
+    },
+    "bonus_rate": {
+      "junior": 0.024,
+      "mid": 0.05,
+      "senior": 0.075
+    },
+    "net": {
+      "junior": 3724,
+      "mid": 4843,
+      "senior": 5469
+    },
+    "surplus": {
+      "junior": 1910,
+      "mid": 3029,
+      "senior": 3656
+    },
+    "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
+    "language": "Partly: a job board shows 5 Aalborg listings that need no Danish, but they are mostly student or intern roles, so evidence for full-time roles is thin.",
+    "notes": [
+      "gross_yearly is cash including bonus and the 1 percent holiday supplement. Base salary only: junior 66457, mid 86683, senior 98241 EUR a year (DKK/EUR 7.4755 ECB, 2026-11-11).",
+      "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
+      "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
+      "Bonus rates are estimates: 2.4 percent of base is the national average for developers, 5 to 15 percent is quoted for larger companies.",
+      "No work permit is needed. Apply online for the EU residence document within 3 months of arriving (6 if job hunting) and attend a SIRI or citizen service office within 30 days.",
+      "A CPR number needs a rental contract, so housing comes first. Get a tax card before the first payday or 55 percent is withheld.",
+      "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is my calculation, within about 0.3 percent of an online calculator.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is DKK 1,750 (midpoint of a 1,500 to 2,000 guide), going out is 6 inexpensive restaurant meals, and other is the remainder of the Numbeo estimate (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo Aalborg",
+        "url": "https://www.numbeo.com/cost-of-living/in/Aalborg"
+      },
+      {
+        "label": "Levels.fyi Aalborg",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/aalborg-dnk"
+      },
+      {
+        "label": "LønRadar Mid, West and North Jutland",
+        "url": "https://loenradar.dk/loen/softwareudvikler/midt-vest-nordjylland"
+      },
+      {
+        "label": "PROSA starting pay 2026",
+        "url": "https://www.prosa.dk/raadgivning/loen-og-forhandling/startloen-2026/"
+      },
+      {
+        "label": "BoligPortal rents (TV 2 Echo)",
+        "url": "https://echo.tv2.dk/2026-08-05-skal-flytte-fra-aalborg-til-koebenhavn-saa-stor-er-forskellen"
+      },
+      {
+        "label": "Danish tax scheme limits",
+        "url": "https://svmn.dk/tal-og-metode/satser/satser-og-beloebsgraenser-i-lovgivningen/kildeskatteloven"
+      },
+      {
+        "label": "NT new prices 2026",
+        "url": "https://www.ntrejse.dk/nyheder/2026/jan/nye-priser-2026"
+      },
+      {
+        "label": "Holiday supplement rules",
+        "url": "https://www.borger.dk/arbejde-dagpenge-ferie/Oversigt-ferie/loenmodtager-og-ferie"
+      }
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "country": "NL",
+    "rent_outside": 1815,
+    "rent_centre": 2384,
+    "room_shared": 950,
+    "everyday": 1045,
+    "everyday_parts": {
+      "groceries": 330,
+      "utilities": 269,
+      "internet_phone": 68,
+      "going_out": 120,
+      "other": 258
+    },
+    "commute": 106,
+    "commute_note": "NS Flex Traject Vrij, 2nd class, 15 tariff units (about 15 km, for example Den Haag Centraal to Leiden Centraal), EUR 106.50 a month in 2026. The same pass is used for every Dutch city.",
+    "health": 191,
+    "gross_yearly": {
+      "junior": 53182,
+      "mid": 66587,
+      "senior": 90058
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.0833,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3393,
+      "mid": 3946,
+      "senior": 4861
+    },
+    "surplus": {
+      "junior": 236,
+      "mid": 789,
+      "senior": 1704
+    },
+    "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3870 / 4702 / 5938 EUR a month, giving surplus 712 / 1545 / 2780. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
+    "language": "Likely yes for tech, since general guides say international employers work in English, but I found no city-specific check; some Dutch-market ads ask for fluent Dutch.",
+    "notes": [
+      "gross_yearly is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 50829, mid 61819, senior 82426 EUR a year.",
+      "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
+      "Holiday pay is at least 8 percent, usually paid in May or June, and is already in gross_yearly.",
+      "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
+      "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
+      "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+      "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo Amsterdam",
+        "url": "https://www.numbeo.com/cost-of-living/in/Amsterdam"
+      },
+      {
+        "label": "Levels.fyi Amsterdam",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/amsterdam-nld"
+      },
+      {
+        "label": "The Search Company senior pay 2026",
+        "url": "https://searchcompany.nl/werving-en-selectie-blogartikel/wat-verdient-een-senior-software-developer-in-nederland-in-2026-2/"
+      },
+      {
+        "label": "CVcoach software engineer pay",
+        "url": "https://cvcoach.nl/salaris/software-engineer"
+      },
+      {
+        "label": "Jooble senior pay Amsterdam",
+        "url": "https://nl.jooble.org/salary/senior-software-engineer/Amsterdam"
+      },
+      {
+        "label": "Kamernet room rents Q2 2026",
+        "url": "https://kamernet.nl/tips/verhuurders/huurprijs/verhuurrapportage-q2-2026"
+      },
+      {
+        "label": "Dutch tax brackets and credits 2026",
+        "url": "https://nettokompas.nl/belastingschijven-2026/"
+      },
+      {
+        "label": "Belastingdienst expat scheme conditions",
+        "url": "https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/coming-to-work-in-the-netherlands-30-percent-facility"
+      },
+      {
+        "label": "NS 2026 price list",
+        "url": "https://ocp.ns.nl/caas/v1/media/92530/data/fa92c1f442da6fc8e87bd9b6773ddfbc/ns-prijslijst-2026-nl.pdf"
+      },
+      {
+        "label": "Basic health premium 2026",
+        "url": "https://www.keuze.nl/zorgverzekering/basisverzekering"
+      }
+    ]
+  },
+  {
+    "city": "Utrecht",
+    "country": "NL",
+    "rent_outside": 1368,
+    "rent_centre": 1768,
+    "room_shared": 775,
+    "everyday": 937,
+    "everyday_parts": {
+      "groceries": 330,
+      "utilities": 209,
+      "internet_phone": 62,
+      "going_out": 122,
+      "other": 214
+    },
+    "commute": 106,
+    "commute_note": "NS Flex Traject Vrij, 2nd class, 15 tariff units (about 15 km, for example Den Haag Centraal to Leiden Centraal), EUR 106.50 a month in 2026. The same pass is used for every Dutch city.",
+    "health": 191,
+    "gross_yearly": {
+      "junior": 51677,
+      "mid": 64703,
+      "senior": 87509
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.0833,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3331,
+      "mid": 3869,
+      "senior": 4768
+    },
+    "surplus": {
+      "junior": 729,
+      "mid": 1266,
+      "senior": 2166
+    },
+    "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3744 / 4603 / 5804 EUR a month, giving surplus 1142 / 2001 / 3201. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
+    "language": "Unverified for the city: generic guides say tech roles often need no Dutch, but one Utrecht-area ad I opened required fluent Dutch, so check each ad.",
+    "notes": [
+      "gross_yearly is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 49391, mid 60070, senior 80093 EUR a year.",
+      "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
+      "Holiday pay is at least 8 percent, usually paid in May or June, and is already in gross_yearly.",
+      "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
+      "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
+      "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+      "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo Utrecht",
+        "url": "https://www.numbeo.com/cost-of-living/in/Utrecht"
+      },
+      {
+        "label": "Levels.fyi Utrecht",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/utrecht-nld"
+      },
+      {
+        "label": "The Search Company senior pay 2026",
+        "url": "https://searchcompany.nl/werving-en-selectie-blogartikel/wat-verdient-een-senior-software-developer-in-nederland-in-2026-2/"
+      },
+      {
+        "label": "CVcoach software engineer pay",
+        "url": "https://cvcoach.nl/salaris/software-engineer"
+      },
+      {
+        "label": "Jooble senior pay Utrecht",
+        "url": "https://nl.jooble.org/salary/senior-software-engineer/Utrecht"
+      },
+      {
+        "label": "Kamernet room rents Q2 2026",
+        "url": "https://kamernet.nl/tips/verhuurders/huurprijs/verhuurrapportage-q2-2026"
+      },
+      {
+        "label": "Dutch tax brackets and credits 2026",
+        "url": "https://nettokompas.nl/belastingschijven-2026/"
+      },
+      {
+        "label": "Belastingdienst expat scheme conditions",
+        "url": "https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/coming-to-work-in-the-netherlands-30-percent-facility"
+      },
+      {
+        "label": "NS 2026 price list",
+        "url": "https://ocp.ns.nl/caas/v1/media/92530/data/fa92c1f442da6fc8e87bd9b6773ddfbc/ns-prijslijst-2026-nl.pdf"
+      },
+      {
+        "label": "Basic health premium 2026",
+        "url": "https://www.keuze.nl/zorgverzekering/basisverzekering"
+      }
+    ]
+  },
+  {
+    "city": "Rotterdam",
+    "country": "NL",
+    "rent_outside": 1472,
+    "rent_centre": 1848,
+    "room_shared": null,
+    "everyday": 963,
+    "everyday_parts": {
+      "groceries": 330,
+      "utilities": 268,
+      "internet_phone": 68,
+      "going_out": 126,
+      "other": 171
+    },
+    "commute": 106,
+    "commute_note": "NS Flex Traject Vrij, 2nd class, 15 tariff units (about 15 km, for example Den Haag Centraal to Leiden Centraal), EUR 106.50 a month in 2026. The same pass is used for every Dutch city.",
+    "health": 191,
+    "gross_yearly": {
+      "junior": 50172,
+      "mid": 62818,
+      "senior": 84960
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.0833,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3269,
+      "mid": 3791,
+      "senior": 4675
+    },
+    "surplus": {
+      "junior": 536,
+      "mid": 1058,
+      "senior": 1942
+    },
+    "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3619 / 4504 / 5669 EUR a month, giving surplus 886 / 1772 / 2937. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
+    "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but I found no Rotterdam-specific evidence, so check each ad.",
+    "notes": [
+      "gross_yearly is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 47952, mid 58320, senior 77760 EUR a year.",
+      "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
+      "Holiday pay is at least 8 percent, usually paid in May or June, and is already in gross_yearly.",
+      "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
+      "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
+      "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+      "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo Rotterdam",
+        "url": "https://www.numbeo.com/cost-of-living/in/Rotterdam"
+      },
+      {
+        "label": "Levels.fyi Rotterdam",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/rotterdam-nld"
+      },
+      {
+        "label": "The Search Company senior pay 2026",
+        "url": "https://searchcompany.nl/werving-en-selectie-blogartikel/wat-verdient-een-senior-software-developer-in-nederland-in-2026-2/"
+      },
+      {
+        "label": "CVcoach software engineer pay",
+        "url": "https://cvcoach.nl/salaris/software-engineer"
+      },
+      {
+        "label": "Jooble senior pay Rotterdam",
+        "url": "https://nl.jooble.org/salary/senior-software-engineer/Rotterdam"
+      },
+      {
+        "label": "HubSnap rent per m2 (Pararius Q3 2026)",
+        "url": "https://www.hubsnap.nl/blog/average-rent-netherlands"
+      },
+      {
+        "label": "Dutch tax brackets and credits 2026",
+        "url": "https://nettokompas.nl/belastingschijven-2026/"
+      },
+      {
+        "label": "Belastingdienst expat scheme conditions",
+        "url": "https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/coming-to-work-in-the-netherlands-30-percent-facility"
+      },
+      {
+        "label": "NS 2026 price list",
+        "url": "https://ocp.ns.nl/caas/v1/media/92530/data/fa92c1f442da6fc8e87bd9b6773ddfbc/ns-prijslijst-2026-nl.pdf"
+      },
+      {
+        "label": "Basic health premium 2026",
+        "url": "https://www.keuze.nl/zorgverzekering/basisverzekering"
+      }
+    ]
+  },
+  {
+    "city": "The Hague",
+    "country": "NL",
+    "rent_outside": 1189,
+    "rent_centre": 1505,
+    "room_shared": 745,
+    "everyday": 964,
+    "everyday_parts": {
+      "groceries": 330,
+      "utilities": 249,
+      "internet_phone": 74,
+      "going_out": 120,
+      "other": 191
+    },
+    "commute": 106,
+    "commute_note": "NS Flex Traject Vrij, 2nd class, 15 tariff units (about 15 km, for example Den Haag Centraal to Leiden Centraal), EUR 106.50 a month in 2026. The same pass is used for every Dutch city.",
+    "health": 191,
+    "gross_yearly": {
+      "junior": 50172,
+      "mid": 62818,
+      "senior": 84960
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.0833,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3269,
+      "mid": 3791,
+      "senior": 4675
+    },
+    "surplus": {
+      "junior": 818,
+      "mid": 1340,
+      "senior": 2224
+    },
+    "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3619 / 4504 / 5669 EUR a month, giving surplus 1168 / 2053 / 3219. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
+    "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but I found no Hague-specific evidence, so check each ad.",
+    "notes": [
+      "gross_yearly is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 47952, mid 58320, senior 77760 EUR a year.",
+      "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
+      "Holiday pay is at least 8 percent, usually paid in May or June, and is already in gross_yearly.",
+      "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
+      "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
+      "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+      "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo The Hague",
+        "url": "https://www.numbeo.com/cost-of-living/in/The-Hague"
+      },
+      {
+        "label": "Levels.fyi The Hague",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/the-hague-nld"
+      },
+      {
+        "label": "The Search Company senior pay 2026",
+        "url": "https://searchcompany.nl/werving-en-selectie-blogartikel/wat-verdient-een-senior-software-developer-in-nederland-in-2026-2/"
+      },
+      {
+        "label": "CVcoach software engineer pay",
+        "url": "https://cvcoach.nl/salaris/software-engineer"
+      },
+      {
+        "label": "Jooble senior pay The Hague",
+        "url": "https://nl.jooble.org/salary/senior-software-engineer/Den-Haag"
+      },
+      {
+        "label": "Kamernet room rents Q2 2026",
+        "url": "https://kamernet.nl/tips/verhuurders/huurprijs/verhuurrapportage-q2-2026"
+      },
+      {
+        "label": "Dutch tax brackets and credits 2026",
+        "url": "https://nettokompas.nl/belastingschijven-2026/"
+      },
+      {
+        "label": "Belastingdienst expat scheme conditions",
+        "url": "https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/coming-to-work-in-the-netherlands-30-percent-facility"
+      },
+      {
+        "label": "NS 2026 price list",
+        "url": "https://ocp.ns.nl/caas/v1/media/92530/data/fa92c1f442da6fc8e87bd9b6773ddfbc/ns-prijslijst-2026-nl.pdf"
+      },
+      {
+        "label": "Basic health premium 2026",
+        "url": "https://www.keuze.nl/zorgverzekering/basisverzekering"
+      }
+    ]
+  },
+  {
+    "city": "Eindhoven",
+    "country": "NL",
+    "rent_outside": 1263,
+    "rent_centre": 1568,
+    "room_shared": 540,
+    "everyday": 872,
+    "everyday_parts": {
+      "groceries": 330,
+      "utilities": 181,
+      "internet_phone": 58,
+      "going_out": 114,
+      "other": 189
+    },
+    "commute": 106,
+    "commute_note": "NS Flex Traject Vrij, 2nd class, 15 tariff units (about 15 km, for example Den Haag Centraal to Leiden Centraal), EUR 106.50 a month in 2026. The same pass is used for every Dutch city.",
+    "health": 191,
+    "gross_yearly": {
+      "junior": 48667,
+      "mid": 60934,
+      "senior": 82411
+    },
+    "bonus_rate": {
+      "junior": 0.05,
+      "mid": 0.0833,
+      "senior": 0.1
+    },
+    "net": {
+      "junior": 3207,
+      "mid": 3713,
+      "senior": 4581
+    },
+    "surplus": {
+      "junior": 774,
+      "mid": 1280,
+      "senior": 2148
+    },
+    "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3493 / 4397 / 5535 EUR a month, giving surplus 1061 / 1964 / 3103. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
+    "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but I found no Eindhoven-specific evidence I could open, so check each ad.",
+    "notes": [
+      "gross_yearly is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 46513, mid 56570, senior 75427 EUR a year.",
+      "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
+      "Holiday pay is at least 8 percent, usually paid in May or June, and is already in gross_yearly.",
+      "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
+      "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
+      "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+      "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
+      "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
+    ],
+    "sources": [
+      {
+        "label": "Numbeo Eindhoven",
+        "url": "https://www.numbeo.com/cost-of-living/in/Eindhoven"
+      },
+      {
+        "label": "Levels.fyi Eindhoven",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/eindhoven-nld"
+      },
+      {
+        "label": "The Search Company senior pay 2026",
+        "url": "https://searchcompany.nl/werving-en-selectie-blogartikel/wat-verdient-een-senior-software-developer-in-nederland-in-2026-2/"
+      },
+      {
+        "label": "CVcoach software engineer pay",
+        "url": "https://cvcoach.nl/salaris/software-engineer"
+      },
+      {
+        "label": "Jooble senior pay Eindhoven",
+        "url": "https://nl.jooble.org/salary/senior-software-engineer/Eindhoven"
+      },
+      {
+        "label": "Kamernet room rents Q2 2026",
+        "url": "https://kamernet.nl/tips/verhuurders/huurprijs/verhuurrapportage-q2-2026"
+      },
+      {
+        "label": "Dutch tax brackets and credits 2026",
+        "url": "https://nettokompas.nl/belastingschijven-2026/"
+      },
+      {
+        "label": "Belastingdienst expat scheme conditions",
+        "url": "https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/coming-to-work-in-the-netherlands-30-percent-facility"
+      },
+      {
+        "label": "NS 2026 price list",
+        "url": "https://ocp.ns.nl/caas/v1/media/92530/data/fa92c1f442da6fc8e87bd9b6773ddfbc/ns-prijslijst-2026-nl.pdf"
+      },
+      {
+        "label": "Basic health premium 2026",
+        "url": "https://www.keuze.nl/zorgverzekering/basisverzekering"
+      }
+    ]
+  }
+]
