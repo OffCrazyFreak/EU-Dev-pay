@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>EU dev pay vs cost of living</title>
   <meta name="description" content="What a software engineer keeps each month after tax, rent and living costs in 60 European cities, for junior, mid-level and senior pay, with every cost and source per city.">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" href="favicon.svg?v=97d0eb2dd9" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png?v=775afb9ab1" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=75f2bc6129">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://offcrazyfreak.github.io/eu-dev-pay/">
   <meta property="og:title" content="EU dev pay vs cost of living">
@@ -18,41 +18,44 @@
   <meta property="og:image:alt" content="Bar chart of money left each month for software engineers in European cities">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#16141d">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=f731c06dea">
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="#money">EU dev pay</a>
-  <nav class="tabs" role="tablist" aria-label="Charts">
-    <a role="tab" href="#money" data-tab="money">Money left</a>
-    <a role="tab" href="#salary" data-tab="salary">Salary you need</a>
-    <a role="tab" href="#breakdown" data-tab="breakdown">Where the money goes</a>
+  <a class="brand" href="./"><img src="favicon.svg?v=97d0eb2dd9" alt="" width="24" height="24">EU dev pay</a>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#money" data-tab="money">Money left</a>
+    <a href="#salary" data-tab="salary">Salary you need</a>
+    <a href="#breakdown" data-tab="breakdown">Where the money goes</a>
     <span class="tab-sep" aria-hidden="true"></span>
-    <a role="tab" href="#method" data-tab="method">Method and sources</a>
+    <a href="#method" data-tab="method">Method and sources</a>
   </nav>
 </header>
 
 <div class="layout">
 <main>
-  <section class="tab-panel" id="money" role="tabpanel">
+  <div class="view" id="charts-view">
+  <section class="chart-section" id="money">
     <h1>Money left each month</h1>
     <p>Each bar is take-home pay minus rent for a one-bedroom flat outside the centre, everyday costs, health insurance where it is paid separately and a monthly commute pass. The white line is the amount you want left each month; drag it to change it. Click any city name (marked with an <i>i</i>) for every cost and its sources.</p>
     <div class="scroll"><div class="chart" id="money-chart"></div></div>
   </section>
 
-  <section class="tab-panel" id="salary" role="tabpanel" hidden>
+  <section class="chart-section" id="salary">
     <h1>Typical salary vs the salary you need</h1>
     <p>Each bar is a typical posted gross salary per year. The white marker is the gross salary that leaves the target amount from the first chart each month in that city. A bar that reaches past the marker clears it.</p>
     <div class="scroll"><div class="chart" id="salary-chart"></div></div>
   </section>
 
-  <section class="tab-panel" id="breakdown" role="tabpanel" hidden>
+  <section class="chart-section" id="breakdown">
     <h1>Where the money goes</h1>
     <p>Each bar is one month of costs split into rent, everyday costs, commute and health insurance. Costs are the same whatever you earn, so the columns on the right show what is left at each level. Click any city for its full numbers, special tax rules and every source.</p>
     <div class="scroll"><div class="chart" id="breakdown-chart"></div></div>
   </section>
 
-  <section class="tab-panel" id="method" role="tabpanel" hidden>
+  </div>
+
+  <section class="view" id="method" hidden>
     <h1>Method and sources</h1>
     <p class="lead">How much a software engineer keeps each month after tax, rent and everyday costs in 60 European cities, at junior, mid-level and senior pay.</p>
 
@@ -76,7 +79,7 @@
 <aside class="filters" id="filters" aria-label="Filter countries and levels"></aside>
 </div>
 
-<script src="data.js"></script>
-<script src="app.js"></script>
+<script src="data.js?v=3fe6f8d19b"></script>
+<script src="app.js?v=318b81f084"></script>
 </body>
 </html>

@@ -150,7 +150,13 @@ header.top {
   margin-bottom: -1px;
 }
 .tabs a:hover { color: var(--foreground); }
-.tabs a[aria-selected="true"] { color: var(--foreground); font-weight: 600; border-bottom-color: var(--foreground); }
+.tabs a[aria-current="true"] { color: var(--foreground); font-weight: 600; border-bottom-color: var(--foreground); }
+.brand { gap: 9px; }
+.brand img { display: block; width: 24px; height: 24px; border-radius: 6px; }
+
+.chart-section { scroll-margin-top: calc(var(--header-h) + env(safe-area-inset-top, 0px) + 16px); }
+.chart-section + .chart-section { margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--border); }
+
 .tab-sep { width: 1px; background: var(--border); margin: 14px 0; }
 
 

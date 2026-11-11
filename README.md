@@ -8,7 +8,7 @@ The page has three charts: money left each month, the gross salary you need to k
 
 ## Data
 
-City data lives in `data/*.json`, one file per group of countries. Money is in euros per month, except `gross_yearly`, which is per year. After editing a file, rebuild the bundle the page loads:
+City data lives in `data/*.json`, one file per group of countries. Money is in euros per month, except `gross_yearly`, which is per year. After editing a data file, `style.css` or `app.js`, run the build. It bundles the data and stamps file versions into `index.html` so browsers never mix a new page with an old cached file:
 
 ```sh
 python3 build-data.py

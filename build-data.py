@@ -1,5 +1,6 @@
 """Bundle data/*.json into data.js so the page works on GitHub Pages and when opened from disk."""
 
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -10,6 +11,8 @@ ROOT = Path(__file__).parent
 GROSS_INCLUDES_BONUS = {"dk-nl.json", "south-cee.json"}
 
 LEVELS = ("junior", "mid", "senior")
+
+ASSETS = ("style.css", "data.js", "app.js", "favicon.svg", "favicon-32.png", "apple-touch-icon.png")
 
 # The research notes were written against the raw field names; readers of the site see these words instead.
 PUBLIC_WORDING = [
@@ -59,6 +62,21 @@ def main() -> None:
     (ROOT / "data.js").write_text("window.CITIES = " + payload + ";\n", encoding="utf-8")
 
     print(f"wrote data.js with {len(cities)} cities")
+
+    stamp_asset_versions()
+
+
+# GitHub Pages lets browsers reuse files for 10 minutes, so a new index.html could run with an old style.css.
+def stamp_asset_versions() -> None:
+    index = ROOT / "index.html"
+    html = index.read_text(encoding="utf-8")
+
+    for name in ASSETS:
+        version = hashlib.sha256((ROOT / name).read_bytes()).hexdigest()[:10]
+        html = re.sub(rf'"{re.escape(name)}(\?v=\w+)?"', f'"{name}?v={version}"', html)
+
+    index.write_text(html, encoding="utf-8")
+    print("stamped asset versions in index.html")
 
 
 if __name__ == "__main__":

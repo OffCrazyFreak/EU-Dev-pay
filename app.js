@@ -171,7 +171,7 @@ function placeLabels(track, px, items, format) {
 
 // ---------- chart 1: money left ----------
 
-function moneyChart(root) {
+function moneyChart(root, onTargetCommit) {
   root.innerHTML = `
     <div class="legend" data-legend></div>
     <div class="ctls">
@@ -235,8 +235,10 @@ function moneyChart(root) {
     rowsFrame = requestAnimationFrame(drawRows);
   }
 
-  // the salary tab reads state.target when it is opened, so saving is enough here
-  const commitTarget = saveState;
+  function commitTarget() {
+    saveState();
+    onTargetCommit();
+  }
 
   function startDrag(event) {
     event.preventDefault();
@@ -767,38 +769,61 @@ function filterPanel(root, onChange) {
 
 // ---------- start ----------
 
-const TAB_DRAWS = {
-  money: moneyChart(document.getElementById("money-chart")),
+const CHART_DRAWS = {
+  money: moneyChart(document.getElementById("money-chart"), () => CHART_DRAWS.salary()),
   salary: salaryChart(document.getElementById("salary-chart")),
-  breakdown: breakdownChart(document.getElementById("breakdown-chart")),
-  method: () => {}
+  breakdown: breakdownChart(document.getElementById("breakdown-chart"))
 };
 
-const tabFromHash = () => (location.hash.slice(1) in TAB_DRAWS ? location.hash.slice(1) : "money");
+const chartsView = document.getElementById("charts-view");
+const methodView = document.getElementById("method");
+const navLinks = [...document.querySelectorAll("[data-tab]")];
+const isMethodView = () => location.hash === "#method";
 
-// Charts measure their own width to place labels, so only the visible tab is drawn; the rest redraw when opened.
-function drawActiveTab() {
-  TAB_DRAWS[tabFromHash()]();
+function drawCharts() {
+  if (!chartsView.hidden) Object.values(CHART_DRAWS).forEach(draw => draw());
 }
 
-function showTab() {
-  const active = tabFromHash();
-
-  document.querySelectorAll(".tab-panel").forEach(panel => { panel.hidden = panel.id !== active; });
-  document.querySelectorAll("[data-tab]").forEach(tab => {
-    tab.setAttribute("aria-selected", String(tab.dataset.tab === active));
+function markActive(id) {
+  navLinks.forEach(link => {
+    if (link.dataset.tab === id) link.setAttribute("aria-current", "true");
+    else link.removeAttribute("aria-current");
   });
-
-  window.scrollTo(0, 0);
-  drawActiveTab();
 }
 
-filterPanel(document.getElementById("filters"), drawActiveTab);
-window.addEventListener("hashchange", showTab);
-showTab();
+// The nav marks whichever chart sits under the sticky header, like a table of contents.
+function markChartInView() {
+  if (isMethodView()) return;
+
+  const headerBottom = document.querySelector("header.top").getBoundingClientRect().bottom;
+  const sections = [...chartsView.querySelectorAll(".chart-section")];
+  const current = sections.filter(section => section.getBoundingClientRect().top <= headerBottom + 80).pop() || sections[0];
+
+  markActive(current.id);
+}
+
+function showView() {
+  const method = isMethodView();
+  chartsView.hidden = method;
+  methodView.hidden = !method;
+
+  drawCharts();
+
+  const anchor = !method && document.getElementById(location.hash.slice(1));
+  if (anchor) anchor.scrollIntoView();
+  else window.scrollTo(0, 0);
+
+  if (method) markActive("method");
+  else markChartInView();
+}
+
+filterPanel(document.getElementById("filters"), drawCharts);
+window.addEventListener("hashchange", showView);
+window.addEventListener("scroll", markChartInView, { passive: true });
+showView();
 
 let resizeTimer;
 window.addEventListener("resize", () => {
   clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(drawActiveTab, 150);
+  resizeTimer = setTimeout(drawCharts, 150);
 });
