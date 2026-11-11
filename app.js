@@ -235,10 +235,8 @@ function moneyChart(root) {
     rowsFrame = requestAnimationFrame(drawRows);
   }
 
-  function commitTarget() {
-    saveState();
-    document.dispatchEvent(new CustomEvent("targetchange"));
-  }
+  // the salary tab reads state.target when it is opened, so saving is enough here
+  const commitTarget = saveState;
 
   function startDrag(event) {
     event.preventDefault();
@@ -769,17 +767,38 @@ function filterPanel(root, onChange) {
 
 // ---------- start ----------
 
-const drawMoney = moneyChart(document.getElementById("money-chart"));
-const drawSalary = salaryChart(document.getElementById("salary-chart"));
-const drawBreakdown = breakdownChart(document.getElementById("breakdown-chart"));
-const drawAll = () => [drawMoney, drawSalary, drawBreakdown].forEach(draw => draw());
+const TAB_DRAWS = {
+  money: moneyChart(document.getElementById("money-chart")),
+  salary: salaryChart(document.getElementById("salary-chart")),
+  breakdown: breakdownChart(document.getElementById("breakdown-chart")),
+  method: () => {}
+};
 
-filterPanel(document.getElementById("filters"), drawAll);
-document.addEventListener("targetchange", drawSalary);
-drawAll();
+const tabFromHash = () => (location.hash.slice(1) in TAB_DRAWS ? location.hash.slice(1) : "money");
+
+// Charts measure their own width to place labels, so only the visible tab is drawn; the rest redraw when opened.
+function drawActiveTab() {
+  TAB_DRAWS[tabFromHash()]();
+}
+
+function showTab() {
+  const active = tabFromHash();
+
+  document.querySelectorAll(".tab-panel").forEach(panel => { panel.hidden = panel.id !== active; });
+  document.querySelectorAll("[data-tab]").forEach(tab => {
+    tab.setAttribute("aria-selected", String(tab.dataset.tab === active));
+  });
+
+  window.scrollTo(0, 0);
+  drawActiveTab();
+}
+
+filterPanel(document.getElementById("filters"), drawActiveTab);
+window.addEventListener("hashchange", showTab);
+showTab();
 
 let resizeTimer;
 window.addEventListener("resize", () => {
   clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(drawAll, 150);
+  resizeTimer = setTimeout(drawActiveTab, 150);
 });

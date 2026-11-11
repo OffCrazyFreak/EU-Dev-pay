@@ -21,36 +21,46 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="top">
+  <a class="brand" href="#money">EU dev pay</a>
+  <nav class="tabs" role="tablist" aria-label="Charts">
+    <a role="tab" href="#money" data-tab="money">Money left</a>
+    <a role="tab" href="#salary" data-tab="salary">Salary you need</a>
+    <a role="tab" href="#breakdown" data-tab="breakdown">Where the money goes</a>
+    <span class="tab-sep" aria-hidden="true"></span>
+    <a role="tab" href="#method" data-tab="method">Method and sources</a>
+  </nav>
+</header>
+
 <div class="layout">
 <main>
-  <h1>EU dev pay vs cost of living</h1>
-  <p class="lead">How much a software engineer keeps each month after tax, rent and everyday costs in 60 European cities, at junior, mid-level and senior pay. Click any city name (marked with an <i>i</i>) to see every cost and its sources.</p>
+  <section class="tab-panel" id="money" role="tabpanel">
+    <h1>Money left each month</h1>
+    <p>Each bar is take-home pay minus rent for a one-bedroom flat outside the centre, everyday costs, health insurance where it is paid separately and a monthly commute pass. The white line is the amount you want left each month; drag it to change it. Click any city name (marked with an <i>i</i>) for every cost and its sources.</p>
+    <div class="scroll"><div class="chart" id="money-chart"></div></div>
+  </section>
 
-  <nav class="top">
-    <a href="#money">Money left</a>
-    <a href="#salary">Salary you need</a>
-    <a href="#breakdown">Where the money goes</a>
-    <a href="#method">Method and sources</a>
-  </nav>
+  <section class="tab-panel" id="salary" role="tabpanel" hidden>
+    <h1>Typical salary vs the salary you need</h1>
+    <p>Each bar is a typical posted gross salary per year. The white marker is the gross salary that leaves the target amount from the first chart each month in that city. A bar that reaches past the marker clears it.</p>
+    <div class="scroll"><div class="chart" id="salary-chart"></div></div>
+  </section>
 
-  <div class="warn">
-    <b>These are estimates, not offers.</b> Figures were compiled on 2026-11-12 from public salary platforms, salary guides, job ads, collective agreements, tax rules and rent data. Junior pay and every bonus figure rest on thin samples or assumptions. Use them to compare cities, then check real offers.
-  </div>
+  <section class="tab-panel" id="breakdown" role="tabpanel" hidden>
+    <h1>Where the money goes</h1>
+    <p>Each bar is one month of costs split into rent, everyday costs, commute and health insurance. Costs are the same whatever you earn, so the columns on the right show what is left at each level. Click any city for its full numbers, special tax rules and every source.</p>
+    <div class="scroll"><div class="chart" id="breakdown-chart"></div></div>
+  </section>
 
-  <h2 id="money">Money left each month</h2>
-  <p>Each bar is take-home pay minus rent for a one-bedroom flat outside the centre, everyday costs, health insurance where it is paid separately and a monthly commute pass. The white line marks €1,500 left a month.</p>
-  <div class="scroll"><div class="chart" id="money-chart"></div></div>
+  <section class="tab-panel" id="method" role="tabpanel" hidden>
+    <h1>Method and sources</h1>
+    <p class="lead">How much a software engineer keeps each month after tax, rent and everyday costs in 60 European cities, at junior, mid-level and senior pay.</p>
 
-  <h2 id="salary">Typical salary vs the salary you need</h2>
-  <p>Each bar is a typical posted gross salary per year. The white marker is the gross salary that leaves about €1,500 a month in that city. A bar that reaches past the marker clears it.</p>
-  <div class="scroll"><div class="chart" id="salary-chart"></div></div>
+    <div class="warn">
+      <b>These are estimates, not offers.</b> Figures were compiled on 2026-11-12 from public salary platforms, salary guides, job ads, collective agreements, tax rules and rent data. Junior pay and every bonus figure rest on thin samples or assumptions. Use them to compare cities, then check real offers.
+    </div>
 
-  <h2 id="breakdown">Where the money goes</h2>
-  <p>Each bar is one month of costs split into rent, everyday costs, commute and health insurance. Costs are the same whatever you earn, so the columns on the right show what is left at junior, mid-level and senior pay. Click any city, in any chart, for its full numbers, special tax rules and every source.</p>
-  <div class="scroll"><div class="chart" id="breakdown-chart"></div></div>
-
-  <h2 id="method">Method and sources</h2>
-  <ul class="method">
+    <ul class="method">
     <li>Net pay is computed per country for a single employee with no children, using the latest tax year, employee social contributions and mandatory health insurance.</li>
     <li>13th and 14th salaries are included where they are standard (Austria, Portugal, Belgium, Italy). Assumed bonuses are included in take-home pay; the salary chart lets you switch them off.</li>
     <li>Rent is a one-bedroom flat outside the centre. Everyday costs cover groceries, utilities, internet, phone and going out. Commute is a monthly public-transport pass for 5 working days a week.</li>
@@ -59,7 +69,8 @@
     <li>Every city lists the sources its numbers come from. Main sources: <a href="https://www.numbeo.com/cost-of-living/">Numbeo</a>, <a href="https://www.levels.fyi/">Levels.fyi</a>, <a href="https://swissdevjobs.ch/salaries">SwissDevJobs</a>, <a href="https://www.stepstone.de/gehalt/Software-Entwickler-in.html">StepStone</a>, <a href="https://www.karriere.at/">karriere.at</a>, <a href="https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2026.pdf">Austrian IT collective agreement</a>, <a href="https://www.morganmckinley.com/ie/salary-guide">Morgan McKinley</a>, <a href="https://taxsummaries.pwc.com/">PwC tax summaries</a> and the <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html">ECB</a>.</li>
   </ul>
 
-  <footer>Compiled 2026-11-12. Spotted a wrong number? Open an issue on the repository.</footer>
+    <footer>Compiled 2026-11-12. Spotted a wrong number? Open an issue on the <a href="https://github.com/OffCrazyFreak/eu-dev-pay/issues">repository</a>.</footer>
+  </section>
 </main>
 
 <aside class="filters" id="filters" aria-label="Filter countries and levels"></aside>
