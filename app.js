@@ -802,6 +802,9 @@ function markChartInView() {
   markActive(current.id);
 }
 
+let firstShow = true;
+const prefersReducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
 function showView() {
   const method = isMethodView();
   chartsView.hidden = method;
@@ -810,8 +813,11 @@ function showView() {
   drawCharts();
 
   const anchor = !method && document.getElementById(location.hash.slice(1));
-  if (anchor) anchor.scrollIntoView();
-  else window.scrollTo(0, 0);
+  const behavior = firstShow || prefersReducedMotion() ? "auto" : "smooth";
+  firstShow = false;
+
+  if (anchor) anchor.scrollIntoView({ behavior });
+  else window.scrollTo({ top: 0, behavior });
 
   if (method) markActive("method");
   else markChartInView();
