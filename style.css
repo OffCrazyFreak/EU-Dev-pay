@@ -175,7 +175,8 @@ header.top {
 .warn b { color: var(--c-junior); }
 
 .scroll { overflow-x: auto; }
-.chart { min-width: 820px; }
+/* the last grid line and edge labels poke a pixel past the chart, which made the scroll box show a bar for nothing */
+.chart { min-width: 820px; overflow-x: clip; }
 
 .legend, .ctls {
   display: flex;
