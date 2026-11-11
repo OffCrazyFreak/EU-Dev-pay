@@ -158,12 +158,32 @@ nav.top a:hover { opacity: 1; text-decoration: underline; }
 
 .note { font-size: 11.5px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
 
-/* breakdown section */
-details.city { border-bottom: 1px solid var(--border); }
+/* city accordions, used in every chart */
 details.city > summary { list-style: none; cursor: pointer; }
 details.city > summary::-webkit-details-marker { display: none; }
 details.city > summary:hover .name { text-decoration: underline; }
 details.city[open] > summary .name { font-weight: 700; }
+#breakdown-chart details.city { border-bottom: 1px solid var(--border); }
+
+.info {
+  display: inline-grid;
+  place-items: center;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  vertical-align: -2px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font: italic 700 9.5px/1 Georgia, "Times New Roman", serif;
+  opacity: .5;
+}
+details.city > summary:hover .info { opacity: .9; }
+details.city[open] .info { opacity: 1; background: var(--foreground); color: var(--background); border-color: var(--foreground); }
+
+.left3 { display: grid; grid-template-columns: repeat(3, 1fr); font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.left3 span { text-align: right; }
+.left3 .short { color: var(--c-short); }
+.left3.head { font-weight: 600; color: var(--muted); font-size: 11px; }
 .stack { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 0 8px 8px 0; overflow: hidden; }
 .seg { position: absolute; top: 0; bottom: 0; box-shadow: inset -2px 0 0 var(--background); }
 .seg:last-child { box-shadow: none; }
@@ -171,11 +191,11 @@ details.city[open] > summary .name { font-weight: 700; }
 .seg-everyday { background: var(--c-everyday); }
 .seg-commute { background: var(--c-commute); }
 .seg-health { background: var(--c-health); }
-.seg-left { background: var(--c-left); }
-.left-val { font-size: 12px; font-weight: 700; text-align: right; }
-.left-val.short { color: var(--c-short); }
 
 .panel {
+  position: relative;
+  z-index: 3;
+  background: var(--background);
   padding: 12px 4px 18px;
   display: grid;
   gap: 14px 28px;

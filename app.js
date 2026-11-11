@@ -31,10 +31,34 @@ const cities = window.CITIES.map(c => ({
   costs: c.rent_outside + c.everyday + c.commute + c.health
 }));
 
+const NAME_COL = "214px";
+
 const cityName = c =>
-  `<div class="name">${esc(c.city)}<span class="cc">${esc(c.country)} ${flag(c.country)}</span></div>`;
+  `<div class="name"><span class="info" aria-hidden="true">i</span>${esc(c.city)}<span class="cc">${esc(c.country)} ${flag(c.country)}</span></div>`;
 
 const options = (pairs) => pairs.map(([value, label]) => `<option value="${value}">${esc(label)}</option>`).join("");
+
+const openCities = rowsEl => new Set([...rowsEl.querySelectorAll("details[open]")].map(d => d.dataset.city));
+
+
+// Every city row in every chart is an accordion that opens the same detail panel.
+function cityRow(c, { style, cells, title, open }) {
+  const details = document.createElement("details");
+  details.className = "city";
+  details.dataset.city = c.city;
+
+  details.innerHTML = `
+    <summary class="row" style="${style}" title="${esc(title)}">${cityName(c)}${cells}</summary>
+    <div class="panel"></div>`;
+
+  details.addEventListener("toggle", () => {
+    const panel = details.querySelector(".panel");
+    if (details.open && !panel.innerHTML.trim()) panel.innerHTML = cityDetail(c);
+  });
+
+  if (open) details.open = true;
+  return details;
+}
 
 
 // Numbers always sit inside the bars, right-aligned at each bar's end; they shrink a little when the bars are short.
@@ -103,15 +127,16 @@ function moneyChart(root) {
         ["country", "Country, then city"],
         ["name", "City A to Z"]
       ])}</select></label>
-      <span>Take-home ticks:</span>
+      <span>Gross ticks:</span>
       ${LEVELS.map(l => `<label><input type="checkbox" data-tick="${l}"><i class="key-line" style="background:var(--c-${l})"></i> ${LEVEL_NAME[l].toLowerCase()}</label>`).join("")}
     </div>
-    <div class="axis" style="grid-template-columns:196px 1fr;margin-top:20px"><div></div><div class="ticks"></div></div>
-    <div class="rows"><div class="lines" style="left:196px"></div></div>
-    <p class="note">Bars are monthly take-home pay minus costs; ticks are take-home pay before costs. Real free cash is roughly €300 to €500 lower than the bars, because savings, travel, clothing and deposits are not counted. Not shown because a junior ends up below zero there: ${esc(excluded)}. The scale adjusts to what is switched on.</p>`;
+    <div class="axis" style="grid-template-columns:${NAME_COL} 1fr;margin-top:20px"><div></div><div class="ticks"></div></div>
+    <div class="rows"><div class="lines" style="left:${NAME_COL}"></div></div>
+    <p class="note">Bars are monthly take-home pay minus costs; ticks are gross pay per month (yearly gross divided by 12, before tax and bonus). Click a city for its costs and sources. Real free cash is roughly €300 to €500 lower than the bars, because savings, travel, clothing and deposits are not counted. Not shown because a junior ends up below zero there: ${esc(excluded)}. The scale adjusts to what is switched on.</p>`;
 
   const order = root.querySelector("[data-order]");
   const tickBoxes = [...root.querySelectorAll("[data-tick]")];
+  const grossMonthly = (c, l) => c.base_yearly[l] / 12;
 
   const sorters = {
     junior: (a, b) => b.surplus.junior - a.surplus.junior,
@@ -127,7 +152,8 @@ function moneyChart(root) {
     const ticksEl = root.querySelector(".ticks");
     const lines = root.querySelector(".lines");
 
-    rowsEl.querySelectorAll(".row").forEach(n => n.remove());
+    const open = openCities(rowsEl);
+    rowsEl.querySelectorAll("details.city").forEach(n => n.remove());
     ticksEl.innerHTML = "";
     lines.innerHTML = "";
 
@@ -136,7 +162,7 @@ function moneyChart(root) {
     let top = 0;
     data.forEach(c => {
       top = Math.max(top, c.surplus.senior);
-      shownTicks.forEach(l => { top = Math.max(top, c.net[l]); });
+      shownTicks.forEach(l => { top = Math.max(top, grossMonthly(c, l)); });
     });
 
     const MAX = niceMax(top + 200, 1000);
@@ -152,21 +178,21 @@ function moneyChart(root) {
     const tracks = [];
 
     [...data].sort(sorters[order.value]).forEach(c => {
-      const row = document.createElement("div");
-      row.className = "row";
-      row.style.gridTemplateColumns = "196px 1fr";
-      row.style.height = "24px";
-      row.title = `${c.city}: left after costs ${LEVELS.map(l => `${euro(c.surplus[l])} ${LEVEL_NAME[l].toLowerCase()}`).join(", ")}. Take-home ${LEVELS.map(l => euro(c.net[l])).join(", ")} a month.`;
-
       let marks = "";
       ["senior", "mid", "junior"].forEach(l => {
         marks += `<div class="bar b-${l}" style="top:4px;height:16px;width:${pct(c.surplus[l])}"></div>`;
       });
       shownTicks.forEach(l => {
-        marks += `<div class="pay" style="top:2px;height:20px;left:${pct(c.net[l])};background:var(--c-${l})"></div>`;
+        marks += `<div class="pay" style="top:2px;height:20px;left:${pct(grossMonthly(c, l))};background:var(--c-${l})"></div>`;
       });
 
-      row.innerHTML = cityName(c) + `<div class="track" style="height:24px">${marks}</div>`;
+      const row = cityRow(c, {
+        style: `grid-template-columns:${NAME_COL} 1fr;height:24px`,
+        cells: `<div class="track" style="height:24px">${marks}</div>`,
+        title: `${c.city}: left after costs ${LEVELS.map(l => `${euro(c.surplus[l])} ${LEVEL_NAME[l].toLowerCase()}`).join(", ")}. Gross ${LEVELS.map(l => euro(grossMonthly(c, l))).join(", ")} a month.`,
+        open: open.has(c.city)
+      });
+
       rowsEl.appendChild(row);
       tracks.push([row.querySelector(".track"), c]);
     });
@@ -230,7 +256,7 @@ function salaryChart(root) {
       ])}</select></label>
       <label><input type="checkbox" data-bonus> Count the assumed annual bonus</label>
     </div>
-    <div class="axis" style="grid-template-columns:196px 1fr 64px;column-gap:8px"><div></div><div class="ticks"></div><div style="opacity:.7">needed</div></div>
+    <div class="axis" style="grid-template-columns:${NAME_COL} 1fr 64px;column-gap:8px"><div></div><div class="ticks"></div><div style="opacity:.7">needed</div></div>
     <div class="rows"></div>
     <p class="note">Gross salaries per year, Swiss francs converted at 1.083. Each marker comes from that city's take-home pay at the three researched salaries plus its costs; outside the researched salaries the line is extended, so treat a marker as about plus or minus €5k. Bonus rates are assumptions.</p>`;
 
@@ -264,6 +290,7 @@ function salaryChart(root) {
   function draw() {
     const rowsEl = root.querySelector(".rows");
     const ticksEl = root.querySelector(".ticks");
+    const open = openCities(rowsEl);
     rowsEl.innerHTML = "";
     ticksEl.innerHTML = "";
 
@@ -281,21 +308,20 @@ function salaryChart(root) {
 
     list.sort(sorters[order.value]).forEach(({ m, need }) => {
       const c = m.c;
-      const row = document.createElement("div");
-      row.className = "row";
-      row.style.gridTemplateColumns = "196px 1fr 64px";
-      row.style.columnGap = "8px";
-      row.style.height = "28px";
-      row.title = `${c.city}: ${LEVELS.map(l => `${LEVEL_NAME[l].toLowerCase()} ${euroK(base(m, l))}`).join(", ")} gross. About ${euroK(need)} gross leaves €1,500 a month.`;
 
       let bars = "";
       ["senior", "mid", "junior"].forEach(l => {
         bars += `<div class="bar b-${l}" style="top:4px;height:16px;width:${pct(base(m, l))}"></div>`;
       });
 
-      row.innerHTML = cityName(c) +
-        `<div class="track" style="height:24px">${grid}${bars}<div class="marker" style="top:0;height:24px;left:${pct(need)}"></div></div>` +
-        `<div style="font-weight:700">${euroK(need)}</div>`;
+      const row = cityRow(c, {
+        style: `grid-template-columns:${NAME_COL} 1fr 64px;column-gap:8px;height:28px`,
+        cells:
+          `<div class="track" style="height:24px">${grid}${bars}<div class="marker" style="top:0;height:24px;left:${pct(need)}"></div></div>` +
+          `<div style="font-weight:700">${euroK(need)}</div>`,
+        title: `${c.city}: ${LEVELS.map(l => `${LEVEL_NAME[l].toLowerCase()} ${euroK(base(m, l))}`).join(", ")} gross. About ${euroK(need)} gross leaves €1,500 a month.`,
+        open: open.has(c.city)
+      });
 
       rowsEl.appendChild(row);
       tracks.push([row.querySelector(".track"), m]);
@@ -372,100 +398,87 @@ function cityDetail(c) {
 
 
 function breakdownChart(root) {
+  const LEFT_COL = "210px";
+
   root.innerHTML = `
     <div class="legend">
       ${COST_PARTS.map(([, cls, label]) => `<span><i class="key seg-${cls}"></i> ${label}</span>`).join("")}
-      <span><i class="key seg-left"></i> Left over</span>
     </div>
     <div class="ctls">
-      <label>Level <select data-level>${options(LEVELS.map(l => [l, `${LEVEL_NAME[l]} (${LEVEL_YEARS[l]})`]))}</select></label>
-      <label>Scale <select data-scale>${options([["share", "Share of take-home pay"], ["same", "Same € scale for every city"]])}</select></label>
       <label>Order by <select data-order>${options([
-        ["left", "Most left over first"],
-        ["leftLow", "Least left over first"],
-        ["rentShare", "Rent takes the biggest share first"],
-        ["net", "Highest take-home first"],
+        ["costs", "Highest costs first"],
+        ["costsLow", "Lowest costs first"],
+        ["rent", "Highest rent first"],
+        ["junior", "Most left at junior pay first"],
+        ["mid", "Most left at mid-level pay first"],
+        ["senior", "Most left at senior pay first"],
         ["country", "Country, then city"],
         ["name", "City A to Z"]
       ])}</select></label>
     </div>
+    <div class="axis" style="grid-template-columns:${NAME_COL} 1fr ${LEFT_COL};column-gap:10px">
+      <div></div>
+      <div class="ticks"></div>
+      <div class="left3 head">${LEVELS.map(l => `<span>${LEVEL_NAME[l]}</span>`).join("")}</div>
+    </div>
     <div class="rows"></div>
-    <p class="note">Click a city to open its details. Small parts carry their number in the details rather than on the bar.</p>`;
+    <p class="note">Bars are monthly costs with rent outside the centre, on the same € scale for every city. The three columns on the right are what is left each month after those costs at junior, mid-level and senior take-home pay. Click a city for its full numbers and sources.</p>`;
 
-  const level = root.querySelector("[data-level]");
-  const scale = root.querySelector("[data-scale]");
   const order = root.querySelector("[data-order]");
 
   const sorters = {
-    left: l => (a, b) => b.surplus[l] - a.surplus[l],
-    leftLow: l => (a, b) => a.surplus[l] - b.surplus[l],
-    rentShare: l => (a, b) => b.rent_outside / b.net[l] - a.rent_outside / a.net[l],
-    net: l => (a, b) => b.net[l] - a.net[l],
-    country: l => (a, b) => a.country.localeCompare(b.country) || b.surplus[l] - a.surplus[l],
-    name: () => (a, b) => a.city.localeCompare(b.city)
+    costs: (a, b) => b.costs - a.costs,
+    costsLow: (a, b) => a.costs - b.costs,
+    rent: (a, b) => b.rent_outside - a.rent_outside,
+    junior: (a, b) => b.surplus.junior - a.surplus.junior,
+    mid: (a, b) => b.surplus.mid - a.surplus.mid,
+    senior: (a, b) => b.surplus.senior - a.surplus.senior,
+    country: (a, b) => a.country.localeCompare(b.country) || b.costs - a.costs,
+    name: (a, b) => a.city.localeCompare(b.city)
   };
+
+  const leftCell = c => `<div class="left3">${LEVELS.map(l => {
+    const left = c.surplus[l];
+    return `<span class="${left < 0 ? "short" : ""}" title="${LEVEL_NAME[l]}: ${euro(left)} left a month">${euro(left)}</span>`;
+  }).join("")}</div>`;
 
   function draw() {
     const rowsEl = root.querySelector(".rows");
-    const openCities = new Set([...rowsEl.querySelectorAll("details[open]")].map(d => d.dataset.city));
+    const ticksEl = root.querySelector(".ticks");
+    const open = openCities(rowsEl);
     rowsEl.innerHTML = "";
+    ticksEl.innerHTML = "";
 
-    const l = level.value;
-    const sameScale = scale.value === "same";
-    const globalMax = Math.max(...cities.map(c => Math.max(c.net[l], c.costs)));
+    const MAX = niceMax(Math.max(...cities.map(c => c.costs)) + 100, 500);
+    const pct = v => v / MAX * 100;
 
-    const filled = [];
+    for (let t = 0; t < MAX; t += 1000) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}%">${euro(t)}</span>`);
 
-    [...cities].sort(sorters[order.value](l)).forEach(c => {
-      const left = c.surplus[l];
-      const cityTotal = Math.max(c.net[l], c.costs);
-      const scaleTotal = sameScale ? globalMax : cityTotal;
-      const pct = v => v / scaleTotal * 100;
-      const inner = v => v / cityTotal * 100;
-
-      const parts = COST_PARTS
-        .map(([key, cls, label]) => ({ value: c[key], cls, label }))
-        .filter(p => p.value > 0);
-      if (left > 0) parts.push({ value: left, cls: "left", label: "Left over" });
-
+    const rows = [...cities].sort(sorters[order.value]).map(c => {
       let x = 0;
-      const segments = parts.map(p => {
-        const html = `<div class="seg seg-${p.cls}" data-value="${p.value}" style="left:${inner(x)}%;width:${inner(p.value)}%" title="${esc(p.label)}: ${euro(p.value)}"></div>`;
-        x += p.value;
-        return html;
-      }).join("");
+      const segments = COST_PARTS
+        .map(([key, cls, label]) => ({ value: c[key], cls, label }))
+        .filter(p => p.value > 0)
+        .map(p => {
+          const html = `<div class="seg seg-${p.cls}" data-value="${p.value}" style="left:${x / c.costs * 100}%;width:${p.value / c.costs * 100}%" title="${esc(p.label)}: ${euro(p.value)}"></div>`;
+          x += p.value;
+          return html;
+        }).join("");
 
-      const netMarker = left < 0
-        ? `<div class="marker" title="Take-home ${euro(c.net[l])}" style="top:-3px;height:26px;left:${pct(c.net[l])}%"></div>`
-        : "";
-
-      const details = document.createElement("details");
-      details.className = "city";
-      details.dataset.city = c.city;
-      details.innerHTML = `
-        <summary class="row" style="grid-template-columns:196px 1fr 110px;column-gap:10px;height:32px" title="${esc(c.city)}: take-home ${euro(c.net[l])} a month">
-          ${cityName(c)}
-          <div class="track" style="height:20px;border-radius:0 8px 8px 0;overflow:visible">
-            <div class="stack" style="width:${pct(cityTotal)}%">${segments}</div>
-            ${netMarker}
-          </div>
-          <div class="left-val${left < 0 ? " short" : ""}">${left < 0 ? "short " + euro(-left) : euro(left) + " left"}</div>
-        </summary>
-        <div class="panel"></div>`;
-
-      details.addEventListener("toggle", () => {
-        const panel = details.querySelector(".panel");
-        if (details.open && !panel.innerHTML.trim()) panel.innerHTML = cityDetail(c);
+      const row = cityRow(c, {
+        style: `grid-template-columns:${NAME_COL} 1fr ${LEFT_COL};column-gap:10px;height:32px`,
+        cells: `<div class="track" style="height:20px"><div class="stack" style="width:${pct(c.costs)}%">${segments}</div></div>` + leftCell(c),
+        title: `${c.city}: ${euro(c.costs)} of costs a month`,
+        open: open.has(c.city)
       });
 
-      rowsEl.appendChild(details);
-      if (openCities.has(c.city)) details.open = true;
-      filled.push(details);
+      rowsEl.appendChild(row);
+      return row;
     });
 
     // put a number on every part wide enough to carry it
-    filled.forEach(details => {
-      details.querySelectorAll(".seg").forEach(seg => {
+    rows.forEach(row => {
+      row.querySelectorAll(".seg").forEach(seg => {
         const label = document.createElement("div");
         label.className = "lab " + (seg.classList.contains("seg-rent") ? "light" : "dark");
         label.textContent = euro(Number(seg.dataset.value));
@@ -476,7 +489,7 @@ function breakdownChart(root) {
     });
   }
 
-  [level, scale, order].forEach(control => control.addEventListener("change", draw));
+  order.addEventListener("change", draw);
   return draw;
 }
 
