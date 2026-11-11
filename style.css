@@ -54,10 +54,52 @@ html, body {
 
 a { color: var(--c-junior); }
 
-main {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 28px 20px 64px;
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 250px;
+  gap: 28px;
+  padding: 28px 24px 64px;
+  align-items: start;
+}
+
+main { min-width: 0; }
+
+.filters {
+  position: sticky;
+  top: calc(env(safe-area-inset-top, 0px) + 12px);
+  max-height: calc(100dvh - 24px);
+  overflow-y: auto;
+  padding: 14px 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.08);
+  font-size: 13px;
+}
+.filters h2 { font-size: 15px; margin: 0 0 10px; }
+.filters fieldset { border: 0; padding: 0; margin: 0 0 14px; }
+.filters legend { font-weight: 700; padding: 0; margin-bottom: 6px; }
+.filters label { display: flex; align-items: center; gap: 7px; padding: 3px 0; cursor: pointer; }
+.filters input { width: 15px; height: 15px; margin: 0; accent-color: var(--c-junior); }
+.filters .muted { color: var(--muted); font-size: 11.5px; margin: 0 0 6px; }
+.filters label .muted { margin: 0 0 0 auto; }
+.filters .quick { display: flex; gap: 6px; margin-bottom: 6px; }
+.filters button {
+  font: inherit;
+  font-size: 12px;
+  color: var(--foreground);
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.filters button:hover { border-color: var(--muted); }
+
+@media (max-width: 960px) {
+  .layout { grid-template-columns: minmax(0, 1fr); padding-inline: 16px; }
+  .filters { position: static; max-height: none; order: -1; box-shadow: none; }
+  .filters .countries { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); column-gap: 14px; }
 }
 
 h1 { font-size: 30px; margin: 0 0 8px; letter-spacing: -0.01em; }
@@ -122,12 +164,62 @@ nav.top a:hover { opacity: 1; text-decoration: underline; }
 .axis { display: grid; font-size: 11px; height: 16px; }
 .axis .ticks { position: relative; }
 .axis .ticks span { position: absolute; transform: translateX(-50%); opacity: .7; white-space: nowrap; }
-.axis .ticks span.target { opacity: 1; font-weight: 700; top: -16px; }
+.target-handle {
+  position: absolute;
+  top: -24px;
+  transform: translateX(-50%);
+  z-index: 4;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--background);
+  background: var(--foreground);
+  border: 0;
+  border-radius: 999px;
+  padding: 2px 9px;
+  cursor: ew-resize;
+  touch-action: none;
+}
+.target-handle::before { content: "\2039  "; opacity: .6; }
+.target-handle::after { content: "  \203A"; opacity: .6; }
+.target-handle:focus-visible { outline: 2px solid var(--c-junior); outline-offset: 2px; }
+body.dragging, body.dragging * { cursor: ew-resize !important; user-select: none; }
+
+.tick-boxes { display: inline-flex; flex-wrap: wrap; gap: 6px 16px; }
+
+.fold { margin-top: 6px; }
+.fold > summary {
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+  padding: 8px 10px;
+  margin: 4px 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--card);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+}
+.fold > summary:hover { color: var(--foreground); }
+
+.empty { padding: 18px 0; color: var(--muted); }
 
 .rows { position: relative; }
 .rows .lines { position: absolute; top: 0; bottom: 0; right: 0; pointer-events: none; }
 .rows .lines i { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--border); opacity: .7; }
-.rows .lines i.target { width: 2px; margin-left: -1px; background: var(--foreground); opacity: .9; z-index: 1; }
+.rows .lines i.target {
+  width: 2px;
+  margin-left: -1px;
+  background: var(--foreground);
+  opacity: .9;
+  z-index: 1;
+  pointer-events: auto;
+  cursor: ew-resize;
+  touch-action: none;
+}
+.rows .lines i.target::before { content: ""; position: absolute; inset: 0 -5px; }
 
 .row { display: grid; align-items: center; font-size: 12px; }
 .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 8px; }

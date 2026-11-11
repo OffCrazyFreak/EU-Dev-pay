@@ -5,9 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>EU dev pay vs cost of living</title>
   <meta name="description" content="What a software engineer keeps each month after tax, rent and living costs in 60 European cities, for junior, mid-level and senior pay, with every cost and source per city.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://offcrazyfreak.github.io/eu-dev-pay/">
+  <meta property="og:title" content="EU dev pay vs cost of living">
+  <meta property="og:description" content="What a software engineer keeps each month after tax, rent and living costs in 60 European cities, at junior, mid-level and senior pay.">
+  <meta property="og:image" content="https://offcrazyfreak.github.io/eu-dev-pay/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Bar chart of money left each month for software engineers in European cities">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#16141d">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="layout">
 <main>
   <h1>EU dev pay vs cost of living</h1>
   <p class="lead">How much a software engineer keeps each month after tax, rent and everyday costs in 60 European cities, at junior, mid-level and senior pay. Click any city name (marked with an <i>i</i>) to see every cost and its sources.</p>
@@ -47,6 +61,9 @@
 
   <footer>Compiled 2026-11-12. Spotted a wrong number? Open an issue on the repository.</footer>
 </main>
+
+<aside class="filters" id="filters" aria-label="Filter countries and levels"></aside>
+</div>
 
 <script src="data.js"></script>
 <script src="app.js"></script>
