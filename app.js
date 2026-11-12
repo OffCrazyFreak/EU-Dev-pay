@@ -855,6 +855,9 @@ function markActive(id) {
     if (link.dataset.tab === id) link.setAttribute("aria-current", "true");
     else link.removeAttribute("aria-current");
   });
+
+  const active = navLinks.find(link => link.dataset.tab === id);
+  document.querySelector(".current-section").textContent = active ? active.textContent : "";
 }
 
 // The nav marks whichever chart sits under the sticky header, like a table of contents.
@@ -865,7 +868,13 @@ function markChartInView() {
   const sections = [...chartsView.querySelectorAll(".chart-section")];
   const current = sections.filter(section => section.getBoundingClientRect().top <= headerBottom + 80).pop() || sections[0];
 
-  markActive(current.id);
+  const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+  const active = atBottom ? sections[sections.length - 1] : current;
+
+  markActive(active.id);
+
+  // replaceState changes the address without a jump, a hashchange event or a new history entry
+  if (location.hash !== "#" + active.id) history.replaceState(null, "", "#" + active.id);
 }
 
 let firstShow = true;

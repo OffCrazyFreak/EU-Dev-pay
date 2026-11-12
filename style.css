@@ -487,3 +487,21 @@ footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
   }
   #breakdown-chart .name { font-size: 12.5px; }
 }
+
+.current-section { display: none; }
+
+@media (max-width: 960px) {
+  .current-section {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    align-self: center;
+    text-align: right;
+    font-size: 12px;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .menu-toggle { margin-left: 0; }
+}
