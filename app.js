@@ -640,7 +640,7 @@ function breakdownChart(root) {
   function draw() {
     const levels = visibleLevels();
     const columns = `grid-template-columns:${NAME_COL} 1fr calc(${levels.length} * var(--left-col));column-gap:10px`;
-    const leftGrid = `grid-template-columns:repeat(${levels.length},1fr)`;
+    const leftGrid = `grid-template-columns:repeat(${levels.length},1fr);--n:${levels.length}`;
 
     setOptions(order, [
       ["costs", "Highest costs first"],
@@ -694,9 +694,16 @@ function breakdownChart(root) {
           return html;
         }).join("");
 
+      // Phones cannot fit numbers inside small segments, so every value is also written out under the bar.
+      const caption = COST_PARTS
+        .filter(([key]) => c[key] > 0)
+        .map(([key, cls, label]) => `<span><i class="dot seg-${cls}"></i>${esc(label)} ${euro(c[key])}</span>`)
+        .join("");
+
       const row = cityRow(c, {
         style: `${columns};height:32px`,
-        cells: `<div class="track" style="height:20px"><div class="stack" style="width:${pct(c.costs)}%">${segments}</div></div>` + leftCell(c),
+        cells: `<div class="track" style="height:20px"><div class="stack" style="width:${pct(c.costs)}%">${segments}</div></div>` + leftCell(c) +
+          `<div class="seg-caption">${caption}</div>`,
         title: `${c.city}: ${euro(c.costs)} of costs a month`,
         open: open.has(c.city)
       });
