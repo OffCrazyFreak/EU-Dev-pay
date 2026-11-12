@@ -320,6 +320,10 @@ function moneyChart(root, onTargetCommit) {
       marks += `<div class="pay" style="top:2px;height:20px;left:${pct(grossMonthly(c, l))};background:var(--c-${l})"></div>`;
     });
 
+    // a level that ends below zero has no bar, so its amount is written at the axis start instead
+    const negatives = levels.map(l => c.surplus[l]).filter(v => v < 0);
+    if (negatives.length) marks += `<div class="neg-label">${negatives.map(euro).join(" ")}</div>`;
+
     const row = cityRow(c, {
       style: `grid-template-columns:${NAME_COL} 1fr;height:24px`,
       cells: `<div class="track" style="height:24px">${marks}</div>`,
