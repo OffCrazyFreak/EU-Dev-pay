@@ -59,8 +59,9 @@ function loadState() {
     if (!saved) return defaults;
 
     const levels = LEVELS.filter(l => saved.levels?.includes(l));
-    const countries = COUNTRIES.filter(cc => saved.countries?.includes(cc));
-    const target = Number.isFinite(saved.target) ? saved.target : defaults.target;
+    // countries the visitor switched off are saved, so countries added later show up by default
+    const countries = COUNTRIES.filter(cc => !saved.hidden?.includes(cc));
+    const target = Number.isFinite(saved.target) ? Math.min(20000, Math.max(0, saved.target)) : defaults.target;
 
     return { levels: levels.length ? levels : defaults.levels, countries, target };
   } catch {
@@ -70,7 +71,11 @@ function loadState() {
 
 function saveState() {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      levels: state.levels,
+      hidden: COUNTRIES.filter(cc => !state.countries.includes(cc)),
+      target: state.target
+    }));
   } catch {
     // storage can be blocked; the filter still works for this visit
   }
@@ -253,6 +258,7 @@ function moneyChart(root, onTargetCommit) {
   }
 
   function startDrag(event) {
+    if (event.button !== 0) return;
     event.preventDefault();
     const rect = ticksEl.getBoundingClientRect();
     const move = e => setTarget((e.clientX - rect.left) / rect.width * MAX);
@@ -260,6 +266,7 @@ function moneyChart(root, onTargetCommit) {
     const stop = () => {
       window.removeEventListener("pointermove", move);
       window.removeEventListener("pointerup", stop);
+      window.removeEventListener("pointercancel", stop);
       document.body.classList.remove("dragging");
       commitTarget();
     };
@@ -267,6 +274,7 @@ function moneyChart(root, onTargetCommit) {
     document.body.classList.add("dragging");
     window.addEventListener("pointermove", move);
     window.addEventListener("pointerup", stop);
+    window.addEventListener("pointercancel", stop);
   }
 
   function onHandleKey(event) {
@@ -380,7 +388,7 @@ function moneyChart(root, onTargetCommit) {
     }
 
     ticksEl.insertAdjacentHTML("beforeend",
-      `<button type="button" class="target-handle" role="slider" aria-label="Money left target per month" aria-valuemin="0" aria-valuemax="${MAX}" title="Drag, or use the arrow keys"></button>`);
+      `<button type="button" class="target-handle" role="slider" aria-label="Money left target per month" aria-valuemin="0" aria-valuemax="${MAX - TARGET_STEP}" title="Drag, or use the arrow keys"></button>`);
     lines.insertAdjacentHTML("beforeend", `<i class="target" title="Drag to change the target"></i>`);
 
     const handle = ticksEl.querySelector(".target-handle");
@@ -440,7 +448,7 @@ function salaryChart(root) {
     <div class="legend" data-legend></div>
     <div class="ctls">
       <label>Order by <select data-order></select></label>
-      <label><input type="checkbox" data-bonus> Count the assumed annual bonus</label>
+      <label><input type="checkbox" data-bonus checked> Count the assumed annual bonus</label>
     </div>
     <div class="axis" style="grid-template-columns:${NAME_COL} 1fr var(--need-col);column-gap:8px"><div></div><div class="ticks"></div><div style="opacity:.7">needed</div></div>
     <div class="rows"></div>
@@ -881,7 +889,11 @@ window.addEventListener("scroll", markChartInView, { passive: true });
 showView();
 
 let resizeTimer;
+let lastWidth = window.innerWidth;
 window.addEventListener("resize", () => {
+  // phone browsers fire resize when the address bar hides while scrolling; only a width change needs a redraw
+  if (window.innerWidth === lastWidth) return;
+  lastWidth = window.innerWidth;
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(drawCharts, 150);
 });
