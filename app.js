@@ -797,7 +797,7 @@ function filterPanel(root, onChange) {
       </div>
       <div class="countries">
         ${COUNTRIES.map(cc => `
-          <label><input type="checkbox" data-country="${cc}"> ${flag(cc)} ${esc(countryName(cc))} <span class="muted">${cityCount(cc)}</span></label>`).join("")}
+          <label><input type="checkbox" data-country="${cc}"> ${flag(cc)} <span class="cc-code">${cc}</span> ${esc(countryName(cc))} <span class="muted">${cityCount(cc)}</span></label>`).join("")}
       </div>
     </fieldset>
     </details>`;
