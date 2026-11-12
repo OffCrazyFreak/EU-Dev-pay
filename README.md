@@ -1,6 +1,6 @@
 # EU dev pay vs cost of living
 
-How much a software engineer keeps each month after tax, rent and everyday costs in 60 European cities, at junior, mid-level and senior pay.
+How much a software engineer keeps each month after tax, rent and everyday costs in 88 European cities, at junior, mid-level and senior pay.
 
 Live page: https://offcrazyfreak.github.io/EU-Dev-pay/
 
