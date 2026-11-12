@@ -3813,6 +3813,653 @@ window.CITIES = [
   }
  },
  {
+  "city": "Zagreb",
+  "country": "HR",
+  "rent_outside": 636,
+  "rent_centre": 778,
+  "room_shared": null,
+  "everyday": 458,
+  "everyday_parts": {
+   "groceries": 198,
+   "utilities": 117,
+   "internet_phone": 56,
+   "going_out": 87,
+   "other": 0
+  },
+  "commute": 47.78,
+  "commute_note": "ZET monthly pass for the whole city 47.78 EUR (general category), unchanged price list; the same pass for students and pensioners costs 13.27 EUR.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 22800,
+   "mid": 34200,
+   "senior": 48000
+  },
+  "bonus_rate": {
+   "junior": 0.04,
+   "mid": 0.06,
+   "senior": 0.08
+  },
+  "net": {
+   "junior": 1355,
+   "mid": 1999,
+   "senior": 2799
+  },
+  "surplus": {
+   "junior": 213,
+   "mid": 857,
+   "senior": 1657
+  },
+  "tax_regime_note": "Income tax is set by the city of residence for 2026: a lower rate on the yearly tax base up to 60,000 EUR and a higher rate above it. Each employee gets a personal allowance of 600 EUR a month, and employee pension contributions are 20% of gross (15% first pillar plus 5% second pillar). The 16.5% health contribution is paid by the employer on top of gross pay, so nothing separate is deducted from the employee. The old city surtax no longer exists, the city rate replaced it. Zagreb rates for 2026 are 23% and 33%. Net is computed for an employee without any youth relief. Employees under 25 get back all income tax paid and those aged 25 to 30 get back half, refunded by the tax office after the year ends; for a junior this would add roughly 8% (age 25 to 30) or 17% (under 25) to net pay.",
+  "language": "Many Zagreb software firms advertise roles in English, so English is workable day to day, while knowing the local language helps with local employers and paperwork.",
+  "notes": [
+   "Base pay shown is yearly pay before any bonus, twelve monthly payments; there is no statutory 13th salary. Bonus rates are estimates, and pay levels for each city are estimates built from the linked sources. Pay is based on national medians for full stack, frontend and backend roles (junior about 1,800 to 1,900, mid about 2,700 to 2,950, senior about 3,850 to 4,000 EUR a month) with Zagreb treated as the reference city.",
+   "Salary evidence is thin: the survey medians have no stated sample size and a few ads or aggregators quote far higher or lower figures, so treat the pay levels as ranges rather than precise figures.",
+   "Rent is the average of the Numbeo figure (598 EUR) and the median of 10 one-bedroom style ads outside the centre on Njuskalo (675 EUR, sizes 33 to 54 square metres). Central rent is the Numbeo figure because the ad sample in the centre is too small.",
+   "Cheaper outer districts such as Dugave, Oporovec, Volovcica and Cvjetno naselje showed ads at 550 to 650 EUR, against 800 to 1,000 EUR for central streets.",
+   "Everyday costs use a fixed monthly basket priced with Numbeo: groceries, 60% of the Numbeo utilities figure, mobile plus broadband, and going out (4 meals, 6 beers, 2 cinema trips, 4 coffees). The Numbeo transport pass is replaced by the pass price in the commute row.",
+   "Many employers add tax-free extras (meal and transport allowance, Christmas or holiday bonus) that are not in the net figure here; salary surveys that quote net pay often include them."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Zagreb"
+   },
+   {
+    "label": "Njuskalo Zagreb rental ads",
+    "url": "https://www.njuskalo.hr/iznajmljivanje-stanova/zagreb"
+   },
+   {
+    "label": "Tabu full stack pay by level",
+    "url": "https://www.tabu.hr/placa/full-stack-developera"
+   },
+   {
+    "label": "Tabu frontend pay by level",
+    "url": "https://www.tabu.hr/placa/frontend-developera"
+   },
+   {
+    "label": "Tabu backend pay by level",
+    "url": "https://www.tabu.hr/placa/backend-developera"
+   },
+   {
+    "label": "2026 city income tax rates, RRiF",
+    "url": "https://www.rrif.hr/stope_poreza_na_dohodak_za_isplate_od_1_sijecnja_2-13-strucnainformacija/"
+   },
+   {
+    "label": "2026 payroll rules, Finacro",
+    "url": "https://finacro.hr/good-to-know/kljucne-promjene-u-placama-i-porezu-na-dohodak-od-1-sijecnja-2026/"
+   },
+   {
+    "label": "2026 net pay rules and example, MojKalkulator",
+    "url": "https://mojkalkulator.com.hr/neto-placa"
+   },
+   {
+    "label": "ZET price list extract",
+    "url": "https://www.zet.hr/UserDocsImages//Dokumenti%20i%20obrasci%20za%20preuzimanje/Cjenici//Izvod%20iz%20Cjenika_Grad%20Zagreb_27.2.2024..pdf"
+   },
+   {
+    "label": "Youth tax relief 2026, MojKalkulator",
+    "url": "https://mojkalkulator.com.hr/povrat-poreza"
+   }
+  ],
+  "base_yearly": {
+   "junior": 22800,
+   "mid": 34200,
+   "senior": 48000
+  }
+ },
+ {
+  "city": "Split",
+  "country": "HR",
+  "rent_outside": 722,
+  "rent_centre": 902,
+  "room_shared": null,
+  "everyday": 464,
+  "everyday_parts": {
+   "groceries": 186,
+   "utilities": 112,
+   "internet_phone": 55,
+   "going_out": 111,
+   "other": 0
+  },
+  "commute": 35.0,
+  "commute_note": "Promet Split personalised monthly pass for travel inside Split 35.00 EUR (price list valid from 2026-06-01); employees registered as residents of Split pay a 30.00 EUR coupon. A pass for the whole network costs 100 EUR.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 21000,
+   "mid": 31800,
+   "senior": 44400
+  },
+  "bonus_rate": {
+   "junior": 0.04,
+   "mid": 0.06,
+   "senior": 0.08
+  },
+  "net": {
+   "junior": 1272,
+   "mid": 1893,
+   "senior": 2638
+  },
+  "surplus": {
+   "junior": 51,
+   "mid": 672,
+   "senior": 1417
+  },
+  "tax_regime_note": "Income tax is set by the city of residence for 2026: a lower rate on the yearly tax base up to 60,000 EUR and a higher rate above it. Each employee gets a personal allowance of 600 EUR a month, and employee pension contributions are 20% of gross (15% first pillar plus 5% second pillar). The 16.5% health contribution is paid by the employer on top of gross pay, so nothing separate is deducted from the employee. The old city surtax no longer exists, the city rate replaced it. Split rates for 2026 are 21.5% and 32%. Net is computed for an employee without any youth relief. Employees under 25 get back all income tax paid and those aged 25 to 30 get back half, refunded by the tax office after the year ends; for a junior this would add roughly 8% (age 25 to 30) or 17% (under 25) to net pay.",
+  "language": "International employers in Split, for example the Split office of Speechify, post their roles in English; the local language is needed mainly for local employers and paperwork.",
+  "notes": [
+   "Base pay shown is yearly pay before any bonus, twelve monthly payments; there is no statutory 13th salary. Bonus rates are estimates, and pay levels for each city are estimates built from the linked sources. Split pay is assumed to be about 8% below Zagreb, a hypothesis based on one aggregator that puts Split developer pay roughly 14% under Zagreb and on very thin entry-level data; no Split-specific survey was found.",
+   "Posted pay is thin: a Split senior engineer ad from a US-based firm lists 30,000 to 65,000 USD a year with bonus and equity on top.",
+   "Rent is the average of Numbeo (643 EUR) and the median of 11 one-bedroom ads on Njuskalo (800 EUR); ads in Sucidar and Spinut were 550 to 600 EUR, central or sea-side new builds 850 to 950 EUR.",
+   "The Split pass price depends on the municipality where the employee is registered, and the cheaper 30 EUR coupon needs registered residence in the city.",
+   "Many employers add tax-free extras (meal and transport allowance, Christmas or holiday bonus) that are not in the net figure here; salary surveys that quote net pay often include them."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Split"
+   },
+   {
+    "label": "Njuskalo Split rental ads",
+    "url": "https://www.njuskalo.hr/iznajmljivanje-stanova/split"
+   },
+   {
+    "label": "Speechify Split senior engineer ad with pay range",
+    "url": "https://careers.canaan.com/companies/speechify/jobs/76353819-senior-software-engineer-core-experiences-split-croatia"
+   },
+   {
+    "label": "Levels.fyi Croatia entry-level software engineer pay",
+    "url": "https://www.levels.fyi/t/software-engineer/levels/entry-level/locations/croatia"
+   },
+   {
+    "label": "Tabu full stack pay by level",
+    "url": "https://www.tabu.hr/placa/full-stack-developera"
+   },
+   {
+    "label": "2026 city income tax rates, RRiF",
+    "url": "https://www.rrif.hr/stope_poreza_na_dohodak_za_isplate_od_1_sijecnja_2-13-strucnainformacija/"
+   },
+   {
+    "label": "2026 net pay rules and example, MojKalkulator",
+    "url": "https://mojkalkulator.com.hr/neto-placa"
+   },
+   {
+    "label": "Promet Split price list from 2026-06-01",
+    "url": "https://www.promet-split.hr/Portals/0/adam/Documents/nxTsFBBAZEqNiue6f6kkVQ/Files/GLAVNI%20CJENIK%20-%20Vrijedi%20od%2001.06.2026.%20g.pdf"
+   },
+   {
+    "label": "Youth tax relief 2026, MojKalkulator",
+    "url": "https://mojkalkulator.com.hr/povrat-poreza"
+   }
+  ],
+  "base_yearly": {
+   "junior": 21000,
+   "mid": 31800,
+   "senior": 44400
+  }
+ },
+ {
+  "city": "Rijeka",
+  "country": "HR",
+  "rent_outside": 538,
+  "rent_centre": 630,
+  "room_shared": null,
+  "everyday": 428,
+  "everyday_parts": {
+   "groceries": 181,
+   "utilities": 101,
+   "internet_phone": 57,
+   "going_out": 89,
+   "other": 0
+  },
+  "commute": 48.0,
+  "commute_note": "Autotrolej worker monthly card for one zone 48.00 EUR (price list for 2026); more zones cost 65, 82 and 99 EUR.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 20400,
+   "mid": 30000,
+   "senior": 42000
+  },
+  "bonus_rate": {
+   "junior": 0.04,
+   "mid": 0.06,
+   "senior": 0.08
+  },
+  "net": {
+   "junior": 1252,
+   "mid": 1816,
+   "senior": 2539
+  },
+  "surplus": {
+   "junior": 238,
+   "mid": 802,
+   "senior": 1525
+  },
+  "tax_regime_note": "Income tax is set by the city of residence for 2026: a lower rate on the yearly tax base up to 60,000 EUR and a higher rate above it. Each employee gets a personal allowance of 600 EUR a month, and employee pension contributions are 20% of gross (15% first pillar plus 5% second pillar). The 16.5% health contribution is paid by the employer on top of gross pay, so nothing separate is deducted from the employee. The old city surtax no longer exists, the city rate replaced it. Rijeka rates for 2026 are 20% and 25%, the lowest of the three large cities, cut from 22% and 32% in 2025. Net is computed for an employee without any youth relief. Employees under 25 get back all income tax paid and those aged 25 to 30 get back half, refunded by the tax office after the year ends; for a junior this would add roughly 8% (age 25 to 30) or 17% (under 25) to net pay.",
+  "language": "English is workable at the international employers in Rijeka; the local language helps with local employers and paperwork.",
+  "notes": [
+   "Base pay shown is yearly pay before any bonus, twelve monthly payments; there is no statutory 13th salary. Bonus rates are estimates, and pay levels for each city are estimates built from the linked sources. Rijeka pay is assumed to be about 12% below Zagreb. This is a hypothesis: no Rijeka-specific survey was found, and the only hints are low reported pay at a large Rijeka employer and very thin entry-level data.",
+   "The lower city income tax rate partly makes up for lower pay: Rijeka taxes the part of the tax base up to 60,000 EUR a year at 20%, against 23% in Zagreb and 21.5% in Split.",
+   "Rent is the average of Numbeo (477 EUR) and asking prices of 550 to 650 EUR for one-bedroom flats reported by a local agency for January 2026 (600 EUR used). Rent rests on these two figures rather than an ad sample, so it is the least certain rent figure in this file.",
+   "The one-zone monthly card is the most expensive of the three large cities in this file; each extra zone adds 17 EUR.",
+   "Many employers add tax-free extras (meal and transport allowance, Christmas or holiday bonus) that are not in the net figure here; salary surveys that quote net pay often include them."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Rijeka"
+   },
+   {
+    "label": "Rijeka rent levels 2026, Nekretnine Rijeka",
+    "url": "https://nekretninerijeka.hr/novosti-rijeka/koja-je-cijena-najma-u-rijeci-u-2026"
+   },
+   {
+    "label": "Rijeka rental ads, SveHrNekretnine",
+    "url": "https://www.svehrnekretnine.com/mjesecni-najam-stanova-rijeka"
+   },
+   {
+    "label": "Levels.fyi Croatia entry-level software engineer pay",
+    "url": "https://www.levels.fyi/t/software-engineer/levels/entry-level/locations/croatia"
+   },
+   {
+    "label": "Tabu full stack pay by level",
+    "url": "https://www.tabu.hr/placa/full-stack-developera"
+   },
+   {
+    "label": "2026 income tax rate changes, tportal",
+    "url": "https://www.tportal.hr/biznis/clanak/od-1-sijecnja-2026-nove-stope-poreza-na-dohodak-u-13-opcina-i-gradova-20251218"
+   },
+   {
+    "label": "2026 city income tax rates, RRiF",
+    "url": "https://www.rrif.hr/stope_poreza_na_dohodak_za_isplate_od_1_sijecnja_2-13-strucnainformacija/"
+   },
+   {
+    "label": "2026 net pay rules and example, MojKalkulator",
+    "url": "https://mojkalkulator.com.hr/neto-placa"
+   },
+   {
+    "label": "Autotrolej monthly cards",
+    "url": "https://www.autotrolej.hr/karte/mjesecne-karte/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 20400,
+   "mid": 30000,
+   "senior": 42000
+  }
+ },
+ {
+  "city": "Budapest",
+  "country": "HU",
+  "rent_outside": 596,
+  "rent_centre": 776,
+  "room_shared": null,
+  "everyday": 392,
+  "everyday_parts": {
+   "groceries": 159,
+   "utilities": 91,
+   "internet_phone": 44,
+   "going_out": 98,
+   "other": 0
+  },
+  "commute": 24.52,
+  "commute_note": "BKK monthly Budapest pass 8,950 HUF (full price, unchanged in 2026), converted at the ECB rate of 365.08 HUF per EUR on 2026-11-11.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 29583,
+   "mid": 43552,
+   "senior": 59987
+  },
+  "bonus_rate": {
+   "junior": 0.04,
+   "mid": 0.07,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1705,
+   "mid": 2582,
+   "senior": 3657
+  },
+  "surplus": {
+   "junior": 692,
+   "mid": 1569,
+   "senior": 2644
+  },
+  "tax_regime_note": "Flat 15% personal income tax on gross pay plus 18.5% employee social contributions (10% pension, 7% health, 1.5% labour market), so take-home is 66.5% of gross; there is no basic allowance for a single person. Net is computed for an employee who does not get the under-25 income tax exemption. EEA citizens under 25 can claim it; it removes the 15% tax on monthly income up to a cap close to the national average wage (about 575,000 HUF in 2024), while social contributions still apply. Family tax allowances exist but do not apply to a single employee without children.",
+  "language": "English is the working language at most Budapest multinationals and many product firms, while Hungarian is needed for everyday paperwork and for local employers.",
+  "notes": [
+   "Base monthly pay assumed: junior 900,000 HUF, mid 1,325,000 HUF, senior 1,825,000 HUF, set slightly below the average of two 2026 benchmarks (a recruiter guide and a salary site) because other published ranges are lower; a Budapest ad for a mid or senior full stack role posted 900,000 to 1,500,000 HUF a month. Yearly figures convert at 365.08 HUF per EUR.",
+   "Official statistics put the average gross pay of software developers in 2025 at 1,364,606 HUF a month overall and 1,095,037 HUF for those under 30 (KSH data as reported by BerIndex), which sits inside these levels.",
+   "Rent is the average of Numbeo (214,982 HUF outside the centre, 281,667 HUF in the centre, copy dated 2026-06-16) and listing-market figures from October 2026: the median ad is 260,000 HUF across all flat sizes, small flats in cheaper districts are 200,000 to 240,000 HUF, and one-bedroom flats of 30 to 55 square metres range from 220,000 to 350,000 HUF. Outer districts (XV, XVIII to XXI) have median asking rents around 210,000 HUF against about 350,000 HUF in district V.",
+   "Everyday costs use Numbeo prices converted at the same rate; this is the least costly of the large cities in this file.",
+   "Social contributions of 18.5% already include health insurance, so no separate health premium is added. The employer pays a further 13% social tax on top of gross.",
+   "There is no statutory 13th month pay. Bonus rates are estimates for a typical annual bonus; base pay is quoted before it."
+  ],
+  "sources": [
+   {
+    "label": "NAV short summary of personal taxation 2026",
+    "url": "https://nav.gov.hu/pfile/file?path=%2Fen%2Ftaxation%2Ftaxinfo%2Fa-short-summary-on-the-taxation-of-private-persons"
+   },
+   {
+    "label": "Hungary income tax guide, contribution rates",
+    "url": "https://www.countrytaxcalc.com/tax-guides/hungary-income-tax-guide-2026/"
+   },
+   {
+    "label": "Bluebird IT salary guide 2026",
+    "url": "https://bluebird.hu/it-fizetesek/"
+   },
+   {
+    "label": "IT salaries 2026, fizetesek.com",
+    "url": "https://www.fizetesek.com/blog/it-fizetesek-2026-ban-mennyit-keresnek-a-fejlesztok-adatszakertok-biztonsagi-mernokok"
+   },
+   {
+    "label": "Software developer pay, KSH data via BerIndex",
+    "url": "https://berindex.hu/fizetes/szoftverfejleszto/"
+   },
+   {
+    "label": "Budapest full stack ad with posted pay, Profession.hu",
+    "url": "https://www.profession.hu/en/advertisement/full-stack-fejleszto-net-angular-medior-senior-unix-auto-kft-budapest-3033681"
+   },
+   {
+    "label": "Numbeo cost of living Budapest, archived copy 2026-06-16",
+    "url": "https://web.archive.org/web/20260616202059/https://www.numbeo.com/cost-of-living/in/Budapest"
+   },
+   {
+    "label": "Rents October 2026, Megaport",
+    "url": "https://megaport.hu/blog/alberlet-arak-oktober/"
+   },
+   {
+    "label": "BKK monthly pass prices",
+    "url": "https://bkk.hu/jegyek-es-berletek/arak/havi-berletek/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 29583,
+   "mid": 43552,
+   "senior": 59987
+  }
+ },
+ {
+  "city": "Debrecen",
+  "country": "HU",
+  "rent_outside": 486,
+  "rent_centre": 567,
+  "room_shared": null,
+  "everyday": 364,
+  "everyday_parts": {
+   "groceries": 152,
+   "utilities": 84,
+   "internet_phone": 43,
+   "going_out": 85,
+   "other": 0
+  },
+  "commute": 25.2,
+  "commute_note": "DKV monthly local pass 9,200 HUF (electronic, 9,600 HUF on paper), price unchanged in 2026, converted at the ECB rate of 365.08 HUF per EUR on 2026-11-11.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 25145,
+   "mid": 36978,
+   "senior": 50948
+  },
+  "bonus_rate": {
+   "junior": 0.04,
+   "mid": 0.07,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1449,
+   "mid": 2193,
+   "senior": 3106
+  },
+  "surplus": {
+   "junior": 574,
+   "mid": 1318,
+   "senior": 2231
+  },
+  "tax_regime_note": "Flat 15% personal income tax on gross pay plus 18.5% employee social contributions (10% pension, 7% health, 1.5% labour market), so take-home is 66.5% of gross; there is no basic allowance for a single person. Net is computed for an employee who does not get the under-25 income tax exemption. EEA citizens under 25 can claim it; it removes the 15% tax on monthly income up to a cap close to the national average wage (about 575,000 HUF in 2024), while social contributions still apply. Family tax allowances exist but do not apply to a single employee without children.",
+  "language": "Debrecen has branches of international technology and engineering firms where English is the working language; smaller local firms often work in Hungarian.",
+  "notes": [
+   "Base monthly pay assumed: junior 765,000 HUF, mid 1,125,000 HUF, senior 1,550,000 HUF, which is 85% of the Budapest levels. This is an assumption: a salary site reports provincial IT pay as 15% to 30% below Budapest, and no survey for Debrecen alone was found.",
+   "Employers visible on a Debrecen job board for software roles include NI Hungary, Diehl Aviation, OZEKI and E.ON; most listings carry no posted pay.",
+   "Rent is the average of Numbeo (154,500 HUF outside the centre, copy dated 2026-05-04, 23 contributors) and listing-market data: one-and-a-half room flats at 160,000 to 230,000 HUF (median 200,000 HUF across 5 ads) and a city-wide median near 220,000 HUF.",
+   "The Numbeo copy for Debrecen is older (May 2026) than the listing figures (November 2026), which is why both are averaged.",
+   "Social contributions of 18.5% already include health insurance, so no separate health premium is added. The employer pays a further 13% social tax on top of gross.",
+   "There is no statutory 13th month pay. Bonus rates are estimates for a typical annual bonus; base pay is quoted before it."
+  ],
+  "sources": [
+   {
+    "label": "NAV short summary of personal taxation 2026",
+    "url": "https://nav.gov.hu/pfile/file?path=%2Fen%2Ftaxation%2Ftaxinfo%2Fa-short-summary-on-the-taxation-of-private-persons"
+   },
+   {
+    "label": "Hungary income tax guide, contribution rates",
+    "url": "https://www.countrytaxcalc.com/tax-guides/hungary-income-tax-guide-2026/"
+   },
+   {
+    "label": "Budapest versus provincial IT pay, fizetesek.com",
+    "url": "https://www.fizetesek.com/blog/junior-webfejleszto-fizetes-magyarorszagon-2025-ben"
+   },
+   {
+    "label": "Bluebird IT salary guide 2026",
+    "url": "https://bluebird.hu/it-fizetesek/"
+   },
+   {
+    "label": "Software developer pay, KSH data via BerIndex",
+    "url": "https://berindex.hu/fizetes/szoftverfejleszto/"
+   },
+   {
+    "label": "Debrecen software developer jobs, Profession.hu",
+    "url": "https://www.profession.hu/allasok/debrecen/1,0,32,szoftverfejleszt%25C5%2591%25401%25401,0,4000"
+   },
+   {
+    "label": "Numbeo cost of living Debrecen, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Debrecen"
+   },
+   {
+    "label": "Debrecen rental ads, Albifigyelo",
+    "url": "https://albifigyelo.hu/kiado-alberletek/debrecen"
+   },
+   {
+    "label": "Rents October 2026, Megaport",
+    "url": "https://megaport.hu/blog/alberlet-arak-oktober/"
+   },
+   {
+    "label": "DKV monthly pass prices",
+    "url": "https://dkv.hu/jegyek-es-berletek/berletek"
+   }
+  ],
+  "base_yearly": {
+   "junior": 25145,
+   "mid": 36978,
+   "senior": 50948
+  }
+ },
+ {
+  "city": "Bratislava",
+  "country": "SK",
+  "rent_outside": 844,
+  "rent_centre": 918,
+  "room_shared": null,
+  "everyday": 451,
+  "everyday_parts": {
+   "groceries": 180,
+   "utilities": 141,
+   "internet_phone": 37,
+   "going_out": 93,
+   "other": 0
+  },
+  "commute": 40.5,
+  "commute_note": "DPB regular 30-day pass 40.50 EUR for zones 100 and 101. From 2026-10-12 until 2026-11-30 the price is temporarily halved to 20.25 EUR; the regular price is used here.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 22800,
+   "mid": 36000,
+   "senior": 51600
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1478,
+   "mid": 2303,
+   "senior": 3257
+  },
+  "surplus": {
+   "junior": 142,
+   "mid": 968,
+   "senior": 1922
+  },
+  "tax_regime_note": "Employee contributions in 2026 are 14.4% of gross (9.4% social insurance plus health insurance, which rose from 4% to 5% in 2026). Income tax on the base after contributions is 19% up to 43,983.32 EUR a year, 25% up to 60,349.21, 30% up to 75,010.32 and 35% above. The tax-free allowance is 5,966.73 EUR a year for a tax base up to 26,083.13 EUR and then shrinks to zero at 43,983 EUR. Net is computed for a single employee without children, so the child tax bonus does not apply; no youth or expat regime changes this.",
+  "language": "English is workable at Bratislava software firms; about three quarters of the software ads on the main job board list English as a requirement, and Slovak or Czech helps for local employers.",
+  "notes": [
+   "Base monthly pay assumed: junior 1,900, mid 3,000, senior 4,300 EUR. Sources: two aggregators give junior 1,600 to 1,900, Bratislava mid 2,900 to 3,200 and senior 4,200 to 4,500 EUR; Bratislava ads on Profesia post minimums of 3,000 to 3,200 EUR for developer roles (ranges up to 4,500), 2,000 EUR for a junior test developer.",
+   "The aggregators do not state sample sizes or methods, and the ads show minimums, so levels are estimates.",
+   "Rent: Numbeo outside the centre is 702 EUR; the median of 10 ads for two-room flats of 30 to 55 square metres outside the Old Town is 985 EUR (some include utilities). The two are averaged. Ads in Dubravka and Karlova Ves were 640 to 800 EUR.",
+   "Tax changes in 2026 raise the burden on higher salaries: the 25%, 30% and 35% brackets are new and the tax-free allowance is withdrawn earlier than before, which affects mid and senior pay.",
+   "Health insurance is inside the 14.4% employee contributions, so no separate premium is added.",
+   "Job ads in Slovakia must state the pay, and most state a minimum (\"from\"); real offers are often above the posted figure. There is no statutory 13th salary, and bonus rates are estimates."
+  ],
+  "sources": [
+   {
+    "label": "Software developer ads in Bratislava, Profesia",
+    "url": "https://www.profesia.sk/praca/bratislava/?search_anywhere=software+developer"
+   },
+   {
+    "label": "Programmer pay in Slovakia, Kolkozarabam",
+    "url": "https://kolkozarabam.sk/plat/programator"
+   },
+   {
+    "label": "Programmer pay in Slovakia, Skuskaosobnosti",
+    "url": "https://skuskaosobnosti.sk/sprievodca/kolko-zaraba-programator"
+   },
+   {
+    "label": "2026 net pay calculator and rules, Finsider",
+    "url": "https://www.finsider.sk/kalkulacky/vypocet-cistej-mzdy-2026/"
+   },
+   {
+    "label": "Progressive tax from 2026, Podnikajte",
+    "url": "https://www.podnikajte.sk/dan-z-prijmov/progresivne-zdanenie-prijmov-fyzickych-osob-od-2026"
+   },
+   {
+    "label": "2026 tax changes overview, BMB",
+    "url": "https://www.bmb.sk/wp-content/uploads/2026/01/www.bmb.sk-novinky-2026-prehlad-zmien-v-oblasti-dani-od-januara-2026.pdf"
+   },
+   {
+    "label": "Numbeo cost of living Bratislava, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Bratislava"
+   },
+   {
+    "label": "Two-room flats for rent in Bratislava, Nehnutelnosti.sk",
+    "url": "https://www.nehnutelnosti.sk/bratislava/2-izbove-byty/prenajom/"
+   },
+   {
+    "label": "DPB ticket prices and temporary discount",
+    "url": "https://dpb.sk/polovica"
+   }
+  ],
+  "base_yearly": {
+   "junior": 22800,
+   "mid": 36000,
+   "senior": 51600
+  }
+ },
+ {
+  "city": "Kosice",
+  "country": "SK",
+  "rent_outside": 740,
+  "rent_centre": 800,
+  "room_shared": null,
+  "everyday": 454,
+  "everyday_parts": {
+   "groceries": 157,
+   "utilities": 178,
+   "internet_phone": 37,
+   "going_out": 82,
+   "other": 0
+  },
+  "commute": 30.0,
+  "commute_note": "DPMK regular 30-day pass 30.00 EUR for trams and buses. From 2026-10-12 until 2026-11-30 the price is temporarily halved to 15.00 EUR; the regular price is used here.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 20400,
+   "mid": 31200,
+   "senior": 43200
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1332,
+   "mid": 2027,
+   "senior": 2763
+  },
+  "surplus": {
+   "junior": 108,
+   "mid": 803,
+   "senior": 1539
+  },
+  "tax_regime_note": "Employee contributions in 2026 are 14.4% of gross (9.4% social insurance plus health insurance, which rose from 4% to 5% in 2026). Income tax on the base after contributions is 19% up to 43,983.32 EUR a year, 25% up to 60,349.21, 30% up to 75,010.32 and 35% above. The tax-free allowance is 5,966.73 EUR a year for a tax base up to 26,083.13 EUR and then shrinks to zero at 43,983 EUR. Net is computed for a single employee without children, so the child tax bonus does not apply; no youth or expat regime changes this.",
+  "language": "English is workable at the large Kosice software employers (international IT service centres and product firms post English ads); Slovak helps for smaller local firms.",
+  "notes": [
+   "Base monthly pay assumed: junior 1,700, mid 2,600, senior 3,600 EUR. Posted minimums on Slovak job boards for Kosice or remote roles: junior 1,500 to 2,200 EUR, mid 2,500 to 3,000 EUR, senior 3,000 to 3,800 EUR (some remote ads reach 4,700 EUR). Two aggregators put Kosice mid at 2,500 to 2,750 EUR and senior at 3,800 EUR.",
+   "Many Kosice-area ads are for fully remote roles at firms based elsewhere, so the local market pay can be a little lower than the ads suggest.",
+   "Rent: Numbeo outside the centre is 636 EUR (26 contributors, copy dated 2026-07-06); the median of 10 two-room ads outside the Old Town is 843 EUR, and the two are averaged. Central rent averages Numbeo (841 EUR) and the Old Town ad median (760 EUR from 7 ads).",
+   "Utilities are the largest part of everyday costs here (Numbeo reports about 296 EUR for an 85 square metre flat) and rest on few contributors, so treat them with care.",
+   "Health insurance is inside the 14.4% employee contributions, so no separate premium is added.",
+   "Job ads in Slovakia must state the pay, and most state a minimum (\"from\"); real offers are often above the posted figure. There is no statutory 13th salary, and bonus rates are estimates."
+  ],
+  "sources": [
+   {
+    "label": "Software developer ads in Kosice, 8h.sk",
+    "url": "https://8h.sk/s?f=SK_KE&q=software+developer&t=job"
+   },
+   {
+    "label": "Full stack ads in Kosice, 8h.sk",
+    "url": "https://8h.sk/s?f=SK_KE&q=full+stack&t=job"
+   },
+   {
+    "label": "Junior developer ads in Kosice, 8h.sk",
+    "url": "https://8h.sk/s?f=SK_KE&q=junior+developer&t=job"
+   },
+   {
+    "label": "Programmer pay in Slovakia, Kolkozarabam",
+    "url": "https://kolkozarabam.sk/plat/programator"
+   },
+   {
+    "label": "Programmer pay in Slovakia, Skuskaosobnosti",
+    "url": "https://skuskaosobnosti.sk/sprievodca/kolko-zaraba-programator"
+   },
+   {
+    "label": "2026 net pay calculator and rules, Finsider",
+    "url": "https://www.finsider.sk/kalkulacky/vypocet-cistej-mzdy-2026/"
+   },
+   {
+    "label": "2026 tax changes overview, BMB",
+    "url": "https://www.bmb.sk/wp-content/uploads/2026/01/www.bmb.sk-novinky-2026-prehlad-zmien-v-oblasti-dani-od-januara-2026.pdf"
+   },
+   {
+    "label": "Numbeo cost of living Kosice, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Kosice"
+   },
+   {
+    "label": "Two-room flats for rent in Kosice, Nehnutelnosti.sk",
+    "url": "https://www.nehnutelnosti.sk/kosice/2-izbove-byty/prenajom/"
+   },
+   {
+    "label": "DPMK ticket prices and temporary discount",
+    "url": "https://www.dpmk.sk/aktuality/2026/vybrane-zakladne-listky-v-kosickej-mhd-budu-od-12-oktobra-za-polovicu"
+   }
+  ],
+  "base_yearly": {
+   "junior": 20400,
+   "mid": 31200,
+   "senior": 43200
+  }
+ },
+ {
   "city": "Stockholm",
   "country": "SE",
   "rent_outside": 947,
