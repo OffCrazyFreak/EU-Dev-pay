@@ -694,16 +694,9 @@ function breakdownChart(root) {
           return html;
         }).join("");
 
-      // Phones cannot fit numbers inside small segments, so every value is also written out under the bar.
-      const caption = COST_PARTS
-        .filter(([key]) => c[key] > 0)
-        .map(([key, cls, label]) => `<span><i class="dot seg-${cls}"></i>${esc(label)} ${euro(c[key])}</span>`)
-        .join("");
-
       const row = cityRow(c, {
         style: `${columns};height:32px`,
-        cells: `<div class="track" style="height:20px"><div class="stack" style="width:${pct(c.costs)}%">${segments}</div></div>` + leftCell(c) +
-          `<div class="seg-caption">${caption}</div>`,
+        cells: `<div class="track" style="height:20px"><div class="stack" style="width:${pct(c.costs)}%">${segments}</div></div>` + leftCell(c),
         title: `${c.city}: ${euro(c.costs)} of costs a month`,
         open: open.has(c.city)
       });
