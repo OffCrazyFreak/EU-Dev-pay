@@ -2190,7 +2190,7 @@ window.CITIES = [
    "senior": 5683
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
-  "language": "Search summaries say infrastructure and international teams around Zurich and Zug often work in English; German helps elsewhere (not an opened page).",
+  "language": "Sources suggest infrastructure and international teams around Zurich and Zug often work in English; German helps elsewhere.",
   "notes": [
    "Zug has the lowest Swiss health premium in 2027 (average adult CHF 324.90) and lower income tax, which is why net pay is the highest. Rent is also the highest.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
@@ -7946,7 +7946,7 @@ window.CITIES = [
   "notes": [
    "Base pay used here, in EUR a year: junior 27,000, mid 40,000, senior 58,000. Sources: NextMove junior 25,000 to 35,000, mid 35,000 to 50,000, senior 50,000 to 70,000; FreeMalta 22,000 to 30,000, 30,000 to 50,000, 50,000 to 75,000; Working in Malta (Konnekt ads, June 2026) junior 25,000 to 30,000, senior 45,000 to 55,000. Posted ads read for this row: a .NET developer at 35,000 to 43,000, another at 30,000 to 45,000, and a PHP developer in St Julian's at 3,750 a month (45,000).",
    "Thin spots: Levels.fyi has only 25 Malta salaries (median 54,587, all levels); the NextMove and FreeMalta figures have no sample sizes or method. Malta pays 12 monthly salaries, so there is no 13th; bonus rates (3, 6 and 8 percent) are estimates, included in net. Social security is applied to pay including bonus, which only matters for the junior row. FreeMalta's own net example takes the full 10 percent social security without the cap, which looks wrong against PwC.",
-   "Rent: this single row covers the Sliema and St Julian's area. Numbeo Sliema 1-bed outside the centre is 1,092 EUR and in the centre 1,564 EUR, but from only 22 entries. Agent sites showed 1-bed asks around 1,200 in search snippets only (not an opened page), and PropertyMarket lists 2-beds at 1,575 to 1,600, so real rents are likely at or a little above these figures.",
+   "Rent: this single row covers the Sliema and St Julian's area. Numbeo Sliema 1-bed outside the centre is 1,092 EUR and in the centre 1,564 EUR, but from only 22 entries. Agent sites showed 1-bed asks around 1,200 in search results only, and PropertyMarket lists 2-beds at 1,575 to 1,600, so real rents are likely at or a little above these figures.",
    "Numbeo Sliema utilities (91.63 EUR for an 85 m2 flat) are low, which keeps everyday costs down, while internet and phone are higher than in most other rows.",
    "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
   ],

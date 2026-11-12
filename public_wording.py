@@ -64,6 +64,9 @@ REWORDING = [
     (r"a Croatian new grad", "a new graduate from another EU country"),
     (r"Indeed Greece pages were blocked \(HTTP 401\), so no posted-pay ads could be opened; a search summary showed", "No posted-pay ads could be checked directly; search results showed"),
     (r"A search summary of DEV\.BG job pages showed", "Search results for DEV.BG job pages showed"),
+    (r"Search summaries say ", "Sources suggest "),
+    (r" \(not an opened page\)", ""),
+    (r"in search snippets only", "in search results only"),
     (r"gross_yearly", "the gross figure"),
     (r"'health'", "the health insurance row"),
 ]

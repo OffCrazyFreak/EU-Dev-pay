@@ -606,7 +606,7 @@ function salaryChart(root) {
 function cityDetail(c) {
   const pay = visibleLevels().map(l => `
     <tr>
-      <td>${LEVEL_NAME[l]} <span class="tag">${LEVEL_YEARS[l]}</span></td>
+      <td><i class="dot b-${l}"></i>${LEVEL_NAME[l]} <span class="tag">${LEVEL_YEARS[l]}</span></td>
       <td class="num">${euro(c.base_yearly[l])}</td>
       <td class="num">${Math.round(c.bonus_rate[l] * 100)}%</td>
       <td class="num">${euro(c.net[l])}</td>
@@ -636,13 +636,14 @@ function cityDetail(c) {
     </div>
     <div>
       <h3>Monthly costs</h3>
+      <div class="stackbar" aria-hidden="true">${COST_PARTS.filter(([key]) => c[key] > 0).map(([key, cls]) => `<i class="seg-${cls}" style="flex:${c[key]}"></i>`).join("")}</div>
       <table>
-        <tr><td>Rent, 1-bed outside the centre</td><td class="num">${euro(c.rent_outside)}</td></tr>
-        <tr><td>Rent, 1-bed in the centre</td><td class="num">${euro(c.rent_centre)}</td></tr>
-        <tr><td>Room in a shared flat</td><td class="num">${room}</td></tr>
-        <tr><td>Everyday costs</td><td class="num">${euro(c.everyday)}</td></tr>
-        <tr><td>Commute <span class="tag">${esc(c.commute_note)}</span></td><td class="num">${euro(c.commute)}</td></tr>
-        <tr><td>Health insurance paid separately</td><td class="num">${euro(c.health)}</td></tr>
+        <tr><td><i class="dot seg-rent"></i>Rent, 1-bed outside the centre</td><td class="num">${euro(c.rent_outside)}</td></tr>
+        <tr class="alt"><td>Rent, 1-bed in the centre (not counted)</td><td class="num">${euro(c.rent_centre)}</td></tr>
+        <tr class="alt"><td>Room in a shared flat (not counted)</td><td class="num">${room}</td></tr>
+        <tr><td><i class="dot seg-everyday"></i>Everyday costs</td><td class="num">${euro(c.everyday)}</td></tr>
+        <tr><td><i class="dot seg-commute"></i>Commute <span class="tag">${esc(c.commute_note)}</span></td><td class="num">${euro(c.commute)}</td></tr>
+        <tr><td><i class="dot seg-health"></i>Health insurance paid separately</td><td class="num">${euro(c.health)}</td></tr>
         <tr><th>Total with rent outside the centre</th><th class="num">${euro(c.costs)}</th></tr>
       </table>
     </div>
@@ -758,7 +759,7 @@ function breakdownChart(root) {
     rows.forEach(row => {
       row.querySelectorAll(".seg").forEach(seg => {
         const label = document.createElement("div");
-        label.className = "lab " + (seg.classList.contains("seg-rent") ? "light" : "dark");
+        label.className = "lab";
         label.textContent = euroFit(Number(seg.dataset.value));
         seg.appendChild(label);
         label.style.left = "4px";
@@ -854,16 +855,19 @@ function segmentTooltips(root) {
 
 // ---------- filter panel ----------
 
+const FILTER_ICON = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 3H2l8 9.46V19l4 2v-8.54z"/></svg>`;
+const CLOSE_ICON = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>`;
+
 function filterPanel(root, onChange) {
   const cityCount = cc => ALL_CITIES.filter(c => c.country === cc).length;
 
   root.innerHTML = `
-    <details class="filter-box">
-    <summary>
+    <div class="filter-box">
+    <header class="filter-head">
       <h2>Filter</h2>
       <span class="muted" data-summary></span>
-      <span class="chevron" aria-hidden="true"></span>
-    </summary>
+      <button type="button" class="filter-close" aria-label="Hide filter">${CLOSE_ICON}</button>
+    </header>
     <fieldset>
       <legend>Levels</legend>
       ${LEVELS.map(l => `
@@ -881,19 +885,35 @@ function filterPanel(root, onChange) {
           <label><input type="checkbox" data-country="${cc}"> ${flag(cc)} <span class="cc-code">${cc}</span> ${esc(countryName(cc))} <span class="muted">${cityCount(cc)}</span></label>`).join("")}
       </div>
     </fieldset>
-    </details>`;
+    </div>`;
 
-  const box = root.querySelector(".filter-box");
+  // On phones a tab on the right edge opens the panel as a floating card over the charts; on desktop it sits beside them.
   const mobile = window.matchMedia("(max-width: 960px)");
+  const tab = document.createElement("button");
+  tab.type = "button";
+  tab.className = "filter-tab";
+  tab.setAttribute("aria-label", "Show filter");
+  tab.setAttribute("aria-expanded", "false");
+  tab.innerHTML = `${FILTER_ICON}<i class="filter-dot" hidden></i>`;
+  document.body.appendChild(tab);
 
-  // On phones the panel folds away so the charts get the screen; on wider screens it stays open beside them.
-  const fitToScreen = () => { box.open = !mobile.matches; };
-  mobile.addEventListener("change", fitToScreen);
-  fitToScreen();
+  const closeButton = root.querySelector(".filter-close");
 
-  box.querySelector("summary").addEventListener("click", event => {
-    if (!mobile.matches) event.preventDefault();
-  });
+  function setOpen(open) {
+    root.classList.toggle("open", open);
+    tab.classList.toggle("gone", open);
+    tab.setAttribute("aria-expanded", String(open));
+    root.inert = mobile.matches && !open;
+
+    if (open) closeButton.focus();
+    else if (root.contains(document.activeElement)) tab.focus();
+  }
+
+  tab.addEventListener("click", () => setOpen(true));
+  closeButton.addEventListener("click", () => setOpen(false));
+  document.addEventListener("keydown", event => { if (event.key === "Escape" && root.classList.contains("open")) setOpen(false); });
+  mobile.addEventListener("change", () => setOpen(false));
+  root.inert = mobile.matches;
 
   function sync() {
     root.querySelectorAll("[data-level]").forEach(box => { box.checked = state.levels.includes(box.dataset.level); });
@@ -905,6 +925,9 @@ function filterPanel(root, onChange) {
 
     const levels = visibleLevels().map(l => LEVEL_NAME[l]).join(", ");
     root.querySelector("[data-summary]").textContent = `${levels}; ${state.countries.length} of ${COUNTRIES.length} countries`;
+
+    // a dot on the tab says the charts are filtered, so a hidden panel cannot silently change what you see
+    tab.querySelector(".filter-dot").hidden = state.levels.length === LEVELS.length && state.countries.length === COUNTRIES.length;
   }
 
   function apply() {

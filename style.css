@@ -16,10 +16,10 @@
   --c-mid: #eab308;
   --c-senior: #0d9488;
 
-  --c-rent: #7c3aed;
-  --c-everyday: #eab308;
-  --c-commute: #0284c7;
-  --c-health: #ea580c;
+  --c-rent: #2563eb;
+  --c-everyday: #ea580c;
+  --c-commute: #db2777;
+  --c-health: #4d7c0f;
   --c-left: #16a34a;
   --c-short: #dc2626;
 }
@@ -37,10 +37,10 @@
     --c-mid: #facc15;
     --c-senior: #2dd4bf;
 
-    --c-rent: #a855f7;
-    --c-everyday: #facc15;
-    --c-commute: #38bdf8;
-    --c-health: #fb923c;
+    --c-rent: #3b82f6;
+    --c-everyday: #ea580c;
+    --c-commute: #ec4899;
+    --c-health: #65a30d;
     --c-left: #4ade80;
     --c-short: #f87171;
   }
@@ -105,8 +105,6 @@ main { min-width: 0; }
 
 @media (max-width: 960px) {
   .layout { grid-template-columns: minmax(0, 1fr); padding-inline: 12px; }
-  .filters { position: static; max-height: none; order: -1; box-shadow: none; }
-  .filters .countries { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); column-gap: 14px; }
 }
 
 h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
@@ -352,12 +350,6 @@ details.city[open] .info { opacity: 1; background: var(--foreground); color: var
 ul.method { line-height: 1.6; padding-left: 20px; }
 footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
 
-/* filter box: always open beside the charts, an accordion on phones */
-.filter-box > summary { list-style: none; display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: default; }
-.filter-box > summary::-webkit-details-marker { display: none; }
-.filter-box > summary h2 { margin: 0; }
-.filter-box > summary [data-summary], .filter-box > summary .chevron { display: none; }
-
 /* hamburger menu, shown on phones only */
 .menu-toggle {
   display: none;
@@ -421,15 +413,10 @@ footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
   .tabs a[aria-current="true"] { border-left-color: var(--foreground); border-bottom-color: transparent; }
   .tab-sep { width: auto; height: 1px; margin: 6px 20px; }
 
-  .filter-box > summary { cursor: pointer; margin-bottom: 0; }
-  .filter-box[open] > summary { margin-bottom: 8px; }
-  .filter-box > summary [data-summary] { display: block; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0; }
-  .filter-box > summary .chevron { display: block; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform .2s ease; margin-top: -4px; }
-  .filter-box[open] > summary .chevron { transform: rotate(-135deg); margin-top: 4px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .menu-toggle span, .tabs, .filter-box > summary .chevron { transition: none; }
+  .menu-toggle span, .tabs { transition: none; }
 }
 
 /* phones: charts fit the screen instead of scrolling sideways */
@@ -575,3 +562,101 @@ footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
 .tip ul { list-style: none; margin: 6px 0 0; padding: 6px 0 0; border-top: 1px solid color-mix(in srgb, var(--background) 30%, transparent); }
 .tip li { display: flex; justify-content: space-between; gap: 14px; }
 .tip li span { font-variant-numeric: tabular-nums; font-weight: 600; }
+
+/* filter: a panel beside the charts on desktop; on phones a tab on the right edge opens it as a floating card */
+.filter-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.filter-head h2 { margin: 0; }
+.filter-head [data-summary], .filter-close, .filter-tab { display: none; }
+
+.filter-tab,
+.filter-close {
+  font: inherit;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .filters {
+    position: fixed;
+    top: calc(var(--header-h) + env(safe-area-inset-top, 0px) + 8px);
+    right: 8px;
+    bottom: 8px;
+    width: min(330px, calc(100vw - 16px));
+    max-height: none;
+    z-index: 40;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    box-shadow: 0 14px 44px rgb(0 0 0 / 0.38);
+    transform: translateX(calc(100% + 16px));
+    transition: transform .26s cubic-bezier(.2, .8, .2, 1);
+  }
+  .filters.open { transform: none; }
+
+  .filter-head [data-summary] {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .filter-head h2 { flex: none; }
+
+  .filters .filter-close {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    padding: 0;
+    background: none;
+    border: 0;
+    border-radius: 8px;
+  }
+  .filters .filter-close:hover { color: var(--foreground); }
+
+  .filter-tab {
+    position: fixed;
+    top: calc(var(--header-h) + env(safe-area-inset-top, 0px) + 12px);
+    right: 0;
+    z-index: 39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    padding: 14px 0;
+    background: color-mix(in srgb, var(--background) 72%, transparent);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    border-right: 0;
+    border-radius: 10px 0 0 10px;
+    transition: transform .26s cubic-bezier(.2, .8, .2, 1), color .15s ease;
+  }
+  .filter-tab:hover { color: var(--foreground); }
+  .filter-tab.gone { transform: translateX(100%); }
+  .filter-tab .filter-dot {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--c-short);
+  }
+  .filter-tab .filter-dot[hidden] { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .filters, .filter-tab { transition: none; }
+}
+
+/* accordion: same colours as the charts */
+.panel td .dot { margin-right: 7px; vertical-align: 1px; }
+.panel .stackbar { display: flex; height: 10px; margin: 0 0 8px; border-radius: 5px; overflow: hidden; gap: 2px; }
+.panel .stackbar i { display: block; min-width: 2px; }
+.panel td.cost-name { white-space: nowrap; }
+.panel .alt td { color: var(--muted); }
