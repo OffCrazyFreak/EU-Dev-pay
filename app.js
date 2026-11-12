@@ -22,7 +22,8 @@ const EVERYDAY_NAMES = {
   other: "Other"
 };
 
-const NAME_COL = "214px";
+// widths live in CSS variables so phones can shrink them
+const NAME_COL = "var(--name-col)";
 const TARGET_STEP = 100;
 const STORAGE_KEY = "eu-dev-pay-filters";
 
@@ -155,6 +156,17 @@ function placeLabels(track, px, items, format) {
 
   let result = layout("10.5px");
   if (!result.fits) result = layout("9px");
+
+  // Still crowded (phones): keep the longest bars' numbers and drop the ones they would sit on; the row tooltip lists all of them.
+  let nextLeft = Infinity;
+  for (let i = labels.length - 1; i >= 0; i--) {
+    const right = result.lefts[i] + labels[i].offsetWidth;
+    if (right + 3 > nextLeft) {
+      labels[i].hidden = true;
+    } else {
+      nextLeft = result.lefts[i];
+    }
+  }
 
   labels.forEach((label, i) => {
     const left = result.lefts[i];
@@ -430,7 +442,7 @@ function salaryChart(root) {
       <label>Order by <select data-order></select></label>
       <label><input type="checkbox" data-bonus> Count the assumed annual bonus</label>
     </div>
-    <div class="axis" style="grid-template-columns:${NAME_COL} 1fr 64px;column-gap:8px"><div></div><div class="ticks"></div><div style="opacity:.7">needed</div></div>
+    <div class="axis" style="grid-template-columns:${NAME_COL} 1fr var(--need-col);column-gap:8px"><div></div><div class="ticks"></div><div style="opacity:.7">needed</div></div>
     <div class="rows"></div>
     <p class="note">Gross salaries per year, Swiss francs converted at 1.083. The marker follows the target you set on the first chart. Each marker comes from that city's take-home pay at the three researched salaries plus its costs; outside the researched salaries the line is extended, so treat a marker as about plus or minus €5k. Bonus rates are assumptions.</p>`;
 
@@ -512,7 +524,7 @@ function salaryChart(root) {
       });
 
       const row = cityRow(c, {
-        style: `grid-template-columns:${NAME_COL} 1fr 64px;column-gap:8px;height:28px`,
+        style: `grid-template-columns:${NAME_COL} 1fr var(--need-col);column-gap:8px;height:28px`,
         cells:
           `<div class="track" style="height:24px">${grid}${bars}<div class="marker" style="top:0;height:24px;left:${pct(need)}"></div></div>` +
           `<div style="font-weight:700">${euroK(need)}</div>`,
@@ -619,7 +631,7 @@ function breakdownChart(root) {
 
   function draw() {
     const levels = visibleLevels();
-    const columns = `grid-template-columns:${NAME_COL} 1fr ${levels.length * 72}px;column-gap:10px`;
+    const columns = `grid-template-columns:${NAME_COL} 1fr calc(${levels.length} * var(--left-col));column-gap:10px`;
     const leftGrid = `grid-template-columns:repeat(${levels.length},1fr)`;
 
     setOptions(order, [
