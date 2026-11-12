@@ -30,6 +30,16 @@ const STORAGE_KEY = "eu-dev-pay-filters";
 const flag = cc => String.fromCodePoint(...[...cc].map(ch => 0x1F1E6 + ch.charCodeAt(0) - 65));
 const euro = v => (v < 0 ? "-" : "") + "€" + Math.abs(Math.round(v)).toLocaleString("en");
 const euroK = v => "€" + Math.round(v) + "k";
+
+// Phones have no room for "€2,980", so amounts from 1,000 up shrink to "€3.0k"; smaller ones are already short.
+const isPhone = () => window.matchMedia("(max-width: 600px)").matches;
+const euroCompact = v => Math.abs(v) < 1000 ? euro(v) : (v < 0 ? "-" : "") + "€" + (Math.abs(v) / 1000).toFixed(1) + "k";
+const euroFit = v => (isPhone() ? euroCompact(v) : euro(v));
+
+// Bar rows are taller on phones, so numbers that cannot sit inside their bar get a second line under it.
+const rowGeometry = () => (isPhone()
+  ? { track: 30, top: 6, height: 14, lowTop: 20 }
+  : { track: 24, top: 4, height: 16, lowTop: null });
 const esc = s => String(s ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
 // The axis ends just past the longest bar so the data uses the whole chart width.
 const fitMax = top => top * 1.02;
@@ -135,7 +145,7 @@ function cityRow(c, { style, cells, title, open }) {
 
 
 // Numbers always sit inside the bars, right-aligned at each bar's end; they shrink a little when the bars are short.
-function placeLabels(track, px, items, format) {
+function placeLabels(track, px, items, format, lowTop = null) {
   const segments = items.filter(([value]) => value != null && value > 0);
 
   const labels = segments.map(([value]) => {
@@ -169,14 +179,23 @@ function placeLabels(track, px, items, format) {
   let result = layout("10.5px");
   if (!result.fits) result = layout("9px");
 
-  // Still crowded (phones): keep the longest bars' numbers and drop the ones they would sit on; the row tooltip lists all of them.
+  // Still crowded (phones): the longest bars keep their number on the bar, the others move to a line under it.
+  // Without a second line (desktop) the crowded ones are dropped; the row tooltip lists all of them.
   let nextLeft = Infinity;
+  let nextLeftLow = Infinity;
+  const lowLabels = new Set();
+
   for (let i = labels.length - 1; i >= 0; i--) {
-    const right = result.lefts[i] + labels[i].offsetWidth;
-    if (right + 3 > nextLeft) {
-      labels[i].hidden = true;
+    const left = result.lefts[i];
+    const right = left + labels[i].offsetWidth;
+
+    if (right + 3 <= nextLeft) {
+      nextLeft = left;
+    } else if (lowTop != null && right + 12 <= nextLeftLow) {
+      lowLabels.add(i);
+      nextLeftLow = left - 9;
     } else {
-      nextLeft = result.lefts[i];
+      labels[i].hidden = true;
     }
   }
 
@@ -186,6 +205,14 @@ function placeLabels(track, px, items, format) {
     const segmentStart = i === 0 ? 0 : px(segments[i - 1][0]);
     const insideOwnColour = left >= segmentStart - 1 && right <= px(segments[i][0]);
     const plainClass = segments[i][1];
+
+    if (lowLabels.has(i)) {
+      label.className = "lab low";
+      label.style.left = left - 9 + "px";
+      label.style.top = lowTop + "px";
+      label.style.setProperty("--dot", segments[i][2] || "var(--foreground)");
+      return;
+    }
 
     label.style.left = left + "px";
     label.className = "lab" + (insideOwnColour && plainClass ? " " + plainClass : "");
@@ -305,28 +332,29 @@ function moneyChart(root, onTargetCommit) {
       row.dataset.labelled = "1";
 
       const c = row.cityData;
-      placeLabels(row.querySelector(".track"), px, levels.map(l => [c.surplus[l], LABEL_CLASS[l]]), euro);
+      placeLabels(row.querySelector(".track"), px, levels.map(l => [c.surplus[l], LABEL_CLASS[l], `var(--c-${l})`]), euroFit, rowGeometry().lowTop);
     });
   }
 
   function makeRow(c, levels, open) {
+    const g = rowGeometry();
     let marks = "";
 
     [...levels].reverse().forEach(l => {
-      marks += `<div class="bar b-${l}" style="top:4px;height:16px;width:${pct(c.surplus[l])}"></div>`;
+      marks += `<div class="bar b-${l}" style="top:${g.top}px;height:${g.height}px;width:${pct(c.surplus[l])}"></div>`;
     });
 
     levels.filter(l => shownTicks.has(l)).forEach(l => {
-      marks += `<div class="pay" style="top:2px;height:20px;left:${pct(grossMonthly(c, l))};background:var(--c-${l})"></div>`;
+      marks += `<div class="pay" style="top:${g.top - 2}px;height:${g.height + 4}px;left:${pct(grossMonthly(c, l))};background:var(--c-${l})"></div>`;
     });
 
     // a level that ends below zero has no bar, so its amount is written at the axis start instead
     const negatives = levels.map(l => c.surplus[l]).filter(v => v < 0);
-    if (negatives.length) marks += `<div class="neg-label">${negatives.map(euro).join(" ")}</div>`;
+    if (negatives.length) marks += `<div class="neg-label">${negatives.map(euroFit).join(" ")}</div>`;
 
     const row = cityRow(c, {
-      style: `grid-template-columns:${NAME_COL} 1fr;height:24px`,
-      cells: `<div class="track" style="height:24px">${marks}</div>`,
+      style: `grid-template-columns:${NAME_COL} 1fr;height:${g.track}px`,
+      cells: `<div class="track" style="height:${g.track}px">${marks}</div>`,
       title: `${c.city}: left after costs ${levels.map(l => `${euro(c.surplus[l])} ${LEVEL_NAME[l].toLowerCase()}`).join(", ")}. Gross ${levels.map(l => euro(grossMonthly(c, l))).join(", ")} a month.`,
       open
     });
@@ -395,7 +423,7 @@ function moneyChart(root, onTargetCommit) {
     const step = tickStep(MAX, [500, 1000, 2000, 5000]);
 
     for (let t = 0; t <= MAX; t += step) {
-      if (labelled(t, MAX)) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}">${euro(t)}</span>`);
+      if (labelled(t, MAX)) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}">${euroFit(t)}</span>`);
       lines.insertAdjacentHTML("beforeend", `<i style="left:${pct(t)}"></i>`);
     }
 
@@ -538,18 +566,20 @@ function salaryChart(root) {
     const [sortKey, sortLevel] = order.value.split(":");
     const tracks = [];
 
+    const g = rowGeometry();
+
     list.sort(sorters[sortKey](sortLevel)).forEach(({ m, need }) => {
       const c = m.c;
 
       let bars = "";
       [...levels].reverse().forEach(l => {
-        bars += `<div class="bar b-${l}" style="top:4px;height:16px;width:${pct(base(m, l))}"></div>`;
+        bars += `<div class="bar b-${l}" style="top:${g.top}px;height:${g.height}px;width:${pct(base(m, l))}"></div>`;
       });
 
       const row = cityRow(c, {
         style: `grid-template-columns:${NAME_COL} 1fr var(--need-col);column-gap:8px;height:28px`,
         cells:
-          `<div class="track" style="height:24px">${grid}${bars}<div class="marker" style="top:0;height:24px;left:${pct(need)}"></div></div>` +
+          `<div class="track" style="height:${g.track}px">${grid}${bars}<div class="marker" style="top:0;height:${g.track}px;left:${pct(need)}"></div></div>` +
           `<div style="font-weight:700">${euroK(need)}</div>`,
         title: `${c.city}: ${levels.map(l => `${LEVEL_NAME[l].toLowerCase()} ${euroK(base(m, l))}`).join(", ")} gross. About ${euroK(need)} gross leaves ${euro(state.target)} a month.`,
         open: open.has(c.city)
@@ -562,7 +592,7 @@ function salaryChart(root) {
     const width = tracks[0][0].getBoundingClientRect().width;
     const px = v => v / MAX * width;
 
-    tracks.forEach(([track, m]) => placeLabels(track, px, levels.map(l => [base(m, l), LABEL_CLASS[l]]), euroK));
+    tracks.forEach(([track, m]) => placeLabels(track, px, levels.map(l => [base(m, l), LABEL_CLASS[l], `var(--c-${l})`]), euroK, rowGeometry().lowTop));
   }
 
   order.addEventListener("change", draw);
@@ -690,7 +720,7 @@ function breakdownChart(root) {
     const step = tickStep(MAX, [500, 1000, 2000]);
 
     for (let t = 0; t <= MAX; t += step) {
-      if (labelled(t, MAX)) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}%">${euro(t)}</span>`);
+      if (labelled(t, MAX)) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}%">${euroFit(t)}</span>`);
     }
 
     const leftCell = c => `<div class="left3" style="${leftGrid}">${levels.map(l => {
@@ -728,7 +758,7 @@ function breakdownChart(root) {
       row.querySelectorAll(".seg").forEach(seg => {
         const label = document.createElement("div");
         label.className = "lab " + (seg.classList.contains("seg-rent") ? "light" : "dark");
-        label.textContent = euro(Number(seg.dataset.value));
+        label.textContent = euroFit(Number(seg.dataset.value));
         seg.appendChild(label);
         label.style.left = "4px";
         if (label.offsetWidth + 8 > seg.offsetWidth) label.remove();
