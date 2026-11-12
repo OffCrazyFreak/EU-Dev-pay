@@ -737,7 +737,8 @@ function breakdownChart(root) {
         .map(([key, cls, label]) => ({ value: c[key], cls, label }))
         .filter(p => p.value > 0)
         .map(p => {
-          const html = `<div class="seg seg-${p.cls}" data-value="${p.value}" style="left:${x / c.costs * 100}%;width:${p.value / c.costs * 100}%" title="${esc(p.label)}: ${euro(p.value)}"></div>`;
+          const parts = p.cls === "everyday" ? esc(JSON.stringify(c.everyday_parts || {})) : "";
+          const html = `<div class="seg seg-${p.cls}" data-value="${p.value}" data-label="${esc(p.label)}" data-total="${c.costs}" data-city="${esc(c.city)}" data-parts="${parts}" style="left:${x / c.costs * 100}%;width:${p.value / c.costs * 100}%"></div>`;
           x += p.value;
           return html;
         }).join("");
@@ -767,7 +768,87 @@ function breakdownChart(root) {
   }
 
   order.addEventListener("change", draw);
+  segmentTooltips(root);
   return draw;
+}
+
+
+// Every cost segment explains itself on hover (or tap on a phone), because the small ones cannot hold a number.
+function segmentTooltips(root) {
+  const tip = document.createElement("div");
+  tip.className = "tip";
+  tip.setAttribute("role", "tooltip");
+  tip.hidden = true;
+  document.body.appendChild(tip);
+
+  let hot = null;
+  let hideTimer = 0;
+
+  const release = () => {
+    if (hot) {
+      hot.classList.remove("hot");
+      hot.parentElement.classList.remove("has-hot");
+    }
+    hot = null;
+    tip.hidden = true;
+  };
+
+  const content = seg => {
+    const value = Number(seg.dataset.value);
+    const total = Number(seg.dataset.total);
+    const share = Math.round(value / total * 100);
+    const label = seg.dataset.label;
+
+    let html = `<b><i class="dot seg-${[...seg.classList].find(c => c.startsWith("seg-") && c !== "seg").slice(4)}"></i>${esc(label)}</b> ${euro(value)} a month`
+      + `<div class="tip-sub">${share}% of the ${euro(total)} total costs in ${esc(seg.dataset.city)}</div>`;
+
+    if (seg.dataset.parts) {
+      const parts = Object.entries(JSON.parse(seg.dataset.parts)).filter(([, v]) => v > 0);
+      html += `<ul>${parts.map(([key, v]) => `<li>${esc(EVERYDAY_NAMES[key] || key)} <span>${euro(v)}</span></li>`).join("")}</ul>`;
+    }
+
+    return html;
+  };
+
+  const place = event => {
+    const gap = 14;
+    const { offsetWidth: w, offsetHeight: h } = tip;
+    const left = Math.min(Math.max(8, event.clientX - w / 2), window.innerWidth - w - 8);
+    const below = event.clientY + gap + h < window.innerHeight;
+    tip.style.left = left + "px";
+    tip.style.top = (below ? event.clientY + gap : event.clientY - gap - h) + "px";
+  };
+
+  const show = (seg, event) => {
+    if (hot !== seg) {
+      release();
+      hot = seg;
+      seg.classList.add("hot");
+      seg.parentElement.classList.add("has-hot");
+      tip.innerHTML = content(seg);
+      tip.hidden = false;
+    }
+    place(event);
+  };
+
+  root.addEventListener("pointermove", event => {
+    if (event.pointerType === "touch") return;
+    const seg = event.target.closest(".seg");
+    if (seg) show(seg, event); else release();
+  });
+
+  root.addEventListener("pointerleave", release);
+
+  // On touch screens a tap on a segment shows its tooltip instead of opening the row.
+  root.addEventListener("click", event => {
+    const seg = event.target.closest(".seg");
+    if (!seg || event.pointerType === "mouse" || !window.matchMedia("(hover: none)").matches) return;
+
+    event.preventDefault();
+    show(seg, event);
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(release, 3500);
+  });
 }
 
 
@@ -886,8 +967,32 @@ const methodView = document.getElementById("method");
 const navLinks = [...document.querySelectorAll("[data-tab]")];
 const isMethodView = () => location.hash === "#method";
 
+// The name column is as wide as the longest city name, so bars start right after it instead of after a fixed gap.
+function fitNameColumn() {
+  const root = document.documentElement;
+
+  if (isPhone()) {
+    root.style.removeProperty("--name-col");
+    return;
+  }
+
+  const probe = document.createElement("div");
+  probe.className = "row name-probe";
+  probe.style.cssText = "position:absolute;visibility:hidden;white-space:nowrap;left:0;top:0";
+  probe.innerHTML = ALL_CITIES.map(c => cityName(c).replace('class="name"', 'class="name" style="display:inline-block;overflow:visible;padding-right:0"')).join("");
+  chartsView.appendChild(probe);
+
+  const widest = Math.max(...[...probe.children].map(el => el.offsetWidth));
+  probe.remove();
+
+  root.style.setProperty("--name-col", Math.ceil(widest + 10) + "px");
+}
+
 function drawCharts() {
-  if (!chartsView.hidden) Object.values(CHART_DRAWS).forEach(draw => draw());
+  if (chartsView.hidden) return;
+
+  fitNameColumn();
+  Object.values(CHART_DRAWS).forEach(draw => draw());
 }
 
 function markActive(id) {
