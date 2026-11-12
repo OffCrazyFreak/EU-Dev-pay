@@ -5,6 +5,8 @@ import json
 import re
 from pathlib import Path
 
+from public_wording import public_text
+
 ROOT = Path(__file__).parent
 
 # These exports report gross pay including the bonus; the others report base pay before it.
@@ -13,26 +15,6 @@ GROSS_INCLUDES_BONUS = {"dk-nl.json", "south-cee.json"}
 LEVELS = ("junior", "mid", "senior")
 
 ASSETS = ("style.css", "data.js", "app.js", "favicon.svg", "favicon-32.png", "apple-touch-icon.png")
-
-# The research notes were written against the raw field names; readers of the site see these words instead.
-PUBLIC_WORDING = [
-    (re.compile(r"\s*\(from search summaries, not an opened (official )?page\)"), ""),
-    (re.compile(r"gross_yearly"), "the researched gross figure"),
-    (re.compile(r"'health'"), "the health insurance row"),
-]
-
-
-def public_text(value):
-    if isinstance(value, str):
-        for pattern, replacement in PUBLIC_WORDING:
-            value = pattern.sub(replacement, value)
-        return value
-
-    if isinstance(value, list):
-        return [public_text(item) for item in value]
-
-    return value
-
 
 def base_salary(city: dict, includes_bonus: bool) -> dict:
     if not includes_bonus:

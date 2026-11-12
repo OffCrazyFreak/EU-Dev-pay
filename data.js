@@ -36,8 +36,8 @@ window.CITIES = [
    "mid": 2079,
    "senior": 2502
   },
-  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; the researched gross figure is base pay before bonus, net includes the bonus.",
-  "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
+  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Shared room: about 500 EUR a month (willhaben asking-rent median of 50 room ads, an estimate).",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -131,8 +131,8 @@ window.CITIES = [
    "mid": 2073,
    "senior": 2399
   },
-  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; the researched gross figure is base pay before bonus, net includes the bonus.",
-  "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
+  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Shared room price not found (only 5 room ads on willhaben).",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -226,8 +226,8 @@ window.CITIES = [
    "mid": 2160,
    "senior": 2531
   },
-  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; the researched gross figure is base pay before bonus, net includes the bonus.",
-  "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
+  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Linz annual card from 285 EUR needs a Linz main residence; without it the annual card is 630 EUR.",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -321,8 +321,8 @@ window.CITIES = [
    "mid": 1635,
    "senior": 1961
   },
-  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; the researched gross figure is base pay before bonus, net includes the bonus.",
-  "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
+  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Shared room price not found (only 1 room ad on willhaben).",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -416,8 +416,8 @@ window.CITIES = [
    "mid": 1753,
    "senior": 1988
   },
-  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (my assumption). Net is annual net divided by 12; the researched gross figure is base pay before bonus, net includes the bonus.",
-  "language": "Mostly German outside international firms; I did not measure English-only job share in Austria, so this is an estimate.",
+  "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
+  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Shared room price not found (only 1 room ad on willhaben). Only 10 two-room rental ads found, so local rent is thin.",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -511,12 +511,12 @@ window.CITIES = [
    "mid": 1759,
    "senior": 2292
   },
-  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
   "language": "Often yes: 44 of 65 developer ads on a sampled German job board were written in English (that board favours visa-friendly roles).",
   "notes": [
    "Shared room: 650 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
-   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no student-specific minimum wage.",
    "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
    "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
    "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
@@ -606,12 +606,12 @@ window.CITIES = [
    "mid": 1916,
    "senior": 2461
   },
-  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
   "language": "Often yes: 53 of 65 developer ads on a sampled German job board were written in English (that board favours visa-friendly roles).",
   "notes": [
    "Shared room: 850 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
-   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no student-specific minimum wage.",
    "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
    "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
    "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
@@ -701,12 +701,12 @@ window.CITIES = [
    "mid": 1895,
    "senior": 2428
   },
-  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
   "language": "Usually German needed: only 4 of 13 sampled developer ads were in English.",
   "notes": [
    "Shared room: 650 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
-   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no student-specific minimum wage.",
    "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
    "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
    "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
@@ -796,12 +796,12 @@ window.CITIES = [
    "mid": 1907,
    "senior": 2361
   },
-  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
   "language": "German usually needed: 0 of 8 sampled developer ads were in English (small sample).",
   "notes": [
    "Shared room: 630 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
-   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no student-specific minimum wage.",
    "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
    "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
    "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
@@ -891,12 +891,12 @@ window.CITIES = [
    "mid": 2159,
    "senior": 2708
   },
-  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
   "language": "German usually needed: 1 of 3 sampled developer ads was in English (tiny sample).",
   "notes": [
    "Shared room price not found.",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
-   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no student-specific minimum wage.",
    "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
    "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
    "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
@@ -986,12 +986,12 @@ window.CITIES = [
    "mid": 1796,
    "senior": 2211
   },
-  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
   "language": "German usually needed: 2 of 9 sampled developer ads were in English (small sample).",
   "notes": [
    "Shared room: 640 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
-   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no student-specific minimum wage.",
    "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
    "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
    "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
@@ -1081,12 +1081,12 @@ window.CITIES = [
    "mid": 1867,
    "senior": 2320
   },
-  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
   "language": "German usually needed: the one sampled developer ad was in German (tiny sample).",
   "notes": [
    "Shared room price not found. Saxony splits care insurance differently, which lowers net slightly.",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
-   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no student-specific minimum wage.",
    "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
    "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
    "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
@@ -1176,12 +1176,12 @@ window.CITIES = [
    "mid": 1896,
    "senior": 2349
   },
-  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
   "language": "Mixed: 2 of 4 sampled developer ads were in English (tiny sample).",
   "notes": [
    "Shared room price not found. Saxony splits care insurance differently, which lowers net slightly.",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
-   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no Croatian or student-specific minimum wage.",
+   "Legal minimum wage is 13.90 EUR an hour in 2026 for everyone; there is no student-specific minimum wage.",
    "An internship after graduation is not exempt from the minimum wage; only compulsory internships and orientation or study-accompanying internships up to 3 months are (MiLoG section 22).",
    "Register your address (Anmeldung) within 2 weeks of moving in (Bundesmeldegesetz section 17). EU citizens need no residence permit.",
    "Erasmus+ traineeship for recent graduates: your university must select you in your last study year and the placement must finish within one year of graduating."
@@ -1271,7 +1271,7 @@ window.CITIES = [
    "mid": 1540,
    "senior": 2391
   },
-  "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. No payroll health premium, so health is 0. Net is annual net divided by 12; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. There is no separate payroll health premium. Net is annual net divided by 12;",
   "language": "Yes, English is the working language.",
   "notes": [
    "Shared room: double room in a house, city centre, 1,002 EUR a month (Daft Q1 2026). Daft 1-bed apartment average is 2,012 EUR.",
@@ -1365,7 +1365,7 @@ window.CITIES = [
    "mid": 1616,
    "senior": 2367
   },
-  "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. No payroll health premium, so health is 0. Net is annual net divided by 12; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. There is no separate payroll health premium. Net is annual net divided by 12;",
   "language": "Yes, English is the working language.",
   "notes": [
    "Numbeo blocked for Cork: rent, everyday costs and the 55k mid salary are estimates. Shared room: double room in a house, Cork City, 757 EUR (Daft Q1 2026).",
@@ -1455,7 +1455,7 @@ window.CITIES = [
    "mid": 1445,
    "senior": 2078
   },
-  "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. No payroll health premium, so health is 0. Net is annual net divided by 12; the researched gross figure is base pay before bonus, net includes the bonus.",
+  "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. There is no separate payroll health premium. Net is annual net divided by 12;",
   "language": "Yes, English is the working language.",
   "notes": [
    "Numbeo blocked for Galway: rent, everyday costs and the 50k mid salary are estimates. Shared room: double room in a house, Galway City, 773 EUR (Daft Q1 2026).",
@@ -1545,15 +1545,13 @@ window.CITIES = [
    "mid": 4695,
    "senior": 5864
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row. the researched gross figure is base pay before bonus; net and surplus include the bonus.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
   "language": "Many Zurich tech teams work in English, but German helps for local employers.",
   "notes": [
    "A cheaper commuter town: Winterthur has 1.5-2 room asking rents around CHF 1,350-1,360 but needs a 4 zone ZVV pass (CHF 171), so it saves about CHF 300 a month. Zone count not confirmed on the zone map.",
-   "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
    "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
-   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
-   "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads."
   ],
   "sources": [
    {
@@ -1640,15 +1638,13 @@ window.CITIES = [
    "mid": 4058,
    "senior": 5683
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row. the researched gross figure is base pay before bonus; net and surplus include the bonus.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
   "language": "Search summaries say infrastructure and international teams around Zurich and Zug often work in English; German helps elsewhere (not an opened page).",
   "notes": [
    "Zug has the lowest Swiss health premium in 2027 (average adult CHF 324.90) and lower income tax, which is why net pay is the highest. Rent is also the highest.",
-   "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
    "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
-   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
-   "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads."
   ],
   "sources": [
    {
@@ -1731,15 +1727,13 @@ window.CITIES = [
    "mid": 3841,
    "senior": 4768
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row. the researched gross figure is base pay before bonus; net and surplus include the bonus.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
   "language": "Basel pharma and life science often hire in English; local firms and banks may want German.",
   "notes": [
    "Shared room price is the middle of the typical CHF 700-950 range on wgzimmer.ch.",
-   "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
    "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
-   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
-   "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads."
   ],
   "sources": [
    {
@@ -1826,15 +1820,13 @@ window.CITIES = [
    "mid": 3966,
    "senior": 4734
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row. the researched gross figure is base pay before bonus; net and surplus include the bonus.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
   "language": "Public sector and many local firms work in German; English is enough only at some international employers.",
   "notes": [
    "Bern has the lowest rents of the big Swiss cities in the Numbeo data.",
-   "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
    "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
-   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
-   "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads."
   ],
   "sources": [
    {
@@ -1917,15 +1909,13 @@ window.CITIES = [
    "mid": 3242,
    "senior": 4163
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row. the researched gross figure is base pay before bonus; net and surplus include the bonus.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
   "language": "French is the working language for most employers; English works at some international and EPFL-related teams.",
   "notes": [
    "No SwissDevJobs ad for Lausanne was labelled senior, so the senior figure is scaled from national data.",
-   "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
    "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
-   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
-   "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads."
   ],
   "sources": [
    {
@@ -2008,15 +1998,13 @@ window.CITIES = [
    "mid": 3071,
    "senior": 4505
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row. the researched gross figure is base pay before bonus; net and surplus include the bonus.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
   "language": "French is the working language for most employers; English is common in banking, international organisations and some tech teams.",
   "notes": [
    "Geneva has the second highest Swiss health premium in 2027 (average adult CHF 610.60).",
-   "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
    "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
-   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
-   "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads."
   ],
   "sources": [
    {
@@ -2099,15 +2087,13 @@ window.CITIES = [
    "mid": 2377,
    "senior": 3503
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row. the researched gross figure is base pay before bonus; net and surplus include the bonus.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
   "language": "Italian is the working language; English helps in a few tech firms, but the job market is small (one ad found).",
   "notes": [
-   "Lugano net pay is an estimate with no tax anchor: Ticino is not covered by the expatriation.io tool, so I assumed 70% take-home on pay above CHF 100k.",
-   "Croatians have had full free movement in Switzerland with no quotas since 2026-01-01 (Federal Council, 2026-01-14). The transition period ends 2026-12-31.",
+   "Lugano net pay is an estimate with no tax anchor: Ticino is not covered by the expatriation.io tool, so 70% take-home was assumed on pay above CHF 100k.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
    "A 13th month is common but not universal in Swiss IT: in a 2026 ICT survey 47.3% had 13 payments, 38.5% had 12, and 14.2% had 13 plus 14. Gross figures here are treated as annual totals.",
-   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads.",
-   "Erasmus+: the University of Zagreb call for programme countries leaves out Switzerland. A separate third-country traineeship call (2026-10-19) lists Switzerland at EUR 700 a month for 2 to 6 months, deadline 2027-03-15. Recent graduates must apply before defending the thesis."
+   "Bonus rates are estimates (junior 3%, mid 6%, senior 8%). Junior salaries are estimates; mid and senior are scaled from SwissDevJobs, itboard and job ads."
   ],
   "sources": [
    {
@@ -2190,15 +2176,14 @@ window.CITIES = [
    "mid": 1830,
    "senior": 2813
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. the researched gross figure is base pay before bonus; net and surplus include the bonus. Other calculators differ by about 2%.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. Other calculators differ by about 2%.",
   "language": "English and French are widely used in Luxembourg tech; Luxembourgish is not needed.",
   "notes": [
    "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
    "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
-   "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. I found no statement on a 13th or 14th payment.",
-   "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. I found no 50 km residence rule on any official EIB page.",
-   "Croatians are EU citizens and need no work permit in Luxembourg; the commune registration steps were not checked.",
-   "Erasmus+: Luxembourg is covered by the University of Zagreb programme-country traineeship call (round 2 deadline 2027-01-15, mobility from 2027-02-22). I did not confirm that call's rules for recent graduates."
+   "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. No statement on a 13th or 14th payment was found.",
+   "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. No 50 km residence rule on any official EIB page was found.",
+   "EU citizens need no work permit in Luxembourg; the commune registration steps were not checked."
   ],
   "sources": [
    {
@@ -2285,16 +2270,15 @@ window.CITIES = [
    "mid": 2930,
    "senior": 3913
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. the researched gross figure is base pay before bonus; net and surplus include the bonus. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
   "language": "Work language in Luxembourg is mostly English or French; French is the local language in Thionville.",
   "notes": [
    "Rent is a studio-to-T2 asking range including charges, from a property investment blog; local asking data was blocked.",
    "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
    "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
-   "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. I found no statement on a 13th or 14th payment.",
-   "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. I found no 50 km residence rule on any official EIB page.",
-   "Croatians are EU citizens and need no work permit in Luxembourg; the commune registration steps were not checked.",
-   "Erasmus+: Luxembourg is covered by the University of Zagreb programme-country traineeship call (round 2 deadline 2027-01-15, mobility from 2027-02-22). I did not confirm that call's rules for recent graduates.",
+   "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. No statement on a 13th or 14th payment was found.",
+   "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. No 50 km residence rule on any official EIB page was found.",
+   "EU citizens need no work permit in Luxembourg; the commune registration steps were not checked.",
    "Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels."
   ],
   "sources": [
@@ -2378,16 +2362,15 @@ window.CITIES = [
    "mid": 2765,
    "senior": 3748
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. the researched gross figure is base pay before bonus; net and surplus include the bonus. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
   "language": "Work language in Luxembourg is mostly English or French; French is the local language in Arlon.",
   "notes": [
-   "The rent is one agency's estimate with no date; the centre rent of EUR 900 is my own adjustment.",
+   "The rent is one agency's estimate with no date; the centre rent of EUR 900 is an adjustment.",
    "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
    "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
-   "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. I found no statement on a 13th or 14th payment.",
-   "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. I found no 50 km residence rule on any official EIB page.",
-   "Croatians are EU citizens and need no work permit in Luxembourg; the commune registration steps were not checked.",
-   "Erasmus+: Luxembourg is covered by the University of Zagreb programme-country traineeship call (round 2 deadline 2027-01-15, mobility from 2027-02-22). I did not confirm that call's rules for recent graduates.",
+   "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. No statement on a 13th or 14th payment was found.",
+   "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. No 50 km residence rule on any official EIB page was found.",
+   "EU citizens need no work permit in Luxembourg; the commune registration steps were not checked.",
    "Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels."
   ],
   "sources": [
@@ -2449,7 +2432,7 @@ window.CITIES = [
    "other": 40
   },
   "commute": 67,
-  "commute_note": "Deutschland-Ticket EUR 66.80 a month from 2027-01-01 (EUR 63 until 2026-12-31), valid to the border at Igel; Luxembourg leg is free (coverage is my assumption). About 50 km and 50 minutes (estimate). The OekoCard was EUR 49 in 2020.",
+  "commute_note": "Deutschland-Ticket EUR 66.80 a month from 2027-01-01 (EUR 63 until 2026-12-31), valid to the border at Igel; Luxembourg leg is free (coverage is an assumption). About 50 km and 50 minutes (estimate). The OekoCard was EUR 49 in 2020.",
   "health": 0,
   "gross_yearly": {
    "junior": 55000,
@@ -2471,16 +2454,15 @@ window.CITIES = [
    "mid": 2993,
    "senior": 3976
   },
-  "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. the researched gross figure is base pay before bonus; net and surplus include the bonus. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
+  "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
   "language": "Work language in Luxembourg is mostly English or French; German is the local language in Trier.",
   "notes": [
-   "Rent is the cold rent for a 45 m2 flat at the 2026 asking price per m2 (my calculation); the centre rent of EUR 700 is my own adjustment.",
+   "Rent is the cold rent for a 45 m2 flat at the 2026 asking price per m2 (calculated here); the centre rent of EUR 700 is an adjustment.",
    "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
    "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
-   "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. I found no statement on a 13th or 14th payment.",
-   "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. I found no 50 km residence rule on any official EIB page.",
-   "Croatians are EU citizens and need no work permit in Luxembourg; the commune registration steps were not checked.",
-   "Erasmus+: Luxembourg is covered by the University of Zagreb programme-country traineeship call (round 2 deadline 2027-01-15, mobility from 2027-02-22). I did not confirm that call's rules for recent graduates.",
+   "EIB (2026 gross bands): grade 3 EUR 56,125-89,800, grade 4 EUR 63,114-100,983, grade 5 EUR 79,452-127,124. Pay is exempt from national income tax but taxed by the EU, so the net figures here do not apply to the EIB. Annual performance award up to 35% of base. No statement on a 13th or 14th payment was found.",
+   "EIB expects about 60% of working time in the office and allows up to 20 days a year of telework from abroad. No 50 km residence rule on any official EIB page was found.",
+   "EU citizens need no work permit in Luxembourg; the commune registration steps were not checked.",
    "Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels."
   ],
   "sources": [
@@ -2567,13 +2549,12 @@ window.CITIES = [
   "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior (DKK 46000) and mid (DKK 60,000) salaries are below the limit, so no scheme. A senior at DKK 68,000 a month would qualify; estimated net would be about 6615 EUR a month against 6108 without it.",
   "language": "Yes for tech: English is the working language at many Copenhagen employers, and a job board lists 231 English-only software roles (mostly Copenhagen); Danish still helps socially.",
   "notes": [
-   "the researched gross figure is cash including bonus and the 1 percent holiday supplement. Base salary only: junior 73841, mid 96315, senior 109157 EUR a year (DKK/EUR 7.4755 ECB, 2026-11-11).",
    "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
    "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
    "Bonus rates are estimates: 2.4 percent of base is the national average for developers, 5 to 15 percent is quoted for larger companies.",
    "No work permit is needed. Apply online for the EU residence document within 3 months of arriving (6 if job hunting) and attend a SIRI or citizen service office within 30 days.",
    "A CPR number needs a rental contract, so housing comes first. Get a tax card before the first payday or 55 percent is withheld.",
-   "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is my calculation, within about 0.3 percent of an online calculator.",
+   "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is calculated here, within about 0.3 percent of an online calculator.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is DKK 1,750 (midpoint of a 1,500 to 2,000 guide), going out is 6 inexpensive restaurant meals, and other is the remainder of the Numbeo estimate (clothes, leisure, household)."
   ],
   "sources": [
@@ -2654,15 +2635,14 @@ window.CITIES = [
    "senior": 3715
   },
   "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
-  "language": "Mostly yes at large software firms, but I found no English-only listings for Aarhus, so check each employer; evidence is thin.",
+  "language": "Mostly yes at large software firms, but no English-only listings for Aarhus was found, so check each employer; evidence is thin.",
   "notes": [
-   "the researched gross figure is cash including bonus and the 1 percent holiday supplement. Base salary only: junior 69411, mid 90536, senior 102607 EUR a year (DKK/EUR 7.4755 ECB, 2026-11-11).",
    "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
    "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
    "Bonus rates are estimates: 2.4 percent of base is the national average for developers, 5 to 15 percent is quoted for larger companies.",
    "No work permit is needed. Apply online for the EU residence document within 3 months of arriving (6 if job hunting) and attend a SIRI or citizen service office within 30 days.",
    "A CPR number needs a rental contract, so housing comes first. Get a tax card before the first payday or 55 percent is withheld.",
-   "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is my calculation, within about 0.3 percent of an online calculator.",
+   "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is calculated here, within about 0.3 percent of an online calculator.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is DKK 1,750 (midpoint of a 1,500 to 2,000 guide), going out is 6 inexpensive restaurant meals, and other is the remainder of the Numbeo estimate (clothes, leisure, household)."
   ],
   "sources": [
@@ -2743,15 +2723,14 @@ window.CITIES = [
    "senior": 3713
   },
   "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
-  "language": "Probably at robotics and international firms, but I found no English-only listings for Odense; evidence is thin.",
+  "language": "Probably at robotics and international firms, but no English-only listings for Odense was found; evidence is thin.",
   "notes": [
-   "the researched gross figure is cash including bonus and the 1 percent holiday supplement. Base salary only: junior 66457, mid 86683, senior 98241 EUR a year (DKK/EUR 7.4755 ECB, 2026-11-11).",
    "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
    "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
    "Bonus rates are estimates: 2.4 percent of base is the national average for developers, 5 to 15 percent is quoted for larger companies.",
    "No work permit is needed. Apply online for the EU residence document within 3 months of arriving (6 if job hunting) and attend a SIRI or citizen service office within 30 days.",
    "A CPR number needs a rental contract, so housing comes first. Get a tax card before the first payday or 55 percent is withheld.",
-   "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is my calculation, within about 0.3 percent of an online calculator.",
+   "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is calculated here, within about 0.3 percent of an online calculator.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is DKK 1,750 (midpoint of a 1,500 to 2,000 guide), going out is 6 inexpensive restaurant meals, and other is the remainder of the Numbeo estimate (clothes, leisure, household)."
   ],
   "sources": [
@@ -2834,13 +2813,12 @@ window.CITIES = [
   "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
   "language": "Partly: a job board shows 5 Aalborg listings that need no Danish, but they are mostly student or intern roles, so evidence for full-time roles is thin.",
   "notes": [
-   "the researched gross figure is cash including bonus and the 1 percent holiday supplement. Base salary only: junior 66457, mid 86683, senior 98241 EUR a year (DKK/EUR 7.4755 ECB, 2026-11-11).",
    "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
    "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
    "Bonus rates are estimates: 2.4 percent of base is the national average for developers, 5 to 15 percent is quoted for larger companies.",
    "No work permit is needed. Apply online for the EU residence document within 3 months of arriving (6 if job hunting) and attend a SIRI or citizen service office within 30 days.",
    "A CPR number needs a rental contract, so housing comes first. Get a tax card before the first payday or 55 percent is withheld.",
-   "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is my calculation, within about 0.3 percent of an online calculator.",
+   "Income tax uses the 2026 rates with the average municipal rate for the city and no church tax. Net is annual net divided by 12 and is calculated here, within about 0.3 percent of an online calculator.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is DKK 1,750 (midpoint of a 1,500 to 2,000 guide), going out is 6 inexpensive restaurant meals, and other is the remainder of the Numbeo estimate (clothes, leisure, household)."
   ],
   "sources": [
@@ -2920,15 +2898,14 @@ window.CITIES = [
    "mid": 789,
    "senior": 1704
   },
-  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3870 / 4702 / 5938 EUR a month, giving surplus 712 / 1545 / 2780. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
-  "language": "Likely yes for tech, since general guides say international employers work in English, but I found no city-specific check; some Dutch-market ads ask for fluent Dutch.",
+  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3870 / 4702 / 5938 EUR a month, giving surplus 712 / 1545 / 2780. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
+  "language": "Likely yes for tech, since general guides say international employers work in English, but no city-specific check was found; some Dutch-market ads ask for fluent Dutch.",
   "notes": [
-   "the researched gross figure is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 50829, mid 61819, senior 82426 EUR a year.",
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
-   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the researched gross figure.",
+   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
    "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
    "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
-   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (the calculation matches a published example exactly). Pension contributions are not deducted.",
    "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
   ],
@@ -3017,15 +2994,14 @@ window.CITIES = [
    "mid": 1266,
    "senior": 2166
   },
-  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3744 / 4603 / 5804 EUR a month, giving surplus 1142 / 2001 / 3201. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
-  "language": "Unverified for the city: generic guides say tech roles often need no Dutch, but one Utrecht-area ad I opened required fluent Dutch, so check each ad.",
+  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3744 / 4603 / 5804 EUR a month, giving surplus 1142 / 2001 / 3201. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
+  "language": "Unverified for the city: generic guides say tech roles often need no Dutch, but one Utrecht-area ad required fluent Dutch, so check each ad.",
   "notes": [
-   "the researched gross figure is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 49391, mid 60070, senior 80093 EUR a year.",
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
-   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the researched gross figure.",
+   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
    "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
    "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
-   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (the calculation matches a published example exactly). Pension contributions are not deducted.",
    "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
   ],
@@ -3114,15 +3090,14 @@ window.CITIES = [
    "mid": 1058,
    "senior": 1942
   },
-  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3619 / 4504 / 5669 EUR a month, giving surplus 886 / 1772 / 2937. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
-  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but I found no Rotterdam-specific evidence, so check each ad.",
+  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3619 / 4504 / 5669 EUR a month, giving surplus 886 / 1772 / 2937. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
+  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but no Rotterdam-specific evidence was found, so check each ad.",
   "notes": [
-   "the researched gross figure is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 47952, mid 58320, senior 77760 EUR a year.",
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
-   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the researched gross figure.",
+   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
    "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
    "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
-   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (the calculation matches a published example exactly). Pension contributions are not deducted.",
    "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
   ],
@@ -3211,15 +3186,14 @@ window.CITIES = [
    "mid": 1340,
    "senior": 2224
   },
-  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3619 / 4504 / 5669 EUR a month, giving surplus 1168 / 2053 / 3219. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
-  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but I found no Hague-specific evidence, so check each ad.",
+  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3619 / 4504 / 5669 EUR a month, giving surplus 1168 / 2053 / 3219. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
+  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but no Hague-specific evidence was found, so check each ad.",
   "notes": [
-   "the researched gross figure is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 47952, mid 58320, senior 77760 EUR a year.",
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
-   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the researched gross figure.",
+   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
    "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
    "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
-   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (the calculation matches a published example exactly). Pension contributions are not deducted.",
    "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
   ],
@@ -3308,15 +3282,14 @@ window.CITIES = [
    "mid": 1280,
    "senior": 2148
   },
-  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so Croatia fits), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; I estimate about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3493 / 4397 / 5535 EUR a month, giving surplus 1061 / 1964 / 3103. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree, which is not confirmed for a FER degree. Net and surplus fields exclude the allowance.",
-  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but I found no Eindhoven-specific evidence I could open, so check each ad.",
+  "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3493 / 4397 / 5535 EUR a month, giving surplus 1061 / 1964 / 3103. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
+  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but no Eindhoven-specific evidence was found, so check each ad.",
   "notes": [
-   "the researched gross figure is cash including 8 percent holiday pay and the bonus. Base with holiday pay but no bonus: junior 46513, mid 56570, senior 75427 EUR a year.",
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
-   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the researched gross figure.",
+   "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
    "No work permit is needed. Register with the municipality within 5 days of getting an address to get a citizen service number (BSN); take Dutch health insurance within 4 months.",
    "Health insurance is mandatory: about EUR 159 a month average premium plus a EUR 385 yearly deductible spread monthly (EUR 191 total). Health care allowance is not counted.",
-   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (my calculation matches a published example exactly). Pension contributions are not deducted.",
+   "Income tax uses 2026 box 1 rates, general tax credit and labour tax credit (the calculation matches a published example exactly). Pension contributions are not deducted.",
    "Numbeo rent is above the Pararius per square metre average (50 m2 estimate: Amsterdam 1,428, Utrecht 1,144, Rotterdam 1,146, The Hague 1,148, Eindhoven 981), so surplus here is conservative.",
    "everyday is the Numbeo single-person estimate minus Numbeo's monthly pass; groceries is an estimate (Nibud minimum EUR 272.52 plus about 20 percent), going out is 6 inexpensive restaurant meals, and other is the remainder (clothes, leisure, household)."
   ],
@@ -3409,12 +3382,9 @@ window.CITIES = [
   "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
   "notes": [
    "Local rent check: Bostadscentralen median across all ads is 13,734 SEK (about 1,243 EUR) in Sept 2026, below Numbeo's centre rent.",
-   "the researched gross figure is cash before bonus and includes Swedish semestertillägg of 0.43% of monthly pay per holiday day times 25 days, about 1.1% (ESTIMATE). Monthly-paid staff get paid holiday; the 12% semesterersättning is for hourly staff and on termination, so it is not added.",
    "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
    "Net uses Skatteverket tax tables at annual cash divided by 12, with table 33 for Gothenburg and Malmo and a table 31 value extrapolated from tables 32 and 33 for Stockholm. State tax of 20% starts above 643,000 SEK taxable income.",
-   "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier."
   ],
   "sources": [
    {
@@ -3501,12 +3471,9 @@ window.CITIES = [
   "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
   "notes": [
    "Local rent check: Bostadscentralen median across all ads is 10,700 SEK (about 968 EUR) in Sept 2026. Levels.fyi shows lower Gothenburg pay than the other Swedish cities, based on small samples.",
-   "the researched gross figure is cash before bonus and includes Swedish semestertillägg of 0.43% of monthly pay per holiday day times 25 days, about 1.1% (ESTIMATE). Monthly-paid staff get paid holiday; the 12% semesterersättning is for hourly staff and on termination, so it is not added.",
    "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
    "Net uses Skatteverket tax tables at annual cash divided by 12, with table 33 for Gothenburg and Malmo and a table 31 value extrapolated from tables 32 and 33 for Stockholm. State tax of 20% starts above 643,000 SEK taxable income.",
-   "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier."
   ],
   "sources": [
    {
@@ -3563,7 +3530,7 @@ window.CITIES = [
    "other": 406
   },
   "commute": 59,
-  "commute_note": "Skanetrafiken 30-day ticket, small zone (Malmo), 655 SEK ordinary price (about 59 EUR). Price from a search result, the Skanetrafiken page returned 404; the half-price offer ended 2026-11-02.",
+  "commute_note": "Skanetrafiken 30-day ticket, small zone (Malmo), 655 SEK ordinary price (about 59 EUR). Price from a search result; the half-price offer ended 2026-11-02.",
   "health": 0,
   "gross_yearly": {
    "junior": 44920,
@@ -3589,12 +3556,9 @@ window.CITIES = [
   "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
   "notes": [
    "Local rent check: Bostadscentralen median across all ads is 10,400 SEK (about 941 EUR) in Sept 2026. Malmo and Lund are one job market via the Oresund and Skane trains, but a Lund commute was not priced.",
-   "the researched gross figure is cash before bonus and includes Swedish semestertillägg of 0.43% of monthly pay per holiday day times 25 days, about 1.1% (ESTIMATE). Monthly-paid staff get paid holiday; the 12% semesterersättning is for hourly staff and on termination, so it is not added.",
    "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
    "Net uses Skatteverket tax tables at annual cash divided by 12, with table 33 for Gothenburg and Malmo and a table 31 value extrapolated from tables 32 and 33 for Stockholm. State tax of 20% starts above 643,000 SEK taxable income.",
-   "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "Commute prices are ordinary prices; Sweden has temporary half-price 30-day tickets that end by 2026-12-31 or earlier."
   ],
   "sources": [
    {
@@ -3651,7 +3615,7 @@ window.CITIES = [
    "other": 464
   },
   "commute": 74,
-  "commute_note": "HSL AB zones 30-day ticket, 73.90 EUR in 2026. Price from a search result quoting HSL; hsl.fi returned 403. Suburbs like Espoo and Vantaa are mostly inside AB.",
+  "commute_note": "HSL AB zones 30-day ticket, 73.90 EUR in 2026. Price from a search result quoting HSL. Suburbs like Espoo and Vantaa are mostly inside AB.",
   "health": 0,
   "gross_yearly": {
    "junior": 44928,
@@ -3673,16 +3637,13 @@ window.CITIES = [
    "mid": 1895,
    "senior": 2506
   },
-  "tax_regime_note": "Finland's key employee scheme taxes pay at a flat 25% at source from 2026. It needs at least 5,800 EUR a month, special expertise, a Finnish employer and no Finnish tax residence in the 5 prior calendar years; Croatian citizens can use it for up to 84 months. Only the senior Helsinki level (6,000 EUR a month) clears the pay line; Tampere senior (5,400) and all junior and mid levels do not. Not modelled.",
+  "tax_regime_note": "Finland's key employee scheme taxes pay at a flat 25% at source from 2026. It needs at least 5,800 EUR a month, special expertise, a Finnish employer and no Finnish tax residence in the 5 prior calendar years; EU citizens can use it for up to 84 months. Only the senior Helsinki level (6,000 EUR a month) clears the pay line; Tampere senior (5,400) and all junior and mid levels do not. Not modelled.",
   "language": "Often yes in Helsinki tech companies; some Finnish employers, more often outside Helsinki, ask for Finnish. Not checked against live postings.",
   "notes": [
-   "Local rent check: Statistics Finland Q2 2026 non-subsidised rent is 26.71 EUR/m2 for studios in Helsinki, about 801 EUR for 30 m2 (my arithmetic).",
-   "the researched gross figure is cash before bonus and includes lomaraha, the holiday bonus: 50% of holiday pay, which for 24 holiday days is about 0.48 of a month's pay (ESTIMATE). It is not statutory; it comes from the ICT collective agreement or the contract, so check the employer.",
+   "Local rent check: Statistics Finland Q2 2026 non-subsidised rent is 26.71 EUR/m2 for studios in Helsinki, about 801 EUR for 30 m2 (simple arithmetic).",
    "Bonus rates are ESTIMATE. Jobbutler says 5 to 15% of annual pay is typical in Finnish IT.",
    "Net uses the vero.fi 2026 tax-on-pay table for Helsinki (interpolated, extended above 70,000 EUR at about 41.7% marginal) plus 8.19% pension and unemployment contributions. Church tax is excluded. Tampere adds 2.3 percentage points of municipal tax (7.60% vs 5.30%).",
-   "Registering the right of residence with Migri costs 53 EUR; the Digital and Population Data Services Agency then gives the identity code.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "Registering the right of residence with Migri costs 53 EUR; the Digital and Population Data Services Agency then gives the identity code."
   ],
   "sources": [
    {
@@ -3769,17 +3730,14 @@ window.CITIES = [
    "mid": 1723,
    "senior": 2252
   },
-  "tax_regime_note": "Finland's key employee scheme taxes pay at a flat 25% at source from 2026. It needs at least 5,800 EUR a month, special expertise, a Finnish employer and no Finnish tax residence in the 5 prior calendar years; Croatian citizens can use it for up to 84 months. Only the senior Helsinki level (6,000 EUR a month) clears the pay line; Tampere senior (5,400) and all junior and mid levels do not. Not modelled.",
+  "tax_regime_note": "Finland's key employee scheme taxes pay at a flat 25% at source from 2026. It needs at least 5,800 EUR a month, special expertise, a Finnish employer and no Finnish tax residence in the 5 prior calendar years; EU citizens can use it for up to 84 months. Only the senior Helsinki level (6,000 EUR a month) clears the pay line; Tampere senior (5,400) and all junior and mid levels do not. Not modelled.",
   "language": "Often yes in Helsinki tech companies; some Finnish employers, more often outside Helsinki, ask for Finnish. Not checked against live postings.",
   "notes": [
    "Tampere pay is ESTIMATE: no official or Levels.fyi figure exists for it, and Koodaripula's Tampere median rests on 13 ads. Pay is set at about 10% below Helsinki.",
-   "Local rent check: Statistics Finland Q2 2026 non-subsidised rent is 21.06 EUR/m2 for studios in Tampere, about 632 EUR for 30 m2 (my arithmetic).",
-   "the researched gross figure is cash before bonus and includes lomaraha, the holiday bonus: 50% of holiday pay, which for 24 holiday days is about 0.48 of a month's pay (ESTIMATE). It is not statutory; it comes from the ICT collective agreement or the contract, so check the employer.",
+   "Local rent check: Statistics Finland Q2 2026 non-subsidised rent is 21.06 EUR/m2 for studios in Tampere, about 632 EUR for 30 m2 (simple arithmetic).",
    "Bonus rates are ESTIMATE. Jobbutler says 5 to 15% of annual pay is typical in Finnish IT.",
    "Net uses the vero.fi 2026 tax-on-pay table for Helsinki (interpolated, extended above 70,000 EUR at about 41.7% marginal) plus 8.19% pension and unemployment contributions. Church tax is excluded. Tampere adds 2.3 percentage points of municipal tax (7.60% vs 5.30%).",
-   "Registering the right of residence with Migri costs 53 EUR; the Digital and Population Data Services Agency then gives the identity code.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "Registering the right of residence with Migri costs 53 EUR; the Digital and Population Data Services Agency then gives the identity code."
   ],
   "sources": [
    {
@@ -3865,15 +3823,12 @@ window.CITIES = [
   "tax_regime_note": "No Norwegian expat or special tax regime was researched or modelled; Norwegian tax is the standard 2026 scale.",
   "language": "Norwegian is often expected below senior level at Norwegian employers; international tech employers work in English. Not checked against live postings.",
   "notes": [
-   "the researched gross figure is 12 monthly salaries before bonus. Feriepenger (holiday pay) is 10.2% of the previous year's pay, paid in place of salary for the holiday weeks, so it adds no extra cash in a steady year.",
-   "First-year trap: you earn no feriepenger before starting, so summer holiday in 2027 is usually unpaid. About four weeks unpaid is roughly 8% of annual cash (my ESTIMATE), about 415 EUR a month for a junior averaged over 2027. Ask for paid holiday in the contract.",
+   "First-year trap: you earn no feriepenger before starting, so summer holiday in 2027 is usually unpaid. About four weeks unpaid is roughly 8% of annual cash (an ESTIMATE), about 415 EUR a month for a junior averaged over 2027. Ask for paid holiday in the contract.",
    "Tax is withheld over 10.5 months (none in June, half in December), but the annual tax is the same. Net here is annual net divided by 12.",
    "Bonus rates are ESTIMATE. kode24 2024: 26% of in-house developers and 46% of consultants get a bonus; an older kode24 survey found an average 132k NOK on a 772k base for those who do.",
-   "room_shared is the Hybel.no November 2026 average for a room in a shared flat, 8,131 NOK.",
+   "The shared-room rent is the Hybel.no November 2026 average for a room in a shared flat, 8,131 NOK.",
    "Cross-check: SIFO 2026 reference budget for a single adult is 12,909 NOK (about 1,216 EUR) excluding housing and electricity; Numbeo's Oslo estimate is higher at 1,373 EUR.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "Norway is an Erasmus+ programme country, but the Erasmus+ traineeship must be selected by your university before graduation and completed within a year after.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "Norway is an Erasmus+ programme country, but the Erasmus+ traineeship must be selected by your university before graduation and completed within a year after."
   ],
   "sources": [
    {
@@ -3938,7 +3893,7 @@ window.CITIES = [
    "other": 362
   },
   "commute": 56,
-  "commute_note": "STIB monthly adult pass (25 to 64), 56 EUR since 2026-02-01, Brussels region. Price from a press report in a search result; the SNCB page confirming it returned 403.",
+  "commute_note": "STIB monthly adult pass (25 to 64), 56 EUR since 2026-02-01, Brussels region. Price from a press report.",
   "health": 0,
   "gross_yearly": {
    "junior": 40000,
@@ -3960,19 +3915,16 @@ window.CITIES = [
    "mid": 873,
    "senior": 1492
   },
-  "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A Croatian citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
+  "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A EU citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
   "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
   "notes": [
    "Local rent check: CIB-Korfine barometer shows an average Brussels apartment rent of 1,330 EUR and a studio of 905 EUR in 2025.",
-   "the researched gross figure is the annual total including the 13th month (year-end premium) and double holiday pay (92% of one monthly salary), which together make 13.92 months. It is before bonus; Belgian sources like Levels.fyi and Talent.com quote it this way.",
    "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
    "Ecocheques of up to 250 EUR a year are common and add about 21 EUR a month; not included.",
    "Bonus rates are ESTIMATE, based on bonus amounts in SalaryExpert and PayScale search results (about 4 to 5% of base).",
    "Net is the weakest figure: it uses 13.07% social contributions, brackets from GrossToNet, an unverified tax-free allowance of 10,910 EUR, an assumed municipal surcharge and an assumed special social contribution. The official finance.belgium.be page was blocked.",
    "Employer reimbursement of commuting (De Lijn 72 to 100%, train about 70% on average) is not netted off the commute cost.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine."
   ],
   "sources": [
    {
@@ -4059,19 +4011,16 @@ window.CITIES = [
    "mid": 1113,
    "senior": 1617
   },
-  "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A Croatian citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
+  "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A EU citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
   "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
   "notes": [
    "Local rent check: the CIB-Korfine H1 2026 barometer shows Antwerp city at 1,009 EUR for all dwelling types, and a Flemish one-bedroom average of 833 EUR.",
-   "the researched gross figure is the annual total including the 13th month (year-end premium) and double holiday pay (92% of one monthly salary), which together make 13.92 months. It is before bonus; Belgian sources like Levels.fyi and Talent.com quote it this way.",
    "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
    "Ecocheques of up to 250 EUR a year are common and add about 21 EUR a month; not included.",
    "Bonus rates are ESTIMATE, based on bonus amounts in SalaryExpert and PayScale search results (about 4 to 5% of base).",
    "Net is the weakest figure: it uses 13.07% social contributions, brackets from GrossToNet, an unverified tax-free allowance of 10,910 EUR, an assumed municipal surcharge and an assumed special social contribution. The official finance.belgium.be page was blocked.",
    "Employer reimbursement of commuting (De Lijn 72 to 100%, train about 70% on average) is not netted off the commute cost.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine."
   ],
   "sources": [
    {
@@ -4158,19 +4107,16 @@ window.CITIES = [
    "mid": 1069,
    "senior": 1475
   },
-  "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A Croatian citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
+  "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A EU citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
   "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
   "notes": [
-   "Ghent rent and everyday costs are ESTIMATE: Numbeo's Ghent page returned HTTP 429. Rent is set near the CIB-Korfine Ghent average of 998 EUR for all dwellings in H1 2026, and everyday costs are copied from Antwerp.",
-   "the researched gross figure is the annual total including the 13th month (year-end premium) and double holiday pay (92% of one monthly salary), which together make 13.92 months. It is before bonus; Belgian sources like Levels.fyi and Talent.com quote it this way.",
+   "Ghent rent and everyday costs are ESTIMATE: Numbeo has no usable Ghent page. Rent is set near the CIB-Korfine Ghent average of 998 EUR for all dwellings in H1 2026, and everyday costs are copied from Antwerp.",
    "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
    "Ecocheques of up to 250 EUR a year are common and add about 21 EUR a month; not included.",
    "Bonus rates are ESTIMATE, based on bonus amounts in SalaryExpert and PayScale search results (about 4 to 5% of base).",
    "Net is the weakest figure: it uses 13.07% social contributions, brackets from GrossToNet, an unverified tax-free allowance of 10,910 EUR, an assumed municipal surcharge and an assumed special social contribution. The official finance.belgium.be page was blocked.",
    "Employer reimbursement of commuting (De Lijn 72 to 100%, train about 70% on average) is not netted off the commute cost.",
-   "everyday_parts: utilities and internet_phone are Numbeo figures; groceries is a staple basket (10 L milk, 8 loaves, 24 eggs, 4 kg chicken, 3 kg rice, 4 kg apples, 8 kg potatoes, 4 kg tomatoes) at Numbeo prices; going_out is 6 cheap meals, 6 beers, 4 cappuccinos, 1 cinema; other is the rest of Numbeo's single-person estimate minus its transport pass. This split is mine, the total is Numbeo's.",
-   "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "EU citizens staying over 3 months must register with the municipality within 3 months or risk a 200 EUR fine."
   ],
   "sources": [
    {
@@ -4261,13 +4207,10 @@ window.CITIES = [
   "language": "Often yes for tech employers in Tallinn and Tartu; the job ads seen were in English. Not checked beyond a few ads.",
   "notes": [
    "Tallinn transport is free for registered residents of the city.",
-   "Everything about Estonia except the net salary formula is ESTIMATE: Numbeo returned HTTP 429 for Tallinn and Tartu, so rent and everyday costs come from asking-rent guides and my own guess.",
-   "the researched gross figure is 12 monthly salaries before bonus. There is no 13th-month norm and holiday pay is the average wage, so there is no extra payment. Bonus rates of 3% to 6% are ESTIMATE from aggregator data in a search result (about half of developers report a bonus).",
+   "Everything about Estonia except the net salary formula is ESTIMATE: Numbeo has no usable pages for Tallinn and Tartu, so rent and everyday costs come from asking-rent guides and a guess.",
    "Net uses EMTA 2026 rules: 22% income tax, 700 EUR monthly basic exemption, 1.6% unemployment insurance and 2% funded pension.",
    "Salary evidence is thin and disagrees: WageIndicator shows 2,576 to 4,400 EUR a month at 5 years, while Wise ads in Tallinn and Levels.fyi sit above 5,500. The senior level leans toward the higher figures; Tartu has no data and is set about 10% below Tallinn.",
-   "everyday_parts are my estimates (groceries, utilities, internet and phone, going out, other), not Numbeo figures.",
-   "EU citizens must register their residence in the population register within 3 months, then apply for an ID card.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "EU citizens must register their residence in the population register within 3 months, then apply for an ID card."
   ],
   "sources": [
    {
@@ -4357,13 +4300,10 @@ window.CITIES = [
   "tax_regime_note": "Estonia has no expat or key-employee tax regime used here. Income tax is a flat 22% with a 700 EUR monthly basic exemption; the planned 2% security tax was not introduced.",
   "language": "Often yes for tech employers in Tallinn and Tartu; the job ads seen were in English. Not checked beyond a few ads.",
   "notes": [
-   "Everything about Estonia except the net salary formula is ESTIMATE: Numbeo returned HTTP 429 for Tallinn and Tartu, so rent and everyday costs come from asking-rent guides and my own guess.",
-   "the researched gross figure is 12 monthly salaries before bonus. There is no 13th-month norm and holiday pay is the average wage, so there is no extra payment. Bonus rates of 3% to 6% are ESTIMATE from aggregator data in a search result (about half of developers report a bonus).",
+   "Everything about Estonia except the net salary formula is ESTIMATE: Numbeo has no usable pages for Tallinn and Tartu, so rent and everyday costs come from asking-rent guides and a guess.",
    "Net uses EMTA 2026 rules: 22% income tax, 700 EUR monthly basic exemption, 1.6% unemployment insurance and 2% funded pension.",
    "Salary evidence is thin and disagrees: WageIndicator shows 2,576 to 4,400 EUR a month at 5 years, while Wise ads in Tallinn and Levels.fyi sit above 5,500. The senior level leans toward the higher figures; Tartu has no data and is set about 10% below Tallinn.",
-   "everyday_parts are my estimates (groceries, utilities, internet and phone, going out, other), not Numbeo figures.",
-   "EU citizens must register their residence in the population register within 3 months, then apply for an ID card.",
-   "health is 0: health insurance is already inside the social contributions or tax used for net, and no separate cost was modelled."
+   "EU citizens must register their residence in the population register within 3 months, then apply for an ID card."
   ],
   "sources": [
    {
@@ -4450,13 +4390,11 @@ window.CITIES = [
    "mid": 1051,
    "senior": 1542
   },
-  "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a Croatian citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
+  "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a EU citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
   "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 40000, mid 26000, senior 48000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Idealista first-page 1-bed median 1,500 EUR (n=9) is higher.",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "Salary sources quote total yearly gross. Pay is usually split in 14 payments (12 plus July and December) in the consulting and IT agreement, and many firms prorate it over 12; yearly net is the same."
   ],
   "sources": [
@@ -4536,13 +4474,11 @@ window.CITIES = [
    "mid": 932,
    "senior": 1422
   },
-  "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a Croatian citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
+  "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a EU citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
   "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 39000, mid 26000, senior 47000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Idealista 1-bed median 1,350 EUR (n=9, copy from 2025-12-28, stale).",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "Salary sources quote total yearly gross. Pay is usually split in 14 payments (12 plus July and December) in the consulting and IT agreement, and many firms prorate it over 12; yearly net is the same."
   ],
   "sources": [
@@ -4618,13 +4554,11 @@ window.CITIES = [
    "mid": 957,
    "senior": 1400
   },
-  "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a Croatian citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
+  "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a EU citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
   "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 35000, mid 23000, senior 42000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Idealista 1-bed median 1,450 EUR (n=6, centre-skewed).",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "Salary sources quote total yearly gross. Pay is usually split in 14 payments (12 plus July and December) in the consulting and IT agreement, and many firms prorate it over 12; yearly net is the same."
   ],
   "sources": [
@@ -4700,13 +4634,11 @@ window.CITIES = [
    "mid": 880,
    "senior": 1493
   },
-  "tax_regime_note": "IRS Jovem (age 35 or under): 100% of income exempt in year 1, 75% in years 2 to 4, 50% in years 5 to 7, 25% in years 8 to 10, capped at 29,542 EUR; whether your Croatian freelance years count against the 10 years is not confirmed. IFICI (NHR successor, 20% flat) needs a qualifying employer such as a Portuguese software company with an employment contract; it only beats normal tax from about 40,000 EUR gross. Net shown uses normal tax with no personal deductions, so it is a floor.",
+  "tax_regime_note": "IRS Jovem (age 35 or under): 100% of income exempt in year 1, 75% in years 2 to 4, 50% in years 5 to 7, 25% in years 8 to 10, capped at 29,542 EUR; whether earlier self-employed years count against the 10 years is not confirmed. IFICI (NHR successor, 20% flat) needs a qualifying employer such as a Portuguese software company with an employment contract; it only beats normal tax from about 40,000 EUR gross. Net shown uses normal tax with no personal deductions, so it is a floor.",
   "language": "Yes for Lisbon and Porto tech firms and startups, English is the working language in most product teams; Portuguese helps for local consultancies.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 40000, mid 21000, senior 52000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Imovirtual T1 median 1,150 EUR (n=5).",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "Yearly gross is the total; Portugal pays 14 salary payments a year, so a 40,000 EUR gross is 14 payments of about 2,857 EUR."
   ],
   "sources": [
@@ -4782,13 +4714,11 @@ window.CITIES = [
    "mid": 878,
    "senior": 1467
   },
-  "tax_regime_note": "IRS Jovem (age 35 or under): 100% of income exempt in year 1, 75% in years 2 to 4, 50% in years 5 to 7, 25% in years 8 to 10, capped at 29,542 EUR; whether your Croatian freelance years count against the 10 years is not confirmed. IFICI (NHR successor, 20% flat) needs a qualifying employer such as a Portuguese software company with an employment contract; it only beats normal tax from about 40,000 EUR gross. Net shown uses normal tax with no personal deductions, so it is a floor.",
+  "tax_regime_note": "IRS Jovem (age 35 or under): 100% of income exempt in year 1, 75% in years 2 to 4, 50% in years 5 to 7, 25% in years 8 to 10, capped at 29,542 EUR; whether earlier self-employed years count against the 10 years is not confirmed. IFICI (NHR successor, 20% flat) needs a qualifying employer such as a Portuguese software company with an employment contract; it only beats normal tax from about 40,000 EUR gross. Net shown uses normal tax with no personal deductions, so it is a floor.",
   "language": "Yes for Lisbon and Porto tech firms and startups, English is the working language in most product teams; Portuguese helps for local consultancies.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 35000, mid 19000, senior 46000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Imovirtual T1 median 960 EUR (n=9).",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "Yearly gross is the total; Portugal pays 14 salary payments a year, so a 40,000 EUR gross is 14 payments of about 2,857 EUR."
   ],
   "sources": [
@@ -4867,10 +4797,8 @@ window.CITIES = [
   "tax_regime_note": "Impatriate regime (Agenzia delle Entrate): only 50% of employment income is taxed for 5 years if you were not Italian tax resident in the previous 3 years, commit to 4 years of residence, work mainly in Italy and hold a qualification; an MSc should qualify but this is not confirmed. With it, monthly net would be much higher (Milan mid about 3,168 vs 2,388, before bonus). Net shown is without the regime. Regional and municipal surtax is an estimate.",
   "language": "In Milan multinationals and product firms English is usually enough, but most Italian employers, especially outside Milan, expect Italian.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 42000, mid 29000, senior 52000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Immobiliare.it average 22.32 EUR per m2 (zones 15.76 to 31.11).",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "RAL (yearly gross) already includes the 13th month and any 14th month (Commercio contract 14, Metalmeccanico 13), so extra months are not added on top.",
    "Net is shown as yearly net divided by 12.",
    "Milan and Turin local rent figures are per square meter, so a one-bedroom of about 45 m2 would be roughly 1,400 EUR in central Milan and 750 EUR in central Turin."
@@ -4955,10 +4883,8 @@ window.CITIES = [
   "tax_regime_note": "Impatriate regime (Agenzia delle Entrate): only 50% of employment income is taxed for 5 years if you were not Italian tax resident in the previous 3 years, commit to 4 years of residence, work mainly in Italy and hold a qualification; an MSc should qualify but this is not confirmed. With it, monthly net would be much higher (Milan mid about 3,168 vs 2,388, before bonus). Net shown is without the regime. Regional and municipal surtax is an estimate.",
   "language": "In Milan multinationals and product firms English is usually enough, but most Italian employers, especially outside Milan, expect Italian.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 37000, mid 26000, senior 44000 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Immobiliare.it average 12.99 EUR per m2 (zones 8.59 to 16.69).",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "RAL (yearly gross) already includes the 13th month and any 14th month (Commercio contract 14, Metalmeccanico 13), so extra months are not added on top.",
    "Net is shown as yearly net divided by 12.",
    "Milan and Turin local rent figures are per square meter, so a one-bedroom of about 45 m2 would be roughly 1,400 EUR in central Milan and 750 EUR in central Turin."
@@ -5039,10 +4965,8 @@ window.CITIES = [
   "tax_regime_note": "No special expat regime applies. Normal tax is 15% (23% above 1,762,812 CZK a year) minus the basic taxpayer credit of 2,570 CZK a month; the model reproduces the Sit prace net calculator.",
   "language": "Yes, English is the working language at many Prague and Brno software firms, and Czech is only needed for some local employers.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 41841, mid 24612, senior 63992 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Bezrealitky 1+kk median 19,875 CZK plus about 3,000 CZK fees (n=10), about 938 EUR.",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "No statutory 13th salary; performance bonuses are common but not guaranteed."
   ],
   "sources": [
@@ -5125,10 +5049,8 @@ window.CITIES = [
   "tax_regime_note": "No special expat regime applies. Normal tax is 15% (23% above 1,762,812 CZK a year) minus the basic taxpayer credit of 2,570 CZK a month; the model reproduces the Sit prace net calculator.",
   "language": "Yes, English is the working language at many Prague and Brno software firms, and Czech is only needed for some local employers.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 39380, mid 22643, senior 59070 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; no local rental page opened for Brno.",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "No statutory 13th salary; performance bonuses are common but not guaranteed."
   ],
   "sources": [
@@ -5200,13 +5122,11 @@ window.CITIES = [
    "mid": 1211,
    "senior": 2139
   },
-  "tax_regime_note": "Polish PIT relief for people under 26 may apply to a Croatian employee on an employment contract (not confirmed on a page I opened, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
+  "tax_regime_note": "Polish PIT relief for people under 26 may apply to a EU employee on an employment contract (not confirmed on an official page, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
   "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 44961, mid 21254, senior 64036 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Otodom 2-room median 3,600 PLN plus 825 PLN fees, about 1,005 EUR (small sample).",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "No statutory 13th pay in private firms (only 8.5% in the budget sector); a yearly bonus is optional.",
    "B2B alternative (invoice excluding VAT, 19% flat tax, 4.9% health, full ZUS about 1,930 PLN plus 300 PLN accounting, all estimates): mid 21,000 PLN a month gives about 3501 EUR net per month with reduced start-up ZUS; senior 27,500 PLN gives about 4367 EUR with full ZUS. Juniors are mostly on UoP. B2B has no paid leave or sick pay.",
    "Senior UoP net accounts for the 282,600 PLN yearly cap on pension and disability contributions."
@@ -5284,13 +5204,11 @@ window.CITIES = [
    "mid": 1360,
    "senior": 2279
   },
-  "tax_regime_note": "Polish PIT relief for people under 26 may apply to a Croatian employee on an employment contract (not confirmed on a page I opened, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
+  "tax_regime_note": "Polish PIT relief for people under 26 may apply to a EU employee on an employment contract (not confirmed on an official page, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
   "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 43599, mid 20437, senior 62673 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
-   "Numbeo has no usable Krakow page: rent_centre is the Otodom 2-room median (2,800 PLN plus 660 PLN fees); rent_outside and everyday are estimates from Wroclaw ratios and a Warsaw/Wroclaw average.",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Numbeo has no usable Krakow page: centre rent is the Otodom 2-room median (2,800 PLN plus 660 PLN fees); outside-centre rent and everyday are estimates from Wroclaw ratios and a Warsaw/Wroclaw average.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "No statutory 13th pay in private firms (only 8.5% in the budget sector); a yearly bonus is optional.",
    "B2B alternative (invoice excluding VAT, 19% flat tax, 4.9% health, full ZUS about 1,930 PLN plus 300 PLN accounting, all estimates): mid 20,500 PLN a month gives about 3415 EUR net per month with reduced start-up ZUS; senior 27,000 PLN gives about 4280 EUR with full ZUS. Juniors are mostly on UoP. B2B has no paid leave or sick pay.",
    "Senior UoP net accounts for the 282,600 PLN yearly cap on pension and disability contributions.",
@@ -5369,13 +5287,11 @@ window.CITIES = [
    "mid": 1362,
    "senior": 2272
   },
-  "tax_regime_note": "Polish PIT relief for people under 26 may apply to a Croatian employee on an employment contract (not confirmed on a page I opened, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
+  "tax_regime_note": "Polish PIT relief for people under 26 may apply to a EU employee on an employment contract (not confirmed on an official page, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
   "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 42236, mid 19892, senior 61311 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; Otodom 2-room median 2,800 PLN plus 715 PLN fees, about 798 EUR.",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "No statutory 13th pay in private firms (only 8.5% in the budget sector); a yearly bonus is optional.",
    "B2B alternative (invoice excluding VAT, 19% flat tax, 4.9% health, full ZUS about 1,930 PLN plus 300 PLN accounting, all estimates): mid 20,000 PLN a month gives about 3328 EUR net per month with reduced start-up ZUS; senior 26,500 PLN gives about 4194 EUR with full ZUS. Juniors are mostly on UoP. B2B has no paid leave or sick pay.",
    "Senior UoP net accounts for the 282,600 PLN yearly cap on pension and disability contributions."
@@ -5453,13 +5369,11 @@ window.CITIES = [
    "mid": 1100,
    "senior": 1678
   },
-  "tax_regime_note": "No special expat regime for a Croatian citizen. A tax relief for employees up to age 29 (1,443.50 EUR a year allowance) exists but is not included. Net includes the untaxed holiday allowance (regres) and meal allowance.",
+  "tax_regime_note": "No special expat regime for a EU citizen. A tax relief for employees up to age 29 (1,443.50 EUR a year allowance) exists but is not included. Net includes the untaxed holiday allowance (regres) and meal allowance.",
   "language": "Yes, English is widely used in Ljubljana tech firms; Slovene helps for local employers and daily admin.",
   "notes": [
-   "Gross yearly shown is total cash including bonus (and Slovenian extras). Base gross before bonus: junior 42000, mid 28800, senior 55200 EUR; all ranges are estimates from the linked sources, bonus rates are estimates.",
-   "Surplus is net per month minus rent outside the centre, everyday costs and commute. Health is 0 because employee health cover is paid inside the social contributions already deducted from net.",
    "Rent from Numbeo archive; no local rental page could be opened for Ljubljana.",
-   "Everyday costs: groceries from a Numbeo-priced basket (my weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
+   "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
    "Net includes the untaxed holiday allowance (regres, at least 1,481.88 EUR a year in 2026) and a tax-free meal allowance of 7.96 EUR per working day (22 days assumed, about 175 EUR a month). Bonus is 0 because these replace it."
   ],
   "sources": [
@@ -5500,6 +5414,919 @@ window.CITIES = [
    "junior": 32383,
    "mid": 45583,
    "senior": 58783
+  }
+ },
+ {
+  "city": "Bucharest",
+  "country": "RO",
+  "rent_outside": 471,
+  "rent_centre": 603,
+  "room_shared": null,
+  "everyday": 362,
+  "everyday_parts": {
+   "groceries": 141,
+   "utilities": 105,
+   "internet_phone": 16,
+   "going_out": 100,
+   "other": 0
+  },
+  "commute": 26.2,
+  "commute_note": "Combined STB surface plus Metrorex monthly pass, 140 RON (bugetul.ro, 2026-10-08), at 5.3451 RON per EUR. No car needed. Metrorex fares were being raised in 2026 and sources disagree on the exact new price.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 23573,
+   "mid": 39288,
+   "senior": 62861
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1207,
+   "mid": 2069,
+   "senior": 3371
+  },
+  "surplus": {
+   "junior": 348,
+   "mid": 1210,
+   "senior": 2512
+  },
+  "tax_regime_note": "No special regime for developers: the income tax and social contribution exemption for IT employees was abolished on 2025-01-01 (OUG 156/2024) and is still gone in 2026, so sites and calculators that still show 0 percent tax are out of date. Net uses 25 percent pension (CAS), 10 percent health (CASS) and 10 percent income tax on gross minus those two, with no salary ceilings, so take-home is 58.5 percent of gross. The basic personal deduction only exists up to a gross of the minimum wage plus 2,000 RON (6,325 RON from 2026-07-01, per secondary summaries rather than an official page), and all modelled pay is above that. No graduate or youth relief was found, so a new grad pays the same.",
+  "language": "Yes, English is the working language at outsourcing and product firms in Bucharest; Romanian is needed for rental contracts, the tax office and doctors (an estimate, not measured).",
+  "notes": [
+   "Base pay used here, in RON gross per month: junior 10,500, mid 17,500, senior 28,000, times 12 at the ECB rate of 5.3451 RON per EUR on 2026-11-11. The salary pages quote NET RON for web and full-stack roles (junior 5,000 to 8,000, mid 8,000 to 15,000, senior 12,000 to 26,000), so the gross figures were chosen and converted back to net to check they land inside those ranges. Bucharest and Cluj are the best paid hubs; Levels.fyi has Bucharest median total pay 12 percent above Cluj, while the Jan 2026 salary map has Cluj 17 percent above Bucharest, so both cities use the same pay.",
+   "Romania has no statutory 13th salary; bonus rates (5, 8 and 10 percent) are estimates, and net includes them taxed at the normal rates.",
+   "Rent: Numbeo 1-bed outside the centre is 402 EUR. OLX 2-room asking median is 540 EUR (49 ads, 2026-11-12, includes new builds), 34 percent higher, so rent outside uses the midpoint, 471 EUR. Centre rent is Numbeo (603 EUR).",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Bucharest"
+   },
+   {
+    "label": "OLX 2-room rentals Bucharest (49 ads read 2026-11-12)",
+    "url": "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/2-camere/bucuresti/"
+   },
+   {
+    "label": "IT salary map by city and role, net RON, Jan 2026",
+    "url": "https://semnal.eustatiu.com/harta-salariilor-it-romania-2026"
+   },
+   {
+    "label": "Wise Step IT salaries Romania 2026",
+    "url": "https://wise-step.ro/blog/it-salaries-romania-2026/"
+   },
+   {
+    "label": "Digitalpedia web and full-stack salaries",
+    "url": "https://digitalpedia.ro/salarii-in-it-in-romania/"
+   },
+   {
+    "label": "Levels.fyi software engineer pay in Romania",
+    "url": "https://www.levels.fyi/t/software-engineer/locations/romania"
+   },
+   {
+    "label": "Bugetul.ro STB plus Metrorex monthly pass, Oct 2026",
+    "url": "https://www.bugetul.ro/cat-a-ajuns-un-abonament-stb-metrorex-pentru-o-luna-in-bucuresti-ce-studenti-pot-primi-decont-de-90-din-suma/"
+   },
+   {
+    "label": "PwC Romania: taxes on personal income and social contributions",
+    "url": "https://taxsummaries.pwc.com/romania/individual/other-taxes"
+   },
+   {
+    "label": "Accace: IT exemption abolished",
+    "url": "https://www.accace.com/legislative-changes-introduced-in-romania/"
+   },
+   {
+    "label": "ECB reference rate EUR/RON, 2026-11-11 (5.3451)",
+    "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.RON.EUR.SP00.A?startPeriod=2026-11-11&endPeriod=2026-11-11"
+   }
+  ],
+  "base_yearly": {
+   "junior": 23573,
+   "mid": 39288,
+   "senior": 62861
+  }
+ },
+ {
+  "city": "Cluj-Napoca",
+  "country": "RO",
+  "rent_outside": 467,
+  "rent_centre": 594,
+  "room_shared": null,
+  "everyday": 335,
+  "everyday_parts": {
+   "groceries": 144,
+   "utilities": 86,
+   "internet_phone": 15,
+   "going_out": 90,
+   "other": 0
+  },
+  "commute": 27.5,
+  "commute_note": "CTP named monthly pass for all lines with 120 trips, 147 RON, in force since 2025-08-01 (CTP). The unlimited named pass is 213 RON. A single 130 RON monthly pass was proposed from 2026-01-01, but no confirmation that it was adopted could be found.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 23573,
+   "mid": 39288,
+   "senior": 62861
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1207,
+   "mid": 2069,
+   "senior": 3371
+  },
+  "surplus": {
+   "junior": 378,
+   "mid": 1240,
+   "senior": 2542
+  },
+  "tax_regime_note": "No special regime for developers: the income tax and social contribution exemption for IT employees was abolished on 2025-01-01 (OUG 156/2024) and is still gone in 2026, so sites and calculators that still show 0 percent tax are out of date. Net uses 25 percent pension (CAS), 10 percent health (CASS) and 10 percent income tax on gross minus those two, with no salary ceilings, so take-home is 58.5 percent of gross. The basic personal deduction only exists up to a gross of the minimum wage plus 2,000 RON (6,325 RON from 2026-07-01, per secondary summaries rather than an official page), and all modelled pay is above that. No graduate or youth relief was found, so a new grad pays the same.",
+  "language": "Yes, Cluj has many English-speaking product and outsourcing teams; Romanian is needed for daily admin (an estimate, not measured).",
+  "notes": [
+   "Base pay used here, in RON gross per month: junior 10,500, mid 17,500, senior 28,000, times 12 at the ECB rate of 5.3451 RON per EUR on 2026-11-11. The salary pages quote NET RON for web and full-stack roles (junior 5,000 to 8,000, mid 8,000 to 15,000, senior 12,000 to 26,000), so the gross figures were chosen and converted back to net to check they land inside those ranges. Same pay as Bucharest because sources conflict on which city pays more. Real ads with posted pay are mostly remote, in EUR and do not say net or gross (for example 1,500 to 1,800 for a mid web role and 2,500 to 3,000 for a senior front-end role), so they only loosely support the ranges.",
+   "Romania has no statutory 13th salary; bonus rates (5, 8 and 10 percent) are estimates, and net includes them taxed at the normal rates.",
+   "Rent: Numbeo 1-bed outside the centre is 467 EUR. The OLX asking median for 2-room flats is 450 to 465 EUR (47 ads, 2026-11-12), within 10 percent, so Numbeo stands; centre rent is Numbeo (594 EUR). An older archived OLX copy from 2026-01-19 had a 550 EUR median.",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy (last update May 2026)",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Cluj-Napoca"
+   },
+   {
+    "label": "OLX 2-room rentals Cluj-Napoca (47 ads read 2026-11-12)",
+    "url": "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/2-camere/cluj-napoca/"
+   },
+   {
+    "label": "IT salary map by city and role, net RON, Jan 2026",
+    "url": "https://semnal.eustatiu.com/harta-salariilor-it-romania-2026"
+   },
+   {
+    "label": "Wise Step IT salaries Romania 2026",
+    "url": "https://wise-step.ro/blog/it-salaries-romania-2026/"
+   },
+   {
+    "label": "Levels.fyi software engineer pay in Romania",
+    "url": "https://www.levels.fyi/t/software-engineer/locations/romania"
+   },
+   {
+    "label": "BestJobs Cluj-Napoca developer ads with posted pay",
+    "url": "https://www.bestjobs.eu/en/jobs-in-cluj-napoca/laravel+php+developer/salary"
+   },
+   {
+    "label": "CTP Cluj-Napoca tariffs from 2025-08-01",
+    "url": "https://ctpcj.ro/index.php/ro/despre-noi/stiri/modificari-tarife-titluri-calatorie-2025/1798"
+   },
+   {
+    "label": "PwC Romania: taxes on personal income and social contributions",
+    "url": "https://taxsummaries.pwc.com/romania/individual/other-taxes"
+   },
+   {
+    "label": "Boundless: Romania payroll guide 2026",
+    "url": "https://boundlesshq.com/blog/payroll-guide-for-romania/"
+   },
+   {
+    "label": "ECB reference rate EUR/RON, 2026-11-11 (5.3451)",
+    "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.RON.EUR.SP00.A?startPeriod=2026-11-11&endPeriod=2026-11-11"
+   }
+  ],
+  "base_yearly": {
+   "junior": 23573,
+   "mid": 39288,
+   "senior": 62861
+  }
+ },
+ {
+  "city": "Iasi",
+  "country": "RO",
+  "rent_outside": 377,
+  "rent_centre": 476,
+  "room_shared": null,
+  "everyday": 325,
+  "everyday_parts": {
+   "groceries": 134,
+   "utilities": 98,
+   "internet_phone": 14,
+   "going_out": 79,
+   "other": 0
+  },
+  "commute": 24.3,
+  "commute_note": "CTP Iasi 30-day pass 130 RON (Radio Regional, updated 2026-10-13); tariffs in force since 2025-02-01. The transferable pass is 250 RON.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 18409,
+   "mid": 30533,
+   "senior": 48942
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 942,
+   "mid": 1608,
+   "senior": 2625
+  },
+  "surplus": {
+   "junior": 216,
+   "mid": 882,
+   "senior": 1899
+  },
+  "tax_regime_note": "No special regime for developers: the income tax and social contribution exemption for IT employees was abolished on 2025-01-01 (OUG 156/2024) and is still gone in 2026, so sites and calculators that still show 0 percent tax are out of date. Net uses 25 percent pension (CAS), 10 percent health (CASS) and 10 percent income tax on gross minus those two, with no salary ceilings, so take-home is 58.5 percent of gross. The basic personal deduction only exists up to a gross of the minimum wage plus 2,000 RON (6,325 RON from 2026-07-01, per secondary summaries rather than an official page), and all modelled pay is above that. No graduate or youth relief was found, so a new grad pays the same.",
+  "language": "Yes, the larger outsourcing and product firms in Iasi work in English; Romanian helps outside them (an estimate, not measured).",
+  "notes": [
+   "Base pay used here, in RON gross per month: junior 8,200, mid 13,600, senior 21,800, times 12 at the ECB rate of 5.3451 RON per EUR on 2026-11-11. The salary pages quote NET RON for web and full-stack roles (junior 5,000 to 8,000, mid 8,000 to 15,000, senior 12,000 to 26,000), so the gross figures were chosen and converted back to net to check they land inside those ranges. Iasi pay is an estimate at 78 percent of Bucharest: the Jan 2026 salary map puts the Iasi IT average 26 percent below Bucharest (9,900 vs 13,400 RON net). That is a city average for all IT roles, not a web-developer figure, so this city is the thinnest of the three.",
+   "Romania has no statutory 13th salary; bonus rates (5, 8 and 10 percent) are estimates, and net includes them taxed at the normal rates.",
+   "Rent: Numbeo 1-bed outside the centre is 377 EUR. OLX 2-room asking median is 399.5 EUR (48 ads in the city, 2026-11-12), within 10 percent, so Numbeo stands; centre rent is Numbeo (476 EUR).",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Iasi"
+   },
+   {
+    "label": "OLX 2-room rentals Iasi city (48 ads read 2026-11-12)",
+    "url": "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/2-camere/q-iasi/"
+   },
+   {
+    "label": "IT salary map by city and role, net RON, Jan 2026",
+    "url": "https://semnal.eustatiu.com/harta-salariilor-it-romania-2026"
+   },
+   {
+    "label": "Viitorultau.ro tech salaries Romania 2026",
+    "url": "https://viitorultau.ro/articol/salarii-tech-romania-vs-remote-2026"
+   },
+   {
+    "label": "Wise Step IT salaries Romania 2026",
+    "url": "https://wise-step.ro/blog/it-salaries-romania-2026/"
+   },
+   {
+    "label": "Radio Regional: CTP Iasi fares, Oct 2026",
+    "url": "https://radioregional.ro/bilete-si-abonamente-ctp-iasi-cat-costa-calatoria-cu-tramvaiul-si-autobuzul/"
+   },
+   {
+    "label": "PwC Romania: taxes on personal income and social contributions",
+    "url": "https://taxsummaries.pwc.com/romania/individual/other-taxes"
+   },
+   {
+    "label": "Boundless: Romania payroll guide 2026",
+    "url": "https://boundlesshq.com/blog/payroll-guide-for-romania/"
+   },
+   {
+    "label": "ECB reference rate EUR/RON, 2026-11-11 (5.3451)",
+    "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.RON.EUR.SP00.A?startPeriod=2026-11-11&endPeriod=2026-11-11"
+   }
+  ],
+  "base_yearly": {
+   "junior": 18409,
+   "mid": 30533,
+   "senior": 48942
+  }
+ },
+ {
+  "city": "Sofia",
+  "country": "BG",
+  "rent_outside": 570,
+  "rent_centre": 697,
+  "room_shared": null,
+  "everyday": 411,
+  "everyday_parts": {
+   "groceries": 183,
+   "utilities": 85,
+   "internet_phone": 33,
+   "going_out": 110,
+   "other": 0
+  },
+  "commute": 25.5,
+  "commute_note": "Centre for Urban Mobility personalised monthly card for all daytime lines, 25.50 EUR since 2026-01-01 (non-personalised 35.50). No car needed.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 24000,
+   "mid": 39600,
+   "senior": 57600
+  },
+  "bonus_rate": {
+   "junior": 0.03,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1603,
+   "mid": 2936,
+   "senior": 4480
+  },
+  "surplus": {
+   "junior": 596,
+   "mid": 1930,
+   "senior": 3474
+  },
+  "tax_regime_note": "Bulgaria uses the euro since 2026-01-01. No special regime for developers or newcomers. Net uses a flat 10 percent income tax on gross minus employee contributions of 13.78 percent (including 3.2 percent health), and contributions are charged only up to a monthly insurable income of 2,111.64 EUR until 2026-07-31 and 2,300 EUR from 2026-08-01, so pay above that cap is taxed only at 10 percent. The bonus is assumed to be paid in December. No graduate or youth relief was found, so a new grad pays the same.",
+  "language": "Yes, English is normal at Sofia product firms and outsourcers; Bulgarian is needed for admin (an estimate).",
+  "notes": [
+   "Base pay used here, in EUR gross per month: junior 2,000, mid 3,300, senior 4,800. The sources quote advertised NET pay per month (NextJob.bg: junior 1,022 to 2,000, mid 2,000 to 3,400, senior 3,300 to 5,000; DEV.BG back-end ads: junior 1,330 to 2,496, mid 2,483 to 4,130, senior 2,952 to 5,496), and these gross figures give net of about 1,550, 2,700 and 4,050 before bonus, inside those ranges. Ad ranges often show the employer's top figure, so this may run high.",
+   "Bulgaria has no statutory 13th salary; many product firms pay a bonus or 13th pay, and bonus rates (3, 8 and 10 percent) are estimates, included in net.",
+   "Rent: Numbeo 1-bed outside the centre is 541 EUR; the imot.bg 2-room asking median is 600 EUR (40 ads, mostly outer districts, 2026-11-12), 11 percent higher, so rent outside uses the midpoint, 570 EUR. Centre rent is Numbeo (697 EUR).",
+   "DEV.BG says its figures are net advertised pay from nearly 3,000 ads (Sep 2025 to Sep 2026) but does not say whether they are monthly, and has no full-stack or front-end figures. A search summary of DEV.BG job pages showed Sofia full-stack ads at 2,500 to 4,000 net, but those pages could not be opened when checked, so they are not used as a source. NextJob.bg's own table mixes net and gross.",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Sofia"
+   },
+   {
+    "label": "imot.bg 2-room rentals in Sofia (40 ads read 2026-11-12)",
+    "url": "https://www.imot.bg/obiavi/naemi/grad-sofiya/dvustaen"
+   },
+   {
+    "label": "DEV.BG IT salaries 2026 (advertised net pay, 30 Oct 2026)",
+    "url": "https://dev.bg/digest/it-salaries-2026-how-bulgaria-fits-into-global-trends-dc01/"
+   },
+   {
+    "label": "NextJob.bg Bulgarian developer salaries, Sept 2026",
+    "url": "https://www.nextjob.bg/bulgarian-it-developer-salaries/"
+   },
+   {
+    "label": "Levels.fyi software engineer pay in Bulgaria",
+    "url": "https://www.levels.fyi/t/software-engineer/locations/bulgaria"
+   },
+   {
+    "label": "SofiaInfo: monthly card prices from 2026-01-01",
+    "url": "https://www.sofiainfo.bg/en/cgm-kartite-po-redovna-tarifa-v-sofiya-s-po-izgodni-ceni-ot-1-yanuari-2026/"
+   },
+   {
+    "label": "PwC Bulgaria: taxes on personal income",
+    "url": "https://taxsummaries.pwc.com/bulgaria/individual/taxes-on-personal-income"
+   },
+   {
+    "label": "PwC Bulgaria: social security rates and ceiling",
+    "url": "https://taxsummaries.pwc.com/bulgaria/individual/other-taxes"
+   },
+   {
+    "label": "NNRoad Bulgaria payroll guide 2026",
+    "url": "https://nnroad.com/blog/bulgaria-payroll-guide/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 24000,
+   "mid": 39600,
+   "senior": 57600
+  }
+ },
+ {
+  "city": "Plovdiv",
+  "country": "BG",
+  "rent_outside": 387,
+  "rent_centre": 476,
+  "room_shared": null,
+  "everyday": 324,
+  "everyday_parts": {
+   "groceries": 160,
+   "utilities": 60,
+   "internet_phone": 31,
+   "going_out": 73,
+   "other": 0
+  },
+  "commute": 25.6,
+  "commute_note": "City tariff of 50 lev for a monthly all-lines card, converted at the fixed 1.95583 to 25.56 EUR; no published euro price could be found, and the tariff page used is labelled 2025.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 19200,
+   "mid": 31680,
+   "senior": 46080
+  },
+  "bonus_rate": {
+   "junior": 0.03,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1279,
+   "mid": 2294,
+   "senior": 3530
+  },
+  "surplus": {
+   "junior": 542,
+   "mid": 1557,
+   "senior": 2793
+  },
+  "tax_regime_note": "Bulgaria uses the euro since 2026-01-01. No special regime for developers or newcomers. Net uses a flat 10 percent income tax on gross minus employee contributions of 13.78 percent (including 3.2 percent health), and contributions are charged only up to a monthly insurable income of 2,111.64 EUR until 2026-07-31 and 2,300 EUR from 2026-08-01, so pay above that cap is taxed only at 10 percent. The bonus is assumed to be paid in December. No graduate or youth relief was found, so a new grad pays the same.",
+  "language": "English is workable at the outsourcing offices in Plovdiv, but the pool of English-only employers is much smaller than in Sofia (an estimate).",
+  "notes": [
+   "Base pay is Sofia pay times 0.80: junior 1,600, mid 2,640, senior 3,840 EUR gross per month. NextJob.bg says Plovdiv pays 75 to 85 percent of Sofia for comparable roles but gives no Plovdiv figures, so this is an estimate and the thinnest pay figure in the Bulgarian rows.",
+   "Bulgaria has no statutory 13th salary; many product firms pay a bonus or 13th pay, and bonus rates (3, 8 and 10 percent) are estimates, included in net.",
+   "Rent: Numbeo 1-bed outside the centre is 343 EUR (63 entries, thin); the imot.bg 2-room asking median is 430 EUR (40 ads, mean 490 with two outliers, 2026-11-12), 25 percent higher, so rent outside uses the midpoint, 387 EUR. Centre rent is Numbeo (476 EUR).",
+   "Plovdiv has far fewer posted salaries than Sofia; the DEV.BG data is nationwide and not split by city, so treat these levels as assumed rather than measured.",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Plovdiv"
+   },
+   {
+    "label": "imot.bg 2-room rentals in Plovdiv (40 ads read 2026-11-12)",
+    "url": "https://www.imot.bg/obiavi/naemi/grad-plovdiv/dvustaen"
+   },
+   {
+    "label": "NextJob.bg Bulgarian developer salaries (Plovdiv at 75 to 85 percent of Sofia)",
+    "url": "https://www.nextjob.bg/bulgarian-it-developer-salaries/"
+   },
+   {
+    "label": "DEV.BG IT salaries 2026 (advertised net pay)",
+    "url": "https://dev.bg/digest/it-salaries-2026-how-bulgaria-fits-into-global-trends-dc01/"
+   },
+   {
+    "label": "Plovdiv monthly card tariff in lev (labelled 2025)",
+    "url": "https://masov-gt.com/mesechni_karti.php"
+   },
+   {
+    "label": "Plovdiv24: single ticket 0.50 EUR from 2026-02-01",
+    "url": "https://www.plovdiv24.bg/novini/plovdiv/Promyana-v-cenata-na-bileta-za-gradskiya-transport-v-Plovdiv-eto-kolko-evrocenta-stava-ot-1-fevruari-2825712"
+   },
+   {
+    "label": "PwC Bulgaria: social security rates and ceiling",
+    "url": "https://taxsummaries.pwc.com/bulgaria/individual/other-taxes"
+   },
+   {
+    "label": "NNRoad Bulgaria payroll guide 2026",
+    "url": "https://nnroad.com/blog/bulgaria-payroll-guide/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 19200,
+   "mid": 31680,
+   "senior": 46080
+  }
+ },
+ {
+  "city": "Athens",
+  "country": "GR",
+  "rent_outside": 575,
+  "rent_centre": 665,
+  "room_shared": null,
+  "everyday": 477,
+  "everyday_parts": {
+   "groceries": 193,
+   "utilities": 110,
+   "internet_phone": 50,
+   "going_out": 124,
+   "other": 0
+  },
+  "commute": 27.0,
+  "commute_note": "OASA monthly pass 27 EUR (13.50 reduced), athensmetro.org on 2026-11-12. One low-quality site lists 30, not confirmed. No car needed in the centre.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 21000,
+   "mid": 32200,
+   "senior": 47600
+  },
+  "bonus_rate": {
+   "junior": 0.03,
+   "mid": 0.05,
+   "senior": 0.08
+  },
+  "net": {
+   "junior": 1394,
+   "mid": 2034,
+   "senior": 2833
+  },
+  "surplus": {
+   "junior": 315,
+   "mid": 955,
+   "senior": 1754
+  },
+  "tax_regime_note": "Net uses the normal 2026 rules: scale 9, 20, 26, 34, 39 and 44 percent at 10k, 20k, 30k, 40k and 60k, minus a 777 EUR credit that falls by 20 EUR per 1,000 EUR of taxable pay above 12,000, with employee EFKA contributions of 13.37 percent on every payment (health is inside EFKA). Article 5C relocation relief takes 50 percent of Greek employment income out of tax for 7 years if you were not Greek tax resident in 5 of the previous 6 years, move your residence from an EU, EEA or treaty country, work for a Greek employer or Greek branch and stay at least 2 years; there is no age or salary condition on the guide used, so a Croatian new grad likely qualifies if hired locally. The model puts it at about +162, +315 and +635 EUR a month for junior, mid and senior (not in the net). Separate 2026 youth rates: up to age 25 the first two bands (to 20,000) are 0 percent, ages 26 to 30 pay 9 percent in the 10,000 to 20,000 band. That is worth about +167, +242 and +242 EUR a month under 26 and +80, +92 and +92 EUR at ages 26 to 30 (not in the net); whether youth relief and 5C can be combined was not confirmed.",
+  "language": "English is workable at international and outsourcing firms in Athens, but Greek is needed at local firms and for all admin (an estimate, not measured).",
+  "notes": [
+   "Base pay used here, per monthly salary paid 14 times: junior 1,500, mid 2,300, senior 3,400 EUR. Sources: linq survey (Fortune Greece) junior 1,600 to 1,800 gross, 3 to 5 years 2,500 to 3,800, senior 3,500 to 5,300; newjobs hub gross junior 1,200 to 1,600, mid 1,800 to 2,400, senior 3,000 to 4,000; Athens junior pay is therefore uncertain. None of them says whether the figure is per payment or per month averaged, so per payment is assumed.",
+   "Greek employees are paid 14 salaries: 12 monthly plus a Christmas pay of a full salary and an Easter pay and holiday allowance of half a salary each, so yearly gross is monthly gross times 14. Bonus rates (3, 5 and 8 percent) are estimates and are on top of the 14 salaries.",
+   "Rent: Numbeo 1-bed outside the centre is 575 EUR and in the centre 665 EUR; 13 one-bedroom ads on Spitogatos Athens Center (archive 2026-09-19, mostly small central flats) had a median of 670 EUR, which supports the centre figure.",
+   "Levels.fyi gives Athens median total pay of 34,249 EUR with 25th and 75th percentiles of 22,462 and 48,840 (165 salaries, all levels), which fits the junior, mid and senior yearly figures reasonably; it leans toward international employers. Indeed Greece pages were blocked (HTTP 401), so no posted-pay ads could be opened; a search summary showed Athens ads at 1,800 to 2,300 for a junior back-end and 3,200 to 4,500 for full-stack, not verified.",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Athens"
+   },
+   {
+    "label": "Spitogatos Athens Center rentals, archive 2026-09-19",
+    "url": "https://web.archive.org/web/20260919204452/https://www.spitogatos.gr/en/to_rent-apartments/athens-center"
+   },
+   {
+    "label": "Fortune Greece on the linq salary survey, 2026-05-06",
+    "url": "https://www.fortunegreece.com/article/poioi-einai-oi-pragmatikoi-misthoi-stin-ellada-poioi-roloi-angizoun-tis-84-000-evro/"
+   },
+   {
+    "label": "newjobs hub developer salaries 2026",
+    "url": "https://hub.newjobs.gr/salaries/developer"
+   },
+   {
+    "label": "NNRoad Greece payroll guide 2026 (14 salaries)",
+    "url": "https://nnroad.com/blog/greece-payroll-guide/"
+   },
+   {
+    "label": "Levels.fyi software engineer pay in Athens",
+    "url": "https://www.levels.fyi/t/software-engineer/locations/athens-grc"
+   },
+   {
+    "label": "Athens Metro tickets and passes",
+    "url": "https://athensmetro.org/en/tickets/"
+   },
+   {
+    "label": "Greek Ministry of Finance: income taxation, 2026 scale, credit and youth rates",
+    "url": "https://minfin.gov.gr/en/tax-policy/tax-guide/income-taxation/"
+   },
+   {
+    "label": "PwC Greece: EFKA contribution rate and ceiling",
+    "url": "https://taxsummaries.pwc.com/greece/individual/other-taxes"
+   },
+   {
+    "label": "Article 5C relocation relief guide",
+    "url": "https://lanop.co.uk/greece-article-5c-50-percent-tax-exemption/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 21000,
+   "mid": 32200,
+   "senior": 47600
+  }
+ },
+ {
+  "city": "Thessaloniki",
+  "country": "GR",
+  "rent_outside": 505,
+  "rent_centre": 558,
+  "room_shared": null,
+  "everyday": 497,
+  "everyday_parts": {
+   "groceries": 206,
+   "utilities": 118,
+   "internet_phone": 49,
+   "going_out": 124,
+   "other": 0
+  },
+  "commute": 16.0,
+  "commute_note": "30-day bus pass on the ThessCard, 16 EUR (OSETh). The older OASTH fares page still shows 27, which looks out of date.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 18480,
+   "mid": 28280,
+   "senior": 41860
+  },
+  "bonus_rate": {
+   "junior": 0.03,
+   "mid": 0.05,
+   "senior": 0.08
+  },
+  "net": {
+   "junior": 1248,
+   "mid": 1820,
+   "senior": 2565
+  },
+  "surplus": {
+   "junior": 230,
+   "mid": 802,
+   "senior": 1547
+  },
+  "tax_regime_note": "Net uses the normal 2026 rules: scale 9, 20, 26, 34, 39 and 44 percent at 10k, 20k, 30k, 40k and 60k, minus a 777 EUR credit that falls by 20 EUR per 1,000 EUR of taxable pay above 12,000, with employee EFKA contributions of 13.37 percent on every payment (health is inside EFKA). Article 5C relocation relief takes 50 percent of Greek employment income out of tax for 7 years if you were not Greek tax resident in 5 of the previous 6 years, move your residence from an EU, EEA or treaty country, work for a Greek employer or Greek branch and stay at least 2 years; there is no age or salary condition on the guide used, so a Croatian new grad likely qualifies if hired locally. The model puts it at about +126, +264 and +516 EUR a month for junior, mid and senior (not in the net). Separate 2026 youth rates: up to age 25 the first two bands (to 20,000) are 0 percent, ages 26 to 30 pay 9 percent in the 10,000 to 20,000 band. That is worth about +126, +242 and +242 EUR a month under 26 and +59, +92 and +92 EUR at ages 26 to 30 (not in the net); whether youth relief and 5C can be combined was not confirmed.",
+  "language": "English is workable at the international tech offices in Thessaloniki; Greek is needed for local firms and admin (an estimate, not measured).",
+  "notes": [
+   "Base pay is Athens pay times 0.88, paid 14 times: junior 1,320, mid 2,020, senior 2,990 EUR per monthly salary. The 0.88 comes from newjobs hub, which lists mid-level net pay of 1,300 to 2,100 in Thessaloniki against 1,500 to 2,400 in Athens; no source gives Thessaloniki pay by level, so this is an estimate.",
+   "Greek employees are paid 14 salaries: 12 monthly plus a Christmas pay of a full salary and an Easter pay and holiday allowance of half a salary each, so yearly gross is monthly gross times 14. Bonus rates (3, 5 and 8 percent) are estimates and are on top of the 14 salaries.",
+   "Rent: Numbeo 1-bed outside the centre is 458 EUR (105 entries); 7 one-bedroom ads on Spitogatos Thessaloniki municipality (archive 2026-09-15, not split by distance from the centre) had a median of 550 EUR, 20 percent higher, so rent outside uses the midpoint, 505 EUR. Centre rent is Numbeo (558 EUR).",
+   "Thessaloniki is the thinnest of the Greek rows: small rent sample, no city-level salary data, and its Numbeo grocery prices come out above Athens, which is kept as measured.",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Thessaloniki"
+   },
+   {
+    "label": "Spitogatos Thessaloniki rentals, archive 2026-09-15",
+    "url": "https://web.archive.org/web/20260915160408/https://www.spitogatos.gr/en/to_rent-apartments/thessaloniki-center"
+   },
+   {
+    "label": "newjobs hub developer salaries 2026 (Thessaloniki below Athens)",
+    "url": "https://hub.newjobs.gr/salaries/developer"
+   },
+   {
+    "label": "Fortune Greece on the linq salary survey, 2026-05-06",
+    "url": "https://www.fortunegreece.com/article/poioi-einai-oi-pragmatikoi-misthoi-stin-ellada-poioi-roloi-angizoun-tis-84-000-evro/"
+   },
+   {
+    "label": "Levels.fyi software engineer pay in Greece",
+    "url": "https://www.levels.fyi/t/software-engineer/locations/greece"
+   },
+   {
+    "label": "OSETh Thessaloniki bus fare products",
+    "url": "https://oseth.com.gr/en/bus-fare-products"
+   },
+   {
+    "label": "Greek Ministry of Finance: income taxation, 2026 scale, credit and youth rates",
+    "url": "https://minfin.gov.gr/en/tax-policy/tax-guide/income-taxation/"
+   },
+   {
+    "label": "PwC Greece: EFKA contribution rate and ceiling",
+    "url": "https://taxsummaries.pwc.com/greece/individual/other-taxes"
+   }
+  ],
+  "base_yearly": {
+   "junior": 18480,
+   "mid": 28280,
+   "senior": 41860
+  }
+ },
+ {
+  "city": "Limassol",
+  "country": "CY",
+  "rent_outside": 1244,
+  "rent_centre": 1481,
+  "room_shared": null,
+  "everyday": 530,
+  "everyday_parts": {
+   "groceries": 207,
+   "utilities": 128,
+   "internet_phone": 48,
+   "going_out": 147,
+   "other": 0
+  },
+  "commute": 50.0,
+  "commute_note": "EMEL Motion 30-day personalised card, 50 EUR from 2026-11-05 (60 anonymous). The national Cyprus Public Transport tariff lists 66.90 for a 30-day urban personalised card from 2026-08-03 and the two could not be reconciled. A car is realistically needed in Limassol (an estimate, not measured), but the pass figure is kept.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 27000,
+   "mid": 44000,
+   "senior": 66000
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 2040,
+   "mid": 3130,
+   "senior": 4444
+  },
+  "surplus": {
+   "junior": 216,
+   "mid": 1306,
+   "senior": 2620
+  },
+  "tax_regime_note": "Net uses the normal 2026 rules: 0 percent to 22,000 EUR, then 20, 25, 30 and 35 percent at 32,000, 42,000 and 72,000, with employee social insurance of 8.8 percent (capped at 68,904 EUR a year) and GESY health contribution of 2.65 percent, both deductible. Special regimes need a first job in Cyprus and no recent Cyprus residence. The 20 percent exemption (capped at 8,550 EUR a year for 7 years, pay under 55,000) also needs at least 3 years of work abroad for a non-Cyprus employer, so a new grad does not qualify. For a mid or senior engineer who qualifies the model puts it at about +178 and +214 EUR a month where pay stays under 55,000 (not in the net). The 50 percent exemption needs pay above 55,000 EUR and no Cyprus residence for 15 years before the job (KPMG's 2022 note says 10); at 72,600 EUR a year with bonus, a qualifying senior would gain about +835 EUR a month, a qualifying mid about +377 EUR if pay passed the threshold (not in the net).",
+  "language": "Yes, English is the working language at the fintech, forex and iGaming firms that dominate Limassol, and most locals speak it (an estimate).",
+  "notes": [
+   "Base pay used here, in EUR a year: junior 27,000, mid 44,000, senior 66,000. The sources spread widely: Jobs Limassol junior 30,000 to 42,000, mid 52,000 to 72,000, senior 78,000 to 110,000 (no sample size); a roundup by Danilchenko puts the Glassdoor Cyprus average at 31,500 and senior at 72,000, and cites Levels.fyi medians of about 74,000 for Limassol (self-reported, skewed to international firms). The lower, more local figures were favoured because several of these sites are recruiter marketing.",
+   "Yearly figures are base pay including a 13th salary where the employer pays one; several guides say most Cyprus employers pay it (about 8.3 percent extra) but some startups do not, and none of the pages states clearly whether its range includes it. Bonus rates (5, 8 and 10 percent) are estimates, included in net.",
+   "Rent: Numbeo 1-bed outside the centre is 1,244 EUR and in the centre 1,481 EUR. The offer.com.cy Limassol page (74 one-bedroom ads, 2026-11-12) shows asking prices from 950 to 1,800, with a sample median of about 1,300, which supports Numbeo; the cheaper flats are in outer suburbs such as Katholiki and Agios Georgios.",
+   "Limassol is among the most expensive rows on rent and is the main fintech, forex and iGaming hub, so pay at the top international employers can be well above these figures. Posted pay is rare: most Cyprus ads say salary on experience, and the one tech ad with a range that could be opened was a mid front-end role in Larnaca at 28,000 to 44,000 (cypruswork.com listing by ULTRA Recruitment).",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Limassol"
+   },
+   {
+    "label": "offer.com.cy Limassol 1-bedroom rentals, 2026-11-12",
+    "url": "https://www.offer.com.cy/en/cyprus-apartments/20-4/?g_sp2=FR&sp4=1&region=Limassol"
+   },
+   {
+    "label": "Jobs Limassol: software developer pay bands 2026",
+    "url": "https://jobslimassol.com/software-developer-salaries-limassol-2026/"
+   },
+   {
+    "label": "Danilchenko: Cyprus developer salary roundup 2026",
+    "url": "https://www.danilchenko.dev/posts/cyprus-developer-salary-2026/"
+   },
+   {
+    "label": "Cypruswork full-stack developer ads",
+    "url": "https://www.cypruswork.com/jobs/full-stack-developer-jobs/"
+   },
+   {
+    "label": "EMEL Limassol bus tickets",
+    "url": "https://limassolbuses.com/tickets/"
+   },
+   {
+    "label": "Cyprus Public Transport ticket fares from 2026-08-03",
+    "url": "https://www.publictransport.com.cy/cms/page/cash-tickets"
+   },
+   {
+    "label": "PwC Cyprus: income tax bands 2026",
+    "url": "https://taxsummaries.pwc.com/cyprus/individual/taxes-on-personal-income"
+   },
+   {
+    "label": "PwC Cyprus: social insurance, GESY and ceiling",
+    "url": "https://taxsummaries.pwc.com/cyprus/individual/other-taxes"
+   },
+   {
+    "label": "KPMG Cyprus: 20 and 50 percent first-employment exemptions",
+    "url": "https://kpmg.com/cy/en/insights/2022/07/new-incentives-for-first-employment-in-cyprus.html"
+   }
+  ],
+  "base_yearly": {
+   "junior": 27000,
+   "mid": 44000,
+   "senior": 66000
+  }
+ },
+ {
+  "city": "Nicosia",
+  "country": "CY",
+  "rent_outside": 686,
+  "rent_centre": 720,
+  "room_shared": null,
+  "everyday": 467,
+  "everyday_parts": {
+   "groceries": 191,
+   "utilities": 111,
+   "internet_phone": 48,
+   "going_out": 117,
+   "other": 0
+  },
+  "commute": 50.0,
+  "commute_note": "Assumes the same Motion 30-day personalised card price as Limassol, 50 EUR (EMEL page), because no Nicosia bus operator tariff could be opened; the national tariff lists 66.90 for an urban personalised 30-day card. A car is common in Nicosia (an estimate, not measured).",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 24000,
+   "mid": 38000,
+   "senior": 56000
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.08,
+   "senior": 0.1
+  },
+  "net": {
+   "junior": 1854,
+   "mid": 2771,
+   "senior": 3857
+  },
+  "surplus": {
+   "junior": 651,
+   "mid": 1568,
+   "senior": 2654
+  },
+  "tax_regime_note": "Net uses the normal 2026 rules: 0 percent to 22,000 EUR, then 20, 25, 30 and 35 percent at 32,000, 42,000 and 72,000, with employee social insurance of 8.8 percent (capped at 68,904 EUR a year) and GESY health contribution of 2.65 percent, both deductible. Special regimes need a first job in Cyprus and no recent Cyprus residence. The 20 percent exemption (capped at 8,550 EUR a year for 7 years, pay under 55,000) also needs at least 3 years of work abroad for a non-Cyprus employer, so a new grad does not qualify. For a mid or senior engineer who qualifies the model puts it at about +155 and +214 EUR a month where pay stays under 55,000 (not in the net). The 50 percent exemption needs pay above 55,000 EUR and no Cyprus residence for 15 years before the job (KPMG's 2022 note says 10); at 61,600 EUR a year with bonus, a qualifying senior would gain about +660 EUR a month, a qualifying mid about +257 EUR if pay passed the threshold (not in the net).",
+  "language": "Yes, English is widely used in business and at tech firms in Nicosia, though Greek helps with local employers and admin (an estimate).",
+  "notes": [
+   "Base pay used here, in EUR a year: junior 24,000, mid 38,000, senior 56,000, set about 10 to 15 percent below Limassol. Sources: the Jobs Nicosia salary guide gives all-Cyprus ranges of 22,000 to 32,000 for juniors (median 26,500), 35,000 to 55,000 for mid-level and 55,000 to 85,000 for seniors, with no sample size; its tech survey (24 hiring managers) puts back-end pay at 28,800, 50,400 and 81,600 a year. Those are all-Cyprus figures, so Nicosia sits at the lower end.",
+   "Yearly figures are base pay including a 13th salary where the employer pays one; several guides say most Cyprus employers pay it (about 8.3 percent extra) but some startups do not, and none of the pages states clearly whether its range includes it. Bonus rates (5, 8 and 10 percent) are estimates, included in net.",
+   "Rent: Numbeo 1-bed outside the centre is 622 EUR; INDEX.cy gives a typical Nicosia 1-bed of 600 to 950 with an average of 750 (2026-04-08), 21 percent above Numbeo, so rent outside uses the midpoint, 686 EUR. Offer.com.cy Nicosia sample ads ran 600 to 1,100. Centre rent is the midpoint of Numbeo (688 EUR) and the INDEX.cy average, 720 EUR.",
+   "Nicosia is much cheaper than Limassol on rent, and Jobs Nicosia says Limassol pays only 4 to 7 percent more for tech on average, so more of the pay is kept in Nicosia. Pay by level is thin for Nicosia and partly assumed from island-wide figures.",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, archived copy",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Nicosia"
+   },
+   {
+    "label": "offer.com.cy Nicosia 1-bedroom rentals, 2026-11-12",
+    "url": "https://www.offer.com.cy/en/cyprus-apartments/20-4/?g_sp2=FR&sp4=1&region=Nicosia"
+   },
+   {
+    "label": "INDEX.cy Nicosia rental guide, April 2026",
+    "url": "https://index.cy/articles/apartments-for-rent-in-nicosia-guide/"
+   },
+   {
+    "label": "Jobs Nicosia: Cyprus tech salaries 2026",
+    "url": "https://jobsnicosia.com/cyprus-tech-salaries-2026/"
+   },
+   {
+    "label": "Jobs Nicosia: Cyprus salary guide 2026",
+    "url": "https://jobsnicosia.com/cyprus-salary-guide-2026/"
+   },
+   {
+    "label": "EMEL Motion pass prices (used as the Cyprus Motion card price)",
+    "url": "https://limassolbuses.com/tickets/"
+   },
+   {
+    "label": "Cyprus Public Transport ticket fares from 2026-08-03",
+    "url": "https://www.publictransport.com.cy/cms/page/cash-tickets"
+   },
+   {
+    "label": "PwC Cyprus: income tax bands 2026",
+    "url": "https://taxsummaries.pwc.com/cyprus/individual/taxes-on-personal-income"
+   },
+   {
+    "label": "PwC Cyprus: social insurance, GESY and ceiling",
+    "url": "https://taxsummaries.pwc.com/cyprus/individual/other-taxes"
+   },
+   {
+    "label": "KPMG Cyprus: 20 and 50 percent first-employment exemptions",
+    "url": "https://kpmg.com/cy/en/insights/2022/07/new-incentives-for-first-employment-in-cyprus.html"
+   }
+  ],
+  "base_yearly": {
+   "junior": 24000,
+   "mid": 38000,
+   "senior": 56000
+  }
+ },
+ {
+  "city": "Malta (Sliema)",
+  "country": "MT",
+  "rent_outside": 1092,
+  "rent_centre": 1564,
+  "room_shared": null,
+  "everyday": 446,
+  "everyday_parts": {
+   "groceries": 208,
+   "utilities": 55,
+   "internet_phone": 61,
+   "going_out": 122,
+   "other": 0
+  },
+  "commute": 0.0,
+  "commute_note": "Residents with a personalised Tallinja card travel free on buses since October 2022; the card costs a one-off 25 EUR. Pass figure is therefore 0. Traffic is heavy and a car is realistic for some commutes, but car costs are not included.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 27000,
+   "mid": 40000,
+   "senior": 58000
+  },
+  "bonus_rate": {
+   "junior": 0.03,
+   "mid": 0.06,
+   "senior": 0.08
+  },
+  "net": {
+   "junior": 1790,
+   "mid": 2691,
+   "senior": 3934
+  },
+  "surplus": {
+   "junior": 252,
+   "mid": 1153,
+   "senior": 2396
+  },
+  "tax_regime_note": "Net uses the 2026 single rates (tax equals income times rate minus a fixed amount: 0 percent to 12,000 EUR, 15 percent to 16,000, 25 percent to 60,000, 35 percent above) and employee social security of 10 percent capped at 55.93 EUR a week (about 2,908 EUR a year, reached above 29,084 EUR). Healthcare is public, so nothing is added for health. The old Highly Qualified Persons scheme (flat 15 percent) is closed to new determinations; its replacement, the Highly Skilled Individuals rules, needs a basic salary of at least 65,000 EUR in an eligible role such as STEM, so none of the modelled pay qualifies and a new grad does not. The yearly statutory bonus (up to 512.52 EUR) and the 4.66 EUR a week cost of living adjustment are not in the net.",
+  "language": "Yes, English is an official language of Malta and the working language at software and iGaming firms.",
+  "notes": [
+   "Base pay used here, in EUR a year: junior 27,000, mid 40,000, senior 58,000. Sources: NextMove junior 25,000 to 35,000, mid 35,000 to 50,000, senior 50,000 to 70,000; FreeMalta 22,000 to 30,000, 30,000 to 50,000, 50,000 to 75,000; Working in Malta (Konnekt ads, June 2026) junior 25,000 to 30,000, senior 45,000 to 55,000. Posted ads read for this row: a .NET developer at 35,000 to 43,000, another at 30,000 to 45,000, and a PHP developer in St Julian's at 3,750 a month (45,000).",
+   "Thin spots: Levels.fyi has only 25 Malta salaries (median 54,587, all levels); the NextMove and FreeMalta figures have no sample sizes or method. Malta pays 12 monthly salaries, so there is no 13th; bonus rates (3, 6 and 8 percent) are estimates, included in net. Social security is applied to pay including bonus, which only matters for the junior row. FreeMalta's own net example takes the full 10 percent social security without the cap, which looks wrong against PwC.",
+   "Rent: this single row covers the Sliema and St Julian's area. Numbeo Sliema 1-bed outside the centre is 1,092 EUR and in the centre 1,564 EUR, but from only 22 entries. Agent sites showed 1-bed asks around 1,200 in search snippets only (not an opened page), and PropertyMarket lists 2-beds at 1,575 to 1,600, so real rents are likely at or a little above these figures.",
+   "Numbeo Sliema utilities (91.63 EUR for an 85 m2 flat) are low, which keeps everyday costs down, while internet and phone are higher than in most other rows.",
+   "Everyday costs use the same Numbeo method as the other cities: a priced grocery basket, utilities at 60 percent of the Numbeo 85 m2 figure, internet and phone, and a going-out set of 4 meals, 6 beers, 2 cinema trips and 4 coffees."
+  ],
+  "sources": [
+   {
+    "label": "Numbeo cost of living, Sliema, archived copy (22 entries, last update May 2026)",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Sliema"
+   },
+   {
+    "label": "PropertyMarket Malta rentals (Sliema, St Julian's)",
+    "url": "https://www.propertymarket.com.mt/to-rent/?f=10&pc=2"
+   },
+   {
+    "label": "NextMove Malta salary guide 2026",
+    "url": "https://www.nextmove.mt/blog/malta-salary-guide-2026"
+   },
+   {
+    "label": "FreeMalta software engineer salaries",
+    "url": "https://freemalta.com/articles/software-engineer-salary-malta"
+   },
+   {
+    "label": "Working in Malta: advertised pay, June 2026",
+    "url": "https://workinginmalta.com/average-salary-malta/"
+   },
+   {
+    "label": "Jobatlas Malta software ads with posted pay",
+    "url": "https://www.jobatlas.com.mt/jobs/software/malta-120788"
+   },
+   {
+    "label": "Levels.fyi software engineer pay in Malta",
+    "url": "https://www.levels.fyi/t/software-engineer/locations/malta"
+   },
+   {
+    "label": "PwC Malta: income tax rates 2026 and HQP rules",
+    "url": "https://taxsummaries.pwc.com/malta/individual/taxes-on-personal-income"
+   },
+   {
+    "label": "PwC Malta: social security contributions",
+    "url": "https://taxsummaries.pwc.com/malta/individual/other-taxes"
+   },
+   {
+    "label": "For Foreigners Malta: free Tallinja card for residents",
+    "url": "https://forforeignersmalta.com/living-in-malta/transport-in-malta"
+   }
+  ],
+  "base_yearly": {
+   "junior": 27000,
+   "mid": 40000,
+   "senior": 58000
   }
  }
 ];
