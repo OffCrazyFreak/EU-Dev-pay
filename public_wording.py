@@ -32,6 +32,7 @@ REWORDING = [
     (r"so Croatia fits", "so most EU countries qualify"),
     (r"\bCroatian (citizen|employee)(s?)\b", r"EU \1\2"),
     (r"\(my weights\)", "(chosen weights)"),
+    (r"\(my explanation, not checked\)", "(an explanation, not checked)"),
     (r"\(my (assumption)\)", r"(an \1)"),
     (r"\(my understanding, not checked per firm\)", "(not checked per firm)"),
     (r"\(my calculation matches", "(the calculation matches"),
