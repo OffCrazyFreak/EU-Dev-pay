@@ -2,7 +2,7 @@
 
 How much a software engineer keeps each month after tax, rent and everyday costs in 60 European cities, at junior, mid-level and senior pay.
 
-Live page: https://offcrazyfreak.github.io/eu-dev-pay/
+Live page: https://offcrazyfreak.github.io/EU-Dev-pay/
 
 The page has three charts: money left each month, the gross salary you need to keep €1,500 a month, and a per-city breakdown of where the money goes. Each city opens into its pay table, every cost, special tax rules and the sources behind the numbers.
 
