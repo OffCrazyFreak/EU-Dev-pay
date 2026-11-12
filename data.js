@@ -1509,6 +1509,557 @@ window.CITIES = [
   }
  },
  {
+  "city": "Riga",
+  "country": "LV",
+  "rent_outside": 465,
+  "rent_centre": 600,
+  "room_shared": null,
+  "everyday": 844,
+  "everyday_parts": {
+   "groceries": 90,
+   "utilities": 332,
+   "internet_phone": 35,
+   "going_out": 143,
+   "other": 244
+  },
+  "commute": 30,
+  "commute_note": "Rīgas satiksme monthly ticket, EUR 30 for all city transport, valid for one month from first use.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 25200,
+   "mid": 38400,
+   "senior": 51600
+  },
+  "bonus_rate": {
+   "junior": 0.04,
+   "mid": 0.06,
+   "senior": 0.08
+  },
+  "net": {
+   "junior": 1596,
+   "mid": 2402,
+   "senior": 3237
+  },
+  "surplus": {
+   "junior": 257,
+   "mid": 1063,
+   "senior": 1898
+  },
+  "tax_regime_note": "Latvia 2026 rules: employee social contributions of 10.5%, a fixed tax-free allowance of EUR 550 a month, then income tax of 25.5% on annual taxable income up to EUR 105,300 and 33% above it. Net is the yearly total after these, divided by 12, with the bonus included. No separate health insurance premium is deducted. The pay figures are base pay before bonus, 12 payments a year.",
+  "language": "English is workable at international and fintech employers in Riga, but several local employers post ads in Latvian only.",
+  "notes": [
+   "Posted pay in Riga full-stack ads: from EUR 2,000 gross a month at a business-software firm, from EUR 3,500 for a senior role at a software firm, and EUR 4,000 to 4,500 at a waste and energy group. Latvia's statistics office reports an average of EUR 3,497 gross a month in computer programming and consulting for the second quarter of 2026, covering every role in that sector. The three levels used here are EUR 2,100, 3,200 and 4,300 a month; the junior level rests on one ad and the sector average, so it is thin.",
+   "Bonus rates are estimates (no survey of bonuses in this market was found); the net figure spreads the bonus over 12 months. One of the ads mentions result-based bonuses but gives no size.",
+   "Rent is the median asking price for a 2-room flat (one bedroom plus a living room) on the ss.lv listing site on 2026-11-12: EUR 465 outside the centre (381 ads) and EUR 600 in the centre (95 ads). One-room flats are cheaper, at EUR 320 and EUR 350. Numbeo shows lower rents for a one-bedroom (EUR 337 and 511).",
+   "The utilities figure is Numbeo's estimate for an 85 m2 flat including heating, so a small flat in a newer building is likely to cost less.",
+   "Everyday costs follow the method used for the Nordic rows: a staple food basket at Numbeo prices, Numbeo utilities, internet and phone, a going-out budget, and the remainder of Numbeo's single-person monthly estimate minus its transport pass. The split between lines is an estimate; the total is Numbeo's."
+  ],
+  "sources": [
+   {
+    "label": "ss.lv Riga flats for rent (all districts, read 2026-11-12)",
+    "url": "https://www.ss.lv/en/real-estate/flats/riga/hand_over/"
+   },
+   {
+    "label": "Numbeo Riga (archived copy of 2026-10-13)",
+    "url": "https://web.archive.org/web/20261013123820/https://www.numbeo.com/cost-of-living/in/Riga"
+   },
+   {
+    "label": "Latvia statistics office, average gross monthly wages by activity, Q2 2026",
+    "url": "https://data.stat.gov.lv/api/v1/en/OSP_PUB/START/EMP/DS/DSV/DSV031c"
+   },
+   {
+    "label": "cv.lv full-stack ad, viaPro (from EUR 2,000 gross)",
+    "url": "https://www.cv.lv/lv/vacancy/1573736/viapro-sia/full-stack-programmetajs-react-un-net-node-un-mssql"
+   },
+   {
+    "label": "cv.lv senior full-stack ad, DATAMED (from EUR 3,500 gross)",
+    "url": "https://www.cv.lv/en/vacancy/1663653/datamed-sia/vecakais-full-stack-programmaturas-izstradatajs"
+   },
+   {
+    "label": "workingday.lv full-stack ad, Baltic Waste and Energy Group (EUR 4,000 to 4,500 gross)",
+    "url": "https://www.workingday.lv/en/vakance/baltic-waste-energy-group/full-stack-programmetajs-a-php-laravel-4/26986"
+   },
+   {
+    "label": "CVMarket IT vacancies (posted pay range overview)",
+    "url": "https://www.cvmarket.lv/informacijas-tehnologijas-darba-piedavajumi-8"
+   },
+   {
+    "label": "State Revenue Service (VID), income tax from 2025: rates and allowance for 2026",
+    "url": "https://vid.gov.lv/lv/media/27931/download?attachment="
+   },
+   {
+    "label": "Mobilly, Rīgas satiksme tickets (monthly ticket EUR 30)",
+    "url": "https://www.mobilly.lv/en/electronic-tickets-of-rigas-satiksme/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 25200,
+   "mid": 38400,
+   "senior": 51600
+  }
+ },
+ {
+  "city": "Vilnius",
+  "country": "LT",
+  "rent_outside": 495,
+  "rent_centre": 655,
+  "room_shared": null,
+  "everyday": 746,
+  "everyday_parts": {
+   "groceries": 93,
+   "utilities": 211,
+   "internet_phone": 31,
+   "going_out": 124,
+   "other": 287
+  },
+  "commute": 38,
+  "commute_note": "Vilnius 30-day public transport ticket, EUR 38.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 31200,
+   "mid": 46800,
+   "senior": 63600
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.07,
+   "senior": 0.09
+  },
+  "net": {
+   "junior": 1652,
+   "mid": 2525,
+   "senior": 3495
+  },
+  "surplus": {
+   "junior": 373,
+   "mid": 1246,
+   "senior": 2216
+  },
+  "tax_regime_note": "Lithuania 2026 rules: income tax of 20% on annual income up to EUR 83,237.40, 25% up to EUR 138,729 and 32% above; a tax-free amount of EUR 747 a month that shrinks by 49 cents for each euro earned above the EUR 1,153 minimum wage and is gone at about EUR 2,678 a month; employee contributions of 12.52% (social insurance) plus 6.98% (health insurance) on gross pay. Net is the yearly total after these, divided by 12, with the bonus spread evenly over the months. Optional second-pillar pension saving is not deducted. The pay figures are base pay before bonus, 12 payments a year.",
+  "language": "English is workable at product and outsourcing firms in Vilnius, and several ads are written in English, but many local employers advertise in Lithuanian.",
+  "notes": [
+   "Posted gross pay in Vilnius ads: EUR 3,000 to 4,000 for a full-stack developer at an industrial company, EUR 4,200 to 5,800 for a senior full-stack .NET role, and EUR 4,500 to 6,500 for a mid or senior Java full-stack role. Several other ads quote pay after tax instead and were left out. Some of the ads had passed their closing date when read, so the dates vary. Junior pay (EUR 2,600 a month) is not backed by a Vilnius ad; it is set a little above the Kaunas junior ad.",
+   "Bonus rates are estimates (no survey of bonuses in this market was found); the net figure spreads the bonus over 12 months.",
+   "Rent: the Ober-Haus market review quotes EUR 330 to 550 a month for a one-room flat in residential districts and EUR 420 to 740 in the centre or Old Town. Numbeo shows EUR 553 outside and EUR 729 in the centre. The figures used (EUR 495 and EUR 655) are the midpoint of those two sources. Average asking rent in Vilnius was EUR 16.8 per m2 a month in the third quarter of 2026.",
+   "Everyday costs follow the method used for the Nordic rows: a staple food basket at Numbeo prices, Numbeo utilities, internet and phone, a going-out budget, and the remainder of Numbeo's single-person monthly estimate minus its transport pass. The split between lines is an estimate; the total is Numbeo's.",
+   "Employee Sodra contributions total 19.5% of gross pay and include health insurance, so no separate health premium is added. The tax-free amount only reduces income tax, not the contributions."
+  ],
+  "sources": [
+   {
+    "label": "cvbankas.lt full-stack ad, Komfovent (EUR 3,000 to 4,000 gross)",
+    "url": "https://www.cvbankas.lt/full-stack-programuotojas-a-vilniuje/1-13244419"
+   },
+   {
+    "label": "cvbankas.lt senior full-stack .NET ad, Novian pro (EUR 4,200 to 5,800 gross)",
+    "url": "https://www.cvbankas.lt/vyr-full-stack-net-programuotojas-a-vilniuje/1-13412300"
+   },
+   {
+    "label": "cvbankas.lt mid or senior Java full-stack ad, Novian pro (EUR 4,500 to 6,500 gross)",
+    "url": "https://www.cvbankas.lt/mid-senior-java-full-stack-programuotojas-a-vilniuje/1-13758579"
+   },
+   {
+    "label": "Numbeo Vilnius (archived copy of 2026-10-13)",
+    "url": "https://web.archive.org/web/20261013123828/https://www.numbeo.com/cost-of-living/in/Vilnius"
+   },
+   {
+    "label": "Ober-Haus residential market review, Lithuania, Q3 2026 (rent per m2)",
+    "url": "https://www.ober-haus.lt/wp-content/uploads/OH-Gyvenamasis-2026-III-ketv.pdf"
+   },
+   {
+    "label": "Zinių portalas, August 2026, Ober-Haus one-room rent ranges by city",
+    "url": "https://ziniu.lt/2026/08/rugpjucio-nuomos-pikas-pigus-studentiskas-butas-tampa-retenybe/"
+   },
+   {
+    "label": "KPMG Lithuania tax newsletter, January 2026 (income tax bands, tax-free amount, contribution ceiling)",
+    "url": "https://kpmg.com/lt/lt/izvalgos/mokesciu-ir-teises-naujienlaiskiai/2026-sausis.html"
+   },
+   {
+    "label": "web1o guide to the Lithuanian payslip (employee contribution rates)",
+    "url": "https://web1o.lt/en/tinklarastis/kaip-skaityti-algalapi-darbo-uzmokescio-lapelis"
+   },
+   {
+    "label": "tarifas.lt Vilnius public transport ticket prices",
+    "url": "https://www.tarifas.lt/vilniaus-miesto-viesojo-transporto-bilietu-kainos/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 31200,
+   "mid": 46800,
+   "senior": 63600
+  }
+ },
+ {
+  "city": "Kaunas",
+  "country": "LT",
+  "rent_outside": 390,
+  "rent_centre": 520,
+  "room_shared": null,
+  "everyday": 726,
+  "everyday_parts": {
+   "groceries": 91,
+   "utilities": 178,
+   "internet_phone": 28,
+   "going_out": 115,
+   "other": 314
+  },
+  "commute": 28,
+  "commute_note": "Kaunas monthly ticket, EUR 28, from 2026-01-01.",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 28800,
+   "mid": 42000,
+   "senior": 57600
+  },
+  "bonus_rate": {
+   "junior": 0.05,
+   "mid": 0.07,
+   "senior": 0.09
+  },
+  "net": {
+   "junior": 1540,
+   "mid": 2266,
+   "senior": 3165
+  },
+  "surplus": {
+   "junior": 396,
+   "mid": 1122,
+   "senior": 2021
+  },
+  "tax_regime_note": "Lithuania 2026 rules: income tax of 20% on annual income up to EUR 83,237.40, 25% up to EUR 138,729 and 32% above; a tax-free amount of EUR 747 a month that shrinks by 49 cents for each euro earned above the EUR 1,153 minimum wage and is gone at about EUR 2,678 a month; employee contributions of 12.52% (social insurance) plus 6.98% (health insurance) on gross pay. Net is the yearly total after these, divided by 12, with the bonus spread evenly over the months. Optional second-pillar pension saving is not deducted. The pay figures are base pay before bonus, 12 payments a year.",
+  "language": "English is workable at the larger Kaunas product and industrial software employers, where some ads are in English, but many local ads are in Lithuanian.",
+  "notes": [
+   "Posted gross pay in Kaunas ads is thin: EUR 2,300 to 2,700 for a junior software engineer at an ad-tech firm, and EUR 2,000 to 3,500 for a full-stack developer at an industrial company, which also offers yearly bonuses and a 13th salary. The mid and senior levels (EUR 3,500 and 4,800) are the Vilnius levels scaled down by about 10% as a rough allowance for Kaunas's lower pay and rent, so treat them as estimates.",
+   "Bonus rates are estimates (no survey of bonuses in this market was found); the net figure spreads the bonus over 12 months.",
+   "Rent: the Ober-Haus market review quotes EUR 300 to 450 a month for a one-room flat in residential districts of Kaunas and EUR 360 to 600 in the centre and Žaliakalnis. Numbeo shows EUR 396 outside and EUR 559 in the centre. The figures used (EUR 390 and EUR 520) are the midpoint of those two sources. Average asking rent in Kaunas was EUR 13.5 per m2 a month in the third quarter of 2026.",
+   "Everyday costs follow the method used for the Nordic rows: a staple food basket at Numbeo prices, Numbeo utilities, internet and phone, a going-out budget, and the remainder of Numbeo's single-person monthly estimate minus its transport pass. The split between lines is an estimate; the total is Numbeo's.",
+   "Employee Sodra contributions total 19.5% of gross pay and include health insurance, so no separate health premium is added. The tax-free amount only reduces income tax, not the contributions."
+  ],
+  "sources": [
+   {
+    "label": "cvbankas.lt junior software engineer ad, Adform, Kaunas (EUR 2,300 to 2,700 gross)",
+    "url": "https://www.cvbankas.lt/junior-software-engineer-kaune/1-13287199"
+   },
+   {
+    "label": "cvbankas.lt full-stack developer ad, Festo, Kaunas (EUR 2,000 to 3,500 gross, 13th salary)",
+    "url": "https://www.cvbankas.lt/full-stack-developer-kaune/1-13269267"
+   },
+   {
+    "label": "Numbeo Kaunas (archived copy of 2026-10-13)",
+    "url": "https://web.archive.org/web/20261013123826/https://www.numbeo.com/cost-of-living/in/Kaunas"
+   },
+   {
+    "label": "Ober-Haus residential market review, Lithuania, Q3 2026 (rent per m2)",
+    "url": "https://www.ober-haus.lt/wp-content/uploads/OH-Gyvenamasis-2026-III-ketv.pdf"
+   },
+   {
+    "label": "Zinių portalas, August 2026, Ober-Haus one-room rent ranges by city",
+    "url": "https://ziniu.lt/2026/08/rugpjucio-nuomos-pikas-pigus-studentiskas-butas-tampa-retenybe/"
+   },
+   {
+    "label": "KPMG Lithuania tax newsletter, January 2026 (income tax bands, tax-free amount, contribution ceiling)",
+    "url": "https://kpmg.com/lt/lt/izvalgos/mokesciu-ir-teises-naujienlaiskiai/2026-sausis.html"
+   },
+   {
+    "label": "web1o guide to the Lithuanian payslip (employee contribution rates)",
+    "url": "https://web1o.lt/en/tinklarastis/kaip-skaityti-algalapi-darbo-uzmokescio-lapelis"
+   },
+   {
+    "label": "infokaunas.lt Kaunas public transport prices from 2026-01-01",
+    "url": "https://infokaunas.lt/kaune-nuo-sausio-1-dienos-keiciasi-viesojo-transporto-bilietu-kainos/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 28800,
+   "mid": 42000,
+   "senior": 57600
+  }
+ },
+ {
+  "city": "Reykjavik",
+  "country": "IS",
+  "rent_outside": 1779,
+  "rent_centre": 2178,
+  "room_shared": null,
+  "everyday": 1312,
+  "everyday_parts": {
+   "groceries": 221,
+   "utilities": 78,
+   "internet_phone": 103,
+   "going_out": 269,
+   "other": 641
+  },
+  "commute": 88,
+  "commute_note": "Strætó 30-day adult card, ISK 12,000 from 2026-07-16 (about EUR 88).",
+  "health": 0,
+  "gross_yearly": {
+   "junior": 84211,
+   "mid": 105263,
+   "senior": 124561
+  },
+  "bonus_rate": {
+   "junior": 0.03,
+   "mid": 0.04,
+   "senior": 0.05
+  },
+  "net": {
+   "junior": 5069,
+   "mid": 6197,
+   "senior": 7235
+  },
+  "surplus": {
+   "junior": 1890,
+   "mid": 3018,
+   "senior": 4056
+  },
+  "tax_regime_note": "Iceland 2026 rules at the ECB rate of ISK 136.80 per EUR: the employee pays 4% into a mandatory pension fund, treated as deductible from taxable income. Income tax is 31.49% on monthly income up to ISK 498,122, 37.99% up to ISK 1,398,450 and 46.29% above (these rates include the average municipal tax of 14.94%; Reykjavik's own rate may differ slightly), minus a personal tax credit of ISK 72,492 a month. Net is the yearly total after these, divided by 12, with the bonus included. Union dues and optional extra pension saving are not deducted. No separate health insurance premium is deducted.",
+  "language": "English is widely workable in Reykjavik tech companies, though ads at local firms are often in Icelandic.",
+  "notes": [
+   "Pay is anchored on Statistics Iceland's 2025 earnings for computing professionals (full-time, about 1,100 people): basic monthly pay of ISK 945,000 at the lower quartile, 1,138,000 at the median and 1,341,000 at the upper quartile. The wage index was up 5.6% over the 12 months to September 2026, so mid and senior levels (ISK 1.2 million and 1.42 million a month) are the median and upper quartile moved up by about 6%. The junior level (ISK 960,000) is a judgement and is thin: it sits close to the lower quartile. The statistics cover all ages and experience levels, so they are only a guide to each level.",
+   "Cross-check: Levels.fyi lists a median total pay of ISK 11.9 million a year from only 11 reports, lower than the official figures. Icelandic job ads rarely state pay, so no posted range was found.",
+   "Bonus rates are estimates (no survey of bonuses in this market was found); the net figure spreads the bonus over 12 months.",
+   "A 4% employee pension contribution is mandatory, with the employer adding 11.5%. The employer's share is not part of the pay figures.",
+   "Rent: Numbeo's one-bedroom prices are ISK 243,400 outside the centre and ISK 297,909 in the centre. The housing agency's rent register, via Húsgreind, shows about ISK 4,356 per m2 a month for 2-room flats in Reykjavik in October 2026, which gives about ISK 240,000 for a 55 m2 flat. The flat size is an assumption, and Numbeo's figure was used.",
+   "Everyday costs follow the method used for the Nordic rows: a staple food basket at Numbeo prices, Numbeo utilities, internet and phone, a going-out budget, and the remainder of Numbeo's single-person monthly estimate minus its transport pass. Numbeo's Reykjavik data dates from 2026-06-16."
+  ],
+  "sources": [
+   {
+    "label": "Statistics Iceland, earnings of full-time employees by occupation 2014 to 2025 (computing professionals)",
+    "url": "https://px.hagstofa.is/pxen/api/v1/en/Samfelag/launogtekjur/1_laun/1_laun/VIN02001.px"
+   },
+   {
+    "label": "Statistics Iceland, monthly wage index (annual change to 2026-09)",
+    "url": "https://px.hagstofa.is/pxen/api/v1/en/Samfelag/launogtekjur/2_lvt/1_manadartolur/LAU04000.px"
+   },
+   {
+    "label": "Levels.fyi software engineer pay in Iceland (11 reports)",
+    "url": "https://www.levels.fyi/t/software-engineer/locations/iceland"
+   },
+   {
+    "label": "Skatturinn, tax rates, brackets and personal credit for 2026",
+    "url": "https://island.is/s/skatturinn/frett/skatthlutfall-skattthrep-og-personuafslattur-arsins-2026-22-12-2025"
+   },
+   {
+    "label": "Skatturinn, tax brackets 2026 (English)",
+    "url": "https://www.skatturinn.is/english/individuals/tax-brackets/2026/"
+   },
+   {
+    "label": "island.is on mandatory pension contributions (4% employee, 11.5% employer)",
+    "url": "https://island.is/adstod/mannaudstorg/laun-og-kjaramal/lifeyrismal"
+   },
+   {
+    "label": "Numbeo Reykjavik (archived copy of 2026-06-16)",
+    "url": "https://web.archive.org/web/20260616202104/https://www.numbeo.com/cost-of-living/in/Reykjavik"
+   },
+   {
+    "label": "Húsgreind rent per m2 from the housing agency's rent register",
+    "url": "https://husgreind.is/leiga"
+   },
+   {
+    "label": "Strætó fares (30-day card ISK 12,000)",
+    "url": "https://www.straeto.is/verslun/gjaldskra"
+   },
+   {
+    "label": "ECB daily reference rates (ISK 136.80 and CHF 0.9234 per EUR, 2026-11-11)",
+    "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+   }
+  ],
+  "base_yearly": {
+   "junior": 84211,
+   "mid": 105263,
+   "senior": 124561
+  }
+ },
+ {
+  "city": "Vaduz",
+  "country": "LI",
+  "rent_outside": 1408,
+  "rent_centre": 1624,
+  "room_shared": null,
+  "everyday": 1175,
+  "everyday_parts": {
+   "groceries": 487,
+   "utilities": 280,
+   "internet_phone": 83,
+   "going_out": 325,
+   "other": 0
+  },
+  "commute": 33,
+  "commute_note": "LIEmobil annual pass, CHF 370 (CHF 30.83 a month), valid across Liechtenstein and as far as Feldkirch, Buchs and Sargans.",
+  "health": 267,
+  "gross_yearly": {
+   "junior": 77973,
+   "mid": 99632,
+   "senior": 123457
+  },
+  "bonus_rate": {
+   "junior": 0.03,
+   "mid": 0.05,
+   "senior": 0.07
+  },
+  "net": {
+   "junior": 5742,
+   "mid": 7383,
+   "senior": 9210
+  },
+  "surplus": {
+   "junior": 2859,
+   "mid": 4500,
+   "senior": 6327
+  },
+  "tax_regime_note": "Liechtenstein 2026 rules for a single resident of Vaduz, converted at the ECB rate of CHF 0.9234 per EUR: employee contributions of 4.9% (pension, disability, family fund) plus 0.5% unemployment insurance; a pension-fund contribution of 4.5% (junior, mid) or 4.95% (senior) of the insured wage, taken from one published fund plan; then state income tax on the tariff in the tax act, plus Vaduz's municipal surcharge of 150% of the state tax, after deductions for these contributions, a CHF 1,600 work-cost allowance and health premiums up to CHF 3,700. Net is the yearly total divided by 12, with the bonus included. Health insurance is mandatory and private, and shown separately: the standard premium (CHF 427.13 a month on average) minus the CHF 180.50 the employer must pay towards it, CHF 246.63 in total. Commuting costs and accident insurance charged separately by some employers are not modelled.",
+  "language": "English is workable at the larger Liechtenstein employers, but German is the working language of most local firms.",
+  "notes": [
+   "Pay is thin: no official software pay figure exists for Liechtenstein. The whole-economy median is CHF 7,401 gross a month in 2024 (13 payments), against CHF 7,024 in Switzerland. The figures here (CHF 72,000, 92,000 and 114,000 a year) follow software pay in nearby St. Gallen, where the IT mid-level average is CHF 91,259 and the senior average CHF 114,433, and are estimates for Liechtenstein. One website quotes CHF 10,180 a month for software roles, but that comes from Swiss salary databases and is not an official number.",
+   "A 13th monthly salary is the norm in Liechtenstein, and the yearly figures include it (so CHF 92,000 is 13 payments of about CHF 7,077).",
+   "Bonus rates are estimates (no survey of bonuses in this market was found); the net figure spreads the bonus over 12 months.",
+   "Most people who work in Liechtenstein live in Switzerland or Austria; see the Feldkirch row for the Austrian cross-border case.",
+   "Rent data for Vaduz is scarce. Numbeo's Vaduz page (data from May 2024) shows CHF 1,067 outside and CHF 1,317 in the centre for a one-bedroom, and Numbeo's St. Gallen page (September 2026) shows CHF 1,404 and CHF 1,463. The figures used are CHF 1,300 and CHF 1,500, an estimate between those.",
+   "Groceries and going out use the same values as the Swiss rows on this site, so Vaduz compares fairly with them. Utilities and internet are Numbeo's St. Gallen figures, the nearest recent Swiss data."
+  ],
+  "sources": [
+   {
+    "label": "Liechtenstein government payroll leaflet 2026 (contribution rates, employer health share)",
+    "url": "https://www.regierung.li/files/attachments/2026-merkblatt-lohnabrechnung.pdf"
+   },
+   {
+    "label": "Liechtenstein tax act, consolidated 2026-07-01 (tariff, deductions)",
+    "url": "https://www.gesetze.li/konso/pdf/2010340000?version=38"
+   },
+   {
+    "label": "Vaduz municipal budget 2026 (surcharge kept at 150%)",
+    "url": "https://www.vaduz.li/news/voranschlag-der-gemeinde-vaduz-2026"
+   },
+   {
+    "label": "Stiftung Personalvorsorge Liechtenstein, pension plan B 2026 (contribution shares)",
+    "url": "https://www.personalvorsorge.li/fileadmin/user_upload/personalvorsorge.li/downloads/SPL_Vorsorgeplan_01.01.2026_Plan_B.pdf"
+   },
+   {
+    "label": "grenzgaengerinfo.at, wages in Liechtenstein (2024 median, 13 payments)",
+    "url": "https://grenzgaengerinfo.at/thema/durchschnittslohn-liechtenstein/"
+   },
+   {
+    "label": "grenzgaengerinfo.at, health insurance for cross-border workers (premiums)",
+    "url": "https://grenzgaengerinfo.at/krankenversicherung/"
+   },
+   {
+    "label": "itboard.ch IT salaries in St. Gallen 2026 (regional proxy)",
+    "url": "https://www.itboard.ch/salaries/city/st-gallen"
+   },
+   {
+    "label": "Numbeo Vaduz (archived copy, data from May 2024)",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/Vaduz-Liechtenstein"
+   },
+   {
+    "label": "Numbeo St. Gallen (archived copy, data from 2026-09-12)",
+    "url": "https://web.archive.org/web/2026/https://www.numbeo.com/cost-of-living/in/St-Gallen"
+   },
+   {
+    "label": "LIEmobil annual passes",
+    "url": "https://liemobil.li/en/passes-tickets/"
+   }
+  ],
+  "base_yearly": {
+   "junior": 77973,
+   "mid": 99632,
+   "senior": 123457
+  }
+ },
+ {
+  "city": "Feldkirch (to LI)*",
+  "country": "LI",
+  "rent_outside": 1000,
+  "rent_centre": 1200,
+  "room_shared": null,
+  "everyday": 603,
+  "everyday_parts": {
+   "groceries": 199,
+   "utilities": 226,
+   "internet_phone": 48,
+   "going_out": 130,
+   "other": 0
+  },
+  "commute": 33,
+  "commute_note": "LIEmobil annual pass, CHF 370 (CHF 30.83 a month), valid across Liechtenstein and from Feldkirch. Austria's regional day and combined tickets were not compared.",
+  "health": 267,
+  "gross_yearly": {
+   "junior": 77973,
+   "mid": 99632,
+   "senior": 123457
+  },
+  "bonus_rate": {
+   "junior": 0.03,
+   "mid": 0.05,
+   "senior": 0.07
+  },
+  "net": {
+   "junior": 4386,
+   "mid": 5346,
+   "senior": 6408
+  },
+  "surplus": {
+   "junior": 2483,
+   "mid": 3443,
+   "senior": 4505
+  },
+  "tax_regime_note": "Cross-border living: the pay is a Liechtenstein salary paid in francs (converted at CHF 0.9234 per EUR) to someone who lives in Feldkirch, Austria. Austria taxes the wage because the worker lives there; Liechtenstein withholds at most 4% at source, and Austria credits that 4% against its own tax. Austrian tax is much higher than 4%, so the 4% is fully credited and the Austrian 2026 tariff (0% to EUR 13,539, then 20%, 30%, 40%, 48%, 50%) decides the result, less the EUR 496 commuter tax credit. Before that tariff, the Liechtenstein pension, disability, family and unemployment contributions (5.4%) and the pension-fund contribution (4.5% or 4.95%) are deducted. Net is the yearly total divided by 12, with the bonus included. The 13th salary is taxed as ordinary pay in this calculation (an assumption; Austria may tax part of it at a lower rate). Health insurance is shown separately: the Liechtenstein basic cover, CHF 246.63 a month after the employer's CHF 180.50 share.",
+  "language": "Daily life in Feldkirch is in German; at work, English is workable only at the larger Liechtenstein employers.",
+  "notes": [
+   "Tax treatment: wages of an Austrian resident working in Liechtenstein are taxed in Austria, with a 4% Liechtenstein withholding credited in the Austrian tax return. The worker files an Austrian income tax return every year and enters the Liechtenstein income and the tax withheld there.",
+   "Cross-border status has limits: a worker who cannot return home on most working days (more than 45 days a year without returning) can lose it, and Liechtenstein can then tax the wage at its normal progressive rates, with Austria crediting only 4%. Since July 2023, working from home can be at most 49.99% of working time. Both rules are from a cross-border advice site.",
+   "Pension and unemployment contributions are paid in Liechtenstein, where the job is. For health insurance, an Austrian resident must choose within the first 3 months between the Liechtenstein basic cover (used here), voluntary Austrian public cover (up to EUR 565.25 a month, with no employer share) or private Austrian cover; the choice can be made only once.",
+   "Pay is thin and follows the Vaduz row (CHF 72,000, 92,000 and 114,000 a year, 13 payments included). Austria's tax on this pay is high, so the net is far below the Vaduz resident's net. Every number moves with the franc: the ECB rate used is CHF 0.9234 per EUR.",
+   "Rent is the Feldkirch asking range for 2-room flats of 43 to 57 m2: about EUR 1,100 to 1,300 in current ads, while a listing-site average for the city is EUR 16.80 per m2 (about EUR 840 for 50 m2). EUR 1,000 outside and EUR 1,200 in the centre are estimates between these.",
+   "Everyday costs reuse the Innsbruck row on this site as the nearest Austrian proxy; Feldkirch residents can also shop across the border at Swiss-level prices."
+  ],
+  "sources": [
+   {
+    "label": "Liechtenstein government report on cross-border taxation (Austria: 4% source tax, credit method)",
+    "url": "https://bua.regierung.li/BuA/default.aspx?year=2016&nr=65&content=1743316972"
+   },
+   {
+    "label": "grenzgaengerinfo.at, Liechtenstein withholding tax for Austrian residents",
+    "url": "https://grenzgaengerinfo.at/thema/quellensteuer-liechtenstein/"
+   },
+   {
+    "label": "grenzgaengerinfo.at, health insurance options for cross-border workers",
+    "url": "https://grenzgaengerinfo.at/krankenversicherung/"
+   },
+   {
+    "label": "Austrian business service portal, income tax tariff steps 2026",
+    "url": "https://www.usp.gv.at/themen/steuern-finanzen/einkommensteuer-ueberblick/weitere-informationen-est/tarifstufen.html"
+   },
+   {
+    "label": "Liechtenstein government payroll leaflet 2026 (contribution rates, employer health share)",
+    "url": "https://www.regierung.li/files/attachments/2026-merkblatt-lohnabrechnung.pdf"
+   },
+   {
+    "label": "LIEmobil annual passes",
+    "url": "https://liemobil.li/en/passes-tickets/"
+   },
+   {
+    "label": "ohne-makler.at Feldkirch rent index 2026",
+    "url": "https://www.ohne-makler.at/mietspiegel/vorarlberg/feldkirch/"
+   },
+   {
+    "label": "immodirekt.at Feldkirch rental flats",
+    "url": "https://www.immodirekt.at/mietwohnungen/vorarlberg/feldkirch/feldkirch"
+   },
+   {
+    "label": "immosuchmaschine.at 2-room rentals in Feldkirch",
+    "url": "https://www.immosuchmaschine.at/6800-Feldkirch/2-Zimmer-Mietwohnungen"
+   },
+   {
+    "label": "ECB daily reference rates (CHF 0.9234 per EUR, 2026-11-11)",
+    "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+   }
+  ],
+  "base_yearly": {
+   "junior": 77973,
+   "mid": 99632,
+   "senior": 123457
+  }
+ },
+ {
   "city": "Zurich",
   "country": "CH",
   "rent_outside": 1873,
