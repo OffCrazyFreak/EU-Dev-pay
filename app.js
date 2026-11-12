@@ -23,7 +23,7 @@ const EVERYDAY_NAMES = {
 };
 
 const NAME_COL = "214px";
-const TARGET_STEP = 50;
+const TARGET_STEP = 100;
 const STORAGE_KEY = "eu-dev-pay-filters";
 
 const flag = cc => String.fromCodePoint(...[...cc].map(ch => 0x1F1E6 + ch.charCodeAt(0) - 65));
