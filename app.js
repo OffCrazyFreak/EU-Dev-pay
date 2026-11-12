@@ -709,7 +709,12 @@ function filterPanel(root, onChange) {
   const cityCount = cc => ALL_CITIES.filter(c => c.country === cc).length;
 
   root.innerHTML = `
-    <h2>Filter</h2>
+    <details class="filter-box">
+    <summary>
+      <h2>Filter</h2>
+      <span class="muted" data-summary></span>
+      <span class="chevron" aria-hidden="true"></span>
+    </summary>
     <fieldset>
       <legend>Levels</legend>
       ${LEVELS.map(l => `
@@ -727,7 +732,20 @@ function filterPanel(root, onChange) {
           <label><input type="checkbox" data-country="${cc}"> ${flag(cc)} ${esc(countryName(cc))} <span class="muted">${cityCount(cc)}</span></label>`).join("")}
       </div>
     </fieldset>
-    <p class="muted">Your choice is saved in this browser.</p>`;
+    <p class="muted">Your choice is saved in this browser.</p>
+    </details>`;
+
+  const box = root.querySelector(".filter-box");
+  const mobile = window.matchMedia("(max-width: 960px)");
+
+  // On phones the panel folds away so the charts get the screen; on wider screens it stays open beside them.
+  const fitToScreen = () => { box.open = !mobile.matches; };
+  mobile.addEventListener("change", fitToScreen);
+  fitToScreen();
+
+  box.querySelector("summary").addEventListener("click", event => {
+    if (!mobile.matches) event.preventDefault();
+  });
 
   function sync() {
     root.querySelectorAll("[data-level]").forEach(box => { box.checked = state.levels.includes(box.dataset.level); });
@@ -736,6 +754,9 @@ function filterPanel(root, onChange) {
     const cities = visibleCities().length;
     root.querySelector("[data-count]").textContent =
       `${state.countries.length} of ${COUNTRIES.length} countries, ${cities} ${cities === 1 ? "city" : "cities"}`;
+
+    const levels = visibleLevels().map(l => LEVEL_NAME[l]).join(", ");
+    root.querySelector("[data-summary]").textContent = `${levels}; ${state.countries.length} of ${COUNTRIES.length} countries`;
   }
 
   function apply() {
@@ -764,6 +785,24 @@ function filterPanel(root, onChange) {
   root.querySelector("[data-none]").addEventListener("click", () => { state.countries = []; apply(); });
 
   sync();
+}
+
+
+// ---------- mobile menu ----------
+
+function siteMenu(header) {
+  const button = header.querySelector(".menu-toggle");
+
+  const setOpen = open => {
+    header.classList.toggle("menu-open", open);
+    button.setAttribute("aria-expanded", String(open));
+    button.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  };
+
+  button.addEventListener("click", () => setOpen(!header.classList.contains("menu-open")));
+  header.querySelectorAll(".tabs a").forEach(link => link.addEventListener("click", () => setOpen(false)));
+  document.addEventListener("keydown", event => { if (event.key === "Escape") setOpen(false); });
+  document.addEventListener("click", event => { if (!header.contains(event.target)) setOpen(false); });
 }
 
 
@@ -824,6 +863,7 @@ function showView() {
 }
 
 filterPanel(document.getElementById("filters"), drawCharts);
+siteMenu(document.querySelector("header.top"));
 window.addEventListener("hashchange", showView);
 window.addEventListener("scroll", markChartInView, { passive: true });
 showView();

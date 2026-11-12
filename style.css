@@ -347,3 +347,83 @@ details.city[open] .info { opacity: 1; background: var(--foreground); color: var
 
 ul.method { line-height: 1.6; padding-left: 20px; }
 footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
+
+/* filter box: always open beside the charts, an accordion on phones */
+.filter-box > summary { list-style: none; display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: default; }
+.filter-box > summary::-webkit-details-marker { display: none; }
+.filter-box > summary h2 { margin: 0; }
+.filter-box > summary [data-summary], .filter-box > summary .chevron { display: none; }
+
+/* hamburger menu, shown on phones only */
+.menu-toggle {
+  display: none;
+  margin-left: auto;
+  align-self: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px 9px;
+  background: none;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--foreground);
+}
+.menu-toggle span {
+  display: block;
+  height: 2px;
+  margin: 4px 0;
+  background: currentColor;
+  border-radius: 2px;
+  transition: transform .25s ease, opacity .2s ease;
+}
+.menu-open .menu-toggle span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.menu-open .menu-toggle span:nth-child(2) { opacity: 0; }
+.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+@media (max-width: 960px) {
+  header.top { padding-inline: 16px; }
+
+  .menu-toggle { display: block; }
+
+  .tabs {
+    position: fixed;
+    top: calc(var(--header-h) + env(safe-area-inset-top, 0px));
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 0 14px;
+    background: var(--background);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 18px 40px rgb(0 0 0 / 0.25);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity .2s ease, transform .25s ease, visibility 0s linear .25s;
+  }
+  .menu-open .tabs {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: opacity .2s ease, transform .25s ease;
+  }
+  .tabs a {
+    padding: 14px 20px;
+    font-size: 17px;
+    border-bottom: 0;
+    border-left: 3px solid transparent;
+    margin: 0;
+  }
+  .tabs a[aria-current="true"] { border-left-color: var(--foreground); border-bottom-color: transparent; }
+  .tab-sep { width: auto; height: 1px; margin: 6px 20px; }
+
+  .filter-box > summary { cursor: pointer; margin-bottom: 0; }
+  .filter-box[open] > summary { margin-bottom: 12px; }
+  .filter-box > summary [data-summary] { display: block; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0; }
+  .filter-box > summary .chevron { display: block; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform .2s ease; margin-top: -4px; }
+  .filter-box[open] > summary .chevron { transform: rotate(-135deg); margin-top: 4px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-toggle span, .tabs, .filter-box > summary .chevron { transition: none; }
+}

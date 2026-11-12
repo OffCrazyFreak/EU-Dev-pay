@@ -18,12 +18,15 @@
   <meta property="og:image:alt" content="Bar chart of money left each month for software engineers in European cities">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#16141d">
-  <link rel="stylesheet" href="style.css?v=d3aca55243">
+  <link rel="stylesheet" href="style.css?v=62aaf73d67">
 </head>
 <body>
 <header class="top">
   <a class="brand" href="./"><img src="favicon.svg?v=97d0eb2dd9" alt="" width="24" height="24">EU dev pay</a>
-  <nav class="tabs" aria-label="Sections">
+  <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="tabs" id="site-nav" aria-label="Sections">
     <a href="#money" data-tab="money">Money left</a>
     <a href="#salary" data-tab="salary">Salary you need</a>
     <a href="#breakdown" data-tab="breakdown">Where the money goes</a>
@@ -80,6 +83,6 @@
 </div>
 
 <script src="data.js?v=3fe6f8d19b"></script>
-<script src="app.js?v=dfb9f20d71"></script>
+<script src="app.js?v=c1b9023e11"></script>
 </body>
 </html>
