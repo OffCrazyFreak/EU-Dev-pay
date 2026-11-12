@@ -1,0 +1,448 @@
+[
+  {
+    "city": "Paris",
+    "country": "FR",
+    "rent_outside": 1035,
+    "rent_centre": 1414,
+    "room_shared": null,
+    "everyday": 537,
+    "everyday_parts": {
+      "groceries": 236,
+      "utilities": 137,
+      "internet_phone": 42,
+      "going_out": 122,
+      "other": 0
+    },
+    "commute": 45,
+    "commute_note": "Navigo Mois, all zones, 90.80 EUR a month from 2026-01-01; employers must refund 50%, so the employee pays 45.40 (shown as 45). Zones 4 to 5 only is 84.40.",
+    "health": 30,
+    "gross_yearly": {
+      "junior": 41000,
+      "mid": 51000,
+      "senior": 65000
+    },
+    "bonus_rate": {
+      "junior": 0.03,
+      "mid": 0.05,
+      "senior": 0.07
+    },
+    "net": {
+      "junior": 2578,
+      "mid": 3116,
+      "senior": 3886
+    },
+    "surplus": {
+      "junior": 931,
+      "mid": 1469,
+      "senior": 2239
+    },
+    "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (my explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (my assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. gross_yearly is base pay before bonus; net and surplus include the bonus. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
+    "language": "English works at international scale-ups and product firms (France Dev Jobs lists 912 Paris jobs at companies that work in English), but French is expected at consultancies (ESN) and most large French employers.",
+    "notes": [
+      "Pay is 12 monthly payments. I found no source making a 13th month standard for developers; if an employer offers one it comes on top of the figures here.",
+      "Pay sources agree on the shape. Hays 2026 national full stack bands: 40-46k (0 to 3 yrs), 46-52k (3 to 5), 52-58k (5 to 8), 55-68k (8+). TPC 2026 Paris medians including variable pay: 42k (0 to 2 yrs), 50k (3 to 5), 59k (6 to 9). Levels.fyi shows a Paris-area median total pay of 66,990 EUR from 786 salaries across all levels, which leans toward large tech employers.",
+      "Posted ranges: Theodo fullstack 40-50k, Extia Java 38-46k, Unitech confirmed 43-45k, Michael Page C#/.NET 45-55k, Warren Walter React/Java 55-65k, W HUB Node/TypeScript 60-70k, Altrion seniors 50-80k. Few ads state a level, so I matched levels to the Hays and TPC bands. Junior is the thinnest level. Bonus rates (3%, 5%, 7%) are estimates; no source gave a developer bonus figure.",
+      "Many software firms and consultancies are under the Syntec agreement (my understanding, not checked per firm), which sets minimum pay for engineers and managers (cadres). Its engineer and manager minimums, from the 2024 accord as reproduced by ma-ccn.com and not confirmed as the latest, run from 2,135 EUR a month at position 1.1 to 3,650 at position 3.1.",
+      "Impatriate regime: a new graduate can qualify if hired directly from abroad and not French tax resident in the five calendar years before starting; there is no minimum experience. It exempts 30% of pay for up to 8 years. Anyone who was a French tax resident in any of those five years does not qualify. Not in the table; my rough estimate is up to about 275 EUR a month more net at the mid level.",
+      "Cheaper nearby towns: 2-room asking rents average 1,118 in Montreuil and 987 in Saint-Denis against 1,663 in Paris (123 Loger, March 2026). A pass for zones 1 to 5 costs 90.80 whatever the distance, so living further out adds little transit cost. Numbeo's 1-bedroom figures (1,035 outside, 1,414 centre) sit below the 123 Loger Paris 2-room average."
+    ],
+    "sources": [
+      {
+        "label": "Hays 2026 national full stack bands (cited in Hays France article)",
+        "url": "https://www.hays.fr/conseils-carriere/article/metiers-les-plus-recherches-en-2026-salaires"
+      },
+      {
+        "label": "TPC 2026 full stack medians, Paris vs regions (650 respondents)",
+        "url": "https://tpc-recrutement.com/ressources/salaires/tech/developpeur-fullstack"
+      },
+      {
+        "label": "Levels.fyi software engineer pay, Greater Paris Area",
+        "url": "https://www.levels.fyi/t/software-engineer/locations/greater-paris-area"
+      },
+      {
+        "label": "Welcome to the Jungle full stack ads, Paris",
+        "url": "https://www.welcometothejungle.com/fr/pages/emploi-developpeur-full-stack-paris-75001"
+      },
+      {
+        "label": "HelloWork full stack ads with pay, Paris",
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-full-stack-ville_paris-75000.html"
+      },
+      {
+        "label": "Numbeo cost of living, Paris (archive copy; last update shown on page in 2026)",
+        "url": "https://web.archive.org/web/20260808071423/https://www.numbeo.com/cost-of-living/in/Paris"
+      },
+      {
+        "label": "123 Loger rent barometer March 2026 (T1 and T2 averages from listings)",
+        "url": "https://www.123loger.com/blog/barometre-des-loyers-123-loger-mars-2026/"
+      },
+      {
+        "label": "Navigo Mois 2026 price and 50% employer refund (Legisocial)",
+        "url": "https://www.legisocial.fr/reperes-sociaux/tarif-carte-navigo-2026.html"
+      },
+      {
+        "label": "Syntec engineers and managers minimum pay grid (ma-ccn.com)",
+        "url": "https://ma-ccn.com/salaire/syntec"
+      },
+      {
+        "label": "Impatriate regime (impots.gouv.fr)",
+        "url": "https://www.impots.gouv.fr/international-particulier/le-regime-des-impatries"
+      }
+    ]
+  },
+  {
+    "city": "Lyon",
+    "country": "FR",
+    "rent_outside": 601,
+    "rent_centre": 765,
+    "room_shared": null,
+    "everyday": 533,
+    "everyday_parts": {
+      "groceries": 234,
+      "utilities": 142,
+      "internet_phone": 41,
+      "going_out": 116,
+      "other": 0
+    },
+    "commute": 38,
+    "commute_note": "TCL unlimited monthly pass for 26 to 64 year olds, zones 1 and 2, 75.90 EUR from 2026-09-01 (74.10 before); employer refunds 50%, so the employee pays 37.95 (shown as 38).",
+    "health": 30,
+    "gross_yearly": {
+      "junior": 36000,
+      "mid": 45000,
+      "senior": 55000
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.04,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 2289,
+      "mid": 2795,
+      "senior": 3344
+    },
+    "surplus": {
+      "junior": 1087,
+      "mid": 1593,
+      "senior": 2142
+    },
+    "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (my explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (my assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. gross_yearly is base pay before bonus; net and surplus include the bonus. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
+    "language": "Most Lyon developer ads are in French and consultancies (ESN) expect French; I did not measure the share of English-only jobs, so any English-only estimate is a guess.",
+    "notes": [
+      "Pay is 12 monthly payments; no 13th month was found as standard for developers. Bonus rates (2%, 4%, 6%) are estimates; no source gave a developer bonus figure.",
+      "Pay evidence: TPC 2026 regional medians including variable pay are 36k (0 to 2 yrs), 42k (3 to 5), 47.5k (6 to 9); Free-Work other cities, fixed plus variable: 36.0k (1 to 2 yrs), 45.9k (3 to 4), 51.9k (5 to 10); Bureau des Talents lists a confirmed Lyon full stack at 42-52k; junior Lyon 35-38k (Fed IT and Licorne Society, via pstb.fr). TPC and Free-Work do not split out Lyon, so they are regional proxies.",
+      "Posted ranges on HelloWork, mostly consultancies: Groupe SII 35-40k (C#), 38-48k (experienced), 40-50k, 45-55k (experienced); L'Auxiliaire experienced 41-48k; agap2 48-58k; Ceebly senior JS/TS 50-70k; Astek 35k. Senior ads are scarce, so the senior figure leans on the regional medians.",
+      "Impatriate regime: a new graduate hired directly from abroad, not French tax resident in the previous five calendar years, can exempt 30% of pay for up to 8 years (my rough estimate: up to about 195 EUR a month at mid level, not in the table). Anyone who was a French tax resident in any of those five years does not qualify.",
+      "Cheaper nearby towns: Villeurbanne 2-room asking rent averages 831 against 950 in Lyon (123 Loger, March 2026). Rent caps apply in Lyon (SeLoger).",
+      "Numbeo's Lyon 1-bedroom figures (601 outside, 765 centre) are well under the 123 Loger March 2026 averages (674 for 1 room, 950 for 2 rooms in the city). If you rent a typical listing, expect to pay more than the table assumes."
+    ],
+    "sources": [
+      {
+        "label": "TPC 2026 full stack medians, Paris vs regions (650 respondents)",
+        "url": "https://tpc-recrutement.com/ressources/salaires/tech/developpeur-fullstack"
+      },
+      {
+        "label": "Free-Work full stack pay by experience, Ile-de-France vs other cities",
+        "url": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/salary-worker"
+      },
+      {
+        "label": "pstb.fr junior developer pay, Paris vs regions (quotes Hays, Fed IT, Licorne Society)",
+        "url": "https://www.pstb.fr/actualites/salaire-developpeur-junior"
+      },
+      {
+        "label": "Bureau des Talents 2026 tech salary grid (placement data)",
+        "url": "https://www.bureaudestalents.com/blog-entreprise/grille-salaires-tech-2026"
+      },
+      {
+        "label": "HelloWork full stack ads with pay, Lyon",
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-full-stack-ville_lyon-69000.html"
+      },
+      {
+        "label": "Numbeo cost of living, Lyon (archive copy; last update shown on page in 2026)",
+        "url": "https://web.archive.org/web/20260904074028/https://www.numbeo.com/cost-of-living/in/Lyon"
+      },
+      {
+        "label": "123 Loger rent barometer March 2026 (T1 and T2 averages from listings)",
+        "url": "https://www.123loger.com/blog/barometre-des-loyers-123-loger-mars-2026/"
+      },
+      {
+        "label": "TCL monthly price from 2026-09-01 (lyon-mobilite.fr, third party)",
+        "url": "https://lyon-mobilite.fr/tarifs-de-transport"
+      },
+      {
+        "label": "SeLoger-MeilleursAgents rent per m2 by city, July 2026 (mentions rent caps)",
+        "url": "https://edito.seloger.com/conseils-d-experts/louer/prix-loyers-france-classement-ville-ville-article-17327.html"
+      },
+      {
+        "label": "Impatriate regime (impots.gouv.fr)",
+        "url": "https://www.impots.gouv.fr/international-particulier/le-regime-des-impatries"
+      }
+    ]
+  },
+  {
+    "city": "Toulouse",
+    "country": "FR",
+    "rent_outside": 588,
+    "rent_centre": 788,
+    "room_shared": null,
+    "everyday": 514,
+    "everyday_parts": {
+      "groceries": 236,
+      "utilities": 117,
+      "internet_phone": 43,
+      "going_out": 118,
+      "other": 0
+    },
+    "commute": 30,
+    "commute_note": "Tisseo 31-day pass, 59 EUR from 2026-07-01 (58 before); employer refunds 50%, so the employee pays 29.50 (shown as 30).",
+    "health": 30,
+    "gross_yearly": {
+      "junior": 35000,
+      "mid": 43000,
+      "senior": 54000
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.04,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 2232,
+      "mid": 2697,
+      "senior": 3293
+    },
+    "surplus": {
+      "junior": 1070,
+      "mid": 1535,
+      "senior": 2131
+    },
+    "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (my explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (my assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. gross_yearly is base pay before bonus; net and surplus include the bonus. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
+    "language": "Most Toulouse developer ads are in French and consultancies expect French; I did not measure the share of English-only jobs, so any English-only estimate is a guess.",
+    "notes": [
+      "Pay is 12 monthly payments; no 13th month was found as standard for developers. Bonus rates (2%, 4%, 6%) are estimates; no source gave a developer bonus figure.",
+      "Pay evidence: junior Toulouse 34-38k (Fed IT 2025, via pstb.fr); TPC 2026 regional medians including variable pay 36k, 42k, 47.5k; Free-Work other cities 36.0k, 45.9k, 51.9k. None of these split out Toulouse, so they are regional proxies, and the figures here sit between those proxies and the posted ads.",
+      "Posted ranges on HelloWork: Adentis 35-40k, Mutuelle Viasante 37-47k, Step Up 38-48k, Kaizen C#/React 40-48k, Klanik 42-52k, Ippon 40-55k, MyUnisoft Ruby/React 50-55k, Le Comptoir des Pharmacies 52-58k. Welcome to the Jungle: Hinfact senior 48-55k, JurIA 45-60k, OpenAirlines confirmed from 43k, Roundtable senior 75-85k and lead 80-90k. The Roundtable ads are far above the rest and I treated them as outliers.",
+      "Impatriate regime: a new graduate hired directly from abroad, not French tax resident in the previous five calendar years, can exempt 30% of pay for up to 8 years (my rough estimate: up to about 175 EUR a month at mid level, not in the table). Anyone who was a French tax resident in any of those five years does not qualify.",
+      "Cheaper nearby towns: Colomiers 2-room asking rent averages 683 against 743 in Toulouse (123 Loger, March 2026), a saving of about 60 EUR a month.",
+      "Numbeo's Toulouse 1-bedroom outside-centre figure (588) is below the 123 Loger March 2026 city average for 2 rooms (743), although close to its 1-room average (589)."
+    ],
+    "sources": [
+      {
+        "label": "TPC 2026 full stack medians, Paris vs regions (650 respondents)",
+        "url": "https://tpc-recrutement.com/ressources/salaires/tech/developpeur-fullstack"
+      },
+      {
+        "label": "Free-Work full stack pay by experience, Ile-de-France vs other cities",
+        "url": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/salary-worker"
+      },
+      {
+        "label": "pstb.fr junior developer pay, Paris vs regions (quotes Hays, Fed IT, Licorne Society)",
+        "url": "https://www.pstb.fr/actualites/salaire-developpeur-junior"
+      },
+      {
+        "label": "Welcome to the Jungle full stack ads, Toulouse",
+        "url": "https://www.welcometothejungle.com/fr/pages/emploi-developpeur-full-stack-toulouse-31000"
+      },
+      {
+        "label": "HelloWork full stack ads with pay, Toulouse",
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-full-stack-ville_toulouse-31000.html"
+      },
+      {
+        "label": "Numbeo cost of living, Toulouse (archive copy; last update shown on page in 2026)",
+        "url": "https://web.archive.org/web/20260808071426/https://www.numbeo.com/cost-of-living/in/Toulouse"
+      },
+      {
+        "label": "123 Loger rent barometer March 2026 (T1 and T2 averages from listings)",
+        "url": "https://www.123loger.com/blog/barometre-des-loyers-123-loger-mars-2026/"
+      },
+      {
+        "label": "Tisseo fares from 2026-07-01 (Le Journal Toulousain)",
+        "url": "https://otoulouse.net/le-journal-toulousain/2026/06/26/ticket-a-190-e-abonnement-a-59-e-les-nouveaux-tarifs-au-1er-juillet-a-toulouse/"
+      },
+      {
+        "label": "Impatriate regime (impots.gouv.fr)",
+        "url": "https://www.impots.gouv.fr/international-particulier/le-regime-des-impatries"
+      }
+    ]
+  },
+  {
+    "city": "Nantes",
+    "country": "FR",
+    "rent_outside": 597,
+    "rent_centre": 724,
+    "room_shared": null,
+    "everyday": 440,
+    "everyday_parts": {
+      "groceries": 195,
+      "utilities": 88,
+      "internet_phone": 41,
+      "going_out": 116,
+      "other": 0
+    },
+    "commute": 34,
+    "commute_note": "Naolib (formerly TAN) monthly pass for 26+, 67 EUR from 2026-07-01; employer refunds 50%, so the employee pays 33.50 (shown as 34).",
+    "health": 30,
+    "gross_yearly": {
+      "junior": 35000,
+      "mid": 44000,
+      "senior": 50000
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.04,
+      "senior": 0.06
+    },
+    "net": {
+      "junior": 2232,
+      "mid": 2746,
+      "senior": 3089
+    },
+    "surplus": {
+      "junior": 1131,
+      "mid": 1645,
+      "senior": 1988
+    },
+    "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (my explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (my assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. gross_yearly is base pay before bonus; net and surplus include the bonus. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
+    "language": "Most Nantes developer ads are in French and most posted ads are from consultancies; I did not measure the share of English-only jobs, so any English-only estimate is a guess.",
+    "notes": [
+      "Pay is 12 monthly payments; no 13th month was found as standard for developers. Bonus rates (2%, 4%, 6%) are estimates; no source gave a developer bonus figure.",
+      "Pay evidence: junior Nantes 35-38k (Fed IT and Licorne Society, via pstb.fr); Bureau des Talents lists a confirmed on-site Nantes full stack at 44-48k; Indeed's Nantes average is 43,694 EUR from only 8 salaries (via Concerto RH); the TPC regional bands are a proxy, not Nantes-specific.",
+      "Posted ranges on HelloWork: Groupe SII 38-42k, Consort 38-48k and 44-48k, Kapa IT 38-50k, Reactis 40-45k and 45-55k, Externatic 45-50k, LR Technologies senior 35-50k. Welcome to the Jungle: Key Consulting 40-60k, Liksi senior 40-50k, Atos tech lead 43-52k. Senior ads are few, so the senior figure is the thinnest.",
+      "Impatriate regime: a new graduate hired directly from abroad, not French tax resident in the previous five calendar years, can exempt 30% of pay for up to 8 years (my rough estimate: up to about 185 EUR a month at mid level, not in the table). Anyone who was a French tax resident in any of those five years does not qualify.",
+      "Nearby towns save little: Saint-Herblain 2-room asking rent averages 698 against 722 in Nantes (123 Loger, March 2026).",
+      "Numbeo's Nantes page showed no contributor count and an invitation to add data, so its prices (last updated 2026-06-20) rest on a thin sample. The 123 Loger Nantes 2-room average (722) is close to Numbeo's centre figure (724)."
+    ],
+    "sources": [
+      {
+        "label": "TPC 2026 full stack medians, Paris vs regions (650 respondents)",
+        "url": "https://tpc-recrutement.com/ressources/salaires/tech/developpeur-fullstack"
+      },
+      {
+        "label": "pstb.fr junior developer pay, Paris vs regions (quotes Hays, Fed IT, Licorne Society)",
+        "url": "https://www.pstb.fr/actualites/salaire-developpeur-junior"
+      },
+      {
+        "label": "Bureau des Talents 2026 tech salary grid (placement data)",
+        "url": "https://www.bureaudestalents.com/blog-entreprise/grille-salaires-tech-2026"
+      },
+      {
+        "label": "Concerto RH developer pay by region (quotes Indeed Nantes, 8 salaries)",
+        "url": "https://www.concerto-rh.fr/salaire-developpeur-web-2026-2"
+      },
+      {
+        "label": "Welcome to the Jungle full stack ads, Nantes",
+        "url": "https://www.welcometothejungle.com/fr/pages/emploi-developpeur-full-stack-nantes"
+      },
+      {
+        "label": "HelloWork full stack ads with pay, Nantes",
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-full-stack-ville_nantes-44000.html"
+      },
+      {
+        "label": "Numbeo cost of living, Nantes (archive copy; last update shown on page in 2026)",
+        "url": "https://web.archive.org/web/20260814164647/https://www.numbeo.com/cost-of-living/in/Nantes"
+      },
+      {
+        "label": "123 Loger rent barometer March 2026 (T1 and T2 averages from listings)",
+        "url": "https://www.123loger.com/blog/barometre-des-loyers-123-loger-mars-2026/"
+      },
+      {
+        "label": "Naolib monthly pass since 2026-07-01 (nantes-mobilite.fr, third party)",
+        "url": "https://nantes-mobilite.fr/tarifs-de-transport"
+      },
+      {
+        "label": "Impatriate regime (impots.gouv.fr)",
+        "url": "https://www.impots.gouv.fr/international-particulier/le-regime-des-impatries"
+      }
+    ]
+  },
+  {
+    "city": "Nice",
+    "country": "FR",
+    "rent_outside": 845,
+    "rent_centre": 962,
+    "room_shared": null,
+    "everyday": 557,
+    "everyday_parts": {
+      "groceries": 255,
+      "utilities": 124,
+      "internet_phone": 46,
+      "going_out": 132,
+      "other": 0
+    },
+    "commute": 23,
+    "commute_note": "Lignes d'Azur monthly pass for 26 to 64 year olds, 45 EUR; employer refunds 50%, so the employee pays 22.50 (shown as 23). Inside Sophia Antipolis the Envibus monthly pass is 12 EUR; the Azur multi-network monthly pass is 52 EUR.",
+    "health": 30,
+    "gross_yearly": {
+      "junior": 34000,
+      "mid": 43000,
+      "senior": 48000
+    },
+    "bonus_rate": {
+      "junior": 0.02,
+      "mid": 0.03,
+      "senior": 0.05
+    },
+    "net": {
+      "junior": 2174,
+      "mid": 2676,
+      "senior": 2964
+    },
+    "surplus": {
+      "junior": 719,
+      "mid": 1221,
+      "senior": 1509
+    },
+    "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (my explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (my assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. gross_yearly is base pay before bonus; net and surplus include the bonus. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
+    "language": "Strong for English: Sophia Antipolis has many employers recruiting in English (Arm, Amadeus, Cadence, Ceva and others on englishjobs.fr), while consultancies and local firms expect French.",
+    "notes": [
+      "Pay is 12 monthly payments; no 13th month was found as standard for developers. Bonus rates (2%, 3%, 5%) are estimates; no source gave a developer bonus figure.",
+      "This is the thinnest pay estimate of the five. TPC and Free-Work do not cover Nice or Sophia Antipolis, so the figures come mainly from posted ads and sit below the regional proxies. Most posted ads are from consultancies, and the product and international employers (Arm, Amadeus, Thales, Airbus Defence and Space) did not post pay in the pages I read, so pay there may be higher.",
+      "Posted ranges on HelloWork (Nice, Valbonne, Sophia): Astek 35k; Groupe SII Sophia roles 40-47k (Go, Java, C++/Java, React), Astek React/Node 35k; Kapa IT 38-48k; Societe pour l'Informatique Industrielle 40-50k; Infotel 37.5-56.2k and senior Java/Angular 45k; Caveo senior 40-47k; Maestria confirmed 42-43k and 43-51k; Inov Team Labs 42-52k; Adsearch .NET/React 50-60k.",
+      "Impatriate regime: a new graduate hired directly from abroad, not French tax resident in the previous five calendar years, can exempt 30% of pay for up to 8 years (my rough estimate: up to about 170 EUR a month at mid level, not in the table). Anyone who was a French tax resident in any of those five years does not qualify.",
+      "Antibes is not cheaper: its 2-room asking rent averages 1,138 against 1,105 in Nice (123 Loger, March 2026). Numbeo's Nice outside-centre 1-bedroom (845) sits between the 123 Loger Nice 1-room (732) and 2-room (1,105) averages.",
+      "A Sophia Antipolis commute from Nice or Antibes needs a multi-network pass (Azur monthly 52 EUR on Envibus's price page), not the 45 EUR Nice-only pass used in the table. The adult price of the Azur pass was not confirmed."
+    ],
+    "sources": [
+      {
+        "label": "TPC 2026 full stack medians, Paris vs regions (650 respondents)",
+        "url": "https://tpc-recrutement.com/ressources/salaires/tech/developpeur-fullstack"
+      },
+      {
+        "label": "Free-Work full stack pay by experience, Ile-de-France vs other cities",
+        "url": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/salary-worker"
+      },
+      {
+        "label": "HelloWork full stack ads with pay, Nice and Sophia Antipolis area",
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-full-stack-ville_nice-06000.html"
+      },
+      {
+        "label": "HelloWork developer ads with pay, Sophia Antipolis",
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-informatique-ville_sophia-antipolis-06560.html"
+      },
+      {
+        "label": "englishjobs.fr software jobs, Provence-Alpes-Cote d'Azur (no posted pay)",
+        "url": "https://englishjobs.fr/in/provence-alpes-cote-dazur/software"
+      },
+      {
+        "label": "Numbeo cost of living, Nice (archive copy; last update shown on page in 2026)",
+        "url": "https://web.archive.org/web/20260729153345/https://www.numbeo.com/cost-of-living/in/Nice"
+      },
+      {
+        "label": "123 Loger rent barometer March 2026 (T1 and T2 averages from listings)",
+        "url": "https://www.123loger.com/blog/barometre-des-loyers-123-loger-mars-2026/"
+      },
+      {
+        "label": "Lignes d'Azur monthly pass (nice-mobilite.fr, third party)",
+        "url": "https://nice-mobilite.fr/tarifs-de-transport"
+      },
+      {
+        "label": "Envibus (Sophia Antipolis) pass prices",
+        "url": "https://www.envibus.fr/acheter-un-titre/gamme-tarifaire"
+      },
+      {
+        "label": "Impatriate regime (impots.gouv.fr)",
+        "url": "https://www.impots.gouv.fr/international-particulier/le-regime-des-impatries"
+      }
+    ]
+  }
+]

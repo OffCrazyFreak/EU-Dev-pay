@@ -31,7 +31,14 @@ const flag = cc => String.fromCodePoint(...[...cc].map(ch => 0x1F1E6 + ch.charCo
 const euro = v => (v < 0 ? "-" : "") + "€" + Math.abs(Math.round(v)).toLocaleString("en");
 const euroK = v => "€" + Math.round(v) + "k";
 const esc = s => String(s ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
-const niceMax = (value, step) => Math.ceil(value / step) * step;
+// The axis ends just past the longest bar so the data uses the whole chart width.
+const fitMax = top => top * 1.02;
+
+// Largest-detail tick step that still gives at most `limit` ticks.
+const tickStep = (max, steps, limit = 7) => steps.find(step => max / step <= limit) ?? steps[steps.length - 1];
+
+// A tick label centred on the right edge would be clipped, so only ticks clearly inside the axis get one.
+const labelled = (t, max) => t < max * 0.96;
 
 const countryName = (() => {
   const names = new Intl.DisplayNames(["en"], { type: "region" });
@@ -102,7 +109,7 @@ const levelLegend = levels => levels.map((l, i) => `
 const EMPTY = `<p class="empty">No city matches the filter. Pick at least one country in the filter panel.</p>`;
 
 const cityName = c =>
-  `<div class="name"><span class="info" aria-hidden="true">i</span>${esc(c.city)}<span class="cc">${esc(c.country)} ${flag(c.country)}</span></div>`;
+  `<div class="name"><span class="info" aria-hidden="true">i</span>${esc(c.city)}<span class="cc"><span class="code">${esc(c.country)}</span> ${flag(c.country)}</span></div>`;
 
 const openCities = el => new Set([...el.querySelectorAll("details.city[open]")].map(d => d.dataset.city));
 
@@ -374,16 +381,17 @@ function moneyChart(root, onTargetCommit) {
       return;
     }
 
-    let top = state.target + 500;
+    let top = state.target + TARGET_STEP;
     data.forEach(c => {
       levels.forEach(l => { top = Math.max(top, c.surplus[l]); });
       levels.filter(l => shownTicks.has(l)).forEach(l => { top = Math.max(top, grossMonthly(c, l)); });
     });
 
-    MAX = niceMax(top + 200, 1000);
+    MAX = fitMax(top);
+    const step = tickStep(MAX, [500, 1000, 2000, 5000]);
 
-    for (let t = 0; t <= MAX; t += 1000) {
-      if (t < MAX) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}">${euro(t)}</span>`);
+    for (let t = 0; t <= MAX; t += step) {
+      if (labelled(t, MAX)) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}">${euro(t)}</span>`);
       lines.insertAdjacentHTML("beforeend", `<i style="left:${pct(t)}"></i>`);
     }
 
@@ -512,13 +520,16 @@ function salaryChart(root) {
     });
 
     const top = Math.max(...list.map(({ m, need }) => Math.max(need, ...levels.map(l => base(m, l)))));
-    const MAX = niceMax(top + 4, 20);
+    const MAX = fitMax(top);
     const pct = v => (v / MAX * 100) + "%";
+    const step = tickStep(MAX, [10, 20, 40, 50, 100]);
 
-    for (let t = 0; t < MAX; t += 20) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}">€${t}k</span>`);
+    for (let t = 0; t <= MAX; t += step) {
+      if (labelled(t, MAX)) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}">€${t}k</span>`);
+    }
 
     let grid = "";
-    for (let t = 20; t <= MAX; t += 20) grid += `<i style="position:absolute;top:0;bottom:0;width:1px;left:${pct(t)};background:var(--border);opacity:.7"></i>`;
+    for (let t = step; t <= MAX; t += step) grid += `<i style="position:absolute;top:0;bottom:0;width:1px;left:${pct(t)};background:var(--border);opacity:.7"></i>`;
 
     const [sortKey, sortLevel] = order.value.split(":");
     const tracks = [];
@@ -670,10 +681,13 @@ function breakdownChart(root) {
       return;
     }
 
-    const MAX = niceMax(Math.max(...data.map(c => c.costs)) + 100, 500);
+    const MAX = fitMax(Math.max(...data.map(c => c.costs)));
     const pct = v => v / MAX * 100;
+    const step = tickStep(MAX, [500, 1000, 2000]);
 
-    for (let t = 0; t < MAX; t += 1000) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}%">${euro(t)}</span>`);
+    for (let t = 0; t <= MAX; t += step) {
+      if (labelled(t, MAX)) ticksEl.insertAdjacentHTML("beforeend", `<span style="left:${pct(t)}%">${euro(t)}</span>`);
+    }
 
     const leftCell = c => `<div class="left3" style="${leftGrid}">${levels.map(l => {
       const left = c.surplus[l];
@@ -752,7 +766,6 @@ function filterPanel(root, onChange) {
           <label><input type="checkbox" data-country="${cc}"> ${flag(cc)} ${esc(countryName(cc))} <span class="muted">${cityCount(cc)}</span></label>`).join("")}
       </div>
     </fieldset>
-    <p class="muted">Your choice is saved in this browser.</p>
     </details>`;
 
   const box = root.querySelector(".filter-box");

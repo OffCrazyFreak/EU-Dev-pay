@@ -47,7 +47,7 @@ def base_salary(city: dict, includes_bonus: bool) -> dict:
 def main() -> None:
     cities = []
 
-    for path in sorted((ROOT / "data").glob("*.json")):
+    for path in sorted((ROOT / "data").glob("[!_]*.json")):
         includes_bonus = path.name in GROSS_INCLUDES_BONUS
 
         for city in json.loads(path.read_text(encoding="utf-8")):

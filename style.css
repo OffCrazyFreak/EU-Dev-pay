@@ -441,7 +441,7 @@ footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
   h1 { font-size: 19px; }
 
   .chart { min-width: 0; }
-  .cc { display: none; }
+  .cc .code { display: none; }
   .name { padding-right: 4px; font-size: 11.5px; }
   .info { margin-right: 4px; }
 
@@ -494,4 +494,20 @@ footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
     white-space: nowrap;
   }
   .menu-toggle { margin-left: 0; }
+}
+
+@media (max-width: 600px) {
+  /* salary rows match the breakdown rows: name and needed salary on one line, then a full-width bar */
+  #salary-chart .axis { grid-template-columns: 1fr !important; }
+  #salary-chart .axis > div:not(.ticks) { display: none; }
+  #salary-chart summary.row {
+    grid-template-columns: 1fr auto !important;
+    height: auto !important;
+    row-gap: 3px;
+    padding: 7px 0 6px;
+  }
+  #salary-chart summary .name { grid-column: 1; grid-row: 1; font-size: 12.5px; }
+  #salary-chart summary .track { grid-column: 1 / -1; grid-row: 2; }
+  #salary-chart summary > div:last-child { grid-column: 2; grid-row: 1; }
+  #salary-chart details.city { border-bottom: 1px solid var(--border); }
 }
