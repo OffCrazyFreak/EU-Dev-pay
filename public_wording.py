@@ -60,6 +60,9 @@ REWORDING = [
     (r"not confirmed on a page I opened", "not confirmed on an official page"),
     (r", which is not confirmed for a FER degree\.", "; check that the degree is recognised."),
     (r"Net and surplus fields exclude the allowance\.", "Net pay and money left shown on this site exclude the allowance."),
+    (r"a Croatian new grad", "a new graduate from another EU country"),
+    (r"Indeed Greece pages were blocked \(HTTP 401\), so no posted-pay ads could be opened; a search summary showed", "No posted-pay ads could be checked directly; search results showed"),
+    (r"A search summary of DEV\.BG job pages showed", "Search results for DEV.BG job pages showed"),
     (r"gross_yearly", "the gross figure"),
     (r"'health'", "the health insurance row"),
 ]
