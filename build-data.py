@@ -9,8 +9,19 @@ from public_wording import public_text
 
 ROOT = Path(__file__).parent
 
-# These exports report gross pay including the bonus; the others report base pay before it.
-GROSS_INCLUDES_BONUS = {"dk-nl.json", "south-cee.json"}
+# Whether a file's gross pay already includes the bonus (True) or is base pay before it (False).
+# Every data file must be listed, so a new file cannot silently get the wrong answer.
+GROSS_INCLUDES_BONUS = {
+    "at-de-ie.json": False,
+    "baltic-is-li.json": False,
+    "ch-lu.json": False,
+    "dk-nl.json": True,
+    "fr.json": False,
+    "hr-hu-sk.json": False,
+    "nordics-be-ee.json": False,
+    "south-cee.json": True,
+    "south-east.json": False,
+}
 
 LEVELS = ("junior", "mid", "senior")
 
@@ -30,7 +41,10 @@ def main() -> None:
     cities = []
 
     for path in sorted((ROOT / "data").glob("[!_]*.json")):
-        includes_bonus = path.name in GROSS_INCLUDES_BONUS
+        if path.name not in GROSS_INCLUDES_BONUS:
+            raise SystemExit(f"{path.name} is not listed in GROSS_INCLUDES_BONUS: say whether its gross pay includes the bonus")
+
+        includes_bonus = GROSS_INCLUDES_BONUS[path.name]
 
         for city in json.loads(path.read_text(encoding="utf-8")):
             city["base_yearly"] = base_salary(city, includes_bonus)

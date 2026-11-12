@@ -871,6 +871,9 @@ function markActive(id) {
 }
 
 // The nav marks whichever chart sits under the sticky header, like a table of contents.
+// After a click on a header link the chosen section stays marked, even when a short page cannot scroll it to the top.
+let pinnedSection = null;
+
 function markChartInView() {
   if (isMethodView()) return;
 
@@ -878,8 +881,10 @@ function markChartInView() {
   const sections = [...chartsView.querySelectorAll(".chart-section")];
   const current = sections.filter(section => section.getBoundingClientRect().top <= headerBottom + 80).pop() || sections[0];
 
+  if (pinnedSection && pinnedSection.getBoundingClientRect().top < headerBottom - 4) pinnedSection = null;
+
   const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
-  const active = atBottom ? sections[sections.length - 1] : current;
+  const active = pinnedSection || (atBottom ? sections[sections.length - 1] : current);
 
   markActive(active.id);
 
@@ -900,6 +905,8 @@ function showView() {
   const anchor = !method && document.getElementById(location.hash.slice(1));
   const behavior = firstShow || prefersReducedMotion() ? "auto" : "smooth";
   firstShow = false;
+
+  pinnedSection = anchor && anchor.classList.contains("chart-section") ? anchor : null;
 
   if (anchor) anchor.scrollIntoView({ behavior });
   else window.scrollTo({ top: 0, behavior });
