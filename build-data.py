@@ -25,6 +25,8 @@ GROSS_INCLUDES_BONUS = {
 
 LEVELS = ("junior", "mid", "senior")
 
+ENGLISH_ONLY_LEVELS = ("common", "some", "rare")
+
 ASSETS = ("style.css", "data.js", "app.js", "favicon.svg", "favicon-32.png", "apple-touch-icon.png")
 
 def base_salary(city: dict, includes_bonus: bool) -> dict:
@@ -37,8 +39,19 @@ def base_salary(city: dict, includes_bonus: bool) -> dict:
     }
 
 
+def load_language_needs() -> dict:
+    needs = json.loads((ROOT / "data" / "_languages.json").read_text(encoding="utf-8"))
+
+    for need in needs:
+        if need["english_only"] not in ENGLISH_ONLY_LEVELS:
+            raise SystemExit(f"{need['city']}: english_only must be one of {ENGLISH_ONLY_LEVELS}")
+
+    return {(need["country"], need["city"]): need for need in needs}
+
+
 def main() -> None:
     cities = []
+    language_needs = load_language_needs()
 
     for path in sorted((ROOT / "data").glob("[!_]*.json")):
         if path.name not in GROSS_INCLUDES_BONUS:
@@ -49,10 +62,24 @@ def main() -> None:
         for city in json.loads(path.read_text(encoding="utf-8")):
             city["base_yearly"] = base_salary(city, includes_bonus)
 
-            for field in ("tax_regime_note", "language", "commute_note", "notes"):
+            need = language_needs.pop((city["country"], city["city"]), None)
+
+            if need is None:
+                raise SystemExit(f"{city['city']} has no entry in data/_languages.json")
+
+            city["language_need"] = {
+                **{key: need[key] for key in ("first", "second", "english_only", "note", "confidence")},
+                "sources": [{"label": source["title"], "url": source["url"]} for source in need["sources"]],
+            }
+            city.pop("language", None)
+
+            for field in ("tax_regime_note", "commute_note", "notes"):
                 city[field] = public_text(city.get(field))
 
             cities.append(city)
+
+    if language_needs:
+        raise SystemExit(f"data/_languages.json has entries for unknown cities: {sorted(language_needs)}")
 
     payload = json.dumps(cities, ensure_ascii=False, indent=1)
     (ROOT / "data.js").write_text("window.CITIES = " + payload + ";\n", encoding="utf-8")

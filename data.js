@@ -37,7 +37,6 @@ window.CITIES = [
    "senior": 2502
   },
   "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
-  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Shared room: about 500 EUR a month (willhaben asking-rent median of 50 room ads, an estimate).",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -92,6 +91,27 @@ window.CITIES = [
    "junior": 46000,
    "mid": 60000,
    "senior": 68040
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "common",
+   "note": "Most Vienna ads are written in German, and public sector, banks, insurers and customer-facing or consulting roles need business German. International scale-ups, R&D centres, startups and game studios work in English and ask for little or no German.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "englishjobsearch.at, developer jobs in Vienna",
+     "url": "https://englishjobsearch.at/in/wien/developer"
+    },
+    {
+     "label": "karriere.at, Softwareentwickler Wien",
+     "url": "https://www.karriere.at/jobs/softwareentwickler/wien"
+    },
+    {
+     "label": "Austria Handbook, is German mandatory for IT jobs",
+     "url": "https://austriahandbook.com/is-german-mandatory-for-it-jobs-in-austria/"
+    }
+   ]
   }
  },
  {
@@ -132,7 +152,6 @@ window.CITIES = [
    "senior": 2399
   },
   "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
-  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Shared room price not found (only 5 room ads on willhaben).",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -187,6 +206,27 @@ window.CITIES = [
    "junior": 46000,
    "mid": 56000,
    "senior": 62020
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Most Graz developer ads are in German, and customer-facing work, local SMEs and industrial software need good German. English-first teams exist at international firms, mainly embedded, semiconductor and some product companies.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "englishjobsearch.at, jobs in Graz",
+     "url": "https://englishjobsearch.at/in/graz"
+    },
+    {
+     "label": "karriere.at, Softwareentwickler Graz",
+     "url": "https://www.karriere.at/jobs/softwareentwickler/graz"
+    },
+    {
+     "label": "Austria Handbook, is German mandatory for IT jobs",
+     "url": "https://austriahandbook.com/is-german-mandatory-for-it-jobs-in-austria/"
+    }
+   ]
   }
  },
  {
@@ -227,7 +267,6 @@ window.CITIES = [
    "senior": 2531
   },
   "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
-  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Linz annual card from 285 EUR needs a Linz main residence; without it the annual card is 630 EUR.",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -282,6 +321,27 @@ window.CITIES = [
    "junior": 46000,
    "mid": 57000,
    "senior": 63980
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Local industrial and automation firms and SMEs hire in German. Larger international software employers such as TeamViewer and Dynatrace use English as the team language.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "englishjobsearch.at, jobs in Linz",
+     "url": "https://englishjobsearch.at/in/linz"
+    },
+    {
+     "label": "karriere.at, Softwareentwickler Linz",
+     "url": "https://www.karriere.at/jobs/softwareentwickler/linz"
+    },
+    {
+     "label": "Austria Handbook, is German mandatory for IT jobs",
+     "url": "https://austriahandbook.com/is-german-mandatory-for-it-jobs-in-austria/"
+    }
+   ]
   }
  },
  {
@@ -322,7 +382,6 @@ window.CITIES = [
    "senior": 1961
   },
   "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
-  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Shared room price not found (only 1 room ad on willhaben).",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -377,6 +436,23 @@ window.CITIES = [
    "junior": 46000,
    "mid": 56000,
    "senior": 62020
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "rare",
+   "note": "Small market where local firms hire in German, and a visible ad asks for C1 German. English roles are few and concentrated at a few large employers such as Red Bull.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "karriere.at, Softwareentwickler Salzburg",
+     "url": "https://www.karriere.at/jobs/softwareentwickler/salzburg"
+    },
+    {
+     "label": "englishjobsearch.at, jobs in Salzburg",
+     "url": "https://englishjobsearch.at/in/salzburg"
+    }
+   ]
   }
  },
  {
@@ -417,7 +493,6 @@ window.CITIES = [
    "senior": 1988
   },
   "tax_regime_note": "Austria 2026 rules: 14 payments, social insurance 18.07% (17.07% on the 13th and 14th, which are taxed at 6% above a 620 EUR allowance), income tax tariff 2026 with the 496 EUR Verkehrsabsetzbetrag. Health insurance sits inside social insurance. Any bonus on top is taxed at the marginal rate (an assumption). Net is annual net divided by 12;",
-  "language": "Mostly German outside international firms; English-only job share in Austria was not measured, so this is an estimate.",
   "notes": [
    "Shared room price not found (only 1 room ad on willhaben). Only 10 two-room rental ads found, so local rent is thin.",
    "Pay is 14 payments a year; the 13th and 14th are included in the yearly gross.",
@@ -472,6 +547,23 @@ window.CITIES = [
    "junior": 46000,
    "mid": 56000,
    "senior": 60060
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "rare",
+   "note": "A small developer market where nearly all ads are in German and local firms and customers expect German. English-first roles are few and tend to sit at international engineering firms.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "karriere.at, Softwareentwickler Innsbruck",
+     "url": "https://www.karriere.at/jobs/softwareentwickler/innsbruck"
+    },
+    {
+     "label": "englishjobsearch.at, jobs in Innsbruck",
+     "url": "https://englishjobsearch.at/in/innsbruck"
+    }
+   ]
   }
  },
  {
@@ -512,7 +604,6 @@ window.CITIES = [
    "senior": 2292
   },
   "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
-  "language": "Often yes: 44 of 65 developer ads on a sampled German job board were written in English (that board favours visa-friendly roles).",
   "notes": [
    "Shared room: 650 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
@@ -567,6 +658,27 @@ window.CITIES = [
    "junior": 43000,
    "mid": 62000,
    "senior": 72000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "German",
+   "english_only": "common",
+   "note": "Tech teams at startups and scale-ups mostly work in English, and many developers get hired without German. German is still needed for sales, support, German-market products, traditional firms, and most junior roles at German-speaking companies.",
+   "confidence": "high",
+   "sources": [
+    {
+     "label": "The Local, Berlin jobs that do not require German",
+     "url": "https://www.thelocal.de/20260513/revealed-which-companies-in-berlin-offer-jobs-that-dont-require-german"
+    },
+    {
+     "label": "Hacker News, skilled workers leaving Germany",
+     "url": "https://news.ycombinator.com/item?id=48815982"
+    },
+    {
+     "label": "StepStone, Softwareentwickler Berlin",
+     "url": "https://www.stepstone.de/jobs/softwareentwickler/in-berlin"
+    }
+   ]
   }
  },
  {
@@ -607,7 +719,6 @@ window.CITIES = [
    "senior": 2461
   },
   "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
-  "language": "Often yes: 53 of 65 developer ads on a sampled German job board were written in English (that board favours visa-friendly roles).",
   "notes": [
    "Shared room: 850 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
@@ -662,6 +773,27 @@ window.CITIES = [
    "junior": 46000,
    "mid": 68000,
    "senior": 78000
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Automotive, engineering, corporate and customer-facing roles mostly expect German, and commenters say Munich pushes you to learn it. Big tech offices, scale-ups and some startups work in English.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "englishjobs.de, developer jobs in Munich",
+     "url": "https://englishjobs.de/in/munich/developer"
+    },
+    {
+     "label": "StepStone, Softwareentwickler Munich",
+     "url": "https://www.stepstone.de/jobs/softwareentwickler/in-m%C3%BCnchen"
+    },
+    {
+     "label": "Hacker News, skilled workers leaving Germany",
+     "url": "https://news.ycombinator.com/item?id=48815982"
+    }
+   ]
   }
  },
  {
@@ -702,7 +834,6 @@ window.CITIES = [
    "senior": 2428
   },
   "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
-  "language": "Usually German needed: only 4 of 13 sampled developer ads were in English.",
   "notes": [
    "Shared room: 650 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
@@ -757,6 +888,27 @@ window.CITIES = [
    "junior": 44000,
    "mid": 62000,
    "senior": 72000
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Trade, logistics, media and SME employers expect German. E-commerce, games and some international tech teams work in English.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "englishjobs.de, developer jobs in Hamburg",
+     "url": "https://englishjobs.de/in/hamburg/developer"
+    },
+    {
+     "label": "StepStone, Softwareentwickler Hamburg",
+     "url": "https://www.stepstone.de/jobs/softwareentwickler/in-hamburg"
+    },
+    {
+     "label": "Hacker News, skilled workers leaving Germany",
+     "url": "https://news.ycombinator.com/item?id=48815982"
+    }
+   ]
   }
  },
  {
@@ -797,7 +949,6 @@ window.CITIES = [
    "senior": 2361
   },
   "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
-  "language": "German usually needed: 0 of 8 sampled developer ads were in English (small sample).",
   "notes": [
    "Shared room: 630 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
@@ -852,6 +1003,27 @@ window.CITIES = [
    "junior": 45000,
    "mid": 66000,
    "senior": 74000
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Most developer ads and local banks, insurers and regulated finance roles expect German. International banks, fintechs and consultancies often use English in their tech teams.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "englishjobs.de, developer jobs in Frankfurt",
+     "url": "https://englishjobs.de/in/frankfurt/developer"
+    },
+    {
+     "label": "StepStone, Softwareentwickler Frankfurt",
+     "url": "https://www.stepstone.de/jobs/softwareentwickler/in-frankfurt-am-main"
+    },
+    {
+     "label": "codingcareer.de, tech jobs in Germany for internationals",
+     "url": "https://codingcareer.de/en/guides/tech-jobs-germany-international-developers"
+    }
+   ]
   }
  },
  {
@@ -892,7 +1064,6 @@ window.CITIES = [
    "senior": 2708
   },
   "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
-  "language": "German usually needed: 1 of 3 sampled developer ads was in English (tiny sample).",
   "notes": [
    "Shared room price not found.",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
@@ -947,6 +1118,27 @@ window.CITIES = [
    "junior": 47000,
    "mid": 66000,
    "senior": 76000
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "rare",
+   "note": "Automotive suppliers, manufacturers and Mittelstand firms mostly hire in German. A few large employers and international teams use English in tech roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "englishjobs.de, developer jobs in Stuttgart",
+     "url": "https://englishjobs.de/in/stuttgart/developer"
+    },
+    {
+     "label": "StepStone, Softwareentwickler Stuttgart",
+     "url": "https://www.stepstone.de/jobs/softwareentwickler/in-stuttgart"
+    },
+    {
+     "label": "codingcareer.de, tech jobs in Germany for internationals",
+     "url": "https://codingcareer.de/en/guides/tech-jobs-germany-international-developers"
+    }
+   ]
   }
  },
  {
@@ -987,7 +1179,6 @@ window.CITIES = [
    "senior": 2211
   },
   "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
-  "language": "German usually needed: 2 of 9 sampled developer ads were in English (small sample).",
   "notes": [
    "Shared room: 640 EUR a month warm (MMI/WG-Gesucht median, winter semester 2026/27).",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
@@ -1042,6 +1233,27 @@ window.CITIES = [
    "junior": 42000,
    "mid": 58000,
    "senior": 66000
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Media, insurance and local corporate and SME employers hire in German. A smaller group of international and remote-friendly tech firms works in English.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "englishjobs.de, developer jobs in Cologne",
+     "url": "https://englishjobs.de/in/cologne/developer"
+    },
+    {
+     "label": "StepStone, Softwareentwickler Cologne",
+     "url": "https://www.stepstone.de/jobs/softwareentwickler/in-k%C3%B6ln"
+    },
+    {
+     "label": "codingcareer.de, tech jobs in Germany for internationals",
+     "url": "https://codingcareer.de/en/guides/tech-jobs-germany-international-developers"
+    }
+   ]
   }
  },
  {
@@ -1082,7 +1294,6 @@ window.CITIES = [
    "senior": 2320
   },
   "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
-  "language": "German usually needed: the one sampled developer ad was in German (tiny sample).",
   "notes": [
    "Shared room price not found. Saxony splits care insurance differently, which lowers net slightly.",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
@@ -1137,6 +1348,23 @@ window.CITIES = [
    "junior": 41000,
    "mid": 54000,
    "senior": 63000
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "rare",
+   "note": "Consulting, enterprise IT and local SMEs mostly post in German. English-first roles are few and come from a handful of startups and international teams.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "englishjobs.de, developer jobs in Leipzig",
+     "url": "https://englishjobs.de/in/leipzig/developer"
+    },
+    {
+     "label": "StepStone, Softwareentwickler Leipzig",
+     "url": "https://www.stepstone.de/jobs/softwareentwickler/in-leipzig"
+    }
+   ]
   }
  },
  {
@@ -1177,7 +1405,6 @@ window.CITIES = [
    "senior": 2349
   },
   "tax_regime_note": "Germany 2026 rules: tax class 1, no church tax, childless and over 23, average health-insurance extra of 2.9%, wage tax from the official PAP 2026 algorithm, pension, unemployment, health and care insurance deducted. Net is annual net divided by 12 on 12 payments;",
-  "language": "Mixed: 2 of 4 sampled developer ads were in English (tiny sample).",
   "notes": [
    "Shared room price not found. Saxony splits care insurance differently, which lowers net slightly.",
    "Salaries are quoted on 12 payments; many collective-agreement employers add Weihnachtsgeld or Urlaubsgeld (Destatis 2024: 75% of covered IT-services staff got Weihnachtsgeld, average 5,379 EUR; private banks pay 100% of one monthly salary).",
@@ -1232,6 +1459,23 @@ window.CITIES = [
    "junior": 41000,
    "mid": 54000,
    "senior": 63000
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Local SMEs, ERP and .NET shops and defence-related firms hire in German. Semiconductor and international software employers such as Keysight, SAP and Huawei work in English.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "englishjobs.de, developer jobs in Dresden",
+     "url": "https://englishjobs.de/in/dresden/developer"
+    },
+    {
+     "label": "StepStone, Softwareentwickler Dresden",
+     "url": "https://www.stepstone.de/jobs/softwareentwickler/in-dresden"
+    }
+   ]
   }
  },
  {
@@ -1272,7 +1516,6 @@ window.CITIES = [
    "senior": 2391
   },
   "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. There is no separate payroll health premium. Net is annual net divided by 12;",
-  "language": "Yes, English is the working language.",
   "notes": [
    "Shared room: double room in a house, city centre, 1,002 EUR a month (Daft Q1 2026). Daft 1-bed apartment average is 2,012 EUR.",
    "Salaries are quoted on 12 payments; there is no 13th month. Bonuses are common at multinationals (10 to 20% of base is a typical blog figure, an estimate).",
@@ -1326,6 +1569,19 @@ window.CITIES = [
    "junior": 45000,
    "mid": 64000,
    "senior": 82000
+  },
+  "language_need": {
+   "first": "English",
+   "second": null,
+   "english_only": "common",
+   "note": "English is the working language everywhere, including the EU headquarters of US tech firms and Irish banks. Other languages (German, French) only matter for multilingual support or sales roles, not for developers.",
+   "confidence": "high",
+   "sources": [
+    {
+     "label": "Built In Dublin software engineer jobs",
+     "url": "https://builtindublin.ie/jobs/dev-engineering/search/software-engineer"
+    }
+   ]
   }
  },
  {
@@ -1366,7 +1622,6 @@ window.CITIES = [
    "senior": 2367
   },
   "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. There is no separate payroll health premium. Net is annual net divided by 12;",
-  "language": "Yes, English is the working language.",
   "notes": [
    "Numbeo blocked for Cork: rent, everyday costs and the 55k mid salary are estimates. Shared room: double room in a house, Cork City, 757 EUR (Daft Q1 2026).",
    "Salaries are quoted on 12 payments; there is no 13th month. Bonuses are common at multinationals (10 to 20% of base is a typical blog figure, an estimate).",
@@ -1416,6 +1671,19 @@ window.CITIES = [
    "junior": 38000,
    "mid": 55000,
    "senior": 70000
+  },
+  "language_need": {
+   "first": "English",
+   "second": null,
+   "english_only": "common",
+   "note": "Ireland is English-speaking, so developers at Apple, MongoDB and local firms work in English. Irish is not needed for private-sector dev jobs.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Built In Dublin software engineer jobs (Irish market sample, Dublin only)",
+     "url": "https://builtindublin.ie/jobs/dev-engineering/search/software-engineer"
+    }
+   ]
   }
  },
  {
@@ -1456,7 +1724,6 @@ window.CITIES = [
    "senior": 2078
   },
   "tax_regime_note": "Ireland rules: PAYE 20% up to 44,000 and 40% above, credits of 4,000 (personal plus employee), USC 0.5/2/3/8% bands for 2026, PRSI 4.35% from 2026-10-01. Budget 2027 changes (band 46,500, USC 2% band 30,300) are not applied. There is no separate payroll health premium. Net is annual net divided by 12;",
-  "language": "Yes, English is the working language.",
   "notes": [
    "Numbeo blocked for Galway: rent, everyday costs and the 50k mid salary are estimates. Shared room: double room in a house, Galway City, 773 EUR (Daft Q1 2026).",
    "Salaries are quoted on 12 payments; there is no 13th month. Bonuses are common at multinationals (10 to 20% of base is a typical blog figure, an estimate).",
@@ -1506,6 +1773,19 @@ window.CITIES = [
    "junior": 36000,
    "mid": 50000,
    "senior": 62000
+  },
+  "language_need": {
+   "first": "English",
+   "second": null,
+   "english_only": "common",
+   "note": "English is the working language at the medical-device and software employers (Medtronic, Cisco, Genesys) and at local firms. Irish is not needed for dev jobs.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Built In Dublin software engineer jobs (Irish market sample, Dublin only)",
+     "url": "https://builtindublin.ie/jobs/dev-engineering/search/software-engineer"
+    }
+   ]
   }
  },
  {
@@ -1546,7 +1826,6 @@ window.CITIES = [
    "senior": 1898
   },
   "tax_regime_note": "Latvia 2026 rules: employee social contributions of 10.5%, a fixed tax-free allowance of EUR 550 a month, then income tax of 25.5% on annual taxable income up to EUR 105,300 and 33% above it. Net is the yearly total after these, divided by 12, with the bonus included. No separate health insurance premium is deducted. The pay figures are base pay before bonus, 12 payments a year.",
-  "language": "English is workable at international and fintech employers in Riga, but several local employers post ads in Latvian only.",
   "notes": [
    "Posted pay in Riga full-stack ads: from EUR 2,000 gross a month at a business-software firm, from EUR 3,500 for a senior role at a software firm, and EUR 4,000 to 4,500 at a waste and energy group. Latvia's statistics office reports an average of EUR 3,497 gross a month in computer programming and consulting for the second quarter of 2026, covering every role in that sector. The three levels used here are EUR 2,100, 3,200 and 4,300 a month; the junior level rests on one ad and the sector average, so it is thin.",
    "Bonus rates are estimates (no survey of bonuses in this market was found); the net figure spreads the bonus over 12 months. One of the ads mentions result-based bonuses but gives no size.",
@@ -1596,6 +1875,23 @@ window.CITIES = [
    "junior": 25200,
    "mid": 38400,
    "senior": 51600
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Latvian",
+   "english_only": "common",
+   "note": "Private-sector IT, outsourcing and international firms work in English. Latvian is mainly needed for public-sector, public-contact and some local-company roles.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "iagora English-speaker jobs in Riga",
+     "url": "https://www.iagora.com/work/en/jobs-and-internships/for-english-speakers/latvia/riga"
+    },
+    {
+     "label": "EU Legal Gateway Latvia ICT report (Q1 2025)",
+     "url": "https://www.eulegalgateway.com/countries/latvia"
+    }
+   ]
   }
  },
  {
@@ -1636,7 +1932,6 @@ window.CITIES = [
    "senior": 2216
   },
   "tax_regime_note": "Lithuania 2026 rules: income tax of 20% on annual income up to EUR 83,237.40, 25% up to EUR 138,729 and 32% above; a tax-free amount of EUR 747 a month that shrinks by 49 cents for each euro earned above the EUR 1,153 minimum wage and is gone at about EUR 2,678 a month; employee contributions of 12.52% (social insurance) plus 6.98% (health insurance) on gross pay. Net is the yearly total after these, divided by 12, with the bonus spread evenly over the months. Optional second-pillar pension saving is not deducted. The pay figures are base pay before bonus, 12 payments a year.",
-  "language": "English is workable at product and outsourcing firms in Vilnius, and several ads are written in English, but many local employers advertise in Lithuanian.",
   "notes": [
    "Posted gross pay in Vilnius ads: EUR 3,000 to 4,000 for a full-stack developer at an industrial company, EUR 4,200 to 5,800 for a senior full-stack .NET role, and EUR 4,500 to 6,500 for a mid or senior Java full-stack role. Several other ads quote pay after tax instead and were left out. Some of the ads had passed their closing date when read, so the dates vary. Junior pay (EUR 2,600 a month) is not backed by a Vilnius ad; it is set a little above the Kaunas junior ad.",
    "Bonus rates are estimates (no survey of bonuses in this market was found); the net figure spreads the bonus over 12 months.",
@@ -1686,6 +1981,19 @@ window.CITIES = [
    "junior": 31200,
    "mid": 46800,
    "senior": 63600
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Lithuanian",
+   "english_only": "common",
+   "note": "International employers and fintech or tech scale-ups run meetings, docs and chat in English. Lithuanian matters mostly for local companies, public bodies and roles that talk to Lithuanian authorities or customers.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Work in Lithuania: English-speaking jobs",
+     "url": "https://workinlithuania.com/blog/english-speaking-jobs/"
+    }
+   ]
   }
  },
  {
@@ -1726,7 +2034,6 @@ window.CITIES = [
    "senior": 2021
   },
   "tax_regime_note": "Lithuania 2026 rules: income tax of 20% on annual income up to EUR 83,237.40, 25% up to EUR 138,729 and 32% above; a tax-free amount of EUR 747 a month that shrinks by 49 cents for each euro earned above the EUR 1,153 minimum wage and is gone at about EUR 2,678 a month; employee contributions of 12.52% (social insurance) plus 6.98% (health insurance) on gross pay. Net is the yearly total after these, divided by 12, with the bonus spread evenly over the months. Optional second-pillar pension saving is not deducted. The pay figures are base pay before bonus, 12 payments a year.",
-  "language": "English is workable at the larger Kaunas product and industrial software employers, where some ads are in English, but many local ads are in Lithuanian.",
   "notes": [
    "Posted gross pay in Kaunas ads is thin: EUR 2,300 to 2,700 for a junior software engineer at an ad-tech firm, and EUR 2,000 to 3,500 for a full-stack developer at an industrial company, which also offers yearly bonuses and a 13th salary. The mid and senior levels (EUR 3,500 and 4,800) are the Vilnius levels scaled down by about 10% as a rough allowance for Kaunas's lower pay and rent, so treat them as estimates.",
    "Bonus rates are estimates (no survey of bonuses in this market was found); the net figure spreads the bonus over 12 months.",
@@ -1772,6 +2079,23 @@ window.CITIES = [
    "junior": 28800,
    "mid": 42000,
    "senior": 57600
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Lithuanian",
+   "english_only": "common",
+   "note": "Product and outsourcing companies in the IT sector use English at work. Local firms and public employers can still ask for Lithuanian.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "iagora English-speaker jobs in Kaunas",
+     "url": "https://www.iagora.com/work/en/jobs-and-internships/for-english-speakers/lithuania/kaunas"
+    },
+    {
+     "label": "Work in Lithuania: English-speaking jobs",
+     "url": "https://workinlithuania.com/blog/english-speaking-jobs/"
+    }
+   ]
   }
  },
  {
@@ -1812,7 +2136,6 @@ window.CITIES = [
    "senior": 4056
   },
   "tax_regime_note": "Iceland 2026 rules at the ECB rate of ISK 136.80 per EUR: the employee pays 4% into a mandatory pension fund, treated as deductible from taxable income. Income tax is 31.49% on monthly income up to ISK 498,122, 37.99% up to ISK 1,398,450 and 46.29% above (these rates include the average municipal tax of 14.94%; Reykjavik's own rate may differ slightly), minus a personal tax credit of ISK 72,492 a month. Net is the yearly total after these, divided by 12, with the bonus included. Union dues and optional extra pension saving are not deducted. No separate health insurance premium is deducted.",
-  "language": "English is widely workable in Reykjavik tech companies, though ads at local firms are often in Icelandic.",
   "notes": [
    "Pay is anchored on Statistics Iceland's 2025 earnings for computing professionals (full-time, about 1,100 people): basic monthly pay of ISK 945,000 at the lower quartile, 1,138,000 at the median and 1,341,000 at the upper quartile. The wage index was up 5.6% over the 12 months to September 2026, so mid and senior levels (ISK 1.2 million and 1.42 million a month) are the median and upper quartile moved up by about 6%. The junior level (ISK 960,000) is a judgement and is thin: it sits close to the lower quartile. The statistics cover all ages and experience levels, so they are only a guide to each level.",
    "Cross-check: Levels.fyi lists a median total pay of ISK 11.9 million a year from only 11 reports, lower than the official figures. Icelandic job ads rarely state pay, so no posted range was found.",
@@ -1867,6 +2190,27 @@ window.CITIES = [
    "junior": 84211,
    "mid": 105263,
    "senior": 124561
+  },
+  "language_need": {
+   "first": "Icelandic",
+   "second": "English",
+   "english_only": "some",
+   "note": "International tech firms and some companies with foreign staff work in English. Government, health, education and local Icelandic employers usually need Icelandic.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Guide to Iceland: finding a job",
+     "url": "https://guidetoiceland.is/history-culture/how-to-find-a-job-in-iceland"
+    },
+    {
+     "label": "Tvinna software engineer ad",
+     "url": "https://www.tvinna.is/jobs/software-engineer-iceland/"
+    },
+    {
+     "label": "Levels.fyi software jobs in Iceland",
+     "url": "https://www.levels.fyi/jobs/title/software-engineer/location/iceland"
+    }
+   ]
   }
  },
  {
@@ -1907,7 +2251,6 @@ window.CITIES = [
    "senior": 6327
   },
   "tax_regime_note": "Liechtenstein 2026 rules for a single resident of Vaduz, converted at the ECB rate of CHF 0.9234 per EUR: employee contributions of 4.9% (pension, disability, family fund) plus 0.5% unemployment insurance; a pension-fund contribution of 4.5% (junior, mid) or 4.95% (senior) of the insured wage, taken from one published fund plan; then state income tax on the tariff in the tax act, plus Vaduz's municipal surcharge of 150% of the state tax, after deductions for these contributions, a CHF 1,600 work-cost allowance and health premiums up to CHF 3,700. Net is the yearly total divided by 12, with the bonus included. Health insurance is mandatory and private, and shown separately: the standard premium (CHF 427.13 a month on average) minus the CHF 180.50 the employer must pay towards it, CHF 246.63 in total. Commuting costs and accident insurance charged separately by some employers are not modelled.",
-  "language": "English is workable at the larger Liechtenstein employers, but German is the working language of most local firms.",
   "notes": [
    "Pay is thin: no official software pay figure exists for Liechtenstein. The whole-economy median is CHF 7,401 gross a month in 2024 (13 payments), against CHF 7,024 in Switzerland. The figures here (CHF 72,000, 92,000 and 114,000 a year) follow software pay in nearby St. Gallen, where the IT mid-level average is CHF 91,259 and the senior average CHF 114,433, and are estimates for Liechtenstein. One website quotes CHF 10,180 a month for software roles, but that comes from Swiss salary databases and is not an official number.",
    "A 13th monthly salary is the norm in Liechtenstein, and the yearly figures include it (so CHF 92,000 is 13 payments of about CHF 7,077).",
@@ -1962,6 +2305,23 @@ window.CITIES = [
    "junior": 77973,
    "mid": 99632,
    "senior": 123457
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "German is the local working language, and ads from local banks and manufacturers (LGT, LLB, Bank Frick, Hilti, Ivoclar) usually assume German. A real minority, mostly international companies, consultancies and contractors, write ads in English or accept English alone.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "LinkedIn developer jobs in Liechtenstein",
+     "url": "https://li.linkedin.com/jobs/software-developer-stellen"
+    },
+    {
+     "label": "Bank Frick Senior Application Developer ad",
+     "url": "https://freehire.me/jobs/senior-application-developer-80-100-m-w-d-bankfrick-5z2myyye"
+    }
+   ]
   }
  },
  {
@@ -2002,7 +2362,6 @@ window.CITIES = [
    "senior": 4505
   },
   "tax_regime_note": "Cross-border living: the pay is a Liechtenstein salary paid in francs (converted at CHF 0.9234 per EUR) to someone who lives in Feldkirch, Austria. Austria taxes the wage because the worker lives there; Liechtenstein withholds at most 4% at source, and Austria credits that 4% against its own tax. Austrian tax is much higher than 4%, so the 4% is fully credited and the Austrian 2026 tariff (0% to EUR 13,539, then 20%, 30%, 40%, 48%, 50%) decides the result, less the EUR 496 commuter tax credit. Before that tariff, the Liechtenstein pension, disability, family and unemployment contributions (5.4%) and the pension-fund contribution (4.5% or 4.95%) are deducted. Net is the yearly total divided by 12, with the bonus included. The 13th salary is taxed as ordinary pay in this calculation (an assumption; Austria may tax part of it at a lower rate). Health insurance is shown separately: the Liechtenstein basic cover, CHF 246.63 a month after the employer's CHF 180.50 share.",
-  "language": "Daily life in Feldkirch is in German; at work, English is workable only at the larger Liechtenstein employers.",
   "notes": [
    "Tax treatment: wages of an Austrian resident working in Liechtenstein are taxed in Austria, with a 4% Liechtenstein withholding credited in the Austrian tax return. The worker files an Austrian income tax return every year and enters the Liechtenstein income and the tax withheld there.",
    "Cross-border status has limits: a worker who cannot return home on most working days (more than 45 days a year without returning) can lose it, and Liechtenstein can then tax the wage at its normal progressive rates, with Austria crediting only 4%. Since July 2023, working from home can be at most 49.99% of working time. Both rules are from a cross-border advice site.",
@@ -2057,6 +2416,23 @@ window.CITIES = [
    "junior": 77973,
    "mid": 99632,
    "senior": 123457
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Work country is Liechtenstein, so the same applies: German for local banks and manufacturers, English alone only at some international firms and contractors. A real minority, mostly international companies, consultancies and contractors, write ads in English or accept English alone.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "LinkedIn developer jobs in Liechtenstein",
+     "url": "https://li.linkedin.com/jobs/software-developer-stellen"
+    },
+    {
+     "label": "Bank Frick Senior Application Developer ad",
+     "url": "https://freehire.me/jobs/senior-application-developer-80-100-m-w-d-bankfrick-5z2myyye"
+    }
+   ]
   }
  },
  {
@@ -2097,7 +2473,6 @@ window.CITIES = [
    "senior": 5864
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
-  "language": "Many Zurich tech teams work in English, but German helps for local employers.",
   "notes": [
    "A cheaper commuter town: Winterthur has 1.5-2 room asking rents around CHF 1,350-1,360 but needs a 4 zone ZVV pass (CHF 171), so it saves about CHF 300 a month. Zone count not confirmed on the zone map.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
@@ -2150,6 +2525,27 @@ window.CITIES = [
    "junior": 99636,
    "mid": 124545,
    "senior": 140790
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "common",
+   "note": "Google, Apple and other international tech firms, banks' tech teams and scale-ups work in English and hire engineers without German. German is expected at Swiss SMEs, consultancies, public bodies and for client contact or team lead roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Upreer: Zurich software engineer salary and language FAQ",
+     "url": "https://www.upreer.ch/en/salaries/software-engineer-salary-zurich/"
+    },
+    {
+     "label": "JobLabrador: English-speaking jobs in Zurich",
+     "url": "https://joblabrador.com/jobs/english-speaking/zurich"
+    },
+    {
+     "label": "SwissDevJobs Zurich",
+     "url": "https://swissdevjobs.ch/jobs/all/Zurich"
+    }
+   ]
   }
  },
  {
@@ -2190,7 +2586,6 @@ window.CITIES = [
    "senior": 5683
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
-  "language": "Sources suggest infrastructure and international teams around Zurich and Zug often work in English; German helps elsewhere.",
   "notes": [
    "Zug has the lowest Swiss health premium in 2027 (average adult CHF 324.90) and lower income tax, which is why net pay is the highest. Rent is also the highest.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
@@ -2239,6 +2634,27 @@ window.CITIES = [
    "junior": 92055,
    "mid": 113715,
    "senior": 135375
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Multinationals, commodity traders, crypto and fintech firms work in English; local SMEs, cantonal bodies and many software houses expect German (B2).",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Upreer: working in Zug",
+     "url": "https://www.upreer.ch/en/guides/working-in-zug/"
+    },
+    {
+     "label": "SwissDevJobs Zug",
+     "url": "https://swissdevjobs.ch/jobs/all/Zug"
+    },
+    {
+     "label": "englishjobsearch.ch Zug software",
+     "url": "https://englishjobsearch.ch/in/zug/software"
+    }
+   ]
   }
  },
  {
@@ -2279,7 +2695,6 @@ window.CITIES = [
    "senior": 4768
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
-  "language": "Basel pharma and life science often hire in English; local firms and banks may want German.",
   "notes": [
    "Shared room price is the middle of the typical CHF 700-950 range on wgzimmer.ch.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
@@ -2332,6 +2747,27 @@ window.CITIES = [
    "junior": 88806,
    "mid": 111008,
    "senior": 124545
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "some",
+   "note": "Roche, Novartis, Lonza and other pharma and biotech teams run international engineering groups in English, especially data, AI and cloud. Local banks, SMEs and the university work in German, and German B2 to C1 is effectively needed for team lead roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Upreer: Basel software engineer salary and language",
+     "url": "https://www.upreer.ch/en/salaries/software-engineer-salary-basel/"
+    },
+    {
+     "label": "SwissDevJobs Basel",
+     "url": "https://swissdevjobs.ch/jobs/all/Basel"
+    },
+    {
+     "label": "englishjobsearch.ch Basel software",
+     "url": "https://englishjobsearch.ch/in/basel/software"
+    }
+   ]
   }
  },
  {
@@ -2372,7 +2808,6 @@ window.CITIES = [
    "senior": 4734
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
-  "language": "Public sector and many local firms work in German; English is enough only at some international employers.",
   "notes": [
    "Bern has the lowest rents of the big Swiss cities in the Numbeo data.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
@@ -2421,6 +2856,27 @@ window.CITIES = [
    "junior": 88806,
    "mid": 113715,
    "senior": 124545
+  },
+  "language_need": {
+   "first": "German",
+   "second": "English",
+   "english_only": "rare",
+   "note": "The federal administration, Swiss Post, Swisscom and IT consultancies work in German (B2 to C1), and many federal roles also want French. English alone works only at a few international firms and academic or multilateral roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Upreer: working in Bern",
+     "url": "https://www.upreer.ch/en/guides/working-in-bern/"
+    },
+    {
+     "label": "SwissDevJobs Bern",
+     "url": "https://swissdevjobs.ch/jobs/all/Bern"
+    },
+    {
+     "label": "englishjobsearch.ch developer jobs by city",
+     "url": "https://englishjobsearch.ch/jobs/developer"
+    }
+   ]
   }
  },
  {
@@ -2461,7 +2917,6 @@ window.CITIES = [
    "senior": 4163
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
-  "language": "French is the working language for most employers; English works at some international and EPFL-related teams.",
   "notes": [
    "No SwissDevJobs ad for Lausanne was labelled senior, so the senior figure is scaled from national data.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
@@ -2510,6 +2965,27 @@ window.CITIES = [
    "junior": 86640,
    "mid": 105592,
    "senior": 119130
+  },
+  "language_need": {
+   "first": "French",
+   "second": "English",
+   "english_only": "common",
+   "note": "EPFL, EPFL-spinout startups and scale-ups such as Nexthink work in English, and ads often say French is an asset only. French is needed for client-facing roles, local SMEs, the public sector and team lead roles at Swiss-headquartered firms.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "EPFL careers: Software Engineer ad",
+     "url": "https://careers.epfl.ch/job/Lausanne-Software-Engineer-Keystone-Project-(Machine-Verified-LLM-Inference)/1165508255/"
+    },
+    {
+     "label": "Upreer: Lausanne software engineer salary and language",
+     "url": "https://www.upreer.ch/en/salaries/software-engineer-salary-lausanne/"
+    },
+    {
+     "label": "englishjobsearch.ch Lausanne software",
+     "url": "https://englishjobsearch.ch/in/lausanne/software"
+    }
+   ]
   }
  },
  {
@@ -2550,7 +3026,6 @@ window.CITIES = [
    "senior": 4505
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
-  "language": "French is the working language for most employers; English is common in banking, international organisations and some tech teams.",
   "notes": [
    "Geneva has the second highest Swiss health premium in 2027 (average adult CHF 610.60).",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
@@ -2599,6 +3074,27 @@ window.CITIES = [
    "junior": 84474,
    "mid": 105592,
    "senior": 127794
+  },
+  "language_need": {
+   "first": "French",
+   "second": "English",
+   "english_only": "common",
+   "note": "CERN, UN bodies, private banks such as Lombard Odier, trading houses and multinationals work in English. French is expected for local clients, local SMEs, French-speaking banks and the public sector, and for daily life.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Upreer: Geneva software engineer salary and language",
+     "url": "https://www.upreer.ch/en/salaries/software-engineer-salary-geneva/"
+    },
+    {
+     "label": "careerkit.me English-speaking jobs in Geneva",
+     "url": "https://www.careerkit.me/jobs/ch/english/geneva"
+    },
+    {
+     "label": "englishjobsearch.ch Geneva software",
+     "url": "https://englishjobsearch.ch/in/geneva/software"
+    }
+   ]
   }
  },
  {
@@ -2639,7 +3135,6 @@ window.CITIES = [
    "senior": 3503
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, after AHV/ALV, accident cover, pension (BVG) and income tax, for a single person in the canton capital, 2026 rates. Anchored on expatriation.io (CHF 100k gross) and scaled by an assumed marginal take-home. Health insurance is paid separately and shown in the health insurance row.",
-  "language": "Italian is the working language; English helps in a few tech firms, but the job market is small (one ad found).",
   "notes": [
    "Lugano net pay is an estimate with no tax anchor: Ticino is not covered by the expatriation.io tool, so 70% take-home was assumed on pay above CHF 100k.",
    "EU citizens normally get an L permit for contracts under a year and a B permit for a year or more, and register with the commune within 14 days.",
@@ -2688,6 +3183,23 @@ window.CITIES = [
    "junior": 71478,
    "mid": 86640,
    "senior": 102885
+  },
+  "language_need": {
+   "first": "Italian",
+   "second": "English",
+   "english_only": "some",
+   "note": "Local software houses, consultancies and banks with Italian-speaking clients usually want Italian and English; crypto, fintech and remote-first firms such as Tether can work in English alone.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "SwissDevJobs Lugano",
+     "url": "https://swissdevjobs.ch/jobs/all/Lugano"
+    },
+    {
+     "label": "englishjobsearch.ch Lugano software",
+     "url": "https://englishjobsearch.ch/in/lugano/software"
+    }
+   ]
   }
  },
  {
@@ -2728,7 +3240,6 @@ window.CITIES = [
    "senior": 2813
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. Other calculators differ by about 2%.",
-  "language": "English and French are widely used in Luxembourg tech; Luxembourgish is not needed.",
   "notes": [
    "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
    "Public transport inside Luxembourg is free in 2nd class. Only the French, Belgian or German leg of a cross-border trip is paid.",
@@ -2782,6 +3293,27 @@ window.CITIES = [
    "junior": 55000,
    "mid": 76000,
    "senior": 96000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "French",
+   "english_only": "common",
+   "note": "English is the usual working language in IT, finance and research, so international firms, banks and scale-ups hire developers who speak English alone. French is asked for in a sizeable minority of ads, mainly client-facing, local and public-sector roles; German helps for cross-border work and Luxembourgish is rarely needed.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "talent.com Luxembourg software engineer ads",
+     "url": "https://lu.talent.com/en/jobs/k-software-engineer-l-luxembourg"
+    },
+    {
+     "label": "All Eyes On Me: working in Luxembourg without French",
+     "url": "https://media.alleyesonme.jobs/en/article-titles/myth-or-reality-is-it-impossible-to-work-in-luxembourg-without-french"
+    },
+    {
+     "label": "Frontaliers Grand Est: which language for which sector",
+     "url": "https://frontaliers-grandest.eu/de/startseite/fremdsprachen-lernen/der-sprachengebrauch-in-unternehmen/in-luxemburg/der-sprachengebrauch-in-unternehmen-in-luxemburg/welche-sprache-fur-welche-branche/"
+    }
+   ]
   }
  },
  {
@@ -2822,7 +3354,6 @@ window.CITIES = [
    "senior": 3913
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
-  "language": "Work language in Luxembourg is mostly English or French; French is the local language in Thionville.",
   "notes": [
    "Rent is a studio-to-T2 asking range including charges, from a property investment blog; local asking data was blocked.",
    "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
@@ -2874,6 +3405,27 @@ window.CITIES = [
    "junior": 55000,
    "mid": 76000,
    "senior": 96000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "French",
+   "english_only": "common",
+   "note": "Work country is Luxembourg. Living in French-speaking Thionville already gives you the French that local and client-facing roles ask for. English is the usual working language in IT, finance and research, so international firms, banks and scale-ups hire developers who speak English alone. French is asked for in a sizeable minority of ads, mainly client-facing, local and public-sector roles; German helps for cross-border work and Luxembourgish is rarely needed.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "talent.com Luxembourg software engineer ads",
+     "url": "https://lu.talent.com/en/jobs/k-software-engineer-l-luxembourg"
+    },
+    {
+     "label": "All Eyes On Me: working in Luxembourg without French",
+     "url": "https://media.alleyesonme.jobs/en/article-titles/myth-or-reality-is-it-impossible-to-work-in-luxembourg-without-french"
+    },
+    {
+     "label": "Frontaliers Grand Est: which language for which sector",
+     "url": "https://frontaliers-grandest.eu/de/startseite/fremdsprachen-lernen/der-sprachengebrauch-in-unternehmen/in-luxemburg/der-sprachengebrauch-in-unternehmen-in-luxemburg/welche-sprache-fur-welche-branche/"
+    }
+   ]
   }
  },
  {
@@ -2914,7 +3466,6 @@ window.CITIES = [
    "senior": 3748
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
-  "language": "Work language in Luxembourg is mostly English or French; French is the local language in Arlon.",
   "notes": [
    "The rent is one agency's estimate with no date; the centre rent of EUR 900 is an adjustment.",
    "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
@@ -2966,6 +3517,27 @@ window.CITIES = [
    "junior": 55000,
    "mid": 76000,
    "senior": 96000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "French",
+   "english_only": "common",
+   "note": "Work country is Luxembourg. Living in French-speaking Arlon already gives you the French that local and client-facing roles ask for. English is the usual working language in IT, finance and research, so international firms, banks and scale-ups hire developers who speak English alone. French is asked for in a sizeable minority of ads, mainly client-facing, local and public-sector roles; German helps for cross-border work and Luxembourgish is rarely needed.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "talent.com Luxembourg software engineer ads",
+     "url": "https://lu.talent.com/en/jobs/k-software-engineer-l-luxembourg"
+    },
+    {
+     "label": "All Eyes On Me: working in Luxembourg without French",
+     "url": "https://media.alleyesonme.jobs/en/article-titles/myth-or-reality-is-it-impossible-to-work-in-luxembourg-without-french"
+    },
+    {
+     "label": "Frontaliers Grand Est: which language for which sector",
+     "url": "https://frontaliers-grandest.eu/de/startseite/fremdsprachen-lernen/der-sprachengebrauch-in-unternehmen/in-luxemburg/der-sprachengebrauch-in-unternehmen-in-luxemburg/welche-sprache-fur-welche-branche/"
+    }
+   ]
   }
  },
  {
@@ -3006,7 +3578,6 @@ window.CITIES = [
    "senior": 3976
   },
   "tax_regime_note": "Net is per month, annual net divided by 12, class 1 (single), 2026 scale, including social contributions (pension, health, long-term care), interpolated from expatriation.io. There is no separate health premium. Other calculators differ by about 2%. Cross-border living: net assumes the Luxembourg class-1 tax of a resident. Tax treaties for residents of France, Belgium and Germany, and telework day limits, were not checked, so real net may differ. Other costs are an assumed 85% of Luxembourg levels.",
-  "language": "Work language in Luxembourg is mostly English or French; German is the local language in Trier.",
   "notes": [
    "Rent is the cold rent for a 45 m2 flat at the 2026 asking price per m2 (calculated here); the centre rent of EUR 700 is an adjustment.",
    "Luxembourg has no statutory 13th month or year-end bonus; it applies only if the contract, a collective agreement or company practice provides it. Gross figures are treated as 12 payments plus a bonus of 5% (junior), 8% (mid) or 10% (senior), which may also stand for a 13th month. Both are estimates.",
@@ -3058,6 +3629,27 @@ window.CITIES = [
    "junior": 55000,
    "mid": 76000,
    "senior": 96000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "French",
+   "english_only": "common",
+   "note": "Work country is Luxembourg. German from Trier is a plus for cross-border roles, but English and French carry most IT ads. English is the usual working language in IT, finance and research, so international firms, banks and scale-ups hire developers who speak English alone. French is asked for in a sizeable minority of ads, mainly client-facing, local and public-sector roles; German helps for cross-border work and Luxembourgish is rarely needed.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "talent.com Luxembourg software engineer ads",
+     "url": "https://lu.talent.com/en/jobs/k-software-engineer-l-luxembourg"
+    },
+    {
+     "label": "All Eyes On Me: working in Luxembourg without French",
+     "url": "https://media.alleyesonme.jobs/en/article-titles/myth-or-reality-is-it-impossible-to-work-in-luxembourg-without-french"
+    },
+    {
+     "label": "Frontaliers Grand Est: which language for which sector",
+     "url": "https://frontaliers-grandest.eu/de/startseite/fremdsprachen-lernen/der-sprachengebrauch-in-unternehmen/in-luxemburg/der-sprachengebrauch-in-unternehmen-in-luxemburg/welche-sprache-fur-welche-branche/"
+    }
+   ]
   }
  },
  {
@@ -3098,7 +3690,6 @@ window.CITIES = [
    "senior": 3489
   },
   "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior (DKK 46000) and mid (DKK 60,000) salaries are below the limit, so no scheme. A senior at DKK 68,000 a month would qualify; estimated net would be about 6615 EUR a month against 6108 without it.",
-  "language": "Yes for tech: English is the working language at many Copenhagen employers, and a job board lists 231 English-only software roles (mostly Copenhagen); Danish still helps socially.",
   "notes": [
    "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
    "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
@@ -3146,6 +3737,27 @@ window.CITIES = [
    "junior": 74562,
    "mid": 97232,
    "senior": 110172
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Danish",
+   "english_only": "common",
+   "note": "Danish startups, game studios, scale-ups and international firms work in English. Danish is still needed for customer-facing roles, public sector and some local SMEs and agencies.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Jobs in English: software jobs in Copenhagen",
+     "url": "https://jobsinenglish.dk/software-development-jobs-in-kobenhavn/"
+    },
+    {
+     "label": "Nordic Tech Jobs Denmark",
+     "url": "https://nordictechjobs.com/denmark"
+    },
+    {
+     "label": "The Local Denmark: jobs with no Danish",
+     "url": "https://www.thelocal.dk/20250317/what-jobs-can-you-do-in-denmark-with-no-danish-at-all"
+    }
+   ]
   }
  },
  {
@@ -3186,7 +3798,6 @@ window.CITIES = [
    "senior": 3715
   },
   "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
-  "language": "Mostly yes at large software firms, but no English-only listings for Aarhus was found, so check each employer; evidence is thin.",
   "notes": [
    "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
    "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
@@ -3234,6 +3845,23 @@ window.CITIES = [
    "junior": 70089,
    "mid": 91398,
    "senior": 103562
+  },
+  "language_need": {
+   "first": "Danish",
+   "second": "English",
+   "english_only": "some",
+   "note": "Larger tech firms, startups and international teams work in English. Smaller local IT consultancies and SMEs often hire in Danish.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Jobs in English: software jobs in Aarhus",
+     "url": "https://jobsinenglish.dk/software-development-jobs-in-aarhus/"
+    },
+    {
+     "label": "Nordic Tech Jobs Denmark",
+     "url": "https://nordictechjobs.com/denmark"
+    }
+   ]
   }
  },
  {
@@ -3274,7 +3902,6 @@ window.CITIES = [
    "senior": 3713
   },
   "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
-  "language": "Probably at robotics and international firms, but no English-only listings for Odense was found; evidence is thin.",
   "notes": [
    "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
    "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
@@ -3322,6 +3949,19 @@ window.CITIES = [
    "junior": 67106,
    "mid": 87509,
    "senior": 99154
+  },
+  "language_need": {
+   "first": "Danish",
+   "second": "English",
+   "english_only": "some",
+   "note": "A few product and robotics-style employers work in English. Most local firms, agencies and public employers use Danish.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Jobs in English: software jobs in Odense",
+     "url": "https://jobsinenglish.dk/software-development-jobs-in-odense/"
+    }
+   ]
   }
  },
  {
@@ -3362,7 +4002,6 @@ window.CITIES = [
    "senior": 3656
   },
   "tax_regime_note": "Denmark has a flat 27 percent tax scheme for foreign key employees (effective 32.84 percent with the 8 percent labour market contribution). It needs a guaranteed salary of at least DKK 65,400 a month in 2026 and DKK 67,300 in 2027, no Danish tax residence in the previous 10 years, and lasts up to 7 years. The typical junior, mid and senior salaries used here are below DKK 67,300 a month, so the scheme is not applied.",
-  "language": "Partly: a job board shows 5 Aalborg listings that need no Danish, but they are mostly student or intern roles, so evidence for full-time roles is thin.",
   "notes": [
    "Salaries are monthly base pay excluding employer pension. Employer pension is not cash; it is about 12 percent of developer earnings in Danish statistics.",
    "Monthly-salaried staff get normal pay during holiday plus a 1 percent holiday supplement paid in May and August; the 12.5 percent feriepenge is for hourly staff.",
@@ -3410,6 +4049,19 @@ window.CITIES = [
    "junior": 67106,
    "mid": 87509,
    "senior": 99154
+  },
+  "language_need": {
+   "first": "Danish",
+   "second": "English",
+   "english_only": "some",
+   "note": "A handful of firms hire in English. Most local employers, consultancies and public bodies use Danish.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Jobs in English: software jobs in Aalborg",
+     "url": "https://jobsinenglish.dk/software-development-jobs-in-aalborg/"
+    }
+   ]
   }
  },
  {
@@ -3450,7 +4102,6 @@ window.CITIES = [
    "senior": 1704
   },
   "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3870 / 4702 / 5938 EUR a month, giving surplus 712 / 1545 / 2780. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
-  "language": "Likely yes for tech, since general guides say international employers work in English, but no city-specific check was found; some Dutch-market ads ask for fluent Dutch.",
   "notes": [
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
    "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
@@ -3506,6 +4157,27 @@ window.CITIES = [
    "junior": 50650,
    "mid": 61467,
    "senior": 81871
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Dutch",
+   "english_only": "common",
+   "note": "Product companies, scale-ups and multinationals work in English, and many young firms treat it as the main language. Dutch (B1 or B2) is asked for at public-sector bodies, healthcare tech, domestic banks and Dutch IT consultancies, mostly for client-facing roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "WeAreDevelopers: developer job in Amsterdam",
+     "url": "https://www.wearedevelopers.com/magazine/36/how-to-land-a-developer-job-in-amsterdam"
+    },
+    {
+     "label": "Strooptaal: tech jobs in the Netherlands 2026",
+     "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+    },
+    {
+     "label": "Welkom NL: English-speaking jobs in the Netherlands",
+     "url": "https://welkomnl.com/blog/english-speaking-jobs-netherlands-2026"
+    }
+   ]
   }
  },
  {
@@ -3546,7 +4218,6 @@ window.CITIES = [
    "senior": 2166
   },
   "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3744 / 4603 / 5804 EUR a month, giving surplus 1142 / 2001 / 3201. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
-  "language": "Unverified for the city: generic guides say tech roles often need no Dutch, but one Utrecht-area ad required fluent Dutch, so check each ad.",
   "notes": [
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
    "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
@@ -3602,6 +4273,23 @@ window.CITIES = [
    "junior": 49216,
    "mid": 59728,
    "senior": 79554
+  },
+  "language_need": {
+   "first": "Dutch",
+   "second": "English",
+   "english_only": "some",
+   "note": "Utrecht is known for health-tech, IT consultancy and infrastructure firms, where Dutch is often expected for client work. Startups and international teams can work in English alone.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Strooptaal: tech jobs in the Netherlands 2026",
+     "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+    },
+    {
+     "label": "NLNest: no Dutch required software jobs",
+     "url": "https://nlnest.com/en/jobs-in-netherlands/it-technology/software-developer/no-dutch-required"
+    }
+   ]
   }
  },
  {
@@ -3642,7 +4330,6 @@ window.CITIES = [
    "senior": 1942
   },
   "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3619 / 4504 / 5669 EUR a month, giving surplus 886 / 1772 / 2937. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
-  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but no Rotterdam-specific evidence was found, so check each ad.",
   "notes": [
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
    "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
@@ -3698,6 +4385,23 @@ window.CITIES = [
    "junior": 47783,
    "mid": 57988,
    "senior": 77236
+  },
+  "language_need": {
+   "first": "Dutch",
+   "second": "English",
+   "english_only": "some",
+   "note": "Port, logistics, banks and local SMEs use Dutch, while international and startup teams work in English. Guides say tech staff can work entirely in English in Rotterdam.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Strooptaal: tech jobs in the Netherlands 2026",
+     "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+    },
+    {
+     "label": "Welkom NL: English-speaking jobs in the Netherlands",
+     "url": "https://welkomnl.com/blog/english-speaking-jobs-netherlands-2026"
+    }
+   ]
   }
  },
  {
@@ -3738,7 +4442,6 @@ window.CITIES = [
    "senior": 2224
   },
   "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3619 / 4504 / 5669 EUR a month, giving surplus 1168 / 2053 / 3219. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
-  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but no Hague-specific evidence was found, so check each ad.",
   "notes": [
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
    "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
@@ -3794,6 +4497,19 @@ window.CITIES = [
    "junior": 47783,
    "mid": 57988,
    "senior": 77236
+  },
+  "language_need": {
+   "first": "Dutch",
+   "second": "English",
+   "english_only": "some",
+   "note": "The city is centred on government, public-sector digital work and cybersecurity, where Dutch is often required. International organisations and some cyber firms work in English.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Strooptaal: tech jobs in the Netherlands 2026",
+     "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+    }
+   ]
   }
  },
  {
@@ -3834,7 +4550,6 @@ window.CITIES = [
    "senior": 2148
   },
   "tax_regime_note": "From 1 January 2027 the Dutch expat tax-free allowance (the old 30 percent ruling) is 27 percent for new starters. It needs a job offer while living abroad (more than 150 km from the Dutch border for more than 16 of the previous 24 months, so most EU countries qualify), a salary above a norm, and lasts up to 5 years. The 2027 norm is about EUR 50,436 in 2024 prices, or EUR 38,338 for under-30s with a master's degree (2027 indexed amounts not published; an estimate is about EUR 54,100 and EUR 41,100). Estimated net with the allowance, junior / mid / senior: 3493 / 4397 / 5535 EUR a month, giving surplus 1061 / 1964 / 3103. Senior assumes the general norm (over 30); junior and mid assume under 30 with a recognised master's degree; check that the degree is recognised. Net pay and money left shown on this site exclude the allowance.",
-  "language": "Unverified for the city: generic guides say many Dutch tech roles need no Dutch, but no Eindhoven-specific evidence was found, so check each ad.",
   "notes": [
    "Bonus rate is a 13th month or bonus: 5 percent junior (a CAO ICT summary), 8.33 percent mid (one full 13th month), 10 percent senior. A 13th month is not required by law. All estimates.",
    "Holiday pay is at least 8 percent, usually paid in May or June, and is already in the gross figure.",
@@ -3890,6 +4605,27 @@ window.CITIES = [
    "junior": 46350,
    "mid": 56248,
    "senior": 74919
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Dutch",
+   "english_only": "common",
+   "note": "ASML, NXP, Philips and most Brainport firms work in English internally. Smaller local companies may expect Dutch, and many roles are embedded or hardware-oriented rather than web.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Brainport Eindhoven: IT jobs",
+     "url": "https://brainporteindhoven.com/int/work/jobs/jobs-in-it"
+    },
+    {
+     "label": "Welkom NL: English-speaking jobs in the Netherlands",
+     "url": "https://welkomnl.com/blog/english-speaking-jobs-netherlands-2026"
+    },
+    {
+     "label": "Strooptaal: tech jobs in the Netherlands 2026",
+     "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+    }
+   ]
   }
  },
  {
@@ -3930,7 +4666,6 @@ window.CITIES = [
    "senior": 2239
   },
   "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (an explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (an assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
-  "language": "English works at international scale-ups and product firms (France Dev Jobs lists 912 Paris jobs at companies that work in English), but French is expected at consultancies (ESN) and most large French employers.",
   "notes": [
    "Pay is 12 monthly payments. No source making a 13th month standard for developers was found; if an employer offers one it comes on top of the figures here.",
    "Pay sources agree on the shape. Hays 2026 national full stack bands: 40-46k (0 to 3 yrs), 46-52k (3 to 5), 52-58k (5 to 8), 55-68k (8+). TPC 2026 Paris medians including variable pay: 42k (0 to 2 yrs), 50k (3 to 5), 59k (6 to 9). Levels.fyi shows a Paris-area median total pay of 66,990 EUR from 786 salaries across all levels, which leans toward large tech employers.",
@@ -3985,6 +4720,27 @@ window.CITIES = [
    "junior": 41000,
    "mid": 51000,
    "senior": 65000
+  },
+  "language_need": {
+   "first": "French",
+   "second": "English",
+   "english_only": "some",
+   "note": "Most French firms, banks, consultancies and public bodies work in French, and ads are written in French. Startups, scale-ups and international or US-owned companies in Paris often work in English.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "France Dev Jobs",
+     "url": "https://francedevjobs.com/"
+    },
+    {
+     "label": "Wise: finding a job in Paris",
+     "url": "https://wise.com/gb/blog/finding-a-job-in-paris"
+    },
+    {
+     "label": "Built In France front end jobs",
+     "url": "https://builtin.com/jobs/eu/france/dev-engineering/search/front-end?page=2"
+    }
+   ]
   }
  },
  {
@@ -4025,7 +4781,6 @@ window.CITIES = [
    "senior": 2142
   },
   "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (an explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (an assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
-  "language": "Most Lyon developer ads are in French and consultancies (ESN) expect French; the share of English-only jobs was not measured, so any English-only estimate is a guess.",
   "notes": [
    "Pay is 12 monthly payments; no 13th month was found as standard for developers. Bonus rates (2%, 4%, 6%) are estimates; no source gave a developer bonus figure.",
    "Pay evidence: TPC 2026 regional medians including variable pay are 36k (0 to 2 yrs), 42k (3 to 5), 47.5k (6 to 9); Free-Work other cities, fixed plus variable: 36.0k (1 to 2 yrs), 45.9k (3 to 4), 51.9k (5 to 10); Bureau des Talents lists a confirmed Lyon full stack at 42-52k; junior Lyon 35-38k (Fed IT and Licorne Society, via pstb.fr). TPC and Free-Work do not split out Lyon, so they are regional proxies.",
@@ -4080,6 +4835,19 @@ window.CITIES = [
    "junior": 36000,
    "mid": 45000,
    "senior": 55000
+  },
+  "language_need": {
+   "first": "French",
+   "second": "English",
+   "english_only": "some",
+   "note": "Local employers, agencies and consultancies work in French. English alone can work at some international tech and business-services firms, but French matters for client-facing roles.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "France Dev Jobs",
+     "url": "https://francedevjobs.com/"
+    }
+   ]
   }
  },
  {
@@ -4120,7 +4888,6 @@ window.CITIES = [
    "senior": 2131
   },
   "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (an explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (an assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
-  "language": "Most Toulouse developer ads are in French and consultancies expect French; the share of English-only jobs was not measured, so any English-only estimate is a guess.",
   "notes": [
    "Pay is 12 monthly payments; no 13th month was found as standard for developers. Bonus rates (2%, 4%, 6%) are estimates; no source gave a developer bonus figure.",
    "Pay evidence: junior Toulouse 34-38k (Fed IT 2025, via pstb.fr); TPC 2026 regional medians including variable pay 36k, 42k, 47.5k; Free-Work other cities 36.0k, 45.9k, 51.9k. None of these split out Toulouse, so they are regional proxies, and the figures here sit between those proxies and the posted ads.",
@@ -4171,6 +4938,19 @@ window.CITIES = [
    "junior": 35000,
    "mid": 43000,
    "senior": 54000
+  },
+  "language_need": {
+   "first": "French",
+   "second": "English",
+   "english_only": "rare",
+   "note": "Aerospace and defence employers such as Airbus and local IT consultancies mostly ask for French, with English as a second skill. English-only roles are few outside international teams.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "France Dev Jobs",
+     "url": "https://francedevjobs.com/"
+    }
+   ]
   }
  },
  {
@@ -4211,7 +4991,6 @@ window.CITIES = [
    "senior": 1988
   },
   "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (an explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (an assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
-  "language": "Most Nantes developer ads are in French and most posted ads are from consultancies; the share of English-only jobs was not measured, so any English-only estimate is a guess.",
   "notes": [
    "Pay is 12 monthly payments; no 13th month was found as standard for developers. Bonus rates (2%, 4%, 6%) are estimates; no source gave a developer bonus figure.",
    "Pay evidence: junior Nantes 35-38k (Fed IT and Licorne Society, via pstb.fr); Bureau des Talents lists a confirmed on-site Nantes full stack at 44-48k; Indeed's Nantes average is 43,694 EUR from only 8 salaries (via Concerto RH); the TPC regional bands are a proxy, not Nantes-specific.",
@@ -4266,6 +5045,19 @@ window.CITIES = [
    "junior": 35000,
    "mid": 44000,
    "senior": 50000
+  },
+  "language_need": {
+   "first": "French",
+   "second": "English",
+   "english_only": "rare",
+   "note": "Digital agencies, SMEs and local employers work in French. A few international product companies with Nantes offices may use English.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "France Dev Jobs",
+     "url": "https://francedevjobs.com/"
+    }
+   ]
   }
  },
  {
@@ -4306,7 +5098,6 @@ window.CITIES = [
    "senior": 1509
   },
   "tax_regime_note": "France 2026 rules, single employee, no children, cadre contributions. Employee contributions (about 20.6% to 20.9% of gross, checked against the Urssaf mon-entreprise engine, which gave about 0.1% more): CSG and CRDS 9.7% on 98.25% of gross, old-age 6.9% up to the 48,060 EUR ceiling plus 0.4% on all pay, Agirc-Arrco 3.15% up to the ceiling and 8.64% above it, CEG 0.86% and 1.08%, CET 0.14% above the ceiling, APEC 0.024%; no employee unemployment contribution. A rule of thumb of 22 to 23% is often quoted for cadres; the statutory rates above give about 21%, and any remainder would depend on the employer's health and provident plans (an explanation, not checked). Income tax uses the 2026 scale (0, 11, 30, 41, 45% above 11,600, 29,579, 84,577, 181,917), the 10% pay deduction (509 to 14,555), the single-person decote (897 less 45.25% of tax), 1 tax part, and taxes the bonus at the marginal rate (an assumption). That scale applies to 2025 income and is the latest enacted. Net is the yearly pay including the bonus, minus contributions and income tax, divided by 12. Withholding at source only prepays this tax. Health is the employee share of the compulsory company health plan (mutuelle), taken as 30 EUR a month: the DREES average total is 68 EUR with the employer paying at least half, from a 2021 figure. It is not deducted from net. Profit sharing (interessement, participation) and impatriate relief are not in net. Rules read: https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/taux-cotisations-secteur-prive.html , https://www.linc.fr/ressources/cotisations , https://www.service-public.gouv.fr/particuliers/vosdroits/F1419 , https://www.service-public.gouv.fr/particuliers/vosdroits/F1989 , https://oncalcule.com/bareme-impot-2026/ ; contributions checked with https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net .",
-  "language": "Strong for English: Sophia Antipolis has many employers recruiting in English (Arm, Amadeus, Cadence, Ceva and others on englishjobs.fr), while consultancies and local firms expect French.",
   "notes": [
    "Pay is 12 monthly payments; no 13th month was found as standard for developers. Bonus rates (2%, 3%, 5%) are estimates; no source gave a developer bonus figure.",
    "This is the thinnest pay estimate of the five. TPC and Free-Work do not cover Nice or Sophia Antipolis, so the figures come mainly from posted ads and sit below the regional proxies. Most posted ads are from consultancies, and the product and international employers (Arm, Amadeus, Thales, Airbus Defence and Space) did not post pay in the pages read, so pay there may be higher.",
@@ -4361,6 +5152,19 @@ window.CITIES = [
    "junior": 34000,
    "mid": 43000,
    "senior": 48000
+  },
+  "language_need": {
+   "first": "French",
+   "second": "English",
+   "english_only": "some",
+   "note": "Nice and nearby Sophia Antipolis host international tech firms such as Amadeus where English is the working language. Local SMEs and agencies in Nice use French.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "France Dev Jobs",
+     "url": "https://francedevjobs.com/"
+    }
+   ]
   }
  },
  {
@@ -4401,7 +5205,6 @@ window.CITIES = [
    "senior": 1657
   },
   "tax_regime_note": "Income tax is set by the city of residence for 2026: a lower rate on the yearly tax base up to 60,000 EUR and a higher rate above it. Each employee gets a personal allowance of 600 EUR a month, and employee pension contributions are 20% of gross (15% first pillar plus 5% second pillar). The 16.5% health contribution is paid by the employer on top of gross pay, so nothing separate is deducted from the employee. The old city surtax no longer exists, the city rate replaced it. Zagreb rates for 2026 are 23% and 33%. Net is computed for an employee without any youth relief. Employees under 25 get back all income tax paid and those aged 25 to 30 get back half, refunded by the tax office after the year ends; for a junior this would add roughly 8% (age 25 to 30) or 17% (under 25) to net pay.",
-  "language": "Many Zagreb software firms advertise roles in English, so English is workable day to day, while knowing the local language helps with local employers and paperwork.",
   "notes": [
    "Base pay shown is yearly pay before any bonus, twelve monthly payments; there is no statutory 13th salary. Bonus rates are estimates, and pay levels for each city are estimates built from the linked sources. Pay is based on national medians for full stack, frontend and backend roles (junior about 1,800 to 1,900, mid about 2,700 to 2,950, senior about 3,850 to 4,000 EUR a month) with Zagreb treated as the reference city.",
    "Salary evidence is thin: the survey medians have no stated sample size and a few ads or aggregators quote far higher or lower figures, so treat the pay levels as ranges rather than precise figures.",
@@ -4456,6 +5259,19 @@ window.CITIES = [
    "junior": 22800,
    "mid": 34200,
    "senior": 48000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Croatian",
+   "english_only": "common",
+   "note": "Product companies, agencies and multinationals (for example Infobip, Rimac, Photomath) work in English, and Croatian colleagues default to it. Croatian is more likely needed at state-linked or telecom firms and for customer-facing roles with local clients.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Croatia Handbook: do I need Croatian to get a job",
+     "url": "https://croatiahandbook.com/do-i-need-to-speak-croatian-to-get-a-job-in-croatia/"
+    }
+   ]
   }
  },
  {
@@ -4496,7 +5312,6 @@ window.CITIES = [
    "senior": 1417
   },
   "tax_regime_note": "Income tax is set by the city of residence for 2026: a lower rate on the yearly tax base up to 60,000 EUR and a higher rate above it. Each employee gets a personal allowance of 600 EUR a month, and employee pension contributions are 20% of gross (15% first pillar plus 5% second pillar). The 16.5% health contribution is paid by the employer on top of gross pay, so nothing separate is deducted from the employee. The old city surtax no longer exists, the city rate replaced it. Split rates for 2026 are 21.5% and 32%. Net is computed for an employee without any youth relief. Employees under 25 get back all income tax paid and those aged 25 to 30 get back half, refunded by the tax office after the year ends; for a junior this would add roughly 8% (age 25 to 30) or 17% (under 25) to net pay.",
-  "language": "International employers in Split, for example the Split office of Speechify, post their roles in English; the local language is needed mainly for local employers and paperwork.",
   "notes": [
    "Base pay shown is yearly pay before any bonus, twelve monthly payments; there is no statutory 13th salary. Bonus rates are estimates, and pay levels for each city are estimates built from the linked sources. Split pay is assumed to be about 8% below Zagreb, a hypothesis based on one aggregator that puts Split developer pay roughly 14% under Zagreb and on very thin entry-level data; no Split-specific survey was found.",
    "Posted pay is thin: a Split senior engineer ad from a US-based firm lists 30,000 to 65,000 USD a year with bonus and equity on top.",
@@ -4546,6 +5361,23 @@ window.CITIES = [
    "junior": 21000,
    "mid": 31800,
    "senior": 44400
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Croatian",
+   "english_only": "common",
+   "note": "International product and outsourcing teams in Split (for example Endava, Infobip, Speechify) hire in English. Local firms and customer-facing roles may still want Croatian.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Levels.fyi jobs in Split",
+     "url": "https://www.levels.fyi/jobs/location/split-hrv"
+    },
+    {
+     "label": "Croatia Handbook: do I need Croatian to get a job",
+     "url": "https://croatiahandbook.com/do-i-need-to-speak-croatian-to-get-a-job-in-croatia/"
+    }
+   ]
   }
  },
  {
@@ -4586,7 +5418,6 @@ window.CITIES = [
    "senior": 1525
   },
   "tax_regime_note": "Income tax is set by the city of residence for 2026: a lower rate on the yearly tax base up to 60,000 EUR and a higher rate above it. Each employee gets a personal allowance of 600 EUR a month, and employee pension contributions are 20% of gross (15% first pillar plus 5% second pillar). The 16.5% health contribution is paid by the employer on top of gross pay, so nothing separate is deducted from the employee. The old city surtax no longer exists, the city rate replaced it. Rijeka rates for 2026 are 20% and 25%, the lowest of the three large cities, cut from 22% and 32% in 2025. Net is computed for an employee without any youth relief. Employees under 25 get back all income tax paid and those aged 25 to 30 get back half, refunded by the tax office after the year ends; for a junior this would add roughly 8% (age 25 to 30) or 17% (under 25) to net pay.",
-  "language": "English is workable at the international employers in Rijeka; the local language helps with local employers and paperwork.",
   "notes": [
    "Base pay shown is yearly pay before any bonus, twelve monthly payments; there is no statutory 13th salary. Bonus rates are estimates, and pay levels for each city are estimates built from the linked sources. Rijeka pay is assumed to be about 12% below Zagreb. This is a hypothesis: no Rijeka-specific survey was found, and the only hints are low reported pay at a large Rijeka employer and very thin entry-level data.",
    "The lower city income tax rate partly makes up for lower pay: Rijeka taxes the part of the tax base up to 60,000 EUR a year at 20%, against 23% in Zagreb and 21.5% in Split.",
@@ -4636,6 +5467,19 @@ window.CITIES = [
    "junior": 20400,
    "mid": 30000,
    "senior": 42000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Croatian",
+   "english_only": "some",
+   "note": "A small market where English is usually enough for pure development at product or telecom-style firms. Customer-facing roles and local employers often ask for Croatian too.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Croatia Handbook: do I need Croatian to get a job",
+     "url": "https://croatiahandbook.com/do-i-need-to-speak-croatian-to-get-a-job-in-croatia/"
+    }
+   ]
   }
  },
  {
@@ -4676,7 +5520,6 @@ window.CITIES = [
    "senior": 2644
   },
   "tax_regime_note": "Flat 15% personal income tax on gross pay plus 18.5% employee social contributions (10% pension, 7% health, 1.5% labour market), so take-home is 66.5% of gross; there is no basic allowance for a single person. Net is computed for an employee who does not get the under-25 income tax exemption. EEA citizens under 25 can claim it; it removes the 15% tax on monthly income up to a cap close to the national average wage (about 575,000 HUF in 2024), while social contributions still apply. Family tax allowances exist but do not apply to a single employee without children.",
-  "language": "English is the working language at most Budapest multinationals and many product firms, while Hungarian is needed for everyday paperwork and for local employers.",
   "notes": [
    "Base monthly pay assumed: junior 900,000 HUF, mid 1,325,000 HUF, senior 1,825,000 HUF, set slightly below the average of two 2026 benchmarks (a recruiter guide and a salary site) because other published ranges are lower; a Budapest ad for a mid or senior full stack role posted 900,000 to 1,500,000 HUF a month. Yearly figures convert at 365.08 HUF per EUR.",
    "Official statistics put the average gross pay of software developers in 2025 at 1,364,606 HUF a month overall and 1,095,037 HUF for those under 30 (KSH data as reported by BerIndex), which sits inside these levels.",
@@ -4727,6 +5570,19 @@ window.CITIES = [
    "junior": 29583,
    "mid": 43552,
    "senior": 59987
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Hungarian",
+   "english_only": "common",
+   "note": "International firms, shared-service centers and startups work in English, and most developer ads ask only for English. Hungarian is needed mainly at local SMEs, public sector and some customer-facing roles.",
+   "confidence": "high",
+   "sources": [
+    {
+     "label": "Profession.hu software developer ads, Budapest",
+     "url": "https://www.profession.hu/en/advertisements/budapest/1,0,23,software%20developer"
+    }
+   ]
   }
  },
  {
@@ -4767,7 +5623,6 @@ window.CITIES = [
    "senior": 2231
   },
   "tax_regime_note": "Flat 15% personal income tax on gross pay plus 18.5% employee social contributions (10% pension, 7% health, 1.5% labour market), so take-home is 66.5% of gross; there is no basic allowance for a single person. Net is computed for an employee who does not get the under-25 income tax exemption. EEA citizens under 25 can claim it; it removes the 15% tax on monthly income up to a cap close to the national average wage (about 575,000 HUF in 2024), while social contributions still apply. Family tax allowances exist but do not apply to a single employee without children.",
-  "language": "Debrecen has branches of international technology and engineering firms where English is the working language; smaller local firms often work in Hungarian.",
   "notes": [
    "Base monthly pay assumed: junior 765,000 HUF, mid 1,125,000 HUF, senior 1,550,000 HUF, which is 85% of the Budapest levels. This is an assumption: a salary site reports provincial IT pay as 15% to 30% below Budapest, and no survey for Debrecen alone was found.",
    "Employers visible on a Debrecen job board for software roles include NI Hungary, Diehl Aviation, OZEKI and E.ON; most listings carry no posted pay.",
@@ -4822,6 +5677,19 @@ window.CITIES = [
    "junior": 25145,
    "mid": 36978,
    "senior": 50948
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Hungarian",
+   "english_only": "common",
+   "note": "Large multinational sites (for example NI, Continental, BMW Group) work in English, and ads usually ask for intermediate English. Hungarian matters more at local firms and customer-facing roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Profession.hu software developer ads, Debrecen",
+     "url": "https://www.profession.hu/en/advertisements/debrecen/1,0,32,szoftverfejleszt%C5%91,0,4000"
+    }
+   ]
   }
  },
  {
@@ -4862,7 +5730,6 @@ window.CITIES = [
    "senior": 1922
   },
   "tax_regime_note": "Employee contributions in 2026 are 14.4% of gross (9.4% social insurance plus health insurance, which rose from 4% to 5% in 2026). Income tax on the base after contributions is 19% up to 43,983.32 EUR a year, 25% up to 60,349.21, 30% up to 75,010.32 and 35% above. The tax-free allowance is 5,966.73 EUR a year for a tax base up to 26,083.13 EUR and then shrinks to zero at 43,983 EUR. Net is computed for a single employee without children, so the child tax bonus does not apply; no youth or expat regime changes this.",
-  "language": "English is workable at Bratislava software firms; about three quarters of the software ads on the main job board list English as a requirement, and Slovak or Czech helps for local employers.",
   "notes": [
    "Base monthly pay assumed: junior 1,900, mid 3,000, senior 4,300 EUR. Sources: two aggregators give junior 1,600 to 1,900, Bratislava mid 2,900 to 3,200 and senior 4,200 to 4,500 EUR; Bratislava ads on Profesia post minimums of 3,000 to 3,200 EUR for developer roles (ranges up to 4,500), 2,000 EUR for a junior test developer.",
    "The aggregators do not state sample sizes or methods, and the ads show minimums, so levels are estimates.",
@@ -4913,6 +5780,19 @@ window.CITIES = [
    "junior": 22800,
    "mid": 36000,
    "senior": 51600
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Slovak",
+   "english_only": "common",
+   "note": "Multinationals, IT subsidiaries and scale-ups hire in English, often with no Slovak mentioned. Slovak is needed for local-company roles such as support, SQL or insurance and bank back-office work.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "iAgora IT jobs in Bratislava",
+     "url": "https://www.iagora.com/work/en/jobs-and-internships/it/slovakia/bratislava"
+    }
+   ]
   }
  },
  {
@@ -4953,7 +5833,6 @@ window.CITIES = [
    "senior": 1539
   },
   "tax_regime_note": "Employee contributions in 2026 are 14.4% of gross (9.4% social insurance plus health insurance, which rose from 4% to 5% in 2026). Income tax on the base after contributions is 19% up to 43,983.32 EUR a year, 25% up to 60,349.21, 30% up to 75,010.32 and 35% above. The tax-free allowance is 5,966.73 EUR a year for a tax base up to 26,083.13 EUR and then shrinks to zero at 43,983 EUR. Net is computed for a single employee without children, so the child tax bonus does not apply; no youth or expat regime changes this.",
-  "language": "English is workable at the large Kosice software employers (international IT service centres and product firms post English ads); Slovak helps for smaller local firms.",
   "notes": [
    "Base monthly pay assumed: junior 1,700, mid 2,600, senior 3,600 EUR. Posted minimums on Slovak job boards for Kosice or remote roles: junior 1,500 to 2,200 EUR, mid 2,500 to 3,000 EUR, senior 3,000 to 3,800 EUR (some remote ads reach 4,700 EUR). Two aggregators put Kosice mid at 2,500 to 2,750 EUR and senior at 3,800 EUR.",
    "Many Kosice-area ads are for fully remote roles at firms based elsewhere, so the local market pay can be a little lower than the ads suggest.",
@@ -5008,6 +5887,19 @@ window.CITIES = [
    "junior": 20400,
    "mid": 31200,
    "senior": 43200
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Slovak",
+   "english_only": "common",
+   "note": "Kosice IT is dominated by international employers such as Deutsche Telekom IT Solutions and GlobalLogic, which work in English. Slovak helps at small local firms.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Deutsche Telekom IT Solutions Slovakia junior PHP developer ad, Kosice",
+     "url": "https://jobs.smartrecruiters.com/DeutscheTelekomITSolutionsSlovakia/744000089444786-junior-software-developer-with-php"
+    }
+   ]
   }
  },
  {
@@ -5048,7 +5940,6 @@ window.CITIES = [
    "senior": 2427
   },
   "tax_regime_note": "Sweden's expert tax relief (25% of pay tax free for up to 7 years) needs fixed pay of at least 88,801 SEK a month in 2026 (about 8,000 EUR), no Swedish residence in the 5 prior years and non-Swedish citizenship, so none of the modelled pay levels qualifies; lower-paid experts need a case-by-case ruling. Not modelled.",
-  "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
   "notes": [
    "Local rent check: Bostadscentralen median across all ads is 13,734 SEK (about 1,243 EUR) in Sept 2026, below Numbeo's centre rent.",
    "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
@@ -5097,6 +5988,27 @@ window.CITIES = [
    "junior": 47111,
    "mid": 61902,
    "senior": 72310
+  },
+  "language_need": {
+   "first": "Swedish",
+   "second": "English",
+   "english_only": "some",
+   "note": "Startups, scale-ups, game studios and international firms work in English. Swedish is expected at consultancies, in customer-facing roles, public sector and for ads written in Swedish.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "EnglishJobsSweden Stockholm",
+     "url": "https://englishjobssweden.com/jobs/stockholm"
+    },
+    {
+     "label": "Nordic Tech Jobs: Norwegian or Swedish needed?",
+     "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
+    },
+    {
+     "label": "Jobs in Stockholm software engineer",
+     "url": "https://jobsinstockholm.com/vacancies/software-engineer"
+    }
+   ]
   }
  },
  {
@@ -5137,7 +6049,6 @@ window.CITIES = [
    "senior": 2370
   },
   "tax_regime_note": "Sweden's expert tax relief (25% of pay tax free for up to 7 years) needs fixed pay of at least 88,801 SEK a month in 2026 (about 8,000 EUR), no Swedish residence in the 5 prior years and non-Swedish citizenship, so none of the modelled pay levels qualifies; lower-paid experts need a case-by-case ruling. Not modelled.",
-  "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
   "notes": [
    "Local rent check: Bostadscentralen median across all ads is 10,700 SEK (about 968 EUR) in Sept 2026. Levels.fyi shows lower Gothenburg pay than the other Swedish cities, based on small samples.",
    "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
@@ -5182,6 +6093,23 @@ window.CITIES = [
    "junior": 44920,
    "mid": 56971,
    "senior": 65736
+  },
+  "language_need": {
+   "first": "Swedish",
+   "second": "English",
+   "english_only": "some",
+   "note": "Automotive and industrial employers and consultancies often write ads and work in Swedish. International product and platform teams and startups work in English.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "EnglishJobsSweden Gothenburg",
+     "url": "https://englishjobssweden.com/jobs/gothenburg"
+    },
+    {
+     "label": "Nordic Tech Jobs: Norwegian or Swedish needed?",
+     "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
+    }
+   ]
   }
  },
  {
@@ -5222,7 +6150,6 @@ window.CITIES = [
    "senior": 2404
   },
   "tax_regime_note": "Sweden's expert tax relief (25% of pay tax free for up to 7 years) needs fixed pay of at least 88,801 SEK a month in 2026 (about 8,000 EUR), no Swedish residence in the 5 prior years and non-Swedish citizenship, so none of the modelled pay levels qualifies; lower-paid experts need a case-by-case ruling. Not modelled.",
-  "language": "Usually yes for tech jobs, but this was not checked against live job postings.",
   "notes": [
    "Local rent check: Bostadscentralen median across all ads is 10,400 SEK (about 941 EUR) in Sept 2026. Malmo and Lund are one job market via the Oresund and Skane trains, but a Lund commute was not priced.",
    "Bonus rates are ESTIMATE; no named source gave a Swedish bonus number, and Unionen covers fixed monthly pay only.",
@@ -5267,6 +6194,23 @@ window.CITIES = [
    "junior": 44920,
    "mid": 56971,
    "senior": 65736
+  },
+  "language_need": {
+   "first": "Swedish",
+   "second": "English",
+   "english_only": "some",
+   "note": "About half of tech ads need no Swedish, mostly at international firms and consultancies serving English-speaking clients. Local companies and public employers hire in Swedish.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "EnglishJobsSweden Malmo",
+     "url": "https://englishjobssweden.com/jobs/malmo"
+    },
+    {
+     "label": "Nordic Tech Jobs: Norwegian or Swedish needed?",
+     "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
+    }
+   ]
   }
  },
  {
@@ -5307,7 +6251,6 @@ window.CITIES = [
    "senior": 2506
   },
   "tax_regime_note": "Finland's key employee scheme taxes pay at a flat 25% at source from 2026. It needs at least 5,800 EUR a month, special expertise, a Finnish employer and no Finnish tax residence in the 5 prior calendar years; EU citizens can use it for up to 84 months. Only the senior Helsinki level (6,000 EUR a month) clears the pay line; Tampere senior (5,400) and all junior and mid levels do not. Not modelled.",
-  "language": "Often yes in Helsinki tech companies; some Finnish employers, more often outside Helsinki, ask for Finnish. Not checked against live postings.",
   "notes": [
    "Local rent check: Statistics Finland Q2 2026 non-subsidised rent is 26.71 EUR/m2 for studios in Helsinki, about 801 EUR for 30 m2 (simple arithmetic).",
    "Bonus rates are ESTIMATE. Jobbutler says 5 to 15% of annual pay is typical in Finnish IT.",
@@ -5360,6 +6303,23 @@ window.CITIES = [
    "junior": 44928,
    "mid": 62400,
    "senior": 74880
+  },
+  "language_need": {
+   "first": "Finnish",
+   "second": "English",
+   "english_only": "some",
+   "note": "Scale-ups, game studios and global hubs work in English. Finnish is expected at IT consultancies, customer-facing roles, public sector and Finnish-language companies, and juniors often find it harder to get hired without it.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Jobs in Helsinki software engineer",
+     "url": "https://jobsinhelsinki.com/vacancies/software-engineer"
+    },
+    {
+     "label": "englishjobs.fi software jobs",
+     "url": "https://englishjobs.fi/jobs/software"
+    }
+   ]
   }
  },
  {
@@ -5400,7 +6360,6 @@ window.CITIES = [
    "senior": 2252
   },
   "tax_regime_note": "Finland's key employee scheme taxes pay at a flat 25% at source from 2026. It needs at least 5,800 EUR a month, special expertise, a Finnish employer and no Finnish tax residence in the 5 prior calendar years; EU citizens can use it for up to 84 months. Only the senior Helsinki level (6,000 EUR a month) clears the pay line; Tampere senior (5,400) and all junior and mid levels do not. Not modelled.",
-  "language": "Often yes in Helsinki tech companies; some Finnish employers, more often outside Helsinki, ask for Finnish. Not checked against live postings.",
   "notes": [
    "Tampere pay is ESTIMATE: no official or Levels.fyi figure exists for it, and Koodaripula's Tampere median rests on 13 ads. Pay is set at about 10% below Helsinki.",
    "Local rent check: Statistics Finland Q2 2026 non-subsidised rent is 21.06 EUR/m2 for studios in Tampere, about 632 EUR for 30 m2 (simple arithmetic).",
@@ -5450,6 +6409,23 @@ window.CITIES = [
    "junior": 41184,
    "mid": 56160,
    "senior": 67392
+  },
+  "language_need": {
+   "first": "Finnish",
+   "second": "English",
+   "english_only": "some",
+   "note": "Embedded, industrial and international product firms hire in English. Local companies, consultancies and public employers lean on Finnish.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "englishjobs.fi software jobs",
+     "url": "https://englishjobs.fi/jobs/software"
+    },
+    {
+     "label": "englishjobs.fi Tampere",
+     "url": "https://englishjobs.fi/in/tampere/tampere"
+    }
+   ]
   }
  },
  {
@@ -5490,7 +6466,6 @@ window.CITIES = [
    "senior": 2873
   },
   "tax_regime_note": "No Norwegian expat or special tax regime was researched or modelled; Norwegian tax is the standard 2026 scale.",
-  "language": "Norwegian is often expected below senior level at Norwegian employers; international tech employers work in English. Not checked against live postings.",
   "notes": [
    "First-year trap: you earn no feriepenger before starting, so summer holiday in 2027 is usually unpaid. About four weeks unpaid is roughly 8% of annual cash (an ESTIMATE), about 415 EUR a month for a junior averaged over 2027. Ask for paid holiday in the contract.",
    "Tax is withheld over 10.5 months (none in June, half in December), but the annual tax is the same. Net here is annual net divided by 12.",
@@ -5545,6 +6520,27 @@ window.CITIES = [
    "junior": 62179,
    "mid": 79137,
    "senior": 92703
+  },
+  "language_need": {
+   "first": "Norwegian",
+   "second": "English",
+   "english_only": "some",
+   "note": "Startups (about 83% of their ads are English-friendly) and international firms work in English. Most other Norwegian tech employers write ads in Norwegian and expect it, especially for customer-facing and public-sector work.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Nordic Tech Jobs: Norwegian or Swedish needed?",
+     "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
+    },
+    {
+     "label": "Nordic Tech Jobs Norway",
+     "url": "https://nordictechjobs.com/norway"
+    },
+    {
+     "label": "Nordic Expat IT guide to Norway",
+     "url": "https://nordicexpat.com/norway/norway-guide-it-professionals"
+    }
+   ]
   }
  },
  {
@@ -5585,7 +6581,6 @@ window.CITIES = [
    "senior": 1492
   },
   "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A EU citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
-  "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
   "notes": [
    "Local rent check: CIB-Korfine barometer shows an average Brussels apartment rent of 1,330 EUR and a studio of 905 EUR in 2025.",
    "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
@@ -5641,6 +6636,23 @@ window.CITIES = [
    "junior": 40000,
    "mid": 56000,
    "senior": 72000
+  },
+  "language_need": {
+   "first": "French or Dutch",
+   "second": "English",
+   "english_only": "some",
+   "note": "Banks, public bodies and local firms ask for French or Dutch, sometimes both. International firms, EU-related employers and consultancies hire developers in English alone.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Englishjobs.be developer jobs in Brussels",
+     "url": "https://englishjobs.be/in/brussels/developer"
+    },
+    {
+     "label": "Jobmetasearch full stack jobs in Belgium",
+     "url": "https://jobmetasearch.ai/visa-sponsorship/fullstack-developer/belgium"
+    }
+   ]
   }
  },
  {
@@ -5681,7 +6693,6 @@ window.CITIES = [
    "senior": 1617
   },
   "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A EU citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
-  "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
   "notes": [
    "Local rent check: the CIB-Korfine H1 2026 barometer shows Antwerp city at 1,009 EUR for all dwelling types, and a Flemish one-bedroom average of 833 EUR.",
    "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
@@ -5737,6 +6748,23 @@ window.CITIES = [
    "junior": 38000,
    "mid": 55000,
    "senior": 68000
+  },
+  "language_need": {
+   "first": "Dutch",
+   "second": "English",
+   "english_only": "some",
+   "note": "Local employers, consultancies and logistics firms in Flanders mostly ask for Dutch and English. English-only roles sit at a few international companies and scale-ups.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Englishjobs.be developer jobs in Antwerp",
+     "url": "https://englishjobs.be/in/antwerp/developer"
+    },
+    {
+     "label": "Jobmetasearch full stack jobs in Belgium",
+     "url": "https://jobmetasearch.ai/visa-sponsorship/fullstack-developer/belgium"
+    }
+   ]
   }
  },
  {
@@ -5777,7 +6805,6 @@ window.CITIES = [
    "senior": 1475
   },
   "tax_regime_note": "Belgium's special expat regime needs gross pay of at least 70,000 EUR a year (from income year 2025), no Belgian tax residence for 60 months and no home within 150 km of the border; the employer applies within 3 months and can give a tax-free allowance of up to 35% of gross. A EU citizen can qualify. Only the Brussels senior level (72,000 EUR) clears the pay line; Antwerp and Ghent senior and all junior and mid levels do not. Not modelled.",
-  "language": "Dutch in Flanders and French or Dutch plus English in Brussels are often asked for; some international employers work in English. Not checked against live postings.",
   "notes": [
    "Ghent rent and everyday costs are ESTIMATE: Numbeo has no usable Ghent page. Rent is set near the CIB-Korfine Ghent average of 998 EUR for all dwellings in H1 2026, and everyday costs are copied from Antwerp.",
    "Meal vouchers: the legal maximum employer share is 8.91 EUR per voucher and the employee pays at least 1.09 EUR, one voucher per day worked. At the older 6.91 EUR employer share over about 22 days that is about 152 EUR a month (up to about 196 at the maximum). It is a benefit worth money and is NOT included in surplus. Only 22% of white-collar PC 200 staff get the 10 EUR maximum.",
@@ -5833,6 +6860,23 @@ window.CITIES = [
    "junior": 38000,
    "mid": 54000,
    "senior": 64000
+  },
+  "language_need": {
+   "first": "Dutch",
+   "second": "English",
+   "english_only": "some",
+   "note": "Local firms and consultancies in Flanders mostly work in Dutch. The scale-up Aikido Security and a few industrial employers (Agfa, TVH) advertise in English.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Englishjobs.be developer jobs in Ghent",
+     "url": "https://englishjobs.be/in/ghent/developer"
+    },
+    {
+     "label": "Jobmetasearch full stack jobs in Belgium",
+     "url": "https://jobmetasearch.ai/visa-sponsorship/fullstack-developer/belgium"
+    }
+   ]
   }
  },
  {
@@ -5873,7 +6917,6 @@ window.CITIES = [
    "senior": 2999
   },
   "tax_regime_note": "Estonia has no expat or key-employee tax regime used here. Income tax is a flat 22% with a 700 EUR monthly basic exemption; the planned 2% security tax was not introduced.",
-  "language": "Often yes for tech employers in Tallinn and Tartu; the job ads seen were in English. Not checked beyond a few ads.",
   "notes": [
    "Tallinn transport is free for registered residents of the city.",
    "Everything about Estonia except the net salary formula is ESTIMATE: Numbeo has no usable pages for Tallinn and Tartu, so rent and everyday costs come from asking-rent guides and a guess.",
@@ -5927,6 +6970,27 @@ window.CITIES = [
    "junior": 31200,
    "mid": 45600,
    "senior": 62400
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Estonian",
+   "english_only": "common",
+   "note": "Startups, scale-ups and banks' tech teams work in English. Estonian is required at IT-services firms and e-government projects serving local clients.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Estonia Handbook: work in IT and tech",
+     "url": "https://estoniahandbook.com/how-to-find-work-in-estonias-it-and-tech-sector/"
+    },
+    {
+     "label": "Helmes Java developer ad",
+     "url": "https://www.helmes.com/position/senior-java-software-developer/"
+    },
+    {
+     "label": "Magic Mondayz Java developer ad",
+     "url": "https://www.magicmondayz.com/current-vacancies/full-stack-java-software-developer/"
+    }
+   ]
   }
  },
  {
@@ -5967,7 +7031,6 @@ window.CITIES = [
    "senior": 2502
   },
   "tax_regime_note": "Estonia has no expat or key-employee tax regime used here. Income tax is a flat 22% with a 700 EUR monthly basic exemption; the planned 2% security tax was not introduced.",
-  "language": "Often yes for tech employers in Tallinn and Tartu; the job ads seen were in English. Not checked beyond a few ads.",
   "notes": [
    "Everything about Estonia except the net salary formula is ESTIMATE: Numbeo has no usable pages for Tallinn and Tartu, so rent and everyday costs come from asking-rent guides and a guess.",
    "Net uses EMTA 2026 rules: 22% income tax, 700 EUR monthly basic exemption, 1.6% unemployment insurance and 2% funded pension.",
@@ -6020,6 +7083,27 @@ window.CITIES = [
    "junior": 28200,
    "mid": 40800,
    "senior": 54000
+  },
+  "language_need": {
+   "first": "Estonian",
+   "second": "English",
+   "english_only": "some",
+   "note": "A smaller market where local IT-services firms and e-government work ask for Estonian. Product, robotics and startup teams work in English.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Helmes Java developer ad (Tallinn or Tartu)",
+     "url": "https://www.helmes.com/position/senior-java-software-developer/"
+    },
+    {
+     "label": "Magic Mondayz Java developer ad (Tallinn or Tartu)",
+     "url": "https://www.magicmondayz.com/current-vacancies/full-stack-java-software-developer/"
+    },
+    {
+     "label": "Estonia Handbook: work in IT and tech",
+     "url": "https://estoniahandbook.com/how-to-find-work-in-estonias-it-and-tech-sector/"
+    }
+   ]
   }
  },
  {
@@ -6060,7 +7144,6 @@ window.CITIES = [
    "senior": 1542
   },
   "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a EU citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
-  "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
   "notes": [
    "Rent from Numbeo archive; Idealista first-page 1-bed median 1,500 EUR (n=9) is higher.",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6104,6 +7187,19 @@ window.CITIES = [
    "junior": 26000,
    "mid": 40000,
    "senior": 48000
+  },
+  "language_need": {
+   "first": "Spanish",
+   "second": "English",
+   "english_only": "some",
+   "note": "Banks, consultancies, public-sector suppliers and local companies work in Spanish. US and international firms with Madrid offices and some scale-ups work in English.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "SpainJobs.io engineering jobs in Madrid",
+     "url": "https://www.spainjobs.io/jobs/madrid/engineering"
+    }
+   ]
   }
  },
  {
@@ -6144,7 +7240,6 @@ window.CITIES = [
    "senior": 1422
   },
   "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a EU citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
-  "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
   "notes": [
    "Rent from Numbeo archive; Idealista 1-bed median 1,350 EUR (n=9, copy from 2025-12-28, stale).",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6184,6 +7279,19 @@ window.CITIES = [
    "junior": 26000,
    "mid": 39000,
    "senior": 47000
+  },
+  "language_need": {
+   "first": "Spanish",
+   "second": "English",
+   "english_only": "some",
+   "note": "Barcelona has the most English-only developer roles in Spain, at international scale-ups, product companies and tech hubs. Local companies, agencies and client-facing roles use Spanish, sometimes Catalan.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "SpainJobs.io engineering jobs in Barcelona",
+     "url": "https://www.spainjobs.io/jobs/barcelona/engineering"
+    }
+   ]
   }
  },
  {
@@ -6224,7 +7332,6 @@ window.CITIES = [
    "senior": 1400
   },
   "tax_regime_note": "Beckham law (24% flat tax for up to 6 years): a EU citizen qualifies if they move for an employment contract and were not Spanish tax resident in the previous 5 years (AEAT). At these pay levels it gives LOWER net than the normal progressive tax (Madrid mid about 2,317 vs 2,471 per month before bonus), so it only helps above roughly 60,000 EUR gross. Model uses the 2026 state withholding scale as a stand-in for state plus regional tax.",
-  "language": "Many consultancies and product firms in Madrid and Barcelona work in English, but Spanish opens far more roles, especially outside the two capitals.",
   "notes": [
    "Rent from Numbeo archive; Idealista 1-bed median 1,450 EUR (n=6, centre-skewed).",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6264,6 +7371,23 @@ window.CITIES = [
    "junior": 23000,
    "mid": 35000,
    "senior": 42000
+  },
+  "language_need": {
+   "first": "Spanish",
+   "second": "English",
+   "english_only": "some",
+   "note": "Local companies and nearshore or consulting firms mostly work in Spanish. Remote-first startups and international teams hire in English, so English-only roles exist but are fewer than in Barcelona.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "SpainJobs.io engineering jobs in Valencia",
+     "url": "https://www.spainjobs.io/jobs/valencia/engineering"
+    },
+    {
+     "label": "EuroTopTech Valencia career guide",
+     "url": "https://eurotoptech.com/blog/valencia-tech-career-guide-7b1p"
+    }
+   ]
   }
  },
  {
@@ -6304,7 +7428,6 @@ window.CITIES = [
    "senior": 1493
   },
   "tax_regime_note": "IRS Jovem (age 35 or under): 100% of income exempt in year 1, 75% in years 2 to 4, 50% in years 5 to 7, 25% in years 8 to 10, capped at 29,542 EUR; whether earlier self-employed years count against the 10 years is not confirmed. IFICI (NHR successor, 20% flat) needs a qualifying employer such as a Portuguese software company with an employment contract; it only beats normal tax from about 40,000 EUR gross. Net shown uses normal tax with no personal deductions, so it is a floor.",
-  "language": "Yes for Lisbon and Porto tech firms and startups, English is the working language in most product teams; Portuguese helps for local consultancies.",
   "notes": [
    "Rent from Numbeo archive; Imovirtual T1 median 1,150 EUR (n=5).",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6344,6 +7467,19 @@ window.CITIES = [
    "junior": 21000,
    "mid": 40000,
    "senior": 52000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Portuguese",
+   "english_only": "common",
+   "note": "International tech firms, R&D centres and scale-ups in Lisbon work in English and rarely ask for Portuguese. Local companies, banks and public sector write ads in Portuguese.",
+   "confidence": "high",
+   "sources": [
+    {
+     "label": "CVtly: do I need Portuguese in Lisbon",
+     "url": "https://cvtly.com/jobs/lisbon/do-i-need-portuguese"
+    }
+   ]
   }
  },
  {
@@ -6384,7 +7520,6 @@ window.CITIES = [
    "senior": 1467
   },
   "tax_regime_note": "IRS Jovem (age 35 or under): 100% of income exempt in year 1, 75% in years 2 to 4, 50% in years 5 to 7, 25% in years 8 to 10, capped at 29,542 EUR; whether earlier self-employed years count against the 10 years is not confirmed. IFICI (NHR successor, 20% flat) needs a qualifying employer such as a Portuguese software company with an employment contract; it only beats normal tax from about 40,000 EUR gross. Net shown uses normal tax with no personal deductions, so it is a floor.",
-  "language": "Yes for Lisbon and Porto tech firms and startups, English is the working language in most product teams; Portuguese helps for local consultancies.",
   "notes": [
    "Rent from Numbeo archive; Imovirtual T1 median 960 EUR (n=9).",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6424,6 +7559,23 @@ window.CITIES = [
    "junior": 19000,
    "mid": 35000,
    "senior": 46000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Portuguese",
+   "english_only": "common",
+   "note": "Product companies, software houses and outsourcing hubs in Porto (for example Critical Software, TeamViewer, Workato) hire in English. Local firms and public sector use Portuguese.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "englishjobs.pt software jobs in Porto",
+     "url": "https://englishjobs.pt/in/porto/software"
+    },
+    {
+     "label": "CVtly: do I need Portuguese in Lisbon",
+     "url": "https://cvtly.com/jobs/lisbon/do-i-need-portuguese"
+    }
+   ]
   }
  },
  {
@@ -6464,7 +7616,6 @@ window.CITIES = [
    "senior": 1291
   },
   "tax_regime_note": "Impatriate regime (Agenzia delle Entrate): only 50% of employment income is taxed for 5 years if you were not Italian tax resident in the previous 3 years, commit to 4 years of residence, work mainly in Italy and hold a qualification; an MSc should qualify but this is not confirmed. With it, monthly net would be much higher (Milan mid about 3,168 vs 2,388, before bonus). Net shown is without the regime. Regional and municipal surtax is an estimate.",
-  "language": "In Milan multinationals and product firms English is usually enough, but most Italian employers, especially outside Milan, expect Italian.",
   "notes": [
    "Rent from Numbeo archive; Immobiliare.it average 22.32 EUR per m2 (zones 15.76 to 31.11).",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6510,6 +7661,23 @@ window.CITIES = [
    "junior": 29000,
    "mid": 42000,
    "senior": 52000
+  },
+  "language_need": {
+   "first": "Italian",
+   "second": "English",
+   "english_only": "some",
+   "note": "Older corporates, banks and local consultancies expect Italian. Product companies, fintechs and international firms work in mixed Italian and English, and some roles need English only.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "englishjobs.it developer jobs in Milan",
+     "url": "https://englishjobs.it/in/milano/developer"
+    },
+    {
+     "label": "EuroTopTech Milan tech career guide",
+     "url": "https://www.eurotoptech.com/blog/milan-tech-career-guide-v1pg"
+    }
+   ]
   }
  },
  {
@@ -6550,7 +7718,6 @@ window.CITIES = [
    "senior": 1474
   },
   "tax_regime_note": "Impatriate regime (Agenzia delle Entrate): only 50% of employment income is taxed for 5 years if you were not Italian tax resident in the previous 3 years, commit to 4 years of residence, work mainly in Italy and hold a qualification; an MSc should qualify but this is not confirmed. With it, monthly net would be much higher (Milan mid about 3,168 vs 2,388, before bonus). Net shown is without the regime. Regional and municipal surtax is an estimate.",
-  "language": "In Milan multinationals and product firms English is usually enough, but most Italian employers, especially outside Milan, expect Italian.",
   "notes": [
    "Rent from Numbeo archive; Immobiliare.it average 12.99 EUR per m2 (zones 8.59 to 16.69).",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6592,6 +7759,19 @@ window.CITIES = [
    "junior": 26000,
    "mid": 37000,
    "senior": 44000
+  },
+  "language_need": {
+   "first": "Italian",
+   "second": "English",
+   "english_only": "some",
+   "note": "Automotive, aerospace and defence suppliers and local consultancies lean on Italian. A few international or group development centres (for example MSC, Stellantis, Hitachi) post English-language ads.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "englishjobs.it developer jobs in Turin",
+     "url": "https://englishjobs.it/in/torino/developer"
+    }
+   ]
   }
  },
  {
@@ -6632,7 +7812,6 @@ window.CITIES = [
    "senior": 2922
   },
   "tax_regime_note": "No special expat regime applies. Normal tax is 15% (23% above 1,762,812 CZK a year) minus the basic taxpayer credit of 2,570 CZK a month; the model reproduces the Sit prace net calculator.",
-  "language": "Yes, English is the working language at many Prague and Brno software firms, and Czech is only needed for some local employers.",
   "notes": [
    "Rent from Numbeo archive; Bezrealitky 1+kk median 19,875 CZK plus about 3,000 CZK fees (n=10), about 938 EUR.",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6676,6 +7855,23 @@ window.CITIES = [
    "junior": 24613,
    "mid": 41841,
    "senior": 63992
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Czech",
+   "english_only": "common",
+   "note": "Tech companies, multinationals and scale-ups work in English and rarely ask for Czech. Czech is needed at small local firms, agencies, banks and public sector, and for customer-facing roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Working Project guide to Czech jobs for English speakers",
+     "url": "https://workingproject.eu/en/jobs-in-czech-republic-for-english-speakers/"
+    },
+    {
+     "label": "Expats.cz international employers hiring",
+     "url": "https://www.expats.cz/czech-news/article/hiring-now-7-international-companies-in-czechia-looking-for-new-talent"
+    }
+   ]
   }
  },
  {
@@ -6716,7 +7912,6 @@ window.CITIES = [
    "senior": 2740
   },
   "tax_regime_note": "No special expat regime applies. Normal tax is 15% (23% above 1,762,812 CZK a year) minus the basic taxpayer credit of 2,570 CZK a month; the model reproduces the Sit prace net calculator.",
-  "language": "Yes, English is the working language at many Prague and Brno software firms, and Czech is only needed for some local employers.",
   "notes": [
    "Rent from Numbeo archive; no local rental page opened for Brno.",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6752,6 +7947,23 @@ window.CITIES = [
    "junior": 22644,
    "mid": 39380,
    "senior": 59070
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Czech",
+   "english_only": "common",
+   "note": "Brno has many international tech and R&D sites that work in English. Local companies, agencies and public sector still expect Czech.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Working Project guide to Czech jobs for English speakers",
+     "url": "https://workingproject.eu/en/jobs-in-czech-republic-for-english-speakers/"
+    },
+    {
+     "label": "Expats.cz international employers hiring",
+     "url": "https://www.expats.cz/czech-news/article/hiring-now-7-international-companies-in-czechia-looking-for-new-talent"
+    }
+   ]
   }
  },
  {
@@ -6792,7 +8004,6 @@ window.CITIES = [
    "senior": 2139
   },
   "tax_regime_note": "Polish PIT relief for people under 26 may apply to a EU employee on an employment contract (not confirmed on an official page, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
-  "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
   "notes": [
    "Rent from Numbeo archive; Otodom 2-room median 3,600 PLN plus 825 PLN fees, about 1,005 EUR (small sample).",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6834,6 +8045,23 @@ window.CITIES = [
    "junior": 21254,
    "mid": 44961,
    "senior": 64036
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Polish",
+   "english_only": "common",
+   "note": "International firms, banks' tech centers and scale-ups work in English. Polish is needed at local companies, public sector and customer-facing roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Just Join IT JavaScript offers, Warsaw",
+     "url": "https://justjoin.it/job-offers/warszawa/javascript"
+    },
+    {
+     "label": "englishjobs.pl software developer jobs, Warsaw",
+     "url": "https://englishjobs.pl/in/warszawa/software_developer"
+    }
+   ]
   }
  },
  {
@@ -6874,7 +8102,6 @@ window.CITIES = [
    "senior": 2279
   },
   "tax_regime_note": "Polish PIT relief for people under 26 may apply to a EU employee on an employment contract (not confirmed on an official page, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
-  "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
   "notes": [
    "Numbeo has no usable Krakow page: centre rent is the Otodom 2-room median (2,800 PLN plus 660 PLN fees); outside-centre rent and everyday are estimates from Wroclaw ratios and a Warsaw/Wroclaw average.",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6917,6 +8144,19 @@ window.CITIES = [
    "junior": 20437,
    "mid": 43599,
    "senior": 62673
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Polish",
+   "english_only": "common",
+   "note": "Krakow has many multinational and outsourcing teams that work in English. Polish is needed at local firms and for client-facing roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Just Join IT JavaScript offers, Krakow",
+     "url": "https://justjoin.it/job-offers/krakow/javascript"
+    }
+   ]
   }
  },
  {
@@ -6957,7 +8197,6 @@ window.CITIES = [
    "senior": 2272
   },
   "tax_regime_note": "Polish PIT relief for people under 26 may apply to a EU employee on an employment contract (not confirmed on an official page, so not included in net). Net shown is UoP employment: 12% tax up to 120,000 PLN a year and 32% above, social insurance 13.71%, health 9%.",
-  "language": "Yes, English-only engineering teams are common at Polish product and outsourcing firms; Polish is needed mainly for public-sector and small local firms.",
   "notes": [
    "Rent from Numbeo archive; Otodom 2-room median 2,800 PLN plus 715 PLN fees, about 798 EUR.",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -6999,6 +8238,23 @@ window.CITIES = [
    "junior": 19892,
    "mid": 42236,
    "senior": 61310
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Polish",
+   "english_only": "common",
+   "note": "Wroclaw has large international centers (for example Accenture, Kyndryl, Zebra) that work in English. Polish is needed at local firms and client-facing roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Just Join IT JavaScript offers, Wroclaw",
+     "url": "https://justjoin.it/job-offers/wroclaw/javascript"
+    },
+    {
+     "label": "englishjobs.pl software developer jobs, Wroclaw",
+     "url": "https://englishjobs.pl/in/wroclaw/software_developer"
+    }
+   ]
   }
  },
  {
@@ -7039,7 +8295,6 @@ window.CITIES = [
    "senior": 1678
   },
   "tax_regime_note": "No special expat regime for a EU citizen. A tax relief for employees up to age 29 (1,443.50 EUR a year allowance) exists but is not included. Net includes the untaxed holiday allowance (regres) and meal allowance.",
-  "language": "Yes, English is widely used in Ljubljana tech firms; Slovene helps for local employers and daily admin.",
   "notes": [
    "Rent from Numbeo archive; no local rental page could be opened for Ljubljana.",
    "Everyday costs: groceries from a Numbeo-priced basket (chosen weights), utilities are 60% of the Numbeo 85 m2 figure, going out is 4 meals, 6 beers, 2 cinema trips and 4 coffees. The Numbeo pass is replaced by the commute pass.",
@@ -7083,6 +8338,23 @@ window.CITIES = [
    "junior": 32383,
    "mid": 45583,
    "senior": 58783
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Slovenian",
+   "english_only": "common",
+   "note": "Product companies and scale-ups (for example Celtra, Planet, Sportradar) work in English. Slovenian matters for public-sector IT, local SMEs and customer-facing roles for Slovenian clients.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Levels.fyi software engineer jobs in Ljubljana",
+     "url": "https://www.levels.fyi/jobs/title/software-engineer/location/ljubljana-svn"
+    },
+    {
+     "label": "A to Z Serwis Plus: IT and software in Slovenia",
+     "url": "https://www.atozserwisplus.com/industries/it-software/slovenia"
+    }
+   ]
   }
  },
  {
@@ -7123,7 +8395,6 @@ window.CITIES = [
    "senior": 2512
   },
   "tax_regime_note": "No special regime for developers: the income tax and social contribution exemption for IT employees was abolished on 2025-01-01 (OUG 156/2024) and is still gone in 2026, so sites and calculators that still show 0 percent tax are out of date. Net uses 25 percent pension (CAS), 10 percent health (CASS) and 10 percent income tax on gross minus those two, with no salary ceilings, so take-home is 58.5 percent of gross. The basic personal deduction only exists up to a gross of the minimum wage plus 2,000 RON (6,325 RON from 2026-07-01, per secondary summaries rather than an official page), and all modelled pay is above that. No graduate or youth relief was found, so a new grad pays the same.",
-  "language": "Yes, English is the working language at outsourcing and product firms in Bucharest; Romanian is needed for rental contracts, the tax office and doctors (an estimate, not measured).",
   "notes": [
    "Base pay used here, in RON gross per month: junior 10,500, mid 17,500, senior 28,000, times 12 at the ECB rate of 5.3451 RON per EUR on 2026-11-11. The salary pages quote NET RON for web and full-stack roles (junior 5,000 to 8,000, mid 8,000 to 15,000, senior 12,000 to 26,000), so the gross figures were chosen and converted back to net to check they land inside those ranges. Bucharest and Cluj are the best paid hubs; Levels.fyi has Bucharest median total pay 12 percent above Cluj, while the Jan 2026 salary map has Cluj 17 percent above Bucharest, so both cities use the same pay.",
    "Romania has no statutory 13th salary; bonus rates (5, 8 and 10 percent) are estimates, and net includes them taxed at the normal rates.",
@@ -7176,6 +8447,23 @@ window.CITIES = [
    "junior": 23573,
    "mid": 39288,
    "senior": 62861
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Romanian",
+   "english_only": "common",
+   "note": "Development centers and outsourcing firms for foreign clients work in English, and Romanian is rarely asked for in IT. Romanian is needed for local public sector, some banks and customer-facing roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Bucharest.ro jobs without Romanian",
+     "url": "https://www.bucharest.ro/articles/jobs-you-can-do-in-bucharest-without-knowing-romanian-113"
+    },
+    {
+     "label": "Outsorcy guide to hiring developers in Romania",
+     "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
+    }
+   ]
   }
  },
  {
@@ -7216,7 +8504,6 @@ window.CITIES = [
    "senior": 2542
   },
   "tax_regime_note": "No special regime for developers: the income tax and social contribution exemption for IT employees was abolished on 2025-01-01 (OUG 156/2024) and is still gone in 2026, so sites and calculators that still show 0 percent tax are out of date. Net uses 25 percent pension (CAS), 10 percent health (CASS) and 10 percent income tax on gross minus those two, with no salary ceilings, so take-home is 58.5 percent of gross. The basic personal deduction only exists up to a gross of the minimum wage plus 2,000 RON (6,325 RON from 2026-07-01, per secondary summaries rather than an official page), and all modelled pay is above that. No graduate or youth relief was found, so a new grad pays the same.",
-  "language": "Yes, Cluj has many English-speaking product and outsourcing teams; Romanian is needed for daily admin (an estimate, not measured).",
   "notes": [
    "Base pay used here, in RON gross per month: junior 10,500, mid 17,500, senior 28,000, times 12 at the ECB rate of 5.3451 RON per EUR on 2026-11-11. The salary pages quote NET RON for web and full-stack roles (junior 5,000 to 8,000, mid 8,000 to 15,000, senior 12,000 to 26,000), so the gross figures were chosen and converted back to net to check they land inside those ranges. Same pay as Bucharest because sources conflict on which city pays more. Real ads with posted pay are mostly remote, in EUR and do not say net or gross (for example 1,500 to 1,800 for a mid web role and 2,500 to 3,000 for a senior front-end role), so they only loosely support the ranges.",
    "Romania has no statutory 13th salary; bonus rates (5, 8 and 10 percent) are estimates, and net includes them taxed at the normal rates.",
@@ -7269,6 +8556,19 @@ window.CITIES = [
    "junior": 23573,
    "mid": 39288,
    "senior": 62861
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Romanian",
+   "english_only": "common",
+   "note": "Cluj is an outsourcing and product hub where teams work in English for foreign clients. Some local employers and client-facing roles ask for English and Romanian.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Outsorcy guide to hiring developers in Romania",
+     "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
+    }
+   ]
   }
  },
  {
@@ -7309,7 +8609,6 @@ window.CITIES = [
    "senior": 1899
   },
   "tax_regime_note": "No special regime for developers: the income tax and social contribution exemption for IT employees was abolished on 2025-01-01 (OUG 156/2024) and is still gone in 2026, so sites and calculators that still show 0 percent tax are out of date. Net uses 25 percent pension (CAS), 10 percent health (CASS) and 10 percent income tax on gross minus those two, with no salary ceilings, so take-home is 58.5 percent of gross. The basic personal deduction only exists up to a gross of the minimum wage plus 2,000 RON (6,325 RON from 2026-07-01, per secondary summaries rather than an official page), and all modelled pay is above that. No graduate or youth relief was found, so a new grad pays the same.",
-  "language": "Yes, the larger outsourcing and product firms in Iasi work in English; Romanian helps outside them (an estimate, not measured).",
   "notes": [
    "Base pay used here, in RON gross per month: junior 8,200, mid 13,600, senior 21,800, times 12 at the ECB rate of 5.3451 RON per EUR on 2026-11-11. The salary pages quote NET RON for web and full-stack roles (junior 5,000 to 8,000, mid 8,000 to 15,000, senior 12,000 to 26,000), so the gross figures were chosen and converted back to net to check they land inside those ranges. Iasi pay is an estimate at 78 percent of Bucharest: the Jan 2026 salary map puts the Iasi IT average 26 percent below Bucharest (9,900 vs 13,400 RON net). That is a city average for all IT roles, not a web-developer figure, so this city is the thinnest of the three.",
    "Romania has no statutory 13th salary; bonus rates (5, 8 and 10 percent) are estimates, and net includes them taxed at the normal rates.",
@@ -7358,6 +8657,19 @@ window.CITIES = [
    "junior": 18409,
    "mid": 30533,
    "senior": 48942
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Romanian",
+   "english_only": "some",
+   "note": "Iasi has international outsourcing and R&D sites (for example Endava, Continental, Capgemini) that work in English. The scene is smaller, so more local firms and student roles ask for Romanian too.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Outsorcy guide to hiring developers in Romania",
+     "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
+    }
+   ]
   }
  },
  {
@@ -7398,7 +8710,6 @@ window.CITIES = [
    "senior": 3474
   },
   "tax_regime_note": "Bulgaria uses the euro since 2026-01-01. No special regime for developers or newcomers. Net uses a flat 10 percent income tax on gross minus employee contributions of 13.78 percent (including 3.2 percent health), and contributions are charged only up to a monthly insurable income of 2,111.64 EUR until 2026-07-31 and 2,300 EUR from 2026-08-01, so pay above that cap is taxed only at 10 percent. The bonus is assumed to be paid in December. No graduate or youth relief was found, so a new grad pays the same.",
-  "language": "Yes, English is normal at Sofia product firms and outsourcers; Bulgarian is needed for admin (an estimate).",
   "notes": [
    "Base pay used here, in EUR gross per month: junior 2,000, mid 3,300, senior 4,800. The sources quote advertised NET pay per month (NextJob.bg: junior 1,022 to 2,000, mid 2,000 to 3,400, senior 3,300 to 5,000; DEV.BG back-end ads: junior 1,330 to 2,496, mid 2,483 to 4,130, senior 2,952 to 5,496), and these gross figures give net of about 1,550, 2,700 and 4,050 before bonus, inside those ranges. Ad ranges often show the employer's top figure, so this may run high.",
    "Bulgaria has no statutory 13th salary; many product firms pay a bonus or 13th pay, and bonus rates (3, 8 and 10 percent) are estimates, included in net.",
@@ -7448,6 +8759,19 @@ window.CITIES = [
    "junior": 24000,
    "mid": 39600,
    "senior": 57600
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Bulgarian",
+   "english_only": "common",
+   "note": "Sofia's software industry sells mostly to foreign clients, so outsourcing hubs, product companies and large R&D sites work in English. Bulgarian is needed for local public sector, small local firms and some customer-facing roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "Talenlio guide to Bulgaria IT outsourcing, Sofia",
+     "url": "https://talenlio.ai/blogs/bulgaria-it-outsourcing-sofia-2026"
+    }
+   ]
   }
  },
  {
@@ -7488,7 +8812,6 @@ window.CITIES = [
    "senior": 2793
   },
   "tax_regime_note": "Bulgaria uses the euro since 2026-01-01. No special regime for developers or newcomers. Net uses a flat 10 percent income tax on gross minus employee contributions of 13.78 percent (including 3.2 percent health), and contributions are charged only up to a monthly insurable income of 2,111.64 EUR until 2026-07-31 and 2,300 EUR from 2026-08-01, so pay above that cap is taxed only at 10 percent. The bonus is assumed to be paid in December. No graduate or youth relief was found, so a new grad pays the same.",
-  "language": "English is workable at the outsourcing offices in Plovdiv, but the pool of English-only employers is much smaller than in Sofia (an estimate).",
   "notes": [
    "Base pay is Sofia pay times 0.80: junior 1,600, mid 2,640, senior 3,840 EUR gross per month. NextJob.bg says Plovdiv pays 75 to 85 percent of Sofia for comparable roles but gives no Plovdiv figures, so this is an estimate and the thinnest pay figure in the Bulgarian rows.",
    "Bulgaria has no statutory 13th salary; many product firms pay a bonus or 13th pay, and bonus rates (3, 8 and 10 percent) are estimates, included in net.",
@@ -7534,6 +8857,19 @@ window.CITIES = [
    "junior": 19200,
    "mid": 31680,
    "senior": 46080
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Bulgarian",
+   "english_only": "common",
+   "note": "Plovdiv has a growing set of outsourcing and software teams serving foreign clients, where English is the working language. Bulgarian helps at local firms and customer-facing roles.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Talenlio guide to Bulgaria IT outsourcing, Sofia",
+     "url": "https://talenlio.ai/blogs/bulgaria-it-outsourcing-sofia-2026"
+    }
+   ]
   }
  },
  {
@@ -7574,7 +8910,6 @@ window.CITIES = [
    "senior": 1754
   },
   "tax_regime_note": "Net uses the normal 2026 rules: scale 9, 20, 26, 34, 39 and 44 percent at 10k, 20k, 30k, 40k and 60k, minus a 777 EUR credit that falls by 20 EUR per 1,000 EUR of taxable pay above 12,000, with employee EFKA contributions of 13.37 percent on every payment (health is inside EFKA). Article 5C relocation relief takes 50 percent of Greek employment income out of tax for 7 years if you were not Greek tax resident in 5 of the previous 6 years, move your residence from an EU, EEA or treaty country, work for a Greek employer or Greek branch and stay at least 2 years; there is no age or salary condition on the guide used, so a new graduate from another EU country likely qualifies if hired locally. The model puts it at about +162, +315 and +635 EUR a month for junior, mid and senior (not in the net). Separate 2026 youth rates: up to age 25 the first two bands (to 20,000) are 0 percent, ages 26 to 30 pay 9 percent in the 10,000 to 20,000 band. That is worth about +167, +242 and +242 EUR a month under 26 and +80, +92 and +92 EUR at ages 26 to 30 (not in the net); whether youth relief and 5C can be combined was not confirmed.",
-  "language": "English is workable at international and outsourcing firms in Athens, but Greek is needed at local firms and for all admin (an estimate, not measured).",
   "notes": [
    "Base pay used here, per monthly salary paid 14 times: junior 1,500, mid 2,300, senior 3,400 EUR. Sources: linq survey (Fortune Greece) junior 1,600 to 1,800 gross, 3 to 5 years 2,500 to 3,800, senior 3,500 to 5,300; newjobs hub gross junior 1,200 to 1,600, mid 1,800 to 2,400, senior 3,000 to 4,000; Athens junior pay is therefore uncertain. None of them says whether the figure is per payment or per month averaged, so per payment is assumed.",
    "Greek employees are paid 14 salaries: 12 monthly plus a Christmas pay of a full salary and an Easter pay and holiday allowance of half a salary each, so yearly gross is monthly gross times 14. Bonus rates (3, 5 and 8 percent) are estimates and are on top of the 14 salaries.",
@@ -7628,6 +8963,23 @@ window.CITIES = [
    "junior": 21000,
    "mid": 32200,
    "senior": 47600
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Greek",
+   "english_only": "common",
+   "note": "Multinationals, trading firms and IT consultancies (European Dynamics, XM, Netcompany) work in English. Greek is more likely wanted by local companies, Big Four consulting teams and customer-facing roles.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Levels.fyi software engineer jobs in Athens",
+     "url": "https://www.levels.fyi/jobs/title/software-engineer/location/athens-grc"
+    },
+    {
+     "label": "City Job Offers: hired in Greece without Greek",
+     "url": "https://cityjoboffers.com/blog/want-to-get-hired-in-greece-without-knowing-greek-heres-how"
+    }
+   ]
   }
  },
  {
@@ -7668,7 +9020,6 @@ window.CITIES = [
    "senior": 1547
   },
   "tax_regime_note": "Net uses the normal 2026 rules: scale 9, 20, 26, 34, 39 and 44 percent at 10k, 20k, 30k, 40k and 60k, minus a 777 EUR credit that falls by 20 EUR per 1,000 EUR of taxable pay above 12,000, with employee EFKA contributions of 13.37 percent on every payment (health is inside EFKA). Article 5C relocation relief takes 50 percent of Greek employment income out of tax for 7 years if you were not Greek tax resident in 5 of the previous 6 years, move your residence from an EU, EEA or treaty country, work for a Greek employer or Greek branch and stay at least 2 years; there is no age or salary condition on the guide used, so a new graduate from another EU country likely qualifies if hired locally. The model puts it at about +126, +264 and +516 EUR a month for junior, mid and senior (not in the net). Separate 2026 youth rates: up to age 25 the first two bands (to 20,000) are 0 percent, ages 26 to 30 pay 9 percent in the 10,000 to 20,000 band. That is worth about +126, +242 and +242 EUR a month under 26 and +59, +92 and +92 EUR at ages 26 to 30 (not in the net); whether youth relief and 5C can be combined was not confirmed.",
-  "language": "English is workable at the international tech offices in Thessaloniki; Greek is needed for local firms and admin (an estimate, not measured).",
   "notes": [
    "Base pay is Athens pay times 0.88, paid 14 times: junior 1,320, mid 2,020, senior 2,990 EUR per monthly salary. The 0.88 comes from newjobs hub, which lists mid-level net pay of 1,300 to 2,100 in Thessaloniki against 1,500 to 2,400 in Athens; no source gives Thessaloniki pay by level, so this is an estimate.",
    "Greek employees are paid 14 salaries: 12 monthly plus a Christmas pay of a full salary and an Easter pay and holiday allowance of half a salary each, so yearly gross is monthly gross times 14. Bonus rates (3, 5 and 8 percent) are estimates and are on top of the 14 salaries.",
@@ -7714,6 +9065,19 @@ window.CITIES = [
    "junior": 18480,
    "mid": 28280,
    "senior": 41860
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Greek",
+   "english_only": "some",
+   "note": "Pfizer's digital centre hires developers on English alone at senior level. Junior, internship and consulting roles at some firms ask for Greek as well.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "Pfizer Support Software Engineer, Thessaloniki (LinkedIn)",
+     "url": "https://gr.linkedin.com/jobs/view/senior-associate-support-software-engineer-at-pfizer-3806418141"
+    }
+   ]
   }
  },
  {
@@ -7754,7 +9118,6 @@ window.CITIES = [
    "senior": 2620
   },
   "tax_regime_note": "Net uses the normal 2026 rules: 0 percent to 22,000 EUR, then 20, 25, 30 and 35 percent at 32,000, 42,000 and 72,000, with employee social insurance of 8.8 percent (capped at 68,904 EUR a year) and GESY health contribution of 2.65 percent, both deductible. Special regimes need a first job in Cyprus and no recent Cyprus residence. The 20 percent exemption (capped at 8,550 EUR a year for 7 years, pay under 55,000) also needs at least 3 years of work abroad for a non-Cyprus employer, so a new grad does not qualify. For a mid or senior engineer who qualifies the model puts it at about +178 and +214 EUR a month where pay stays under 55,000 (not in the net). The 50 percent exemption needs pay above 55,000 EUR and no Cyprus residence for 15 years before the job (KPMG's 2022 note says 10); at 72,600 EUR a year with bonus, a qualifying senior would gain about +835 EUR a month, a qualifying mid about +377 EUR if pay passed the threshold (not in the net).",
-  "language": "Yes, English is the working language at the fintech, forex and iGaming firms that dominate Limassol, and most locals speak it (an estimate).",
   "notes": [
    "Base pay used here, in EUR a year: junior 27,000, mid 44,000, senior 66,000. The sources spread widely: Jobs Limassol junior 30,000 to 42,000, mid 52,000 to 72,000, senior 78,000 to 110,000 (no sample size); a roundup by Danilchenko puts the Glassdoor Cyprus average at 31,500 and senior at 72,000, and cites Levels.fyi medians of about 74,000 for Limassol (self-reported, skewed to international firms). The lower, more local figures were favoured because several of these sites are recruiter marketing.",
    "Yearly figures are base pay including a 13th salary where the employer pays one; several guides say most Cyprus employers pay it (about 8.3 percent extra) but some startups do not, and none of the pages states clearly whether its range includes it. Bonus rates (5, 8 and 10 percent) are estimates, included in net.",
@@ -7808,6 +9171,23 @@ window.CITIES = [
    "junior": 27000,
    "mid": 44000,
    "senior": 66000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Greek",
+   "english_only": "common",
+   "note": "Fintech, forex, gaming and tech firms (for example Exness, JetBrains, FxPro) use English as the working language. Greek is needed mainly for local-client, public-sector and some local company roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "index.cy: working in Cyprus guide",
+     "url": "https://index.cy/articles/working-in-cyprus-guide/"
+    },
+    {
+     "label": "Expat.com forum: jobs in Cyprus for English-only speakers",
+     "url": "https://www.expat.com/en/forum/europe/cyprus/931461-jobs-in-cyprus-for-english-only-speakers.html"
+    }
+   ]
   }
  },
  {
@@ -7848,7 +9228,6 @@ window.CITIES = [
    "senior": 2654
   },
   "tax_regime_note": "Net uses the normal 2026 rules: 0 percent to 22,000 EUR, then 20, 25, 30 and 35 percent at 32,000, 42,000 and 72,000, with employee social insurance of 8.8 percent (capped at 68,904 EUR a year) and GESY health contribution of 2.65 percent, both deductible. Special regimes need a first job in Cyprus and no recent Cyprus residence. The 20 percent exemption (capped at 8,550 EUR a year for 7 years, pay under 55,000) also needs at least 3 years of work abroad for a non-Cyprus employer, so a new grad does not qualify. For a mid or senior engineer who qualifies the model puts it at about +155 and +214 EUR a month where pay stays under 55,000 (not in the net). The 50 percent exemption needs pay above 55,000 EUR and no Cyprus residence for 15 years before the job (KPMG's 2022 note says 10); at 61,600 EUR a year with bonus, a qualifying senior would gain about +660 EUR a month, a qualifying mid about +257 EUR if pay passed the threshold (not in the net).",
-  "language": "Yes, English is widely used in business and at tech firms in Nicosia, though Greek helps with local employers and admin (an estimate).",
   "notes": [
    "Base pay used here, in EUR a year: junior 24,000, mid 38,000, senior 56,000, set about 10 to 15 percent below Limassol. Sources: the Jobs Nicosia salary guide gives all-Cyprus ranges of 22,000 to 32,000 for juniors (median 26,500), 35,000 to 55,000 for mid-level and 55,000 to 85,000 for seniors, with no sample size; its tech survey (24 hiring managers) puts back-end pay at 28,800, 50,400 and 81,600 a year. Those are all-Cyprus figures, so Nicosia sits at the lower end.",
    "Yearly figures are base pay including a 13th salary where the employer pays one; several guides say most Cyprus employers pay it (about 8.3 percent extra) but some startups do not, and none of the pages states clearly whether its range includes it. Bonus rates (5, 8 and 10 percent) are estimates, included in net.",
@@ -7902,6 +9281,23 @@ window.CITIES = [
    "junior": 24000,
    "mid": 38000,
    "senior": 56000
+  },
+  "language_need": {
+   "first": "English",
+   "second": "Greek",
+   "english_only": "some",
+   "note": "A growing cluster of international tech and gaming firms works in English. Nicosia has more government, university and local-company work, where Greek is more likely needed.",
+   "confidence": "low",
+   "sources": [
+    {
+     "label": "index.cy: working in Cyprus guide",
+     "url": "https://index.cy/articles/working-in-cyprus-guide/"
+    },
+    {
+     "label": "Expat.com forum: jobs in Cyprus for English-only speakers",
+     "url": "https://www.expat.com/en/forum/europe/cyprus/931461-jobs-in-cyprus-for-english-only-speakers.html"
+    }
+   ]
   }
  },
  {
@@ -7942,7 +9338,6 @@ window.CITIES = [
    "senior": 2396
   },
   "tax_regime_note": "Net uses the 2026 single rates (tax equals income times rate minus a fixed amount: 0 percent to 12,000 EUR, 15 percent to 16,000, 25 percent to 60,000, 35 percent above) and employee social security of 10 percent capped at 55.93 EUR a week (about 2,908 EUR a year, reached above 29,084 EUR). Healthcare is public, so nothing is added for health. The old Highly Qualified Persons scheme (flat 15 percent) is closed to new determinations; its replacement, the Highly Skilled Individuals rules, needs a basic salary of at least 65,000 EUR in an eligible role such as STEM, so none of the modelled pay qualifies and a new grad does not. The yearly statutory bonus (up to 512.52 EUR) and the 4.66 EUR a week cost of living adjustment are not in the net.",
-  "language": "Yes, English is an official language of Malta and the working language at software and iGaming firms.",
   "notes": [
    "Base pay used here, in EUR a year: junior 27,000, mid 40,000, senior 58,000. Sources: NextMove junior 25,000 to 35,000, mid 35,000 to 50,000, senior 50,000 to 70,000; FreeMalta 22,000 to 30,000, 30,000 to 50,000, 50,000 to 75,000; Working in Malta (Konnekt ads, June 2026) junior 25,000 to 30,000, senior 45,000 to 55,000. Posted ads read for this row: a .NET developer at 35,000 to 43,000, another at 30,000 to 45,000, and a PHP developer in St Julian's at 3,750 a month (45,000).",
    "Thin spots: Levels.fyi has only 25 Malta salaries (median 54,587, all levels); the NextMove and FreeMalta figures have no sample sizes or method. Malta pays 12 monthly salaries, so there is no 13th; bonus rates (3, 6 and 8 percent) are estimates, included in net. Social security is applied to pay including bonus, which only matters for the junior row. FreeMalta's own net example takes the full 10 percent social security without the cap, which looks wrong against PwC.",
@@ -7996,6 +9391,19 @@ window.CITIES = [
    "junior": 27000,
    "mid": 40000,
    "senior": 58000
+  },
+  "language_need": {
+   "first": "English",
+   "second": null,
+   "english_only": "common",
+   "note": "iGaming, fintech and tech employers in Sliema and St. Julian's work entirely in English. Maltese only appears in some local-facing and public-sector roles.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "label": "FreeMalta: English-speaking jobs in Malta",
+     "url": "https://freemalta.com/articles/english-speaking-jobs-malta-expats"
+    }
+   ]
   }
  }
 ];

@@ -603,6 +603,35 @@ function salaryChart(root) {
 
 // ---------- chart 3: where the money goes ----------
 
+const ENGLISH_ONLY = {
+  common: { dots: 3, text: "English-only roles are common" },
+  some: { dots: 2, text: "English-only roles exist, but fewer" },
+  rare: { dots: 1, text: "Almost every role needs the local language" },
+};
+
+const LANGUAGE_EVIDENCE = { high: "solid", medium: "partial", low: "thin" };
+
+function languageBlock(need) {
+  const level = ENGLISH_ONLY[need.english_only];
+  const meter = "●".repeat(level.dots) + `<span class="off">${"●".repeat(3 - level.dots)}</span>`;
+  const second = need.second ? `<span class="lang"><small>2nd</small>${esc(need.second)}</span>` : "";
+  const sources = need.sources
+    .map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a>`)
+    .join("");
+
+  return `
+    <div class="language">
+      <b>Language at work</b>
+      <div class="lang-row">
+        <span class="lang"><small>1st</small>${esc(need.first)}</span>
+        ${second}
+        <span class="meter" role="img" aria-label="${esc(level.text)}"><span class="dots" aria-hidden="true">${meter}</span>${esc(level.text)}</span>
+      </div>
+      <p>${esc(need.note)}</p>
+      <p class="lang-src"><span class="tag">Evidence: ${LANGUAGE_EVIDENCE[need.confidence]}</span> ${sources}</p>
+    </div>`;
+}
+
 function cityDetail(c) {
   const pay = visibleLevels().map(l => `
     <tr>
@@ -653,7 +682,7 @@ function cityDetail(c) {
     </div>
     <div class="wide">
       <p><b>Tax:</b> ${esc(c.tax_regime_note)}</p>
-      <p><b>Language:</b> ${esc(c.language)}</p>
+      ${languageBlock(c.language_need)}
       ${notes ? `<b>Worth knowing</b><ul>${notes}</ul>` : ""}
     </div>
     <div class="wide sources"><b>Sources:</b> ${sources}</div>`;

@@ -345,6 +345,16 @@ details.city[open] .info { opacity: 1; background: var(--foreground); color: var
 .mini { display: grid; grid-template-columns: 110px 1fr 56px; gap: 4px 8px; align-items: center; }
 .mini .mbar { height: 8px; border-radius: 0 4px 4px 0; background: var(--c-everyday); }
 .mini .num { text-align: right; font-variant-numeric: tabular-nums; }
+.language { margin-top: 4px; }
+.lang-row { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin: 6px 0; }
+.lang { font-weight: 600; font-size: 15px; display: inline-flex; align-items: baseline; gap: 6px; }
+.lang small { font-size: 11px; font-weight: 500; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.meter { font-size: 12px; color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
+.meter .dots { letter-spacing: 1px; color: var(--foreground); font-size: 10px; }
+.meter .off { opacity: .25; }
+.language p { margin: 4px 0; }
+.lang-src .tag { margin-right: 10px; }
+.lang-src a { margin-right: 10px; font-size: 12px; display: inline-block; }
 .tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
 
 ul.method { line-height: 1.6; padding-left: 20px; }

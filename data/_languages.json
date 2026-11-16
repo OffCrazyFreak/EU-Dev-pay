@@ -1,0 +1,1762 @@
+[
+ {
+  "country": "AT",
+  "city": "Vienna",
+  "first": "German",
+  "second": "English",
+  "english_only": "common",
+  "note": "Most Vienna ads are written in German, and public sector, banks, insurers and customer-facing or consulting roles need business German. International scale-ups, R&D centres, startups and game studios work in English and ask for little or no German.",
+  "evidence": "englishjobsearch.at tags 56 developer jobs in Vienna as English-speaking, against 96 'Softwareentwickler' ads on karriere.at (different counting methods, so only a rough ratio). Austria Handbook calls Vienna an 'English-speaking bubble' and gives A0-A1 German for fintech, startup and game roles but C1 for public sector. No practitioner posts read (Reddit blocked for the search tool).",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "englishjobsearch.at, developer jobs in Vienna",
+    "url": "https://englishjobsearch.at/in/wien/developer"
+   },
+   {
+    "title": "karriere.at, Softwareentwickler Wien",
+    "url": "https://www.karriere.at/jobs/softwareentwickler/wien"
+   },
+   {
+    "title": "Austria Handbook, is German mandatory for IT jobs",
+    "url": "https://austriahandbook.com/is-german-mandatory-for-it-jobs-in-austria/"
+   }
+  ]
+ },
+ {
+  "country": "AT",
+  "city": "Graz",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Most Graz developer ads are in German, and customer-facing work, local SMEs and industrial software need good German. English-first teams exist at international firms, mainly embedded, semiconductor and some product companies.",
+  "evidence": "karriere.at shows 49 Softwareentwickler ads in Graz; one visible ad says 'Sehr gute Deutschkenntnisse erforderlich'. englishjobsearch.at lists 21 English-speaking jobs in Graz and only about 4 are clear developer roles (embedded, fullstack, DevOps). StepStone showed all 38 matching ads as German-language. Thin evidence on practitioners.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "englishjobsearch.at, jobs in Graz",
+    "url": "https://englishjobsearch.at/in/graz"
+   },
+   {
+    "title": "karriere.at, Softwareentwickler Graz",
+    "url": "https://www.karriere.at/jobs/softwareentwickler/graz"
+   },
+   {
+    "title": "Austria Handbook, is German mandatory for IT jobs",
+    "url": "https://austriahandbook.com/is-german-mandatory-for-it-jobs-in-austria/"
+   }
+  ]
+ },
+ {
+  "country": "AT",
+  "city": "Linz",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Local industrial and automation firms and SMEs hire in German. Larger international software employers such as TeamViewer and Dynatrace use English as the team language.",
+  "evidence": "karriere.at shows 50 Softwareentwickler ads in Linz. englishjobsearch.at lists 17 English-speaking jobs in Linz and 6 are developer roles (TeamViewer, Bosch, others). Austria Handbook says Dynatrace works almost entirely in English. No practitioner accounts read.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "englishjobsearch.at, jobs in Linz",
+    "url": "https://englishjobsearch.at/in/linz"
+   },
+   {
+    "title": "karriere.at, Softwareentwickler Linz",
+    "url": "https://www.karriere.at/jobs/softwareentwickler/linz"
+   },
+   {
+    "title": "Austria Handbook, is German mandatory for IT jobs",
+    "url": "https://austriahandbook.com/is-german-mandatory-for-it-jobs-in-austria/"
+   }
+  ]
+ },
+ {
+  "country": "AT",
+  "city": "Salzburg",
+  "first": "German",
+  "second": "English",
+  "english_only": "rare",
+  "note": "Small market where local firms hire in German, and a visible ad asks for C1 German. English roles are few and concentrated at a few large employers such as Red Bull.",
+  "evidence": "karriere.at lists only about 13 software developer jobs in Salzburg and the one with a stated language asks for C1 German. englishjobsearch.at has 134 English-speaking jobs in Salzburg overall, but only about 1 clear developer title on the first page of 20 (rest are data, security or non-IT). Thin evidence.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "karriere.at, Softwareentwickler Salzburg",
+    "url": "https://www.karriere.at/jobs/softwareentwickler/salzburg"
+   },
+   {
+    "title": "englishjobsearch.at, jobs in Salzburg",
+    "url": "https://englishjobsearch.at/in/salzburg"
+   }
+  ]
+ },
+ {
+  "country": "AT",
+  "city": "Innsbruck",
+  "first": "German",
+  "second": "English",
+  "english_only": "rare",
+  "note": "A small developer market where nearly all ads are in German and local firms and customers expect German. English-first roles are few and tend to sit at international engineering firms.",
+  "evidence": "karriere.at shows only 9 software developer jobs in Innsbruck and none states a language. englishjobsearch.at has 29 English-speaking jobs in Innsbruck and only 1 clear developer role among the first 20 (many are Lieferando couriers). Thin evidence.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "karriere.at, Softwareentwickler Innsbruck",
+    "url": "https://www.karriere.at/jobs/softwareentwickler/innsbruck"
+   },
+   {
+    "title": "englishjobsearch.at, jobs in Innsbruck",
+    "url": "https://englishjobsearch.at/in/innsbruck"
+   }
+  ]
+ },
+ {
+  "country": "DE",
+  "city": "Berlin",
+  "first": "English",
+  "second": "German",
+  "english_only": "common",
+  "note": "Tech teams at startups and scale-ups mostly work in English, and many developers get hired without German. German is still needed for sales, support, German-market products, traditional firms, and most junior roles at German-speaking companies.",
+  "evidence": "Hisignal data reported by The Local (May 2026): 739 software development openings need no German, about 41 percent of the sector, but only 9.6 percent of junior tech roles are English-only. A Hacker News user who lived in Berlin said both tech teams he worked in 'did everything in English'. StepStone shows 614 of 686 Softwareentwickler ads as German-language, a German keyword bias.",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "The Local, Berlin jobs that do not require German",
+    "url": "https://www.thelocal.de/20260513/revealed-which-companies-in-berlin-offer-jobs-that-dont-require-german"
+   },
+   {
+    "title": "Hacker News, skilled workers leaving Germany",
+    "url": "https://news.ycombinator.com/item?id=48815982"
+   },
+   {
+    "title": "StepStone, Softwareentwickler Berlin",
+    "url": "https://www.stepstone.de/jobs/softwareentwickler/in-berlin"
+   }
+  ]
+ },
+ {
+  "country": "DE",
+  "city": "Munich",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Automotive, engineering, corporate and customer-facing roles mostly expect German, and commenters say Munich pushes you to learn it. Big tech offices, scale-ups and some startups work in English.",
+  "evidence": "englishjobs.de lists 82 English-speaking developer jobs in Munich (AutoScout24, SIXT, Nvidia, Mobileye) against 684 StepStone Softwareentwickler results, where the language facet showed 665 German and 149 English (the facet counts do not reconcile with the total, so treat as rough). Hacker News commenters said Munich or Cologne would have meant more pressure to learn German.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "englishjobs.de, developer jobs in Munich",
+    "url": "https://englishjobs.de/in/munich/developer"
+   },
+   {
+    "title": "StepStone, Softwareentwickler Munich",
+    "url": "https://www.stepstone.de/jobs/softwareentwickler/in-m%C3%BCnchen"
+   },
+   {
+    "title": "Hacker News, skilled workers leaving Germany",
+    "url": "https://news.ycombinator.com/item?id=48815982"
+   }
+  ]
+ },
+ {
+  "country": "DE",
+  "city": "Hamburg",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Trade, logistics, media and SME employers expect German. E-commerce, games and some international tech teams work in English.",
+  "evidence": "englishjobs.de lists 32 English-speaking developer jobs in Hamburg (ABOUT YOU, SCAYLE, NECT) against 456 StepStone Softwareentwickler results. A Hacker News user who had lived in Hamburg and Munich said English works for main paths but daily life needs German. No Hamburg-only survey found.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "englishjobs.de, developer jobs in Hamburg",
+    "url": "https://englishjobs.de/in/hamburg/developer"
+   },
+   {
+    "title": "StepStone, Softwareentwickler Hamburg",
+    "url": "https://www.stepstone.de/jobs/softwareentwickler/in-hamburg"
+   },
+   {
+    "title": "Hacker News, skilled workers leaving Germany",
+    "url": "https://news.ycombinator.com/item?id=48815982"
+   }
+  ]
+ },
+ {
+  "country": "DE",
+  "city": "Frankfurt",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Most developer ads and local banks, insurers and regulated finance roles expect German. International banks, fintechs and consultancies often use English in their tech teams.",
+  "evidence": "englishjobs.de shows only 6 English-speaking developer jobs in Frankfurt (Simon-Kucher, Red Hat, Be Shaping the Future) against 428 StepStone Softwareentwickler results. A guide on codingcareer.de says German is 'more often a prerequisite' in Frankfurt than in Berlin. Practitioner evidence is thin.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "englishjobs.de, developer jobs in Frankfurt",
+    "url": "https://englishjobs.de/in/frankfurt/developer"
+   },
+   {
+    "title": "StepStone, Softwareentwickler Frankfurt",
+    "url": "https://www.stepstone.de/jobs/softwareentwickler/in-frankfurt-am-main"
+   },
+   {
+    "title": "codingcareer.de, tech jobs in Germany for internationals",
+    "url": "https://codingcareer.de/en/guides/tech-jobs-germany-international-developers"
+   }
+  ]
+ },
+ {
+  "country": "DE",
+  "city": "Stuttgart",
+  "first": "German",
+  "second": "English",
+  "english_only": "rare",
+  "note": "Automotive suppliers, manufacturers and Mittelstand firms mostly hire in German. A few large employers and international teams use English in tech roles.",
+  "evidence": "englishjobs.de lists 12 English-speaking developer jobs in Stuttgart against 364 StepStone Softwareentwickler results, where the English facet showed 18 (facet totals do not reconcile, so rough). codingcareer.de says searching without German in Stuttgart and Cologne is 'significantly harder'.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "englishjobs.de, developer jobs in Stuttgart",
+    "url": "https://englishjobs.de/in/stuttgart/developer"
+   },
+   {
+    "title": "StepStone, Softwareentwickler Stuttgart",
+    "url": "https://www.stepstone.de/jobs/softwareentwickler/in-stuttgart"
+   },
+   {
+    "title": "codingcareer.de, tech jobs in Germany for internationals",
+    "url": "https://codingcareer.de/en/guides/tech-jobs-germany-international-developers"
+   }
+  ]
+ },
+ {
+  "country": "DE",
+  "city": "Cologne",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Media, insurance and local corporate and SME employers hire in German. A smaller group of international and remote-friendly tech firms works in English.",
+  "evidence": "englishjobs.de lists 12 English-speaking developer jobs in Cologne (Redcare Pharmacy, Simon-Kucher, ilert) against 444 StepStone Softwareentwickler results, where the English facet showed 50 (rough). codingcareer.de says searching without German in Cologne is 'significantly harder'. A Hacker News user expected more pressure to learn German in Cologne than in Berlin.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "englishjobs.de, developer jobs in Cologne",
+    "url": "https://englishjobs.de/in/cologne/developer"
+   },
+   {
+    "title": "StepStone, Softwareentwickler Cologne",
+    "url": "https://www.stepstone.de/jobs/softwareentwickler/in-k%C3%B6ln"
+   },
+   {
+    "title": "codingcareer.de, tech jobs in Germany for internationals",
+    "url": "https://codingcareer.de/en/guides/tech-jobs-germany-international-developers"
+   }
+  ]
+ },
+ {
+  "country": "DE",
+  "city": "Leipzig",
+  "first": "German",
+  "second": "English",
+  "english_only": "rare",
+  "note": "Consulting, enterprise IT and local SMEs mostly post in German. English-first roles are few and come from a handful of startups and international teams.",
+  "evidence": "englishjobs.de lists 1 English-speaking developer job in Leipzig against 156 StepStone Softwareentwickler results (English facet 23, rough). The single English-tagged listing is a cloud engineer role at Cuculus. Thin evidence, no practitioner posts.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "englishjobs.de, developer jobs in Leipzig",
+    "url": "https://englishjobs.de/in/leipzig/developer"
+   },
+   {
+    "title": "StepStone, Softwareentwickler Leipzig",
+    "url": "https://www.stepstone.de/jobs/softwareentwickler/in-leipzig"
+   }
+  ]
+ },
+ {
+  "country": "DE",
+  "city": "Dresden",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Local SMEs, ERP and .NET shops and defence-related firms hire in German. Semiconductor and international software employers such as Keysight, SAP and Huawei work in English.",
+  "evidence": "englishjobs.de lists 6 English-speaking developer jobs in Dresden (Keysight, Solactive, SAP, Huawei) against 129 StepStone Softwareentwickler results (English facet 26, rough). Thin evidence, no practitioner posts.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "englishjobs.de, developer jobs in Dresden",
+    "url": "https://englishjobs.de/in/dresden/developer"
+   },
+   {
+    "title": "StepStone, Softwareentwickler Dresden",
+    "url": "https://www.stepstone.de/jobs/softwareentwickler/in-dresden"
+   }
+  ]
+ },
+ {
+  "country": "LI",
+  "city": "Vaduz",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "German is the local working language, and ads from local banks and manufacturers (LGT, LLB, Bank Frick, Hilti, Ivoclar) usually assume German. A real minority, mostly international companies, consultancies and contractors, write ads in English or accept English alone.",
+  "evidence": "Opened a LinkedIn list of 27 Liechtenstein software and IT ads: about 22 titles are in English and 5 in German, but the page does not show the language requirement of any ad. The one Bank Frick ad I opened asks for 'very good German or English' (C1/C2). Only about one bank ad checked, so thin evidence; no practitioner threads found (Reddit could not be fetched).",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "LinkedIn developer jobs in Liechtenstein",
+    "url": "https://li.linkedin.com/jobs/software-developer-stellen"
+   },
+   {
+    "title": "Bank Frick Senior Application Developer ad",
+    "url": "https://freehire.me/jobs/senior-application-developer-80-100-m-w-d-bankfrick-5z2myyye"
+   }
+  ]
+ },
+ {
+  "country": "LI",
+  "city": "Feldkirch (to LI)*",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Work country is Liechtenstein, so the same applies: German for local banks and manufacturers, English alone only at some international firms and contractors. A real minority, mostly international companies, consultancies and contractors, write ads in English or accept English alone.",
+  "evidence": "Opened a LinkedIn list of 27 Liechtenstein software and IT ads: about 22 titles are in English and 5 in German, but the page does not show the language requirement of any ad. The one Bank Frick ad I opened asks for 'very good German or English' (C1/C2). Only about one bank ad checked, so thin evidence; no practitioner threads found (Reddit could not be fetched).",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "LinkedIn developer jobs in Liechtenstein",
+    "url": "https://li.linkedin.com/jobs/software-developer-stellen"
+   },
+   {
+    "title": "Bank Frick Senior Application Developer ad",
+    "url": "https://freehire.me/jobs/senior-application-developer-80-100-m-w-d-bankfrick-5z2myyye"
+   }
+  ]
+ },
+ {
+  "country": "CH",
+  "city": "Zurich",
+  "first": "German",
+  "second": "English",
+  "english_only": "common",
+  "note": "Google, Apple and other international tech firms, banks' tech teams and scale-ups work in English and hire engineers without German. German is expected at Swiss SMEs, consultancies, public bodies and for client contact or team lead roles.",
+  "evidence": "swissdevjobs.ch lists 131 IT jobs in Zurich, with a mix of English and German titles; englishjobsearch.ch lists 51 English-speaking developer jobs in Zurich (a different board, not a share). joblabrador.com says 45% of 2,502 English-listing Zurich roles need no German (40% for junior), across all industries, not just IT. The upreer.ch pages are one commercial source and partly disagree (one says UBS tech needs B2 German, another says UBS tech works in English).",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Upreer: Zurich software engineer salary and language FAQ",
+    "url": "https://www.upreer.ch/en/salaries/software-engineer-salary-zurich/"
+   },
+   {
+    "title": "JobLabrador: English-speaking jobs in Zurich",
+    "url": "https://joblabrador.com/jobs/english-speaking/zurich"
+   },
+   {
+    "title": "SwissDevJobs Zurich",
+    "url": "https://swissdevjobs.ch/jobs/all/Zurich"
+   }
+  ]
+ },
+ {
+  "country": "CH",
+  "city": "Zug",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Multinationals, commodity traders, crypto and fintech firms work in English; local SMEs, cantonal bodies and many software houses expect German (B2).",
+  "evidence": "swissdevjobs.ch shows about 22 to 23 IT jobs in Zug (several with German gender tags). englishjobsearch.ch shows 13 software jobs in Zug, and none of the visible excerpts mention German. Upreer's Zug guide says English is the working language at multinationals and German B2 is the minimum at local SMEs; it does not cover tech roles specifically. Small market, thin evidence.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Upreer: working in Zug",
+    "url": "https://www.upreer.ch/en/guides/working-in-zug/"
+   },
+   {
+    "title": "SwissDevJobs Zug",
+    "url": "https://swissdevjobs.ch/jobs/all/Zug"
+   },
+   {
+    "title": "englishjobsearch.ch Zug software",
+    "url": "https://englishjobsearch.ch/in/zug/software"
+   }
+  ]
+ },
+ {
+  "country": "CH",
+  "city": "Basel",
+  "first": "German",
+  "second": "English",
+  "english_only": "some",
+  "note": "Roche, Novartis, Lonza and other pharma and biotech teams run international engineering groups in English, especially data, AI and cloud. Local banks, SMEs and the university work in German, and German B2 to C1 is effectively needed for team lead roles.",
+  "evidence": "swissdevjobs.ch shows 11 to 12 IT jobs in Basel, with several German-titled ads (cyon, Universitat Basel, Banian) and several English ones (ERNI, Bank CIC, Botnar). englishjobsearch.ch lists 42 software-tagged English-speaking jobs in Basel, many of them lab or pharma roles. Upreer says German is needed 'less strictly than in Bern, more than in Geneva'.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Upreer: Basel software engineer salary and language",
+    "url": "https://www.upreer.ch/en/salaries/software-engineer-salary-basel/"
+   },
+   {
+    "title": "SwissDevJobs Basel",
+    "url": "https://swissdevjobs.ch/jobs/all/Basel"
+   },
+   {
+    "title": "englishjobsearch.ch Basel software",
+    "url": "https://englishjobsearch.ch/in/basel/software"
+   }
+  ]
+ },
+ {
+  "country": "CH",
+  "city": "Bern",
+  "first": "German",
+  "second": "English",
+  "english_only": "rare",
+  "note": "The federal administration, Swiss Post, Swisscom and IT consultancies work in German (B2 to C1), and many federal roles also want French. English alone works only at a few international firms and academic or multilateral roles.",
+  "evidence": "swissdevjobs.ch shows 30 IT jobs in Bern, with most titles in German or Swiss consultancy style (IT-Consulting, Entwickler:in). englishjobsearch.ch counts only 1 English-speaking developer job in Bern against 51 in Zurich. Upreer says English-only candidates 'will struggle in most Bern roles'; this is a commercial guide, not a survey.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Upreer: working in Bern",
+    "url": "https://www.upreer.ch/en/guides/working-in-bern/"
+   },
+   {
+    "title": "SwissDevJobs Bern",
+    "url": "https://swissdevjobs.ch/jobs/all/Bern"
+   },
+   {
+    "title": "englishjobsearch.ch developer jobs by city",
+    "url": "https://englishjobsearch.ch/jobs/developer"
+   }
+  ]
+ },
+ {
+  "country": "CH",
+  "city": "Lausanne",
+  "first": "French",
+  "second": "English",
+  "english_only": "common",
+  "note": "EPFL, EPFL-spinout startups and scale-ups such as Nexthink work in English, and ads often say French is an asset only. French is needed for client-facing roles, local SMEs, the public sector and team lead roles at Swiss-headquartered firms.",
+  "evidence": "An EPFL software engineer ad I opened says 'Mastery of English indispensable; French is an asset but not required'. englishjobsearch.ch lists 30 English-speaking software jobs in Lausanne and none of the visible ones state French; swissdevjobs.ch shows only 10 IT jobs, mostly English titles. Upreer says English is the default for engineering teams.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPFL careers: Software Engineer ad",
+    "url": "https://careers.epfl.ch/job/Lausanne-Software-Engineer-Keystone-Project-(Machine-Verified-LLM-Inference)/1165508255/"
+   },
+   {
+    "title": "Upreer: Lausanne software engineer salary and language",
+    "url": "https://www.upreer.ch/en/salaries/software-engineer-salary-lausanne/"
+   },
+   {
+    "title": "englishjobsearch.ch Lausanne software",
+    "url": "https://englishjobsearch.ch/in/lausanne/software"
+   }
+  ]
+ },
+ {
+  "country": "CH",
+  "city": "Geneva",
+  "first": "French",
+  "second": "English",
+  "english_only": "common",
+  "note": "CERN, UN bodies, private banks such as Lombard Odier, trading houses and multinationals work in English. French is expected for local clients, local SMEs, French-speaking banks and the public sector, and for daily life.",
+  "evidence": "englishjobsearch.ch lists 89 English-speaking software jobs in Geneva (14 of the first 20 are Lombard Odier) and none of the visible ones mention French. careerkit.me counts 182 Geneva roles where English is the only required language, with no tech split. swissdevjobs.ch shows 27 to 28 IT jobs, 23 of them Lombard Odier, so that sample is skewed.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Upreer: Geneva software engineer salary and language",
+    "url": "https://www.upreer.ch/en/salaries/software-engineer-salary-geneva/"
+   },
+   {
+    "title": "careerkit.me English-speaking jobs in Geneva",
+    "url": "https://www.careerkit.me/jobs/ch/english/geneva"
+   },
+   {
+    "title": "englishjobsearch.ch Geneva software",
+    "url": "https://englishjobsearch.ch/in/geneva/software"
+   }
+  ]
+ },
+ {
+  "country": "CH",
+  "city": "Lugano",
+  "first": "Italian",
+  "second": "English",
+  "english_only": "some",
+  "note": "Local software houses, consultancies and banks with Italian-speaking clients usually want Italian and English; crypto, fintech and remote-first firms such as Tether can work in English alone.",
+  "evidence": "swissdevjobs.ch shows only 2 IT jobs in Lugano, both at WellD Sagl, with no language stated on the page. englishjobsearch.ch showed no English-speaking software jobs in Lugano. The claims about Italian and English wording in specific ads (WellD, Fincons, EFG, Tether) come from search summaries of Glassdoor pages that blocked me (HTTP 403), so I did not verify them. Thin evidence.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "SwissDevJobs Lugano",
+    "url": "https://swissdevjobs.ch/jobs/all/Lugano"
+   },
+   {
+    "title": "englishjobsearch.ch Lugano software",
+    "url": "https://englishjobsearch.ch/in/lugano/software"
+   }
+  ]
+ },
+ {
+  "country": "LU",
+  "city": "Luxembourg City",
+  "first": "English",
+  "second": "French",
+  "english_only": "common",
+  "note": "English is the usual working language in IT, finance and research, so international firms, banks and scale-ups hire developers who speak English alone. French is asked for in a sizeable minority of ads, mainly client-facing, local and public-sector roles; German helps for cross-border work and Luxembourgish is rarely needed.",
+  "evidence": "Opened 20 'software engineer' ads on lu.talent.com: only 1 states a language (fluent English), 2 are written in French, 0 mention German, and 5 are Amazon entities. A recruiter quoted in a 2026 article says about 50% of Luxembourg positions require French, German or Luxembourgish and 50% list English; that figure is not IT-specific. Moovijob language counts for developer ads were blocked (HTTP 403), so I did not use them.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "talent.com Luxembourg software engineer ads",
+    "url": "https://lu.talent.com/en/jobs/k-software-engineer-l-luxembourg"
+   },
+   {
+    "title": "All Eyes On Me: working in Luxembourg without French",
+    "url": "https://media.alleyesonme.jobs/en/article-titles/myth-or-reality-is-it-impossible-to-work-in-luxembourg-without-french"
+   },
+   {
+    "title": "Frontaliers Grand Est: which language for which sector",
+    "url": "https://frontaliers-grandest.eu/de/startseite/fremdsprachen-lernen/der-sprachengebrauch-in-unternehmen/in-luxemburg/der-sprachengebrauch-in-unternehmen-in-luxemburg/welche-sprache-fur-welche-branche/"
+   }
+  ]
+ },
+ {
+  "country": "LU",
+  "city": "Thionville (to LU)*",
+  "first": "English",
+  "second": "French",
+  "english_only": "common",
+  "note": "Work country is Luxembourg. Living in French-speaking Thionville already gives you the French that local and client-facing roles ask for. English is the usual working language in IT, finance and research, so international firms, banks and scale-ups hire developers who speak English alone. French is asked for in a sizeable minority of ads, mainly client-facing, local and public-sector roles; German helps for cross-border work and Luxembourgish is rarely needed.",
+  "evidence": "Opened 20 'software engineer' ads on lu.talent.com: only 1 states a language (fluent English), 2 are written in French, 0 mention German, and 5 are Amazon entities. A recruiter quoted in a 2026 article says about 50% of Luxembourg positions require French, German or Luxembourgish and 50% list English; that figure is not IT-specific. Moovijob language counts for developer ads were blocked (HTTP 403), so I did not use them. Country-level evidence only; nothing specific to Thionville commuters.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "talent.com Luxembourg software engineer ads",
+    "url": "https://lu.talent.com/en/jobs/k-software-engineer-l-luxembourg"
+   },
+   {
+    "title": "All Eyes On Me: working in Luxembourg without French",
+    "url": "https://media.alleyesonme.jobs/en/article-titles/myth-or-reality-is-it-impossible-to-work-in-luxembourg-without-french"
+   },
+   {
+    "title": "Frontaliers Grand Est: which language for which sector",
+    "url": "https://frontaliers-grandest.eu/de/startseite/fremdsprachen-lernen/der-sprachengebrauch-in-unternehmen/in-luxemburg/der-sprachengebrauch-in-unternehmen-in-luxemburg/welche-sprache-fur-welche-branche/"
+   }
+  ]
+ },
+ {
+  "country": "LU",
+  "city": "Arlon (to LU)*",
+  "first": "English",
+  "second": "French",
+  "english_only": "common",
+  "note": "Work country is Luxembourg. Living in French-speaking Arlon already gives you the French that local and client-facing roles ask for. English is the usual working language in IT, finance and research, so international firms, banks and scale-ups hire developers who speak English alone. French is asked for in a sizeable minority of ads, mainly client-facing, local and public-sector roles; German helps for cross-border work and Luxembourgish is rarely needed.",
+  "evidence": "Opened 20 'software engineer' ads on lu.talent.com: only 1 states a language (fluent English), 2 are written in French, 0 mention German, and 5 are Amazon entities. A recruiter quoted in a 2026 article says about 50% of Luxembourg positions require French, German or Luxembourgish and 50% list English; that figure is not IT-specific. Moovijob language counts for developer ads were blocked (HTTP 403), so I did not use them. Country-level evidence only; nothing specific to Arlon commuters.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "talent.com Luxembourg software engineer ads",
+    "url": "https://lu.talent.com/en/jobs/k-software-engineer-l-luxembourg"
+   },
+   {
+    "title": "All Eyes On Me: working in Luxembourg without French",
+    "url": "https://media.alleyesonme.jobs/en/article-titles/myth-or-reality-is-it-impossible-to-work-in-luxembourg-without-french"
+   },
+   {
+    "title": "Frontaliers Grand Est: which language for which sector",
+    "url": "https://frontaliers-grandest.eu/de/startseite/fremdsprachen-lernen/der-sprachengebrauch-in-unternehmen/in-luxemburg/der-sprachengebrauch-in-unternehmen-in-luxemburg/welche-sprache-fur-welche-branche/"
+   }
+  ]
+ },
+ {
+  "country": "LU",
+  "city": "Trier (to LU)*",
+  "first": "English",
+  "second": "French",
+  "english_only": "common",
+  "note": "Work country is Luxembourg. German from Trier is a plus for cross-border roles, but English and French carry most IT ads. English is the usual working language in IT, finance and research, so international firms, banks and scale-ups hire developers who speak English alone. French is asked for in a sizeable minority of ads, mainly client-facing, local and public-sector roles; German helps for cross-border work and Luxembourgish is rarely needed.",
+  "evidence": "Opened 20 'software engineer' ads on lu.talent.com: only 1 states a language (fluent English), 2 are written in French, 0 mention German, and 5 are Amazon entities. A recruiter quoted in a 2026 article says about 50% of Luxembourg positions require French, German or Luxembourgish and 50% list English; that figure is not IT-specific. Moovijob language counts for developer ads were blocked (HTTP 403), so I did not use them. Country-level evidence only; nothing specific to Trier commuters.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "talent.com Luxembourg software engineer ads",
+    "url": "https://lu.talent.com/en/jobs/k-software-engineer-l-luxembourg"
+   },
+   {
+    "title": "All Eyes On Me: working in Luxembourg without French",
+    "url": "https://media.alleyesonme.jobs/en/article-titles/myth-or-reality-is-it-impossible-to-work-in-luxembourg-without-french"
+   },
+   {
+    "title": "Frontaliers Grand Est: which language for which sector",
+    "url": "https://frontaliers-grandest.eu/de/startseite/fremdsprachen-lernen/der-sprachengebrauch-in-unternehmen/in-luxemburg/der-sprachengebrauch-in-unternehmen-in-luxemburg/welche-sprache-fur-welche-branche/"
+   }
+  ]
+ },
+ {
+  "country": "IE",
+  "city": "Dublin",
+  "first": "English",
+  "second": null,
+  "english_only": "common",
+  "note": "English is the working language everywhere, including the EU headquarters of US tech firms and Irish banks. Other languages (German, French) only matter for multilingual support or sales roles, not for developers.",
+  "evidence": "Built In Dublin showed 25 software engineer ads from 11 employers (MongoDB, Workday, ServiceNow, Mastercard and others) and none asked for a language other than English. Indeed and Glassdoor result pages (seen in search results, not opened) show 500+ Dublin developer jobs.",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Built In Dublin software engineer jobs",
+    "url": "https://builtindublin.ie/jobs/dev-engineering/search/software-engineer"
+   }
+  ]
+ },
+ {
+  "country": "IE",
+  "city": "Cork",
+  "first": "English",
+  "second": null,
+  "english_only": "common",
+  "note": "Ireland is English-speaking, so developers at Apple, MongoDB and local firms work in English. Irish is not needed for private-sector dev jobs.",
+  "evidence": "Country-level evidence only for the language point, plus the Dublin ad sample. Search results (pages not opened) gave about 88 Cork software developer ads on Glassdoor with Apple and MongoDB among employers.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Built In Dublin software engineer jobs (Irish market sample, Dublin only)",
+    "url": "https://builtindublin.ie/jobs/dev-engineering/search/software-engineer"
+   }
+  ]
+ },
+ {
+  "country": "IE",
+  "city": "Galway",
+  "first": "English",
+  "second": null,
+  "english_only": "common",
+  "note": "English is the working language at the medical-device and software employers (Medtronic, Cisco, Genesys) and at local firms. Irish is not needed for dev jobs.",
+  "evidence": "Country-level evidence only for the language point, plus the Dublin ad sample. Search results (pages not opened) showed roughly 50 to 118 Galway software ads on Glassdoor and Indeed, dominated by Medtronic.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Built In Dublin software engineer jobs (Irish market sample, Dublin only)",
+    "url": "https://builtindublin.ie/jobs/dev-engineering/search/software-engineer"
+   }
+  ]
+ },
+ {
+  "country": "NL",
+  "city": "Amsterdam",
+  "first": "English",
+  "second": "Dutch",
+  "english_only": "common",
+  "note": "Product companies, scale-ups and multinationals work in English, and many young firms treat it as the main language. Dutch (B1 or B2) is asked for at public-sector bodies, healthcare tech, domestic banks and Dutch IT consultancies, mostly for client-facing roles.",
+  "evidence": "Three guide pages (WeAreDevelopers, Strooptaal, Welkom NL) agree that Dutch is not needed for most dev jobs in Amsterdam. None counted ads, and they are partly written by relocation or recruiting sites, so they lean optimistic.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "WeAreDevelopers: developer job in Amsterdam",
+    "url": "https://www.wearedevelopers.com/magazine/36/how-to-land-a-developer-job-in-amsterdam"
+   },
+   {
+    "title": "Strooptaal: tech jobs in the Netherlands 2026",
+    "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+   },
+   {
+    "title": "Welkom NL: English-speaking jobs in the Netherlands",
+    "url": "https://welkomnl.com/blog/english-speaking-jobs-netherlands-2026"
+   }
+  ]
+ },
+ {
+  "country": "NL",
+  "city": "Utrecht",
+  "first": "Dutch",
+  "second": "English",
+  "english_only": "some",
+  "note": "Utrecht is known for health-tech, IT consultancy and infrastructure firms, where Dutch is often expected for client work. Startups and international teams can work in English alone.",
+  "evidence": "Country-level only. The Strooptaal guide describes Utrecht's sectors but gives no language figure for it. I found no Utrecht ad counts, and the ranking of Dutch first is an inference from the employer mix.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Strooptaal: tech jobs in the Netherlands 2026",
+    "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+   },
+   {
+    "title": "NLNest: no Dutch required software jobs",
+    "url": "https://nlnest.com/en/jobs-in-netherlands/it-technology/software-developer/no-dutch-required"
+   }
+  ]
+ },
+ {
+  "country": "NL",
+  "city": "Rotterdam",
+  "first": "Dutch",
+  "second": "English",
+  "english_only": "some",
+  "note": "Port, logistics, banks and local SMEs use Dutch, while international and startup teams work in English. Guides say tech staff can work entirely in English in Rotterdam.",
+  "evidence": "Country-level only. The Strooptaal FAQ says tech workers can work fully in English in Rotterdam, but no ad counts were seen. Ranking Dutch first is an inference from the employer mix.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Strooptaal: tech jobs in the Netherlands 2026",
+    "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+   },
+   {
+    "title": "Welkom NL: English-speaking jobs in the Netherlands",
+    "url": "https://welkomnl.com/blog/english-speaking-jobs-netherlands-2026"
+   }
+  ]
+ },
+ {
+  "country": "NL",
+  "city": "The Hague",
+  "first": "Dutch",
+  "second": "English",
+  "english_only": "some",
+  "note": "The city is centred on government, public-sector digital work and cybersecurity, where Dutch is often required. International organisations and some cyber firms work in English.",
+  "evidence": "Country-level only. The Strooptaal guide lists The Hague's focus areas (cybersecurity, public-sector infrastructure) and says public-sector roles often want B1 or B2 Dutch. No Hague ad counts were found.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Strooptaal: tech jobs in the Netherlands 2026",
+    "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+   }
+  ]
+ },
+ {
+  "country": "NL",
+  "city": "Eindhoven",
+  "first": "English",
+  "second": "Dutch",
+  "english_only": "common",
+  "note": "ASML, NXP, Philips and most Brainport firms work in English internally. Smaller local companies may expect Dutch, and many roles are embedded or hardware-oriented rather than web.",
+  "evidence": "Brainport's job board advertises 3,000+ tech and IT vacancies for English speakers (a promotional page). Welkom NL says ASML, NXP and most Brainport firms use English internally, and Strooptaal lists the working language as English and Dutch.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Brainport Eindhoven: IT jobs",
+    "url": "https://brainporteindhoven.com/int/work/jobs/jobs-in-it"
+   },
+   {
+    "title": "Welkom NL: English-speaking jobs in the Netherlands",
+    "url": "https://welkomnl.com/blog/english-speaking-jobs-netherlands-2026"
+   },
+   {
+    "title": "Strooptaal: tech jobs in the Netherlands 2026",
+    "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
+   }
+  ]
+ },
+ {
+  "country": "FR",
+  "city": "Paris",
+  "first": "French",
+  "second": "English",
+  "english_only": "some",
+  "note": "Most French firms, banks, consultancies and public bodies work in French, and ads are written in French. Startups, scale-ups and international or US-owned companies in Paris often work in English.",
+  "evidence": "France Dev Jobs, a curated board of firms with public evidence of English at work, lists 913 Paris jobs of 1,888 in France. Wise says French companies usually want firm French, and a Built In sample of 4 Paris ads named no language. Blind comments (seen in search results only, page blocked) say startups need no French.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "France Dev Jobs",
+    "url": "https://francedevjobs.com/"
+   },
+   {
+    "title": "Wise: finding a job in Paris",
+    "url": "https://wise.com/gb/blog/finding-a-job-in-paris"
+   },
+   {
+    "title": "Built In France front end jobs",
+    "url": "https://builtin.com/jobs/eu/france/dev-engineering/search/front-end?page=2"
+   }
+  ]
+ },
+ {
+  "country": "FR",
+  "city": "Lyon",
+  "first": "French",
+  "second": "English",
+  "english_only": "some",
+  "note": "Local employers, agencies and consultancies work in French. English alone can work at some international tech and business-services firms, but French matters for client-facing roles.",
+  "evidence": "Thin evidence. France Dev Jobs gives a city count only for Paris, and a Faruse guide (seen in search results, not opened) says English may be enough at some Lyon tech firms. No Lyon ad sample was opened.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "France Dev Jobs",
+    "url": "https://francedevjobs.com/"
+   }
+  ]
+ },
+ {
+  "country": "FR",
+  "city": "Toulouse",
+  "first": "French",
+  "second": "English",
+  "english_only": "rare",
+  "note": "Aerospace and defence employers such as Airbus and local IT consultancies mostly ask for French, with English as a second skill. English-only roles are few outside international teams.",
+  "evidence": "Thin evidence. Search results summarising Airbus Toulouse developer internship and apprenticeship ads (pages not opened) showed fluent French asked in most, with English at intermediate to fluent level. France Dev Jobs showed no Toulouse city count.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "France Dev Jobs",
+    "url": "https://francedevjobs.com/"
+   }
+  ]
+ },
+ {
+  "country": "FR",
+  "city": "Nantes",
+  "first": "French",
+  "second": "English",
+  "english_only": "rare",
+  "note": "Digital agencies, SMEs and local employers work in French. A few international product companies with Nantes offices may use English.",
+  "evidence": "Thin evidence. No Nantes ad sample was opened, and France Dev Jobs showed no Nantes city count. The rating is an inference from the French-language local market.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "France Dev Jobs",
+    "url": "https://francedevjobs.com/"
+   }
+  ]
+ },
+ {
+  "country": "FR",
+  "city": "Nice",
+  "first": "French",
+  "second": "English",
+  "english_only": "some",
+  "note": "Nice and nearby Sophia Antipolis host international tech firms such as Amadeus where English is the working language. Local SMEs and agencies in Nice use French.",
+  "evidence": "Thin evidence. Search results listing Amadeus Sophia Antipolis developer ads (pages not opened) showed English asked and no French mentioned, with about 32 Amadeus listings on LinkedIn. No Nice ad sample was opened.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "France Dev Jobs",
+    "url": "https://francedevjobs.com/"
+   }
+  ]
+ },
+ {
+  "country": "BE",
+  "city": "Brussels",
+  "first": "French or Dutch",
+  "second": "English",
+  "english_only": "some",
+  "note": "Banks, public bodies and local firms ask for French or Dutch, sometimes both. International firms, EU-related employers and consultancies hire developers in English alone.",
+  "evidence": "Englishjobs.be lists 40 English-speaking developer ads in Brussels (ING, Accenture, European Dynamics among them), none stating French or Dutch. Search results (not opened) show over 400 Brussels developer ads on Indeed, so English-only ads look like roughly a tenth. A visa-jobs aggregator says Dutch or French is rarely required, which is likely optimistic.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Englishjobs.be developer jobs in Brussels",
+    "url": "https://englishjobs.be/in/brussels/developer"
+   },
+   {
+    "title": "Jobmetasearch full stack jobs in Belgium",
+    "url": "https://jobmetasearch.ai/visa-sponsorship/fullstack-developer/belgium"
+   }
+  ]
+ },
+ {
+  "country": "BE",
+  "city": "Antwerp",
+  "first": "Dutch",
+  "second": "English",
+  "english_only": "some",
+  "note": "Local employers, consultancies and logistics firms in Flanders mostly ask for Dutch and English. English-only roles sit at a few international companies and scale-ups.",
+  "evidence": "Englishjobs.be showed only 2 English-speaking developer ads in Antwerp (KION Group, Q8). A job aggregator listed 4 Antwerp ads (Spilberg, VeroTech). Search results (not opened) quoted Antwerp ads asking for fluent Dutch and English.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Englishjobs.be developer jobs in Antwerp",
+    "url": "https://englishjobs.be/in/antwerp/developer"
+   },
+   {
+    "title": "Jobmetasearch full stack jobs in Belgium",
+    "url": "https://jobmetasearch.ai/visa-sponsorship/fullstack-developer/belgium"
+   }
+  ]
+ },
+ {
+  "country": "BE",
+  "city": "Ghent",
+  "first": "Dutch",
+  "second": "English",
+  "english_only": "some",
+  "note": "Local firms and consultancies in Flanders mostly work in Dutch. The scale-up Aikido Security and a few industrial employers (Agfa, TVH) advertise in English.",
+  "evidence": "Englishjobs.be showed 13 English-language ads in Ghent, but only about 4 were engineering roles (Agfa, TVH) and 9 were Aikido sales or marketing. A job aggregator listed 6 Ghent ads (Aikido, Pauwels Consulting).",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Englishjobs.be developer jobs in Ghent",
+    "url": "https://englishjobs.be/in/ghent/developer"
+   },
+   {
+    "title": "Jobmetasearch full stack jobs in Belgium",
+    "url": "https://jobmetasearch.ai/visa-sponsorship/fullstack-developer/belgium"
+   }
+  ]
+ },
+ {
+  "country": "LV",
+  "city": "Riga",
+  "first": "English",
+  "second": "Latvian",
+  "english_only": "common",
+  "note": "Private-sector IT, outsourcing and international firms work in English. Latvian is mainly needed for public-sector, public-contact and some local-company roles.",
+  "evidence": "On the English-speaker board iagora, all 7 Riga developer or engineer ads (full stack, SAP ABAP, Power Platform, data, DevOps) listed English and none asked for Latvian; this board is pre-filtered for English, so it shows nothing about the whole market. A Q1 2025 relocation report says the ICT private sector operates predominantly in English and rates English at work 'Very High'. No unfiltered ad counts and no practitioner threads were reachable.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "iagora English-speaker jobs in Riga",
+    "url": "https://www.iagora.com/work/en/jobs-and-internships/for-english-speakers/latvia/riga"
+   },
+   {
+    "title": "EU Legal Gateway Latvia ICT report (Q1 2025)",
+    "url": "https://www.eulegalgateway.com/countries/latvia"
+   }
+  ]
+ },
+ {
+  "country": "LT",
+  "city": "Vilnius",
+  "first": "English",
+  "second": "Lithuanian",
+  "english_only": "common",
+  "note": "International employers and fintech or tech scale-ups run meetings, docs and chat in English. Lithuanian matters mostly for local companies, public bodies and roles that talk to Lithuanian authorities or customers.",
+  "evidence": "One recruiting guide (Work in Lithuania) states that English is the working language in IT and that Lithuanian is not a professional requirement at international employers, naming Revolut and NordVPN. It is promotional, covers the country, and does not discuss local firms. No ad counts or practitioner threads were opened.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Work in Lithuania: English-speaking jobs",
+    "url": "https://workinlithuania.com/blog/english-speaking-jobs/"
+   }
+  ]
+ },
+ {
+  "country": "LT",
+  "city": "Kaunas",
+  "first": "English",
+  "second": "Lithuanian",
+  "english_only": "common",
+  "note": "Product and outsourcing companies in the IT sector use English at work. Local firms and public employers can still ask for Lithuanian.",
+  "evidence": "Thin evidence: the iagora English-speaker board showed 1 developer ad in Kaunas (Java, hybrid) and it did not mention Lithuanian; that board is filtered for English. The country-level guide from Work in Lithuania says English is the IT working language. Nothing Kaunas-specific on local firms.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "iagora English-speaker jobs in Kaunas",
+    "url": "https://www.iagora.com/work/en/jobs-and-internships/for-english-speakers/lithuania/kaunas"
+   },
+   {
+    "title": "Work in Lithuania: English-speaking jobs",
+    "url": "https://workinlithuania.com/blog/english-speaking-jobs/"
+   }
+  ]
+ },
+ {
+  "country": "IS",
+  "city": "Reykjavik",
+  "first": "Icelandic",
+  "second": "English",
+  "english_only": "some",
+  "note": "International tech firms and some companies with foreign staff work in English. Government, health, education and local Icelandic employers usually need Icelandic.",
+  "evidence": "Thin evidence. A Guide to Iceland article says Icelandic is not always required in Reykjavik tech and that English often works as the company language where staff are international. An Iceland software ad on Tvinna asked for English and accepted applications only in English. Levels.fyi listed 17 software jobs from 6 mostly foreign firms (Asana, TripAdvisor, VAST Data, DuckDuckGo and others). No ad counts for Icelandic-language firms and no practitioner threads.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Guide to Iceland: finding a job",
+    "url": "https://guidetoiceland.is/history-culture/how-to-find-a-job-in-iceland"
+   },
+   {
+    "title": "Tvinna software engineer ad",
+    "url": "https://www.tvinna.is/jobs/software-engineer-iceland/"
+   },
+   {
+    "title": "Levels.fyi software jobs in Iceland",
+    "url": "https://www.levels.fyi/jobs/title/software-engineer/location/iceland"
+   }
+  ]
+ },
+ {
+  "country": "DK",
+  "city": "Copenhagen",
+  "first": "English",
+  "second": "Danish",
+  "english_only": "common",
+  "note": "Danish startups, game studios, scale-ups and international firms work in English. Danish is still needed for customer-facing roles, public sector and some local SMEs and agencies.",
+  "evidence": "Jobs in English listed about 96 English-working software ads in Copenhagen (the page shows 93 in the header and 96 in the pager); that site only lists English-working roles. Nordic Tech Jobs showed 69 English-speaking tech roles in Copenhagen of 144 in Denmark. The Local (2025) says Danish IT companies, game developers and startups use English at work. No unfiltered share of ads was found.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Jobs in English: software jobs in Copenhagen",
+    "url": "https://jobsinenglish.dk/software-development-jobs-in-kobenhavn/"
+   },
+   {
+    "title": "Nordic Tech Jobs Denmark",
+    "url": "https://nordictechjobs.com/denmark"
+   },
+   {
+    "title": "The Local Denmark: jobs with no Danish",
+    "url": "https://www.thelocal.dk/20250317/what-jobs-can-you-do-in-denmark-with-no-danish-at-all"
+   }
+  ]
+ },
+ {
+  "country": "DK",
+  "city": "Aarhus",
+  "first": "Danish",
+  "second": "English",
+  "english_only": "some",
+  "note": "Larger tech firms, startups and international teams work in English. Smaller local IT consultancies and SMEs often hire in Danish.",
+  "evidence": "Jobs in English listed 18 English-working software ads in Aarhus (pager says 19) and Nordic Tech Jobs listed 18, against about 96 for Copenhagen on the same site. Both are English-only boards, so no share of all ads. A search result showed local employer IT Minds posting in Danish, but I did not open it.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Jobs in English: software jobs in Aarhus",
+    "url": "https://jobsinenglish.dk/software-development-jobs-in-aarhus/"
+   },
+   {
+    "title": "Nordic Tech Jobs Denmark",
+    "url": "https://nordictechjobs.com/denmark"
+   }
+  ]
+ },
+ {
+  "country": "DK",
+  "city": "Odense",
+  "first": "Danish",
+  "second": "English",
+  "english_only": "some",
+  "note": "A few product and robotics-style employers work in English. Most local firms, agencies and public employers use Danish.",
+  "evidence": "Thin evidence: Jobs in English listed only 3 to 4 English-working software ads in Odense, and Nordic Tech Jobs listed none. One Odense company (Colourbox) posted developer ads on Hacker News in 2017 and 2018 that asked for English and not Danish; those are old.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Jobs in English: software jobs in Odense",
+    "url": "https://jobsinenglish.dk/software-development-jobs-in-odense/"
+   }
+  ]
+ },
+ {
+  "country": "DK",
+  "city": "Aalborg",
+  "first": "Danish",
+  "second": "English",
+  "english_only": "some",
+  "note": "A handful of firms hire in English. Most local employers, consultancies and public bodies use Danish.",
+  "evidence": "Thin evidence: Jobs in English listed only 4 English-working software ads in Aalborg and Nordic Tech Jobs listed none. English-only boards, so no share of all ads. No practitioner source for Aalborg.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Jobs in English: software jobs in Aalborg",
+    "url": "https://jobsinenglish.dk/software-development-jobs-in-aalborg/"
+   }
+  ]
+ },
+ {
+  "country": "SE",
+  "city": "Stockholm",
+  "first": "Swedish",
+  "second": "English",
+  "english_only": "some",
+  "note": "Startups, scale-ups, game studios and international firms work in English. Swedish is expected at consultancies, in customer-facing roles, public sector and for ads written in Swedish.",
+  "evidence": "EnglishJobsSweden (read 2026-11-16, page dated 14 Nov 2026) counted 1,772 English-friendly roles out of 4,266 live Stockholm tech roles (42%), where English-friendly means an English ad, English working language or no Swedish asked. Nordic Tech Jobs checked 3,186 Swedish tech ads in Jan to Sep 2026: 49% English-friendly, 41% for backend and full-stack, 93% for startups.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EnglishJobsSweden Stockholm",
+    "url": "https://englishjobssweden.com/jobs/stockholm"
+   },
+   {
+    "title": "Nordic Tech Jobs: Norwegian or Swedish needed?",
+    "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
+   },
+   {
+    "title": "Jobs in Stockholm software engineer",
+    "url": "https://jobsinstockholm.com/vacancies/software-engineer"
+   }
+  ]
+ },
+ {
+  "country": "SE",
+  "city": "Gothenburg",
+  "first": "Swedish",
+  "second": "English",
+  "english_only": "some",
+  "note": "Automotive and industrial employers and consultancies often write ads and work in Swedish. International product and platform teams and startups work in English.",
+  "evidence": "EnglishJobsSweden (read 2026-11-16, page dated 14 Nov 2026) counted 607 English-friendly of 1,268 live Gothenburg tech roles (48%). A search snippet of an earlier version of the page showed a much lower share (138 of 979), so the figure moves; I did not open that version. Nordic Tech Jobs gives 49% for Sweden overall and 41% for backend and full-stack.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EnglishJobsSweden Gothenburg",
+    "url": "https://englishjobssweden.com/jobs/gothenburg"
+   },
+   {
+    "title": "Nordic Tech Jobs: Norwegian or Swedish needed?",
+    "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
+   }
+  ]
+ },
+ {
+  "country": "SE",
+  "city": "Malmo",
+  "first": "Swedish",
+  "second": "English",
+  "english_only": "some",
+  "note": "About half of tech ads need no Swedish, mostly at international firms and consultancies serving English-speaking clients. Local companies and public employers hire in Swedish.",
+  "evidence": "EnglishJobsSweden (read 2026-11-16, page dated 14 Nov 2026) counted 344 English-friendly of 647 live Malmo tech roles (53%), the highest of the Swedish cities I checked, so this could be rated common. Nordic Tech Jobs gives 49% for Sweden overall. Both counts rely on how ads are written, not on the team language.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EnglishJobsSweden Malmo",
+    "url": "https://englishjobssweden.com/jobs/malmo"
+   },
+   {
+    "title": "Nordic Tech Jobs: Norwegian or Swedish needed?",
+    "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
+   }
+  ]
+ },
+ {
+  "country": "FI",
+  "city": "Helsinki",
+  "first": "Finnish",
+  "second": "English",
+  "english_only": "some",
+  "note": "Scale-ups, game studios and global hubs work in English. Finnish is expected at IT consultancies, customer-facing roles, public sector and Finnish-language companies, and juniors often find it harder to get hired without it.",
+  "evidence": "Thin evidence. Jobs in Helsinki says English is the working language in Helsinki tech and showed 1,176 software ads, none of the first 20 mentioning Finnish (text was truncated). Hacker News hiring threads show both cases: a 2022 Helsinki ad requiring native Finnish or Spanish, and a 2020 ad accepting Finnish and/or English; a 2020 commenter says IT consultancies are harder without Finnish. A thesis from Aalto I saw only as a search snippet could not be opened (blocked by bot protection: aaltodoc.aalto.fi), so it is not cited.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Jobs in Helsinki software engineer",
+    "url": "https://jobsinhelsinki.com/vacancies/software-engineer"
+   },
+   {
+    "title": "englishjobs.fi software jobs",
+    "url": "https://englishjobs.fi/jobs/software"
+   }
+  ]
+ },
+ {
+  "country": "FI",
+  "city": "Tampere",
+  "first": "Finnish",
+  "second": "English",
+  "english_only": "some",
+  "note": "Embedded, industrial and international product firms hire in English. Local companies, consultancies and public employers lean on Finnish.",
+  "evidence": "Thin evidence: englishjobs.fi showed only 5 English-speaking software jobs in Tampere (11 in Helsinki, 46 for Finland) and 18 English-speaking jobs of any kind in Tampere. English-only board, no share of all ads. Everything else is country or Helsinki level.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "englishjobs.fi software jobs",
+    "url": "https://englishjobs.fi/jobs/software"
+   },
+   {
+    "title": "englishjobs.fi Tampere",
+    "url": "https://englishjobs.fi/in/tampere/tampere"
+   }
+  ]
+ },
+ {
+  "country": "NO",
+  "city": "Oslo",
+  "first": "Norwegian",
+  "second": "English",
+  "english_only": "some",
+  "note": "Startups (about 83% of their ads are English-friendly) and international firms work in English. Most other Norwegian tech employers write ads in Norwegian and expect it, especially for customer-facing and public-sector work.",
+  "evidence": "Nordic Tech Jobs checked 2,058 Norwegian tech ads in Jan to Sep 2026: 18.1% English-friendly, 17.3% for backend and full-stack, 79% written in Norwegian, 43.9% explicitly ask for Norwegian; Norway-wide, not Oslo only. Its Norway page listed 67 English-speaking tech jobs in Oslo. Nordic Expat says English is enough for most Oslo tech roles, which the ad data does not support.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Nordic Tech Jobs: Norwegian or Swedish needed?",
+    "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
+   },
+   {
+    "title": "Nordic Tech Jobs Norway",
+    "url": "https://nordictechjobs.com/norway"
+   },
+   {
+    "title": "Nordic Expat IT guide to Norway",
+    "url": "https://nordicexpat.com/norway/norway-guide-it-professionals"
+   }
+  ]
+ },
+ {
+  "country": "EE",
+  "city": "Tallinn*",
+  "first": "English",
+  "second": "Estonian",
+  "english_only": "common",
+  "note": "Startups, scale-ups and banks' tech teams work in English. Estonian is required at IT-services firms and e-government projects serving local clients.",
+  "evidence": "The Estonia Handbook says English very often is the team language and Estonian is usually a plus. Two opened ads in Tallinn or Tartu go the other way: Helmes (Java, e-government) asks for very good Estonian and English, and Magic Mondayz (Java for a large IT-services client) asks for fluent Estonian. No counts of ads and no practitioner threads; the Handbook is an advice site.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Estonia Handbook: work in IT and tech",
+    "url": "https://estoniahandbook.com/how-to-find-work-in-estonias-it-and-tech-sector/"
+   },
+   {
+    "title": "Helmes Java developer ad",
+    "url": "https://www.helmes.com/position/senior-java-software-developer/"
+   },
+   {
+    "title": "Magic Mondayz Java developer ad",
+    "url": "https://www.magicmondayz.com/current-vacancies/full-stack-java-software-developer/"
+   }
+  ]
+ },
+ {
+  "country": "EE",
+  "city": "Tartu*",
+  "first": "Estonian",
+  "second": "English",
+  "english_only": "some",
+  "note": "A smaller market where local IT-services firms and e-government work ask for Estonian. Product, robotics and startup teams work in English.",
+  "evidence": "Thin evidence, mostly shared with Tallinn: two ads open to Tallinn or Tartu (Helmes, Magic Mondayz) required Estonian, while the Estonia Handbook says English is often the team language. My attempt to open a Tartu job list (MeetFrank, 403 blocked) failed, so there are no Tartu counts.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Helmes Java developer ad (Tallinn or Tartu)",
+    "url": "https://www.helmes.com/position/senior-java-software-developer/"
+   },
+   {
+    "title": "Magic Mondayz Java developer ad (Tallinn or Tartu)",
+    "url": "https://www.magicmondayz.com/current-vacancies/full-stack-java-software-developer/"
+   },
+   {
+    "title": "Estonia Handbook: work in IT and tech",
+    "url": "https://estoniahandbook.com/how-to-find-work-in-estonias-it-and-tech-sector/"
+   }
+  ]
+ },
+ {
+  "country": "HR",
+  "city": "Zagreb",
+  "first": "English",
+  "second": "Croatian",
+  "english_only": "common",
+  "note": "Product companies, agencies and multinationals (for example Infobip, Rimac, Photomath) work in English, and Croatian colleagues default to it. Croatian is more likely needed at state-linked or telecom firms and for customer-facing roles with local clients.",
+  "evidence": "Country-level only: Croatia Handbook rates the need for Croatian in IT and software as 'Very Low' and says English is the communication language in these offices. A web search also showed English-language junior developer ads in Zagreb on aggregators, but I did not count them.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Croatia Handbook: do I need Croatian to get a job",
+    "url": "https://croatiahandbook.com/do-i-need-to-speak-croatian-to-get-a-job-in-croatia/"
+   }
+  ]
+ },
+ {
+  "country": "HR",
+  "city": "Split",
+  "first": "English",
+  "second": "Croatian",
+  "english_only": "common",
+  "note": "International product and outsourcing teams in Split (for example Endava, Infobip, Speechify) hire in English. Local firms and customer-facing roles may still want Croatian.",
+  "evidence": "Thin evidence. Levels.fyi showed only 3 Split jobs (Endava Dynamics developer, Eurofins analyst, Infobip product manager), all English-language listings. The Croatia-wide Handbook claim that IT needs little Croatian is country-level.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Levels.fyi jobs in Split",
+    "url": "https://www.levels.fyi/jobs/location/split-hrv"
+   },
+   {
+    "title": "Croatia Handbook: do I need Croatian to get a job",
+    "url": "https://croatiahandbook.com/do-i-need-to-speak-croatian-to-get-a-job-in-croatia/"
+   }
+  ]
+ },
+ {
+  "country": "HR",
+  "city": "Rijeka",
+  "first": "English",
+  "second": "Croatian",
+  "english_only": "some",
+  "note": "A small market where English is usually enough for pure development at product or telecom-style firms. Customer-facing roles and local employers often ask for Croatian too.",
+  "evidence": "Very thin evidence: I found no Rijeka-specific ad counts I could open. Only the Croatia-wide Handbook statement (IT needs little Croatian) is read this session; web search snippets mentioned MindPal and a paid internship in Rijeka but I did not open them.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Croatia Handbook: do I need Croatian to get a job",
+    "url": "https://croatiahandbook.com/do-i-need-to-speak-croatian-to-get-a-job-in-croatia/"
+   }
+  ]
+ },
+ {
+  "country": "ES",
+  "city": "Madrid",
+  "first": "Spanish",
+  "second": "English",
+  "english_only": "some",
+  "note": "Banks, consultancies, public-sector suppliers and local companies work in Spanish. US and international firms with Madrid offices and some scale-ups work in English.",
+  "evidence": "SpainJobs.io (an English-friendly board, so the share may be skewed upward) listed 5,747 engineering jobs in Madrid on 2026-11-16, of which 1,309 (about 23 percent) were tagged 'no Spanish required'.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "SpainJobs.io engineering jobs in Madrid",
+    "url": "https://www.spainjobs.io/jobs/madrid/engineering"
+   }
+  ]
+ },
+ {
+  "country": "ES",
+  "city": "Barcelona",
+  "first": "Spanish",
+  "second": "English",
+  "english_only": "some",
+  "note": "Barcelona has the most English-only developer roles in Spain, at international scale-ups, product companies and tech hubs. Local companies, agencies and client-facing roles use Spanish, sometimes Catalan.",
+  "evidence": "SpainJobs.io (English-friendly board, share may skew high) listed 3,013 engineering jobs in Barcelona, of which 1,366 (about 45 percent) were tagged 'no Spanish required'.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "SpainJobs.io engineering jobs in Barcelona",
+    "url": "https://www.spainjobs.io/jobs/barcelona/engineering"
+   }
+  ]
+ },
+ {
+  "country": "ES",
+  "city": "Valencia",
+  "first": "Spanish",
+  "second": "English",
+  "english_only": "some",
+  "note": "Local companies and nearshore or consulting firms mostly work in Spanish. Remote-first startups and international teams hire in English, so English-only roles exist but are fewer than in Barcelona.",
+  "evidence": "SpainJobs.io (English-friendly board) listed 524 engineering jobs in Valencia, of which 185 (about 35 percent) were tagged 'no Spanish required'. A Valencia career guide says local firms prefer Spanish while remote-first or international teams hire in English.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "SpainJobs.io engineering jobs in Valencia",
+    "url": "https://www.spainjobs.io/jobs/valencia/engineering"
+   },
+   {
+    "title": "EuroTopTech Valencia career guide",
+    "url": "https://eurotoptech.com/blog/valencia-tech-career-guide-7b1p"
+   }
+  ]
+ },
+ {
+  "country": "PT",
+  "city": "Lisbon",
+  "first": "English",
+  "second": "Portuguese",
+  "english_only": "common",
+  "note": "International tech firms, R&D centres and scale-ups in Lisbon work in English and rarely ask for Portuguese. Local companies, banks and public sector write ads in Portuguese.",
+  "evidence": "CVtly tracked 757 Lisbon job ads on 2026-11-15: about 70 percent were in English with no Portuguese asked, 24 percent asked for Portuguese. In its Engineering category, 81 percent of 182 ads were English with no Portuguese (no separate software developer figure).",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "CVtly: do I need Portuguese in Lisbon",
+    "url": "https://cvtly.com/jobs/lisbon/do-i-need-portuguese"
+   }
+  ]
+ },
+ {
+  "country": "PT",
+  "city": "Porto",
+  "first": "English",
+  "second": "Portuguese",
+  "english_only": "common",
+  "note": "Product companies, software houses and outsourcing hubs in Porto (for example Critical Software, TeamViewer, Workato) hire in English. Local firms and public sector use Portuguese.",
+  "evidence": "englishjobs.pt listed 910 'software English-speaking' jobs in Porto, and the first-page ads did not mention a Portuguese requirement. This is a filtered English board, so it gives no share of all ads; Lisbon data from CVtly is the closest share figure (country-level proxy).",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "englishjobs.pt software jobs in Porto",
+    "url": "https://englishjobs.pt/in/porto/software"
+   },
+   {
+    "title": "CVtly: do I need Portuguese in Lisbon",
+    "url": "https://cvtly.com/jobs/lisbon/do-i-need-portuguese"
+   }
+  ]
+ },
+ {
+  "country": "IT",
+  "city": "Milan",
+  "first": "Italian",
+  "second": "English",
+  "english_only": "some",
+  "note": "Older corporates, banks and local consultancies expect Italian. Product companies, fintechs and international firms work in mixed Italian and English, and some roles need English only.",
+  "evidence": "englishjobs.it showed 65 English-speaking developer jobs in Milan (count from the page header; I did not see a share of all ads). A Milan career guide says many roles still expect at least some Italian, but English-only options are narrower, not absent.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "englishjobs.it developer jobs in Milan",
+    "url": "https://englishjobs.it/in/milano/developer"
+   },
+   {
+    "title": "EuroTopTech Milan tech career guide",
+    "url": "https://www.eurotoptech.com/blog/milan-tech-career-guide-v1pg"
+   }
+  ]
+ },
+ {
+  "country": "IT",
+  "city": "Turin",
+  "first": "Italian",
+  "second": "English",
+  "english_only": "some",
+  "note": "Automotive, aerospace and defence suppliers and local consultancies lean on Italian. A few international or group development centres (for example MSC, Stellantis, Hitachi) post English-language ads.",
+  "evidence": "englishjobs.it header showed 23 English-speaking developer jobs in Turin; the visible ad text did not state an Italian requirement, but snippets were truncated. No share of all Turin ads seen.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "englishjobs.it developer jobs in Turin",
+    "url": "https://englishjobs.it/in/torino/developer"
+   }
+  ]
+ },
+ {
+  "country": "SI",
+  "city": "Ljubljana",
+  "first": "English",
+  "second": "Slovenian",
+  "english_only": "common",
+  "note": "Product companies and scale-ups (for example Celtra, Planet, Sportradar) work in English. Slovenian matters for public-sector IT, local SMEs and customer-facing roles for Slovenian clients.",
+  "evidence": "Levels.fyi listed 31 software engineer jobs from 12 employers in Ljubljana, mostly international product firms. A recruiter site says most Ljubljana tech companies operate primarily in English; recruiter sources lean optimistic, and I found no ad-language counts.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Levels.fyi software engineer jobs in Ljubljana",
+    "url": "https://www.levels.fyi/jobs/title/software-engineer/location/ljubljana-svn"
+   },
+   {
+    "title": "A to Z Serwis Plus: IT and software in Slovenia",
+    "url": "https://www.atozserwisplus.com/industries/it-software/slovenia"
+   }
+  ]
+ },
+ {
+  "country": "GR",
+  "city": "Athens",
+  "first": "English",
+  "second": "Greek",
+  "english_only": "common",
+  "note": "Multinationals, trading firms and IT consultancies (European Dynamics, XM, Netcompany) work in English. Greek is more likely wanted by local companies, Big Four consulting teams and customer-facing roles.",
+  "evidence": "Levels.fyi listed 149 software engineer jobs from 43 employers in Athens, led by European Dynamics (34), XM (13) and Netcompany (8). A Greece job guide says tech is a sector where English is the main language; this is a guide, not an ad count.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Levels.fyi software engineer jobs in Athens",
+    "url": "https://www.levels.fyi/jobs/title/software-engineer/location/athens-grc"
+   },
+   {
+    "title": "City Job Offers: hired in Greece without Greek",
+    "url": "https://cityjoboffers.com/blog/want-to-get-hired-in-greece-without-knowing-greek-heres-how"
+   }
+  ]
+ },
+ {
+  "country": "GR",
+  "city": "Thessaloniki",
+  "first": "English",
+  "second": "Greek",
+  "english_only": "some",
+  "note": "Pfizer's digital centre hires developers on English alone at senior level. Junior, internship and consulting roles at some firms ask for Greek as well.",
+  "evidence": "One Pfizer Thessaloniki software engineer ad I opened asks only for excellent English. Search summaries (not opened by me) said Pfizer's internship and an EY developer ad also ask for Greek. Kariera.gr returned HTTP 403, so I could not count ads.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Pfizer Support Software Engineer, Thessaloniki (LinkedIn)",
+    "url": "https://gr.linkedin.com/jobs/view/senior-associate-support-software-engineer-at-pfizer-3806418141"
+   }
+  ]
+ },
+ {
+  "country": "CY",
+  "city": "Limassol",
+  "first": "English",
+  "second": "Greek",
+  "english_only": "common",
+  "note": "Fintech, forex, gaming and tech firms (for example Exness, JetBrains, FxPro) use English as the working language. Greek is needed mainly for local-client, public-sector and some local company roles.",
+  "evidence": "Country and city level guides only: index.cy says English is the working language in tech, concentrated in Limassol. One older expat.com forum reply says even IT communication is mostly in Greek, but you could get by without it. I did not count ads.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "index.cy: working in Cyprus guide",
+    "url": "https://index.cy/articles/working-in-cyprus-guide/"
+   },
+   {
+    "title": "Expat.com forum: jobs in Cyprus for English-only speakers",
+    "url": "https://www.expat.com/en/forum/europe/cyprus/931461-jobs-in-cyprus-for-english-only-speakers.html"
+   }
+  ]
+ },
+ {
+  "country": "CY",
+  "city": "Nicosia",
+  "first": "English",
+  "second": "Greek",
+  "english_only": "some",
+  "note": "A growing cluster of international tech and gaming firms works in English. Nicosia has more government, university and local-company work, where Greek is more likely needed.",
+  "evidence": "Thin evidence: index.cy says English is the tech working language in both Limassol and Nicosia, but I found no Nicosia-specific ad counts. The expat.com forum reply is older and says IT communication is often in Greek.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "index.cy: working in Cyprus guide",
+    "url": "https://index.cy/articles/working-in-cyprus-guide/"
+   },
+   {
+    "title": "Expat.com forum: jobs in Cyprus for English-only speakers",
+    "url": "https://www.expat.com/en/forum/europe/cyprus/931461-jobs-in-cyprus-for-english-only-speakers.html"
+   }
+  ]
+ },
+ {
+  "country": "MT",
+  "city": "Malta (Sliema)",
+  "first": "English",
+  "second": null,
+  "english_only": "common",
+  "note": "iGaming, fintech and tech employers in Sliema and St. Julian's work entirely in English. Maltese only appears in some local-facing and public-sector roles.",
+  "evidence": "One expat job guide (FreeMalta) says iGaming tech staff work exclusively in English and lists a second language as 'Not required'. LinkedIn returned HTTP 429, so I could not count ads; this is a single guide, not an ad sample.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "FreeMalta: English-speaking jobs in Malta",
+    "url": "https://freemalta.com/articles/english-speaking-jobs-malta-expats"
+   }
+  ]
+ },
+ {
+  "country": "HU",
+  "city": "Budapest",
+  "first": "English",
+  "second": "Hungarian",
+  "english_only": "common",
+  "note": "International firms, shared-service centers and startups work in English, and most developer ads ask only for English. Hungarian is needed mainly at local SMEs, public sector and some customer-facing roles.",
+  "evidence": "Profession.hu English site, 'software developer' in Budapest: 280 ads; language filter showed English 235, Hungarian 24, German 15, and 39 ads with no language required. One job board only, and the board is skewed to larger employers.",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Profession.hu software developer ads, Budapest",
+    "url": "https://www.profession.hu/en/advertisements/budapest/1,0,23,software%20developer"
+   }
+  ]
+ },
+ {
+  "country": "HU",
+  "city": "Debrecen",
+  "first": "English",
+  "second": "Hungarian",
+  "english_only": "common",
+  "note": "Large multinational sites (for example NI, Continental, BMW Group) work in English, and ads usually ask for intermediate English. Hungarian matters more at local firms and customer-facing roles.",
+  "evidence": "Profession.hu Debrecen search I opened showed only 6 ads: English 3, German 1, no language required 3 (tiny sample). A search summary of a larger Debrecen result reported 23 ads with English in most and Hungarian in 2, but I could not reproduce that count.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Profession.hu software developer ads, Debrecen",
+    "url": "https://www.profession.hu/en/advertisements/debrecen/1,0,32,szoftverfejleszt%C5%91,0,4000"
+   }
+  ]
+ },
+ {
+  "country": "SK",
+  "city": "Bratislava",
+  "first": "English",
+  "second": "Slovak",
+  "english_only": "common",
+  "note": "Multinationals, IT subsidiaries and scale-ups hire in English, often with no Slovak mentioned. Slovak is needed for local-company roles such as support, SQL or insurance and bank back-office work.",
+  "evidence": "iAgora Bratislava IT page: 19 jobs and internships, English tagged or required in most, Slovak required in at least 2 of the sampled ads, no ad required German. A search summary of Profesia.sk reported 95 English vs 6 Slovak language ads for software engineers, but Profesia returned 403 so I could not verify that count.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "iAgora IT jobs in Bratislava",
+    "url": "https://www.iagora.com/work/en/jobs-and-internships/it/slovakia/bratislava"
+   }
+  ]
+ },
+ {
+  "country": "SK",
+  "city": "Kosice",
+  "first": "English",
+  "second": "Slovak",
+  "english_only": "common",
+  "note": "Kosice IT is dominated by international employers such as Deutsche Telekom IT Solutions and GlobalLogic, which work in English. Slovak helps at small local firms.",
+  "evidence": "One Deutsche Telekom IT Solutions junior PHP developer ad in Kosice: working language English, B2 English required, German an advantage, Slovak not mentioned. Everything else is search summaries and employer lists, so this is thin.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Deutsche Telekom IT Solutions Slovakia junior PHP developer ad, Kosice",
+    "url": "https://jobs.smartrecruiters.com/DeutscheTelekomITSolutionsSlovakia/744000089444786-junior-software-developer-with-php"
+   }
+  ]
+ },
+ {
+  "country": "CZ",
+  "city": "Prague",
+  "first": "English",
+  "second": "Czech",
+  "english_only": "common",
+  "note": "Tech companies, multinationals and scale-ups work in English and rarely ask for Czech. Czech is needed at small local firms, agencies, banks and public sector, and for customer-facing roles.",
+  "evidence": "Country-level and anecdotal: a Working Project guide says tech is almost exclusively English and Czech is rarely required, and Expats.cz names employers with English as the working language (Wrike, Barclays, Daytrip). Jobs.cz has no language filter, so I could not count ads.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Working Project guide to Czech jobs for English speakers",
+    "url": "https://workingproject.eu/en/jobs-in-czech-republic-for-english-speakers/"
+   },
+   {
+    "title": "Expats.cz international employers hiring",
+    "url": "https://www.expats.cz/czech-news/article/hiring-now-7-international-companies-in-czechia-looking-for-new-talent"
+   }
+  ]
+ },
+ {
+  "country": "CZ",
+  "city": "Brno",
+  "first": "English",
+  "second": "Czech",
+  "english_only": "common",
+  "note": "Brno has many international tech and R&D sites that work in English. Local companies, agencies and public sector still expect Czech.",
+  "evidence": "Country-level evidence only (Working Project says Czech is rarely required in tech, and names Brno as a tech hub with no Brno-specific language data). Expats.cz lists Wrike, Barclays and others with English as the working language for Prague and Brno. No ad counts.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Working Project guide to Czech jobs for English speakers",
+    "url": "https://workingproject.eu/en/jobs-in-czech-republic-for-english-speakers/"
+   },
+   {
+    "title": "Expats.cz international employers hiring",
+    "url": "https://www.expats.cz/czech-news/article/hiring-now-7-international-companies-in-czechia-looking-for-new-talent"
+   }
+  ]
+ },
+ {
+  "country": "PL",
+  "city": "Warsaw",
+  "first": "English",
+  "second": "Polish",
+  "english_only": "common",
+  "note": "International firms, banks' tech centers and scale-ups work in English. Polish is needed at local companies, public sector and customer-facing roles.",
+  "evidence": "Just Join IT, JavaScript offers in Warsaw: 206 offers, language filter English 93, Polish 44, German 4 (JavaScript only, filter counts as shown). englishjobs.pl lists 48 English-speaking software developer jobs in Warsaw, including Roche, Citi, Accenture, BNP Paribas.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Just Join IT JavaScript offers, Warsaw",
+    "url": "https://justjoin.it/job-offers/warszawa/javascript"
+   },
+   {
+    "title": "englishjobs.pl software developer jobs, Warsaw",
+    "url": "https://englishjobs.pl/in/warszawa/software_developer"
+   }
+  ]
+ },
+ {
+  "country": "PL",
+  "city": "Krakow",
+  "first": "English",
+  "second": "Polish",
+  "english_only": "common",
+  "note": "Krakow has many multinational and outsourcing teams that work in English. Polish is needed at local firms and for client-facing roles.",
+  "evidence": "Just Join IT, JavaScript offers in Krakow: 102 offers, language filter English 58, Polish 24, German 3 (JavaScript only). A search summary of a Faruse recruiter guide said Polish is rarely mandatory for engineering in Krakow, but that page returned 429 so I did not use it.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Just Join IT JavaScript offers, Krakow",
+    "url": "https://justjoin.it/job-offers/krakow/javascript"
+   }
+  ]
+ },
+ {
+  "country": "PL",
+  "city": "Wroclaw",
+  "first": "English",
+  "second": "Polish",
+  "english_only": "common",
+  "note": "Wroclaw has large international centers (for example Accenture, Kyndryl, Zebra) that work in English. Polish is needed at local firms and client-facing roles.",
+  "evidence": "Just Join IT, JavaScript offers in Wroclaw: 95 offers, language filter English 44, Polish 17, German 4 (JavaScript only). englishjobs.pl shows 12 English-speaking software developer jobs there, but the page does not say whether Polish is also required.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Just Join IT JavaScript offers, Wroclaw",
+    "url": "https://justjoin.it/job-offers/wroclaw/javascript"
+   },
+   {
+    "title": "englishjobs.pl software developer jobs, Wroclaw",
+    "url": "https://englishjobs.pl/in/wroclaw/software_developer"
+   }
+  ]
+ },
+ {
+  "country": "RO",
+  "city": "Bucharest",
+  "first": "English",
+  "second": "Romanian",
+  "english_only": "common",
+  "note": "Development centers and outsourcing firms for foreign clients work in English, and Romanian is rarely asked for in IT. Romanian is needed for local public sector, some banks and customer-facing roles.",
+  "evidence": "Country-level and guide evidence only: Bucharest.ro says tech in Bucharest is very international with English widely used, and an Outsorcy hiring guide says English is rarely a blocker in Bucharest, Cluj and Iasi. No ad counts.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Bucharest.ro jobs without Romanian",
+    "url": "https://www.bucharest.ro/articles/jobs-you-can-do-in-bucharest-without-knowing-romanian-113"
+   },
+   {
+    "title": "Outsorcy guide to hiring developers in Romania",
+    "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
+   }
+  ]
+ },
+ {
+  "country": "RO",
+  "city": "Cluj-Napoca",
+  "first": "English",
+  "second": "Romanian",
+  "english_only": "common",
+  "note": "Cluj is an outsourcing and product hub where teams work in English for foreign clients. Some local employers and client-facing roles ask for English and Romanian.",
+  "evidence": "Thin evidence: search summaries of Glassdoor and aggregator listings showed most Cluj dev ads asking for English, with a few asking for fluent English and Romanian. I could not open the Glassdoor pages (403), so only the country-level Outsorcy guide was read.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Outsorcy guide to hiring developers in Romania",
+    "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
+   }
+  ]
+ },
+ {
+  "country": "RO",
+  "city": "Iasi",
+  "first": "English",
+  "second": "Romanian",
+  "english_only": "some",
+  "note": "Iasi has international outsourcing and R&D sites (for example Endava, Continental, Capgemini) that work in English. The scene is smaller, so more local firms and student roles ask for Romanian too.",
+  "evidence": "Thin evidence: a search summary of Iasi listings showed English-only ads (Ellipse Solutions, Continental) and a working student ad asking for fluent English and Romanian. Pages returned 520 or 403 when I tried to open them, so only the country-level Outsorcy guide was read.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Outsorcy guide to hiring developers in Romania",
+    "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
+   }
+  ]
+ },
+ {
+  "country": "BG",
+  "city": "Sofia",
+  "first": "English",
+  "second": "Bulgarian",
+  "english_only": "common",
+  "note": "Sofia's software industry sells mostly to foreign clients, so outsourcing hubs, product companies and large R&D sites work in English. Bulgarian is needed for local public sector, small local firms and some customer-facing roles.",
+  "evidence": "Industry-level only: a Sofia outsourcing guide says 87% of sector revenue comes from exports, so English client work is standard, but it says nothing directly about Bulgarian requirements. Search summaries of Jobs.bg ads in Sofia listed English, but Jobs.bg returned 403 so I could not count ads.",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Talenlio guide to Bulgaria IT outsourcing, Sofia",
+    "url": "https://talenlio.ai/blogs/bulgaria-it-outsourcing-sofia-2026"
+   }
+  ]
+ },
+ {
+  "country": "BG",
+  "city": "Plovdiv",
+  "first": "English",
+  "second": "Bulgarian",
+  "english_only": "common",
+  "note": "Plovdiv has a growing set of outsourcing and software teams serving foreign clients, where English is the working language. Bulgarian helps at local firms and customer-facing roles.",
+  "evidence": "Thin evidence: a search summary of Jobs.bg showed 18 software developer ads in Plovdiv with English listed, but Jobs.bg returned 403 so I could not open it. The only page read is the country-level Sofia industry guide.",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Talenlio guide to Bulgaria IT outsourcing, Sofia",
+    "url": "https://talenlio.ai/blogs/bulgaria-it-outsourcing-sofia-2026"
+   }
+  ]
+ }
+]
