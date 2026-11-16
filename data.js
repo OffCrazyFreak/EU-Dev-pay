@@ -357,7 +357,7 @@ window.CITIES = [
    "second": "English",
    "english_only": "some",
    "note": "Local industrial and automation firms and SMEs hire in German. Larger international software employers such as TeamViewer and Dynatrace use English as the team language.",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "label": "englishjobsearch.at, jobs in Linz",
@@ -372,7 +372,19 @@ window.CITIES = [
      "url": "https://austriahandbook.com/is-german-mandatory-for-it-jobs-in-austria/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/Linz and r/Austria say international software employers such as Dynatrace work without German, while local employers and junior seekers with weak German struggle.",
+    "threads": [
+     {
+      "label": "r/Linz: 24M with CS Master’s, 900+ applications, shipped a game on Steam, still no dev job. Commuting 6h/day to McDonald’s just to survive. Looking for React/C#/Angular work in Austria.",
+      "url": "https://www.reddit.com/r/Linz/comments/1tjqnwy/24m_with_cs_masters_900_applications_shipped_a/"
+     },
+     {
+      "label": "r/Austria: Got an interview in Austria despite poor German. Is it realistic to get the job",
+      "url": "https://www.reddit.com/r/Austria/comments/1vtlt9z/got_an_interview_in_austria_despite_poor_german/"
+     }
+    ]
+   }
   }
  },
  {
@@ -604,7 +616,19 @@ window.CITIES = [
      "url": "https://englishjobsearch.at/in/innsbruck"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/Austria say some Austrian software employers run entirely in English, and an r/Innsbruck user names MED-EL as the large English-language employer in the city.",
+    "threads": [
+     {
+      "label": "r/Innsbruck: What kind of jobs are available for English speaking International students? Is it very hard to get jobs in Innsbruck without German language? Thanks.",
+      "url": "https://www.reddit.com/r/Innsbruck/comments/q9swkh/what_kind_of_jobs_are_available_for_english/"
+     },
+     {
+      "label": "r/Austria: Got an interview in Austria despite poor German. Is it realistic to get the job",
+      "url": "https://www.reddit.com/r/Austria/comments/1vtlt9z/got_an_interview_in_austria_despite_poor_german/"
+     }
+    ]
+   }
   }
  },
  {
@@ -1228,7 +1252,19 @@ window.CITIES = [
      "url": "https://codingcareer.de/en/guides/tech-jobs-germany-international-developers"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/AskGermany and r/Germany_Jobs say most German ads expect working German and that fluency often counts for more than years of experience, with English-first roles concentrated in cities such as Berlin.",
+    "threads": [
+     {
+      "label": "r/AskGermany: How likely it is to find English-speaking software engineering jobs in Germany?",
+      "url": "https://www.reddit.com/r/AskGermany/comments/1s32mrm/how_likely_it_is_to_find_englishspeaking_software/"
+     },
+     {
+      "label": "r/Germany_Jobs: Anyone recently got a Software Developer Job in Germany?",
+      "url": "https://www.reddit.com/r/Germany_Jobs/comments/1weciur/anyone_recently_got_a_software_developer_job_in/"
+     }
+    ]
+   }
   }
  },
  {
@@ -1464,7 +1500,19 @@ window.CITIES = [
      "url": "https://www.stepstone.de/jobs/softwareentwickler/in-leipzig"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/AskGermany and r/Germany_Jobs say most German ads expect working German and that fluency often counts for more than years of experience, with English-first roles concentrated in cities such as Berlin.",
+    "threads": [
+     {
+      "label": "r/AskGermany: How likely it is to find English-speaking software engineering jobs in Germany?",
+      "url": "https://www.reddit.com/r/AskGermany/comments/1s32mrm/how_likely_it_is_to_find_englishspeaking_software/"
+     },
+     {
+      "label": "r/Germany_Jobs: Anyone recently got a Software Developer Job in Germany?",
+      "url": "https://www.reddit.com/r/Germany_Jobs/comments/1weciur/anyone_recently_got_a_software_developer_job_in/"
+     }
+    ]
+   }
   }
  },
  {
@@ -1576,7 +1624,19 @@ window.CITIES = [
      "url": "https://www.stepstone.de/jobs/softwareentwickler/in-dresden"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/AskGermany say English-first developer jobs exist but are the exception in Germany, and r/Germany_Jobs commenters say German skills often decide hiring.",
+    "threads": [
+     {
+      "label": "r/AskGermany: How likely it is to find English-speaking software engineering jobs in Germany?",
+      "url": "https://www.reddit.com/r/AskGermany/comments/1s32mrm/how_likely_it_is_to_find_englishspeaking_software/"
+     },
+     {
+      "label": "r/Germany_Jobs: Anyone recently got a Software Developer Job in Germany?",
+      "url": "https://www.reddit.com/r/Germany_Jobs/comments/1weciur/anyone_recently_got_a_software_developer_job_in/"
+     }
+    ]
+   }
   }
  },
  {
@@ -1985,7 +2045,7 @@ window.CITIES = [
    "second": "Latvian",
    "english_only": "common",
    "note": "Private-sector IT, outsourcing and international firms work in English. Latvian is mainly needed for public-sector, public-contact and some local-company roles.",
-   "confidence": "low",
+   "confidence": "medium",
    "sources": [
     {
      "label": "iagora English-speaker jobs in Riga",
@@ -1996,7 +2056,15 @@ window.CITIES = [
      "url": "https://www.eulegalgateway.com/countries/latvia"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/latvia say tech is one of the few fields where Latvian is not needed, especially at bigger companies, but English-only listings are few and juniors are not in demand.",
+    "threads": [
+     {
+      "label": "r/latvia: Tech job hunting in Riga as a foreigner - what's actually realistic?",
+      "url": "https://www.reddit.com/r/latvia/comments/1q0lud9/tech_job_hunting_in_riga_as_a_foreigner_whats/"
+     }
+    ]
+   }
   }
  },
  {
@@ -2099,7 +2167,19 @@ window.CITIES = [
      "url": "https://workinlithuania.com/blog/english-speaking-jobs/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/lithuania say English is enough at Vilnius international firms, but that most mid-sized local companies have no international teams, so Lithuanian widens the choice.",
+    "threads": [
+     {
+      "label": "r/lithuania: Language barrier in IT Companies",
+      "url": "https://www.reddit.com/r/lithuania/comments/1elssbo/language_barrier_in_it_companies/"
+     },
+     {
+      "label": "r/lithuania: How hard is it for an American to get a tech job in LT?",
+      "url": "https://www.reddit.com/r/lithuania/comments/1s2oj8f/how_hard_is_it_for_an_american_to_get_a_tech_job/"
+     }
+    ]
+   }
   }
  },
  {
@@ -2202,7 +2282,15 @@ window.CITIES = [
      "url": "https://workinlithuania.com/blog/english-speaking-jobs/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/lithuania say that most mid-sized Lithuanian companies have no international teams, so Lithuanian widens the choice.",
+    "threads": [
+     {
+      "label": "r/lithuania: How hard is it for an American to get a tech job in LT?",
+      "url": "https://www.reddit.com/r/lithuania/comments/1s2oj8f/how_hard_is_it_for_an_american_to_get_a_tech_job/"
+     }
+    ]
+   }
   }
  },
  {
@@ -2419,7 +2507,7 @@ window.CITIES = [
    "second": "English",
    "english_only": "some",
    "note": "German is the local working language, and ads from local banks and manufacturers (LGT, LLB, Bank Frick, Hilti, Ivoclar) usually assume German. A real minority, mostly international companies, consultancies and contractors, write ads in English or accept English alone.",
-   "confidence": "low",
+   "confidence": "medium",
    "sources": [
     {
      "label": "LinkedIn developer jobs in Liechtenstein",
@@ -2430,7 +2518,19 @@ window.CITIES = [
      "url": "https://freehire.me/jobs/senior-application-developer-80-100-m-w-d-bankfrick-5z2myyye"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Residents on r/Vorarlberg name LGT, Hilti and Omicron as employers with English as the main language, and say chances without German are small elsewhere.",
+    "threads": [
+     {
+      "label": "r/Vorarlberg: Where to look for a job in Vorarlberg or Liechtenstein without speaking German? New in Feldkirch",
+      "url": "https://www.reddit.com/r/Vorarlberg/comments/1khynr9/where_to_look_for_a_job_in_vorarlberg_or/"
+     },
+     {
+      "label": "r/liechtenstein: Moving from Ireland, looking for work",
+      "url": "https://www.reddit.com/r/liechtenstein/comments/1sfvfpv/moving_from_ireland_looking_for_work/"
+     }
+    ]
+   }
   }
  },
  {
@@ -2531,7 +2631,7 @@ window.CITIES = [
    "second": "English",
    "english_only": "some",
    "note": "Work country is Liechtenstein, so the same applies: German for local banks and manufacturers, English alone only at some international firms and contractors. A real minority, mostly international companies, consultancies and contractors, write ads in English or accept English alone.",
-   "confidence": "low",
+   "confidence": "medium",
    "sources": [
     {
      "label": "LinkedIn developer jobs in Liechtenstein",
@@ -2542,7 +2642,19 @@ window.CITIES = [
      "url": "https://freehire.me/jobs/senior-application-developer-80-100-m-w-d-bankfrick-5z2myyye"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Residents on r/Vorarlberg name LGT, Hilti and Omicron as employers with English as the main language, and say chances without German are small elsewhere.",
+    "threads": [
+     {
+      "label": "r/Vorarlberg: Where to look for a job in Vorarlberg or Liechtenstein without speaking German? New in Feldkirch",
+      "url": "https://www.reddit.com/r/Vorarlberg/comments/1khynr9/where_to_look_for_a_job_in_vorarlberg_or/"
+     },
+     {
+      "label": "r/liechtenstein: Moving from Ireland, looking for work",
+      "url": "https://www.reddit.com/r/liechtenstein/comments/1sfvfpv/moving_from_ireland_looking_for_work/"
+     }
+    ]
+   }
   }
  },
  {
@@ -3282,7 +3394,19 @@ window.CITIES = [
      "url": "https://englishjobsearch.ch/in/geneva/software"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Commenters on r/Switzerland say Geneva has English-speaking jobs at multinationals, NGOs and banks, but that most general listings ask for French and newcomers face heavy competition.",
+    "threads": [
+     {
+      "label": "r/Switzerland: Jobs in Geneva for someone who doesn’t speak French",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1mnmnwc/jobs_in_geneva_for_someone_who_doesnt_speak_french/"
+     },
+     {
+      "label": "r/Switzerland: job hunting for non-French speaker tips",
+      "url": "https://www.reddit.com/r/Switzerland/comments/1ecukz2/job_hunting_for_nonfrench_speaker_tips/"
+     }
+    ]
+   }
   }
  },
  {
@@ -3388,7 +3512,15 @@ window.CITIES = [
      "url": "https://englishjobsearch.ch/in/lugano/software"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Commenters on r/askswitzerland say Lugano is international enough to live on English alone and has a tech sector, but call the Ticino IT market weak.",
+    "threads": [
+     {
+      "label": "r/askswitzerland: Is moving to Lugano worth it for an EU-passport Lead cloud engineer and his wife?",
+      "url": "https://www.reddit.com/r/askswitzerland/comments/1xqbdl1/is_moving_to_lugano_worth_it_for_an_eupassport/"
+     }
+    ]
+   }
   }
  },
  {
@@ -4148,7 +4280,19 @@ window.CITIES = [
      "url": "https://nordictechjobs.com/denmark"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/NewToDenmark say many Danish software companies work in English, but that searches take long and Danish helps.",
+    "threads": [
+     {
+      "label": "r/NewToDenmark: Moving to Denmark as a software engineer/hardware repair specialist",
+      "url": "https://www.reddit.com/r/NewToDenmark/comments/1s5wyuh/moving_to_denmark_as_a_software_engineerhardware/"
+     },
+     {
+      "label": "r/Denmark: Is it realistic for someone that doesn't speak Danish to get a job in Denmark in IT?",
+      "url": "https://www.reddit.com/r/Denmark/comments/umjfdk/is_it_realistic_for_someone_that_doesnt_speak/"
+     }
+    ]
+   }
   }
  },
  {
@@ -4249,7 +4393,15 @@ window.CITIES = [
      "url": "https://jobsinenglish.dk/software-development-jobs-in-odense/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/NewToDenmark say many Danish software companies work in English, but that searches take long and Danish helps.",
+    "threads": [
+     {
+      "label": "r/NewToDenmark: Moving to Denmark as a software engineer/hardware repair specialist",
+      "url": "https://www.reddit.com/r/NewToDenmark/comments/1s5wyuh/moving_to_denmark_as_a_software_engineerhardware/"
+     }
+    ]
+   }
   }
  },
  {
@@ -4350,7 +4502,15 @@ window.CITIES = [
      "url": "https://jobsinenglish.dk/software-development-jobs-in-aalborg/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/NewToDenmark say many Danish software companies work in English, but that searches take long and Danish helps.",
+    "threads": [
+     {
+      "label": "r/NewToDenmark: Moving to Denmark as a software engineer/hardware repair specialist",
+      "url": "https://www.reddit.com/r/NewToDenmark/comments/1s5wyuh/moving_to_denmark_as_a_software_engineerhardware/"
+     }
+    ]
+   }
   }
  },
  {
@@ -4725,7 +4885,15 @@ window.CITIES = [
      "url": "https://welkomnl.com/blog/english-speaking-jobs-netherlands-2026"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/Netherlands say that without Dutch only international employers are open, and that competition for those roles is intense.",
+    "threads": [
+     {
+      "label": "r/Netherlands: Struggling to Relocate to the Netherlands as a Software Developer - Need Advice!",
+      "url": "https://www.reddit.com/r/Netherlands/comments/1j79ex5/struggling_to_relocate_to_the_netherlands_as_a/"
+     }
+    ]
+   }
   }
  },
  {
@@ -4834,7 +5002,15 @@ window.CITIES = [
      "url": "https://strooptaal.app/blog/tech-jobs-in-the-netherlands-the-definitive-2026-guide"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/Netherlands say that without Dutch only international employers are open, and that competition for those roles is intense.",
+    "threads": [
+     {
+      "label": "r/Netherlands: Struggling to Relocate to the Netherlands as a Software Developer - Need Advice!",
+      "url": "https://www.reddit.com/r/Netherlands/comments/1j79ex5/struggling_to_relocate_to_the_netherlands_as_a/"
+     }
+    ]
+   }
   }
  },
  {
@@ -5199,7 +5375,15 @@ window.CITIES = [
      "url": "https://francedevjobs.com/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/developpeurs say French is expected even at startups and that fully English roles are mostly at startups and a few international firms.",
+    "threads": [
+     {
+      "label": "r/developpeurs: How can I get job in paris without french",
+      "url": "https://www.reddit.com/r/developpeurs/comments/1itm34x/how_can_i_get_job_in_paris_without_french/"
+     }
+    ]
+   }
   }
  },
  {
@@ -5303,7 +5487,19 @@ window.CITIES = [
      "url": "https://francedevjobs.com/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/developpeurs say French is expected even at startups, and r/toulouse users say daily life is manageable in English thanks to the Airbus expat community but bureaucracy needs French.",
+    "threads": [
+     {
+      "label": "r/developpeurs: How can I get job in paris without french",
+      "url": "https://www.reddit.com/r/developpeurs/comments/1itm34x/how_can_i_get_job_in_paris_without_french/"
+     },
+     {
+      "label": "r/toulouse: Living in Toulouse without speaking french",
+      "url": "https://www.reddit.com/r/toulouse/comments/1q3mk8x/living_in_toulouse_without_speaking_french/"
+     }
+    ]
+   }
   }
  },
  {
@@ -5411,7 +5607,15 @@ window.CITIES = [
      "url": "https://francedevjobs.com/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/developpeurs say French is expected even at startups and that fully English roles are mostly at startups and a few international firms.",
+    "threads": [
+     {
+      "label": "r/developpeurs: How can I get job in paris without french",
+      "url": "https://www.reddit.com/r/developpeurs/comments/1itm34x/how_can_i_get_job_in_paris_without_french/"
+     }
+    ]
+   }
   }
  },
  {
@@ -5519,7 +5723,15 @@ window.CITIES = [
      "url": "https://francedevjobs.com/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/developpeurs say French is expected even at startups and that fully English roles are mostly at startups and a few international firms.",
+    "threads": [
+     {
+      "label": "r/developpeurs: How can I get job in paris without french",
+      "url": "https://www.reddit.com/r/developpeurs/comments/1itm34x/how_can_i_get_job_in_paris_without_french/"
+     }
+    ]
+   }
   }
  },
  {
@@ -6170,14 +6382,22 @@ window.CITIES = [
    "second": "Slovak",
    "english_only": "common",
    "note": "Multinationals, IT subsidiaries and scale-ups hire in English, often with no Slovak mentioned. Slovak is needed for local-company roles such as support, SQL or insurance and bank back-office work.",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "label": "iAgora IT jobs in Bratislava",
      "url": "https://www.iagora.com/work/en/jobs-and-internships/it/slovakia/bratislava"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Employees on r/Slovakia say many Bratislava corporates have colleagues who speak no Slovak and use English as the business language.",
+    "threads": [
+     {
+      "label": "r/Slovakia: Sú v Bratislave pozície kde zamestnanec nepotrebuje žiadnu slovenčinu, a stačí mu angličtina.",
+      "url": "https://www.reddit.com/r/Slovakia/comments/1thk3fe/s%C3%BA_v_bratislave_poz%C3%ADcie_kde_zamestnanec/"
+     }
+    ]
+   }
   }
  },
  {
@@ -6494,7 +6714,7 @@ window.CITIES = [
    "second": "English",
    "english_only": "some",
    "note": "Automotive and industrial employers and consultancies often write ads and work in Swedish. International product and platform teams and startups work in English.",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "label": "EnglishJobsSweden Gothenburg",
@@ -6505,7 +6725,19 @@ window.CITIES = [
      "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/TillSverige say startups and scaleups hire in English, older or less tech-focused firms vary, and Swedish remains an advantage even in tech.",
+    "threads": [
+     {
+      "label": "r/TillSverige: Feasibility of Moving to Sweden for a Software Engineer Role",
+      "url": "https://www.reddit.com/r/TillSverige/comments/1jqhz9u/feasibility_of_moving_to_sweden_for_a_software/"
+     },
+     {
+      "label": "r/TillSverige: Planning to move from Germany to Malmö around 2029/2030 (IT/software dev) - what should I prepare?",
+      "url": "https://www.reddit.com/r/TillSverige/comments/1qmudxw/planning_to_move_from_germany_to_malm%C3%B6_around/"
+     }
+    ]
+   }
   }
  },
  {
@@ -6596,7 +6828,7 @@ window.CITIES = [
    "second": "English",
    "english_only": "some",
    "note": "About half of tech ads need no Swedish, mostly at international firms and consultancies serving English-speaking clients. Local companies and public employers hire in Swedish.",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "label": "EnglishJobsSweden Malmo",
@@ -6607,7 +6839,19 @@ window.CITIES = [
      "url": "https://nordictechjobs.com/blog/do-you-need-norwegian-or-swedish-for-tech-jobs-2026"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/TillSverige say startups and scaleups hire in English, older or less tech-focused firms vary, and Swedish remains an advantage even in tech.",
+    "threads": [
+     {
+      "label": "r/TillSverige: Planning to move from Germany to Malmö around 2029/2030 (IT/software dev) - what should I prepare?",
+      "url": "https://www.reddit.com/r/TillSverige/comments/1qmudxw/planning_to_move_from_germany_to_malm%C3%B6_around/"
+     },
+     {
+      "label": "r/TillSverige: Feasibility of Moving to Sweden for a Software Engineer Role",
+      "url": "https://www.reddit.com/r/TillSverige/comments/1jqhz9u/feasibility_of_moving_to_sweden_for_a_software/"
+     }
+    ]
+   }
   }
  },
  {
@@ -6832,7 +7076,15 @@ window.CITIES = [
      "url": "https://englishjobs.fi/in/tampere/tampere"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/Finland say many ads ask for fluent Finnish, English-only roles look scarce, and front-end and full-stack roles are oversupplied.",
+    "threads": [
+     {
+      "label": "r/Finland: Job opportunities for a Software Developer moving to Finland (non-EU)? Any realistic advice?",
+      "url": "https://www.reddit.com/r/Finland/comments/1ldek1n/job_opportunities_for_a_software_developer_moving/"
+     }
+    ]
+   }
   }
  },
  {
@@ -7442,7 +7694,15 @@ window.CITIES = [
      "url": "https://www.magicmondayz.com/current-vacancies/full-stack-java-software-developer/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/Eesti say juniors face a language barrier against local graduates while mid-level and senior developers have a chance, and that only a couple of big employers hire many foreigners.",
+    "threads": [
+     {
+      "label": "r/Eesti: IT job market in Estonia in 2026 - how is it going?",
+      "url": "https://www.reddit.com/r/Eesti/comments/1w0dbb5/it_job_market_in_estonia_in_2026_how_is_it_going/"
+     }
+    ]
+   }
   }
  },
  {
@@ -7556,7 +7816,15 @@ window.CITIES = [
      "url": "https://estoniahandbook.com/how-to-find-work-in-estonias-it-and-tech-sector/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/Eesti say juniors face a language barrier against local graduates while mid-level and senior developers have a chance.",
+    "threads": [
+     {
+      "label": "r/Eesti: IT job market in Estonia in 2026 - how is it going?",
+      "url": "https://www.reddit.com/r/Eesti/comments/1w0dbb5/it_job_market_in_estonia_in_2026_how_is_it_going/"
+     }
+    ]
+   }
   }
  },
  {
@@ -7653,7 +7921,19 @@ window.CITIES = [
      "url": "https://www.spainjobs.io/jobs/madrid/engineering"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Commenters on r/GoingToSpain say work without Spanish is realistic mainly at multinationals and in tech, and that very few Spanish companies operate only in English.",
+    "threads": [
+     {
+      "label": "r/GoingToSpain: How hard would it be to find a job in madrid by only knowing English and Portuguese?",
+      "url": "https://www.reddit.com/r/GoingToSpain/comments/1vd6gl8/how_hard_would_it_be_to_find_a_job_in_madrid_by/"
+     },
+     {
+      "label": "r/GoingToSpain: Moving to Valencia without Spanish - realistic job options?",
+      "url": "https://www.reddit.com/r/GoingToSpain/comments/1shrg2c/moving_to_valencia_without_spanish_realistic_job/"
+     }
+    ]
+   }
   }
  },
  {
@@ -7851,7 +8131,15 @@ window.CITIES = [
      "url": "https://eurotoptech.com/blog/valencia-tech-career-guide-7b1p"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Commenters on r/GoingToSpain say very few Spanish companies operate only in English and that tech and international firms are a small part of the market.",
+    "threads": [
+     {
+      "label": "r/GoingToSpain: Moving to Valencia without Spanish - realistic job options?",
+      "url": "https://www.reddit.com/r/GoingToSpain/comments/1shrg2c/moving_to_valencia_without_spanish_realistic_job/"
+     }
+    ]
+   }
   }
  },
  {
@@ -7944,7 +8232,15 @@ window.CITIES = [
      "url": "https://cvtly.com/jobs/lisbon/do-i-need-portuguese"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/PortugalExpats say English is often the working language in IT and Portuguese is needed mainly at local companies.",
+    "threads": [
+     {
+      "label": "r/PortugalExpats: Would Portuguese be required for IT jobs?",
+      "url": "https://www.reddit.com/r/PortugalExpats/comments/1idwivj/would_portuguese_be_required_for_it_jobs/"
+     }
+    ]
+   }
   }
  },
  {
@@ -8030,7 +8326,7 @@ window.CITIES = [
    "second": "Portuguese",
    "english_only": "common",
    "note": "Product companies, software houses and outsourcing hubs in Porto (for example Critical Software, TeamViewer, Workato) hire in English. Local firms and public sector use Portuguese.",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "label": "englishjobs.pt software jobs in Porto",
@@ -8041,7 +8337,15 @@ window.CITIES = [
      "url": "https://cvtly.com/jobs/lisbon/do-i-need-portuguese"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/PortugalExpats say English is often the working language in IT and Portuguese is needed mainly at local companies.",
+    "threads": [
+     {
+      "label": "r/PortugalExpats: Would Portuguese be required for IT jobs?",
+      "url": "https://www.reddit.com/r/PortugalExpats/comments/1idwivj/would_portuguese_be_required_for_it_jobs/"
+     }
+    ]
+   }
   }
  },
  {
@@ -8144,7 +8448,19 @@ window.CITIES = [
      "url": "https://www.eurotoptech.com/blog/milan-tech-career-guide-v1pg"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/ItaliaCareerAdvice say the well-paying software companies in Milan work in English, while the rest of the market expects Italian.",
+    "threads": [
+     {
+      "label": "r/ItaliaCareerAdvice: How is Milan for foreign IT",
+      "url": "https://www.reddit.com/r/ItaliaCareerAdvice/comments/1va2abt/how_is_milan_for_foreign_it/"
+     },
+     {
+      "label": "r/ItalyExpat: Software/IT jobs in Italy",
+      "url": "https://www.reddit.com/r/ItalyExpat/comments/1tjgi75/softwareit_jobs_in_italy/"
+     }
+    ]
+   }
   }
  },
  {
@@ -8239,7 +8555,15 @@ window.CITIES = [
      "url": "https://englishjobs.it/in/torino/developer"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/ItalyExpat say local Italian companies often drop candidates without B2 Italian, while consultancies and international firms are more open to English.",
+    "threads": [
+     {
+      "label": "r/ItalyExpat: Software/IT jobs in Italy",
+      "url": "https://www.reddit.com/r/ItalyExpat/comments/1tjgi75/softwareit_jobs_in_italy/"
+     }
+    ]
+   }
   }
  },
  {
@@ -8657,14 +8981,22 @@ window.CITIES = [
    "second": "Polish",
    "english_only": "common",
    "note": "Krakow has many multinational and outsourcing teams that work in English. Polish is needed at local firms and for client-facing roles.",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "label": "Just Join IT JavaScript offers, Krakow",
      "url": "https://justjoin.it/job-offers/krakow/javascript"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Residents on r/krakow say a large share of QA and IT staff are foreigners and that big outsourcing firms accept English CVs.",
+    "threads": [
+     {
+      "label": "r/krakow: Are there any foreigners working in software testing in Krakow? (Junior)",
+      "url": "https://www.reddit.com/r/krakow/comments/1n7agl0/are_there_any_foreigners_working_in_software/"
+     }
+    ]
+   }
   }
  },
  {
@@ -8994,7 +9326,19 @@ window.CITIES = [
      "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/AskRomania disagree on whether Romanian is needed, with some saying English is the main working language and others saying many ads still list Romanian.",
+    "threads": [
+     {
+      "label": "r/AskRomania: Moving to Romania, is B2 Romanian good enough to work in IT/Data jobs? (EU citizen)",
+      "url": "https://www.reddit.com/r/AskRomania/comments/1ewsgdk/moving_to_romania_is_b2_romanian_good_enough_to/"
+     },
+     {
+      "label": "r/programare: Working as an international in Bucharest",
+      "url": "https://www.reddit.com/r/programare/comments/1coonqm/working_as_an_international_in_bucharest/"
+     }
+    ]
+   }
   }
  },
  {
@@ -9100,7 +9444,15 @@ window.CITIES = [
      "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/AskRomania disagree on whether Romanian is needed, with some saying English is the main working language and others saying many ads still list Romanian.",
+    "threads": [
+     {
+      "label": "r/AskRomania: Moving to Romania, is B2 Romanian good enough to work in IT/Data jobs? (EU citizen)",
+      "url": "https://www.reddit.com/r/AskRomania/comments/1ewsgdk/moving_to_romania_is_b2_romanian_good_enough_to/"
+     }
+    ]
+   }
   }
  },
  {
@@ -9202,7 +9554,15 @@ window.CITIES = [
      "url": "https://outsorcy.com/hiring-developers-in-romania-2026-guide/"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/AskRomania disagree on whether Romanian is needed, with some saying English is the main working language and others saying many ads still list Romanian.",
+    "threads": [
+     {
+      "label": "r/AskRomania: Moving to Romania, is B2 Romanian good enough to work in IT/Data jobs? (EU citizen)",
+      "url": "https://www.reddit.com/r/AskRomania/comments/1ewsgdk/moving_to_romania_is_b2_romanian_good_enough_to/"
+     }
+    ]
+   }
   }
  },
  {
@@ -9305,7 +9665,15 @@ window.CITIES = [
      "url": "https://talenlio.ai/blogs/bulgaria-it-outsourcing-sofia-2026"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Residents on r/bulgaria say it is common to work in IT in Sofia without Bulgarian.",
+    "threads": [
+     {
+      "label": "r/bulgaria: Finding work in Sofia with English only",
+      "url": "https://www.reddit.com/r/bulgaria/comments/12hjsva/finding_work_in_sofia_with_english_only/"
+     }
+    ]
+   }
   }
  },
  {
@@ -9852,7 +10220,15 @@ window.CITIES = [
      "url": "https://www.expat.com/en/forum/europe/cyprus/931461-jobs-in-cyprus-for-english-only-speakers.html"
     }
    ],
-   "reddit": null
+   "reddit": {
+    "note": "Developers on r/cyprus say many Limassol tech firms hire Russian speakers while mixed teams default to English.",
+    "threads": [
+     {
+      "label": "r/cyprus: IT market in Cyprus",
+      "url": "https://www.reddit.com/r/cyprus/comments/1xn5doi/it_market_in_cyprus/"
+     }
+    ]
+   }
   }
  },
  {
