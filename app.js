@@ -609,15 +609,22 @@ const ENGLISH_ONLY = {
   rare: { dots: 1, text: "Almost every role needs the local language" },
 };
 
+const linkList = links => links
+  .map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a>`)
+  .join("");
+
 const LANGUAGE_EVIDENCE = { high: "solid", medium: "partial", low: "thin" };
 
 function languageBlock(need) {
   const level = ENGLISH_ONLY[need.english_only];
   const meter = "●".repeat(level.dots) + `<span class="off">${"●".repeat(3 - level.dots)}</span>`;
   const second = need.second ? `<span class="lang"><small>2nd</small>${esc(need.second)}</span>` : "";
-  const sources = need.sources
-    .map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a>`)
-    .join("");
+  const sources = linkList(need.sources);
+
+  const reddit = need.reddit
+    ? `<p class="reddit"><b>Reddit:</b> ${esc(need.reddit.note)}</p>
+       <p class="lang-src">${linkList(need.reddit.threads)}</p>`
+    : "";
 
   return `
     <div class="language">
@@ -629,6 +636,7 @@ function languageBlock(need) {
       </div>
       <p>${esc(need.note)}</p>
       <p class="lang-src"><span class="tag">Evidence: ${LANGUAGE_EVIDENCE[need.confidence]}</span> ${sources}</p>
+      ${reddit}
     </div>`;
 }
 

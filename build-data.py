@@ -49,6 +49,15 @@ def load_language_needs() -> dict:
     return {(need["country"], need["city"]): need for need in needs}
 
 
+def reddit_summary(need: dict) -> dict | None:
+    if not need["reddit_note"]:
+        return None
+
+    threads = [{"label": f"{t['subreddit']}: {t['title']}", "url": t["url"]} for t in need["reddit_threads"]]
+
+    return {"note": need["reddit_note"], "threads": threads}
+
+
 def main() -> None:
     cities = []
     language_needs = load_language_needs()
@@ -70,6 +79,7 @@ def main() -> None:
             city["language_need"] = {
                 **{key: need[key] for key in ("first", "second", "english_only", "note", "confidence")},
                 "sources": [{"label": source["title"], "url": source["url"]} for source in need["sources"]],
+                "reddit": reddit_summary(need),
             }
             city.pop("language", None)
 
