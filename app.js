@@ -63,6 +63,15 @@ const ALL_CITIES = window.CITIES.map(c => ({
 const COUNTRIES = [...new Set(ALL_CITIES.map(c => c.country))]
   .sort((a, b) => countryName(a).localeCompare(countryName(b)));
 
+// Countries a University of Zagreb student can take an Erasmus+ traineeship in for Feb to Jul 2027 (checked 2026-11-17). Croatia is the sending country, so it is out.
+const ERASMUS_COUNTRIES = COUNTRIES.filter(cc => cc !== "HR");
+
+const ERASMUS_CAVEATS = [
+  "Switzerland is funded through a separate Zagreb call for countries outside the programme. The stay must end by 2027-06-21 and last 2 to 6 months.",
+  "The main call starts traineeships no earlier than 2027-02-22.",
+  "Austria is unconfirmed if you live there during your studies. Ask the Zagreb Erasmus office before you accept an offer.",
+];
+
 
 // ---------- shared filter state ----------
 
@@ -915,8 +924,10 @@ function filterPanel(root, onChange) {
       <p class="muted" data-count></p>
       <div class="quick">
         <button type="button" data-all>All</button>
+        <button type="button" class="erasmus" data-erasmus aria-pressed="false" title="Countries open to a University of Zagreb Erasmus+ traineeship">Erasmus+</button>
         <button type="button" data-none>None</button>
       </div>
+      <ul class="erasmus-note" data-erasmus-note hidden>${ERASMUS_CAVEATS.map(text => `<li>${esc(text)}</li>`).join("")}</ul>
       <div class="countries">
         ${COUNTRIES.map(cc => `
           <label><input type="checkbox" data-country="${cc}"> ${flag(cc)} <span class="cc-code">${cc}</span> ${esc(countryName(cc))} <span class="muted">${cityCount(cc)}</span></label>`).join("")}
@@ -960,6 +971,10 @@ function filterPanel(root, onChange) {
     root.querySelector("[data-count]").textContent =
       `${state.countries.length} of ${COUNTRIES.length} countries, ${cities} ${cities === 1 ? "city" : "cities"}`;
 
+    const erasmusOn = state.countries.length === ERASMUS_COUNTRIES.length && ERASMUS_COUNTRIES.every(cc => state.countries.includes(cc));
+    root.querySelector("[data-erasmus]").setAttribute("aria-pressed", String(erasmusOn));
+    root.querySelector("[data-erasmus-note]").hidden = !erasmusOn;
+
     const levels = visibleLevels().map(l => LEVEL_NAME[l]).join(", ");
     root.querySelector("[data-summary]").textContent = `${levels}; ${state.countries.length} of ${COUNTRIES.length} countries`;
 
@@ -990,6 +1005,7 @@ function filterPanel(root, onChange) {
   });
 
   root.querySelector("[data-all]").addEventListener("click", () => { state.countries = [...COUNTRIES]; apply(); });
+  root.querySelector("[data-erasmus]").addEventListener("click", () => { state.countries = [...ERASMUS_COUNTRIES]; apply(); });
   root.querySelector("[data-none]").addEventListener("click", () => { state.countries = []; apply(); });
 
   sync();
