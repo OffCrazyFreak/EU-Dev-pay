@@ -613,6 +613,27 @@ const linkList = links => links
   .map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a>`)
   .join("");
 
+// Facts from the University of Zagreb Erasmus+ traineeship calls for 2026/27, read 2026-11-17.
+const ERASMUS_LOWER_GRANT = ["BG", "HU", "LT", "PL", "RO"];
+
+function erasmusNote(c) {
+  if (c.country === "CH") {
+    return `Not an Erasmus+ programme country. The University of Zagreb pays traineeships here from a separate call for countries outside the programme: 700 EUR a month, 2 to 6 months, ending by 2027-06-21, applications by the 15th of a month, from a small pot of 50,000 EUR. A Croatian citizen needs an L permit for a stay over 3 months.`;
+  }
+
+  if (c.country === "HR") return "Regular Erasmus+ traineeship for students from other countries.";
+
+  const grant = ERASMUS_LOWER_GRANT.includes(c.country) ? 650 : 700;
+  const crossBorder = c.city.includes("(to ")
+    ? " This row lives across the border from the host country, so ask your office whether that counts as living abroad."
+    : "";
+  const austria = c.country === "AT"
+    ? " Unconfirmed if you live in Austria during your studies, for example on a CEEPUS exchange: ask your office first."
+    : "";
+
+  return `Works with a regular Erasmus+ traineeship through the University of Zagreb: ${grant} EUR a month, starting from 2027-02-22.${austria}${crossBorder}`;
+}
+
 const LANGUAGE_EVIDENCE = { high: "solid", medium: "partial", low: "thin" };
 
 function languageBlock(need) {
@@ -691,6 +712,7 @@ function cityDetail(c) {
     <div class="wide">
       <p><b>Tax:</b> ${esc(c.tax_regime_note)}</p>
       ${languageBlock(c.language_need)}
+      <p><b>Erasmus+:</b> ${esc(erasmusNote(c))}</p>
       ${notes ? `<b>Worth knowing</b><ul>${notes}</ul>` : ""}
     </div>
     <div class="wide sources"><b>Sources:</b> ${sources}</div>`;
