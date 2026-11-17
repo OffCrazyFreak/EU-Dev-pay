@@ -63,13 +63,13 @@ const ALL_CITIES = window.CITIES.map(c => ({
 const COUNTRIES = [...new Set(ALL_CITIES.map(c => c.country))]
   .sort((a, b) => countryName(a).localeCompare(countryName(b)));
 
-// Countries a University of Zagreb student can take an Erasmus+ traineeship in for Feb to Jul 2027 (checked 2026-11-17). Croatia is the sending country, so it is out.
-const ERASMUS_COUNTRIES = COUNTRIES.filter(cc => cc !== "HR");
+// Erasmus+ programme countries among the cities shown (EU, Iceland, Liechtenstein, Norway), checked 2026-11-17. Switzerland is a third country with its own call.
+const ERASMUS_COUNTRIES = COUNTRIES.filter(cc => cc !== "CH");
 
 const ERASMUS_CAVEATS = [
-  "Switzerland is funded through a separate Zagreb call for countries outside the programme. The stay must end by 2027-06-21 and last 2 to 6 months.",
-  "The main call starts traineeships no earlier than 2027-02-22.",
-  "Austria is unconfirmed if you live there during your studies. Ask the Zagreb Erasmus office before you accept an offer.",
+  "A traineeship cannot be in your own country or in the country where you live while studying, so Croatian students cannot choose Croatia.",
+  "Switzerland and the UK are not programme countries. The University of Zagreb funds them through a separate call, and the stay must end by 2027-06-21.",
+  "At the University of Zagreb the main call starts traineeships no earlier than 2027-02-22.",
 ];
 
 
@@ -924,7 +924,7 @@ function filterPanel(root, onChange) {
       <p class="muted" data-count></p>
       <div class="quick">
         <button type="button" data-all>All</button>
-        <button type="button" class="erasmus" data-erasmus aria-pressed="false" title="Countries open to a University of Zagreb Erasmus+ traineeship">Erasmus+</button>
+        <button type="button" class="erasmus" data-erasmus aria-pressed="false" title="Erasmus+ programme countries">Erasmus+</button>
         <button type="button" data-none>None</button>
       </div>
       <ul class="erasmus-note" data-erasmus-note hidden>${ERASMUS_CAVEATS.map(text => `<li>${esc(text)}</li>`).join("")}</ul>
