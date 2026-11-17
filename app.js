@@ -66,12 +66,6 @@ const COUNTRIES = [...new Set(ALL_CITIES.map(c => c.country))]
 // Erasmus+ programme countries among the cities shown (EU, Iceland, Liechtenstein, Norway), checked 2026-11-17. Switzerland is a third country with its own call.
 const ERASMUS_COUNTRIES = COUNTRIES.filter(cc => cc !== "CH");
 
-const ERASMUS_CAVEATS = [
-  "A traineeship cannot be in your own country or in the country where you live while studying, so Croatian students cannot choose Croatia.",
-  "Switzerland and the UK are not programme countries. The University of Zagreb funds them through a separate call, and the stay must end by 2027-06-21.",
-  "At the University of Zagreb the main call starts traineeships no earlier than 2027-02-22.",
-];
-
 
 // ---------- shared filter state ----------
 
@@ -927,7 +921,6 @@ function filterPanel(root, onChange) {
         <button type="button" class="erasmus" data-erasmus aria-pressed="false" title="Erasmus+ programme countries">Erasmus+</button>
         <button type="button" data-none>None</button>
       </div>
-      <ul class="erasmus-note" data-erasmus-note hidden>${ERASMUS_CAVEATS.map(text => `<li>${esc(text)}</li>`).join("")}</ul>
       <div class="countries">
         ${COUNTRIES.map(cc => `
           <label><input type="checkbox" data-country="${cc}"> ${flag(cc)} <span class="cc-code">${cc}</span> ${esc(countryName(cc))} <span class="muted">${cityCount(cc)}</span></label>`).join("")}
@@ -973,7 +966,6 @@ function filterPanel(root, onChange) {
 
     const erasmusOn = state.countries.length === ERASMUS_COUNTRIES.length && ERASMUS_COUNTRIES.every(cc => state.countries.includes(cc));
     root.querySelector("[data-erasmus]").setAttribute("aria-pressed", String(erasmusOn));
-    root.querySelector("[data-erasmus-note]").hidden = !erasmusOn;
 
     const levels = visibleLevels().map(l => LEVEL_NAME[l]).join(", ");
     root.querySelector("[data-summary]").textContent = `${levels}; ${state.countries.length} of ${COUNTRIES.length} countries`;
