@@ -63,8 +63,8 @@ const ALL_CITIES = window.CITIES.map(c => ({
 const COUNTRIES = [...new Set(ALL_CITIES.map(c => c.country))]
   .sort((a, b) => countryName(a).localeCompare(countryName(b)));
 
-// Erasmus+ programme countries among the cities shown (EU, Iceland, Liechtenstein, Norway), checked 2026-11-17. Switzerland is a third country with its own call.
-const ERASMUS_COUNTRIES = COUNTRIES.filter(cc => cc !== "CH");
+// Every country on the site works for a Zagreb traineeship in Feb to Jul 2027 (checked 2026-11-17): programme countries through the main call, Switzerland through the separate third-country call.
+const ERASMUS_COUNTRIES = [...COUNTRIES];
 
 
 // ---------- shared filter state ----------
@@ -918,7 +918,7 @@ function filterPanel(root, onChange) {
       <p class="muted" data-count></p>
       <div class="quick">
         <button type="button" data-all>All</button>
-        <button type="button" class="erasmus" data-erasmus aria-pressed="false" title="Erasmus+ programme countries">Erasmus+</button>
+        <button type="button" class="erasmus" data-erasmus aria-pressed="false" title="Countries open to an Erasmus+ traineeship">Erasmus+</button>
         <button type="button" data-none>None</button>
       </div>
       <div class="countries">
