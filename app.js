@@ -63,9 +63,6 @@ const ALL_CITIES = window.CITIES.map(c => ({
 const COUNTRIES = [...new Set(ALL_CITIES.map(c => c.country))]
   .sort((a, b) => countryName(a).localeCompare(countryName(b)));
 
-// Every country on the site works for a Zagreb traineeship in Feb to Jul 2027 (checked 2026-11-17): programme countries through the main call, Switzerland through the separate third-country call.
-const ERASMUS_COUNTRIES = [...COUNTRIES];
-
 
 // ---------- shared filter state ----------
 
@@ -918,7 +915,6 @@ function filterPanel(root, onChange) {
       <p class="muted" data-count></p>
       <div class="quick">
         <button type="button" data-all>All</button>
-        <button type="button" class="erasmus" data-erasmus aria-pressed="false" title="Countries open to an Erasmus+ traineeship">Erasmus+</button>
         <button type="button" data-none>None</button>
       </div>
       <div class="countries">
@@ -964,9 +960,6 @@ function filterPanel(root, onChange) {
     root.querySelector("[data-count]").textContent =
       `${state.countries.length} of ${COUNTRIES.length} countries, ${cities} ${cities === 1 ? "city" : "cities"}`;
 
-    const erasmusOn = state.countries.length === ERASMUS_COUNTRIES.length && ERASMUS_COUNTRIES.every(cc => state.countries.includes(cc));
-    root.querySelector("[data-erasmus]").setAttribute("aria-pressed", String(erasmusOn));
-
     const levels = visibleLevels().map(l => LEVEL_NAME[l]).join(", ");
     root.querySelector("[data-summary]").textContent = `${levels}; ${state.countries.length} of ${COUNTRIES.length} countries`;
 
@@ -997,7 +990,6 @@ function filterPanel(root, onChange) {
   });
 
   root.querySelector("[data-all]").addEventListener("click", () => { state.countries = [...COUNTRIES]; apply(); });
-  root.querySelector("[data-erasmus]").addEventListener("click", () => { state.countries = [...ERASMUS_COUNTRIES]; apply(); });
   root.querySelector("[data-none]").addEventListener("click", () => { state.countries = []; apply(); });
 
   sync();

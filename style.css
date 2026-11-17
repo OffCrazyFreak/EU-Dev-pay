@@ -102,8 +102,6 @@ main { min-width: 0; }
   cursor: pointer;
 }
 .filters button:hover { border-color: var(--muted); }
-.filters button.erasmus { font-weight: 600; color: var(--c-rent); border-color: var(--c-rent); }
-.filters button.erasmus[aria-pressed="true"] { color: #fff; background: var(--c-rent); }
 
 @media (max-width: 960px) {
   .layout { grid-template-columns: minmax(0, 1fr); padding-inline: 12px; }
